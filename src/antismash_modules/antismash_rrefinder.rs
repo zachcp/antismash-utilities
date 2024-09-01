@@ -1,3 +1,8 @@
+//! This module contains structures for parsing and representing RREfinder results.
+//!
+//! RREfinder is a tool for identifying RiPP Recognition Elements (RREs) in protein sequences.
+//! The main structure `Rrefinder` represents the overall results, while `Hit` represents
+//! individual RRE hits within protein sequences.
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
 

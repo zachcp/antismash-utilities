@@ -1,3 +1,15 @@
+//! This module contains structures for representing Type II Polyketide Synthase (T2PKS) data.
+//!
+//! The main structure is `T2pks`, which includes information about protocluster predictions
+//! for Type II PKS biosynthetic gene clusters.
+//!
+//! Key components:
+//! - `T2pks`: The top-level structure containing overall T2PKS data.
+//! - `ProtoclusterPredictions`: Represents predictions for protoclusters.
+//! - `ProtoclusterPrediction`: Detailed prediction for a single protocluster.
+//! - `MolWeights`: Placeholder for molecular weight information.
+//! - `CdsPreds`: Predictions for coding sequences within the protocluster.
+
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
 

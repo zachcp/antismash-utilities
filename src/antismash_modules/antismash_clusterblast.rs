@@ -1,3 +1,10 @@
+//! Structures for parsing and representing ClusterBlast results from antiSMASH.
+//!
+//! This module contains data structures that correspond to the JSON output
+//! of antiSMASH's ClusterBlast analysis. It includes representations for
+//! general cluster comparisons, subcluster comparisons, and known cluster
+//! comparisons, as well as associated protein and ranking information.
+
 use serde::{Deserialize, Serialize};
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]

@@ -1,13 +1,11 @@
-// I've got a probkem here where my by_region
-// maps contains with region-to-region comparisons OR
-// proto-to-region comapoasrions. WIthin the `details`
-// key the two have different shapes:
-//
-//  RegiontoRegion:  details: Vec<Detail>
-//  PrototoRegion:  details: Hashmap<String, Hashmap<string: Detail>
-//
-//  Hmmm....
-//
+//! This module contains structures and functions for parsing and representing
+//! antiSMASH cluster comparison results.
+//!
+//! It includes data structures for representing various aspects of cluster comparisons,
+//! such as region details, hits, and reference information. The module also provides
+//! custom deserialization logic to handle different shapes of comparison data.
+//!
+
 use serde::de::Error;
 use serde::{Deserialize, Deserializer, Serialize};
 use serde_json::Value;
@@ -50,14 +48,6 @@ pub struct Region {
     pub hits: RegionHits,
 }
 
-/// I've got a probkem here where my by_region
-/// maps contains with region-to-region comparisons OR
-/// proto-to-region comapoasrions. WIthin the `details`
-/// key the two have different shapes:
-///
-///  RegiontoRegion:  details: Vec<Detail>
-///  PrototoRegion:  details: Hashmap<String, Hashmap<string: Detail>
-///
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub enum ComparisonDetails {
     #[serde(rename = "region_to_region")]

@@ -1,3 +1,9 @@
+//! Module for handling TTA codon information in genomic data.
+//!
+//! This module provides structures for representing TTA codon occurrences
+//! and associated genomic information such as GC content and thresholds.
+//! It's designed to work with serialization and deserialization using Serde.
+
 use serde::{Deserialize, Serialize};
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]

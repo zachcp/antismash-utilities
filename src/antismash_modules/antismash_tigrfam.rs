@@ -1,3 +1,7 @@
+//! This module contains structures for representing TIGRFAM (The Institute for Genomic Research's database of protein families) data.
+//!
+//! The main structure is `Tigrfam`, which represents a collection of TIGRFAM hits for a given record.
+//! Each hit is represented by the `Hit` structure, containing details about the protein match.
 use serde::{Deserialize, Serialize};
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]

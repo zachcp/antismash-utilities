@@ -1,3 +1,12 @@
+//! This module contains structures for representing HMM (Hidden Markov Model) detection results
+//! in the context of biosynthetic gene cluster analysis. It includes definitions for various
+//! components of the detection process, such as rule results, protoclusters, and domain definitions.
+//!
+//! The main structure is `HmmDetection`, which encapsulates the overall detection results.
+//! Other important structures include `RuleResults`, `CdsByProtocluster`, and `DefinitionDomains`.
+//!
+//! This module is designed to work with Serde for serialization and deserialization of JSON data.
+
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
 

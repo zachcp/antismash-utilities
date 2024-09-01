@@ -1,3 +1,11 @@
+//! This module defines structures for representing gene function data.
+//!
+//! It includes types for overall gene function information (`GeneFunction`),
+//! individual tool results (`Tool`), best hits (`Hit`), and gene-to-function
+//! mappings (`Mapping`).
+//!
+//! These structures are designed to be serializable and deserializable using Serde.
+
 use std::collections::HashMap;
 
 use serde::{Deserialize, Serialize};

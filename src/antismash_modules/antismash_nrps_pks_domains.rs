@@ -1,3 +1,16 @@
+//! This module provides structures for parsing and representing NRPS-PKS (Non-Ribosomal Peptide Synthetase and Polyketide Synthase) domain information.
+//!
+//! It includes data structures for overall NRPS-PKS domain results, individual CDS (Coding Sequence) results,
+//! and specific HMM (Hidden Markov Model) hits for motifs and domains.
+//!
+//! The main structures are:
+//! - `NrpsPksDomains`: Represents the overall NRPS-PKS domain analysis results.
+//! - `CDSResult`: Contains domain and motif HMM hits for a specific CDS.
+//! - `MotifHmm` and `DomainHmm`: Represent individual HMM hits for motifs and domains respectively.
+//!
+//! These structures are designed to be serializable and deserializable using Serde,
+//! facilitating easy conversion between Rust data structures and JSON representations.
+
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
 use std::collections::HashMap;

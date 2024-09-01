@@ -1,3 +1,7 @@
+//! This module defines structures for parsing and representing data related to lassopeptides.
+//! It includes structures for motifs, protoclusters, comparison results, and database hits.
+//! The main structure `Lassopeptides` encapsulates all the related information.
+
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
 

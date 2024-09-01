@@ -1,3 +1,8 @@
+//! This module defines structures for representing and parsing NRPS (Non-Ribosomal Peptide Synthetase)
+//! and PKS (Polyketide Synthase) data from antiSMASH output.
+//!
+//! It includes structures for domain predictions, consensus information, and region predictions,
+//! allowing for detailed analysis of secondary metabolite biosynthesis gene clusters.
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
 use std::collections::HashMap;

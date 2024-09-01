@@ -1,3 +1,10 @@
+//! This module contains structures for representing thiopeptide data.
+//!
+//! The main structure is `Thiopeptides`, which includes information about
+//! protoclusters, motifs, CDS features, and comparison results.
+//!
+//! It also includes supporting structures for database results, hits, and aliases.
+
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
 

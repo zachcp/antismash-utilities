@@ -1,3 +1,7 @@
+//! This module defines structures for representing and working with Transcription Factor Binding Site (TFBS) data.
+//! It includes the main `TfbsFinder` struct and associated data structures for hits and regions.
+//! The structs in this module are designed to be serialized and deserialized using serde.
+
 use serde::{Deserialize, Serialize};
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]

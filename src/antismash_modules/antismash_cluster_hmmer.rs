@@ -1,3 +1,13 @@
+//! This module defines structures for representing cluster HMM (Hidden Markov Model) data.
+//! It includes the main `ClusterHmm` struct and its associated `Hit` struct.
+//! These structures are designed to be serializable and deserializable using serde.
+//!
+//! The `ClusterHmm` struct contains information about HMM hits, including metadata
+//! such as the record ID, schema version, and database used.
+//!
+//! The `Hit` struct represents individual HMM hits, including details like location,
+//! label, e-value, score, and protein information.
+
 use serde::{Deserialize, Serialize};
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]

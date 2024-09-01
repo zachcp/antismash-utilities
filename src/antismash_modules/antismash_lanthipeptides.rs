@@ -1,3 +1,8 @@
+//! This module defines the structures for parsing and representing lanthipeptide data.
+//!
+//! It includes structures for motifs, protoclusters, and comparison results from various databases.
+//! The main structure is `Lanthipeptides`, which contains all the relevant information about
+//! lanthipeptides found in a genomic sequence.
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
 
