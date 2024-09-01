@@ -67,9 +67,8 @@ pub struct Feature {
 #[serde_as]
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Qualifiers {
-    // Todo: Special Parser here
     #[serde(default)]
-    // Todo: ENUM
+    // Todo: ENUM / Special Parser here
     pub culture_collection: Vec<String>,
     #[serde(default)]
     // Todo: Special Parser here
