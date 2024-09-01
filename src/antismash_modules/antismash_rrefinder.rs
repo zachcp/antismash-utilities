@@ -18,6 +18,7 @@ pub struct Rrefinder {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Hit {
+    // Location
     pub location: String,
     pub label: String,
     pub locus_tag: String,

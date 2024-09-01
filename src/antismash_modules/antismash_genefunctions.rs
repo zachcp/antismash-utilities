@@ -21,6 +21,7 @@ pub struct GeneFunction {
 pub struct Tool {
     pub schema_version: i64,
     pub record_id: String,
+    // Todo: ENUM
     pub tool: String,
     pub best_hits: HashMap<String, Hit>,
     pub mapping: Mapping,

@@ -20,7 +20,9 @@ pub struct ClusterHmm {
     pub max_evalue: f64,
     #[serde(rename = "min score")]
     pub min_score: f64,
+    // Todo: ENUM
     pub database: String,
+    // Todo: ENUM
     pub tool: String,
 }
 

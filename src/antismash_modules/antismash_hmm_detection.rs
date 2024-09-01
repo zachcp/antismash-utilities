@@ -16,12 +16,14 @@ pub struct HmmDetection {
     pub schema_version: i64,
     pub enabled_types: Vec<String>,
     pub rule_results: RuleResults,
+    // Todo: ENUM
     pub strictness: String,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct RuleResults {
     pub schema_version: i64,
+    // Todo: ENUM
     pub tool: String,
     pub cds_by_protocluster: Vec<(CdsByProtocluster, Vec<CdsByProtocluster2>)>,
     pub outside_protoclusters: Vec<Value>,
@@ -32,6 +34,7 @@ pub struct RuleResults {
 pub struct CdsByProtocluster {
     pub location: String,
     #[serde(rename = "type")]
+    // Todo: ENUM
     pub type_field: String,
     pub qualifiers: Qualifiers,
 }
@@ -46,15 +49,23 @@ pub struct CdsByProtocluster2 {
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Qualifiers {
     #[serde(rename = "aStool")]
+    // Todo: ENUM
     pub a_stool: Vec<String>,
     pub category: Vec<String>,
+    // // Todo: bool?
     pub contig_edge: Vec<String>,
     pub core_location: Vec<String>,
     pub cutoff: Vec<String>,
+    // Todo: ENUM
+    pub contig_edge: Vec<String>,
+    // Todo: ENUM
     pub detection_rule: Vec<String>,
     pub neighbourhood: Vec<String>,
+    // Todo: ENUM
     pub product: Vec<String>,
+    // Todo: int?
     pub protocluster_number: Vec<String>,
+    // Todo: ENUM
     pub tool: Vec<String>,
 }
 

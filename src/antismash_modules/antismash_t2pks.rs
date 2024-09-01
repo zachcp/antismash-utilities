@@ -28,8 +28,10 @@ pub struct ProtoclusterPredictions {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct ProtoclusterPrediction {
+    // Todo: ENUM/Struct
     pub starter_units: Vec<(String, f64, f64)>,
     pub elongations: Vec<Value>,
+    // Todo: EUM
     pub product_classes: Vec<String>,
     pub mol_weights: MolWeights,
     pub cds_preds: CdsPreds,
