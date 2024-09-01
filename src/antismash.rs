@@ -21,13 +21,12 @@ use serde::{Deserialize, Serialize};
 use serde_json::Value;
 use std::collections::HashMap;
 
-pub type AntismashJSON = AntismashJson;
-
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct AntismashJson {
     pub version: String,
     pub input_file: String,
     pub records: Vec<Record>,
+    // TODO: Replace with an enum
     pub timings: HashMap<String, HashMap<String, f64>>,
     pub taxon: String,
     pub schema: i64,
@@ -37,8 +36,7 @@ pub struct AntismashJson {
 pub struct Record {
     pub id: String,
     pub seq: Seq,
-    // pub features: Vec<Feature>,
-    pub features: Value,
+    pub features: Vec<Feature>,
     pub name: String,
     pub description: String,
     pub dbxrefs: Vec<String>,
@@ -52,6 +50,7 @@ pub struct Record {
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Seq {
     pub data: String,
+    // TODO: Replace with enum
     pub alphabet: String,
 }
 
@@ -63,13 +62,19 @@ pub struct Feature {
     pub qualifiers: Qualifiers,
 }
 
+/// Feature Qualifiers
+/// Todo: revist this. I stuck abunch of JSON::Values here to parse but its not ideas.
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Qualifiers {
+    // Todo: Special Parser here
     #[serde(default)]
+    // Todo: ENUM
     pub culture_collection: Vec<String>,
     #[serde(default)]
+    // Todo: Special Parser here
     pub db_xref: Vec<String>,
     #[serde(default)]
+    // Todo: ENUM
     pub mol_type: Vec<String>,
     #[serde(default)]
     pub organism: Vec<String>,
@@ -79,6 +84,7 @@ pub struct Qualifiers {
     pub type_material: Vec<String>,
     #[serde(default)]
     pub locus_tag: Vec<String>,
+    // Todo: Coerce to int
     #[serde(default)]
     pub codon_start: Vec<String>,
     #[serde(default)]
@@ -86,53 +92,74 @@ pub struct Qualifiers {
     #[serde(default)]
     pub note: Vec<String>,
     #[serde(default)]
+    // Todo: cooerce to ENUM
     pub product: Vec<String>,
     #[serde(default)]
     pub protein_id: Vec<String>,
+    // Todo: Coerce to int
     #[serde(default)]
     pub transl_table: Vec<String>,
     #[serde(default)]
     pub translation: Vec<String>,
     #[serde(rename = "aStool")]
     #[serde(default)]
+    // Todo: Make Enum
     pub a_stool: Vec<String>,
     #[serde(default)]
+    // Todo: cooerce to ENUM
     pub category: Vec<String>,
     #[serde(default)]
+    // Todo: make bool
     pub contig_edge: Vec<String>,
     #[serde(default)]
+    // Todo: cooerce to Location
     pub core_location: Vec<String>,
     #[serde(default)]
+    // Todo: cooerce to int
     pub cutoff: Vec<String>,
     #[serde(default)]
+    // Todo: cooerce to ENUM
     pub detection_rule: Vec<String>,
     #[serde(default)]
+    // Todo: cooerce to Int
     pub neighbourhood: Vec<String>,
     #[serde(default)]
+    // Todo: cooerce to Int
     pub protocluster_number: Vec<String>,
     #[serde(default)]
+    // Todo: cooerce to Enum
     pub tool: Vec<String>,
     #[serde(default)]
+    // Todo: cooerce to Int
     pub candidate_cluster_number: Vec<String>,
     #[serde(default)]
+    // Todo: cooerce to ENUM
     pub detection_rules: Vec<String>,
     #[serde(default)]
+    // Todo: cooerce to Int
     pub kind: Vec<String>,
     #[serde(default)]
+    // Todo: cooerce to Int
     pub protoclusters: Vec<String>,
     #[serde(default)]
+    // Todo: cooerce to Int
     pub candidate_cluster_numbers: Vec<String>,
     #[serde(default)]
+    // Todo: cooerce to Int
     pub region_number: Vec<String>,
     #[serde(default)]
+    // Todo: cooerce to ENUM
     pub rules: Vec<String>,
     #[serde(default)]
     pub subregion_numbers: Vec<Value>,
+    // Todo: cooerce to ENUM
     #[serde(rename = "aSDomain")]
     #[serde(default)]
+    // Todo: cooerce to ENUM
     pub a_sdomain: Vec<String>,
     #[serde(rename = "aSTool")]
     #[serde(default)]
+    // Todo: ENUM
     pub a_stool2: Vec<String>,
     #[serde(default)]
     pub description: Vec<String>,
@@ -141,18 +168,23 @@ pub struct Qualifiers {
     #[serde(default)]
     pub domain_id: Vec<String>,
     #[serde(default)]
+    // Todo: cooerce to float
     pub evalue: Vec<String>,
     #[serde(default)]
     pub identifier: Vec<String>,
     #[serde(default)]
     pub label: Vec<String>,
     #[serde(default)]
+    // Todo: cooerce to int
     pub protein_end: Vec<String>,
     #[serde(default)]
+    // Todo: cooerce to int
     pub protein_start: Vec<String>,
     #[serde(default)]
+    // Todo: cooerce to float
     pub score: Vec<String>,
     #[serde(default)]
+    // Todo: cooerce to ENUM
     pub database: Vec<String>,
     #[serde(rename = "NRPS_PKS")]
     #[serde(default)]
@@ -172,29 +204,34 @@ pub struct Qualifiers {
     pub ec_number: Vec<String>,
     #[serde(default)]
     pub gene: Vec<String>,
-    pub complete: Value,
+    pub complete: Option<Value>,
     #[serde(default)]
     pub domains: Vec<String>,
     #[serde(default)]
     pub locus_tags: Vec<String>,
-    pub starter_module: Value,
+    pub starter_module: Option<Value>,
     #[serde(rename = "type")]
     #[serde(default)]
     pub type_field: Vec<String>,
-    pub final_module: Value,
+    pub final_module: Option<Value>,
     #[serde(default)]
     pub anticodon: Vec<String>,
-    pub incomplete: Value,
+    pub incomplete: Option<Value>,
     #[serde(default)]
+    // Todo: Enum
     pub bound_moiety: Vec<String>,
     #[serde(default)]
+    // Todo: Enum
     pub regulatory_class: Vec<String>,
     #[serde(rename = "ncRNA_class")]
     #[serde(default)]
+    // Todo: Enum
     pub nc_rna_class: Vec<String>,
     #[serde(default)]
+    // Todo: Enum
     pub rpt_family: Vec<String>,
     #[serde(default)]
+    // Todo: Enum
     pub rpt_type: Vec<String>,
     #[serde(default)]
     pub rpt_unit_range: Vec<String>,
@@ -207,9 +244,13 @@ pub struct Qualifiers {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Annotations {
+    // Todo: Enum
     pub molecule_type: String,
+    // Todo: Enum
     pub topology: String,
+    // Todo: Enum
     pub data_file_division: String,
+    // Todo: Date
     pub date: String,
     pub accessions: Vec<String>,
     pub sequence_version: i64,
@@ -245,14 +286,17 @@ pub struct StructuredComment {
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct GenomeAssemblyData {
     #[serde(rename = "Assembly Method")]
+    // Todo: Enum
     pub assembly_method: String,
     #[serde(rename = "Genome Representation")]
+    // Todo: Enum
     pub genome_representation: String,
     #[serde(rename = "Expected Final Version")]
     pub expected_final_version: String,
     #[serde(rename = "Genome Coverage")]
     pub genome_coverage: String,
     #[serde(rename = "Sequencing Technology")]
+    // Todo: Enum
     pub sequencing_technology: String,
 }
 
@@ -311,6 +355,7 @@ pub struct LetterAnnotations {}
 pub struct Area {
     pub start: i64,
     pub end: i64,
+    // Todo: Enum
     pub products: Vec<String>,
     pub protoclusters: Option<HashMap<String, Protocluster>>,
     pub candidates: Vec<Candidate>,
@@ -319,12 +364,15 @@ pub struct Area {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Protocluster {
+    // Todo: Enum
     pub category: String,
     pub start: i64,
     pub end: i64,
     pub core_start: i64,
     pub core_end: i64,
+    // Todo: Enum
     pub product: String,
+    // Todo: Enum
     pub tool: String,
 }
 
@@ -332,6 +380,7 @@ pub struct Protocluster {
 pub struct Candidate {
     pub start: i64,
     pub end: i64,
+    // Todo: Enum
     pub kind: String,
     pub protoclusters: Vec<i64>,
 }
