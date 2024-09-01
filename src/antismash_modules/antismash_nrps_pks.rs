@@ -43,13 +43,17 @@ pub struct StachelhausMatch {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Substrate {
+    // Todo: ENUM
     pub long: String,
+    // Todo: ENUM
     pub short: String,
+    // Todo: ENUM
     pub norine: String,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct PhysiochemicalClass {
+    // Todo: ENUM
     pub name: String,
     pub score: f64,
     pub substrates: Vec<Value>,
@@ -64,6 +68,7 @@ pub struct LargeCluster {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct SmallCluster {
+    // Todo: ENUM
     pub name: String,
     pub score: f64,
     pub substrates: Vec<Substrate>,
@@ -71,6 +76,7 @@ pub struct SmallCluster {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct SingleAmino {
+    // Todo: ENUM
     pub name: String,
     pub score: f64,
     pub substrates: Vec<Value>,

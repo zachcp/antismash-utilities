@@ -18,7 +18,6 @@ use crate::antismash_modules::antismash_tigrfam::Tigrfam;
 use crate::antismash_modules::antismash_tta::Tta;
 
 use serde::{Deserialize, Serialize};
-use serde_json::Value;
 use serde_with::{serde_as, DisplayFromStr};
 use std::collections::HashMap;
 
@@ -138,7 +137,7 @@ pub struct Qualifiers {
     // Todo: cooerce to ENUM
     pub detection_rules: Vec<String>,
     #[serde(default)]
-    // Todo: cooerce to Int
+    // Todo: cooerce to Int // ENUM
     pub kind: Vec<String>,
     #[serde(default)]
     #[serde_as(as = "Vec<DisplayFromStr>")]
@@ -153,7 +152,7 @@ pub struct Qualifiers {
     // Todo: cooerce to ENUM
     pub rules: Vec<String>,
     #[serde(default)]
-    pub subregion_numbers: Vec<Value>,
+    pub subregion_numbers: Vec<String>,
     // Todo: cooerce to ENUM
     #[serde(rename = "aSDomain")]
     #[serde(default)]
@@ -170,19 +169,18 @@ pub struct Qualifiers {
     #[serde(default)]
     pub domain_id: Vec<String>,
     #[serde(default)]
-    // Todo: cooerce to float
-    pub evalue: Vec<String>,
+    #[serde_as(as = "Vec<DisplayFromStr>")]
+    pub evalue: Vec<f64>,
     #[serde(default)]
     pub identifier: Vec<String>,
     #[serde(default)]
     pub label: Vec<String>,
     #[serde(default)]
-    // Todo: cooerce to int
+    #[serde_as(as = "Vec<DisplayFromStr>")]
     pub protein_end: Vec<String>,
     #[serde(default)]
-    // Todo: cooerce to int
-    pub protein_start: Vec<String>,
-    #[serde(default)]
+    #[serde_as(as = "Vec<DisplayFromStr>")]
+    pub protein_start: Vec<i64>,
     #[serde(default)]
     #[serde_as(as = "Vec<DisplayFromStr>")]
     pub score: Vec<f64>,
@@ -191,14 +189,18 @@ pub struct Qualifiers {
     pub database: Vec<String>,
     #[serde(rename = "NRPS_PKS")]
     #[serde(default)]
+    // Todo: Review
     pub nrps_pks: Vec<String>,
     #[serde(default)]
     pub gene_functions: Vec<String>,
     #[serde(default)]
+    // Todo: Review
     pub gene_kind: Vec<String>,
     #[serde(default)]
+    // Todo: Review
     pub sec_met_domain: Vec<String>,
     #[serde(default)]
+    // Todo: Review
     pub domain_subtypes: Vec<String>,
     #[serde(default)]
     pub pseudo: Vec<String>,
@@ -207,19 +209,20 @@ pub struct Qualifiers {
     pub ec_number: Vec<String>,
     #[serde(default)]
     pub gene: Vec<String>,
-    pub complete: Option<Value>,
+    pub complete: Option<bool>,
     #[serde(default)]
     pub domains: Vec<String>,
     #[serde(default)]
     pub locus_tags: Vec<String>,
-    pub starter_module: Option<Value>,
+    // Todo: Enum
+    pub starter_module: Option<String>,
     #[serde(rename = "type")]
     #[serde(default)]
     pub type_field: Vec<String>,
-    pub final_module: Option<Value>,
+    pub final_module: Option<String>,
     #[serde(default)]
     pub anticodon: Vec<String>,
-    pub incomplete: Option<Value>,
+    pub incomplete: Option<String>,
     #[serde(default)]
     // Todo: Enum
     pub bound_moiety: Vec<String>,
@@ -362,7 +365,7 @@ pub struct Area {
     pub products: Vec<String>,
     pub protoclusters: Option<HashMap<String, Protocluster>>,
     pub candidates: Vec<Candidate>,
-    pub subregions: Vec<Value>, // <--- Note this example does not have a subregion.
+    pub subregions: Vec<String>, // <--- Note this example does not have a subregion.
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]

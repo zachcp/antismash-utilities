@@ -24,7 +24,7 @@ pub struct NrpsPksDomains {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct CDSResult {
-    pub domain_hmms: Vec<Value>,
+    pub domain_hmms: Vec<DomainHmm>,
     pub motif_hmms: Vec<MotifHmm>,
     pub modules: Vec<Value>,
 }
