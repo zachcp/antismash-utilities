@@ -19,6 +19,7 @@ use crate::antismash_modules::antismash_tta::Tta;
 
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
+use serde_with::{serde_as, DisplayFromStr};
 use std::collections::HashMap;
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
@@ -64,6 +65,7 @@ pub struct Feature {
 
 /// Feature Qualifiers
 /// Todo: revist this. I stuck abunch of JSON::Values here to parse but its not ideas.
+#[serde_as]
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Qualifiers {
     // Todo: Special Parser here
@@ -84,9 +86,9 @@ pub struct Qualifiers {
     pub type_material: Vec<String>,
     #[serde(default)]
     pub locus_tag: Vec<String>,
-    // Todo: Coerce to int
     #[serde(default)]
-    pub codon_start: Vec<String>,
+    #[serde_as(as = "Vec<DisplayFromStr>")]
+    pub codon_start: Vec<i32>,
     #[serde(default)]
     pub inference: Vec<String>,
     #[serde(default)]
@@ -96,8 +98,8 @@ pub struct Qualifiers {
     pub product: Vec<String>,
     #[serde(default)]
     pub protein_id: Vec<String>,
-    // Todo: Coerce to int
     #[serde(default)]
+    #[serde_as(as = "Vec<DisplayFromStr>")]
     pub transl_table: Vec<String>,
     #[serde(default)]
     pub translation: Vec<String>,
@@ -115,23 +117,23 @@ pub struct Qualifiers {
     // Todo: cooerce to Location
     pub core_location: Vec<String>,
     #[serde(default)]
-    // Todo: cooerce to int
-    pub cutoff: Vec<String>,
+    #[serde_as(as = "Vec<DisplayFromStr>")]
+    pub cutoff: Vec<i32>,
     #[serde(default)]
     // Todo: cooerce to ENUM
     pub detection_rule: Vec<String>,
     #[serde(default)]
-    // Todo: cooerce to Int
-    pub neighbourhood: Vec<String>,
+    #[serde_as(as = "Vec<DisplayFromStr>")]
+    pub neighbourhood: Vec<i32>,
     #[serde(default)]
-    // Todo: cooerce to Int
-    pub protocluster_number: Vec<String>,
+    #[serde_as(as = "Vec<DisplayFromStr>")]
+    pub protocluster_number: Vec<i32>,
     #[serde(default)]
     // Todo: cooerce to Enum
     pub tool: Vec<String>,
     #[serde(default)]
-    // Todo: cooerce to Int
-    pub candidate_cluster_number: Vec<String>,
+    #[serde_as(as = "Vec<DisplayFromStr>")]
+    pub candidate_cluster_number: Vec<i32>,
     #[serde(default)]
     // Todo: cooerce to ENUM
     pub detection_rules: Vec<String>,
@@ -139,14 +141,14 @@ pub struct Qualifiers {
     // Todo: cooerce to Int
     pub kind: Vec<String>,
     #[serde(default)]
-    // Todo: cooerce to Int
-    pub protoclusters: Vec<String>,
+    #[serde_as(as = "Vec<DisplayFromStr>")]
+    pub protoclusters: Vec<i32>,
     #[serde(default)]
-    // Todo: cooerce to Int
-    pub candidate_cluster_numbers: Vec<String>,
+    #[serde_as(as = "Vec<DisplayFromStr>")]
+    pub candidate_cluster_numbers: Vec<i32>,
     #[serde(default)]
-    // Todo: cooerce to Int
-    pub region_number: Vec<String>,
+    #[serde_as(as = "Vec<DisplayFromStr>")]
+    pub region_number: Vec<i32>,
     #[serde(default)]
     // Todo: cooerce to ENUM
     pub rules: Vec<String>,
@@ -181,8 +183,9 @@ pub struct Qualifiers {
     // Todo: cooerce to int
     pub protein_start: Vec<String>,
     #[serde(default)]
-    // Todo: cooerce to float
-    pub score: Vec<String>,
+    #[serde(default)]
+    #[serde_as(as = "Vec<DisplayFromStr>")]
+    pub score: Vec<f64>,
     #[serde(default)]
     // Todo: cooerce to ENUM
     pub database: Vec<String>,
@@ -364,15 +367,13 @@ pub struct Area {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Protocluster {
-    // Todo: Enum
     pub category: String,
     pub start: i64,
     pub end: i64,
     pub core_start: i64,
     pub core_end: i64,
-    // Todo: Enum
     pub product: String,
-    // Todo: Enum
+    //// Todo: Enum
     pub tool: String,
 }
 
@@ -380,7 +381,6 @@ pub struct Protocluster {
 pub struct Candidate {
     pub start: i64,
     pub end: i64,
-    // Todo: Enum
     pub kind: String,
     pub protoclusters: Vec<i64>,
 }
