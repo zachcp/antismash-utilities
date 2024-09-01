@@ -4,7 +4,7 @@ use antismash_rs::antismash_modules::antismash_nrps_pks::NrpsPks;
 use antismash_rs::AntismashJson;
 use serde_json::{from_str, Value};
 use std::fs;
-use std::path::Path; // Replace 'your_crate_name' with your actual crate name
+use std::path::Path;
 
 #[test]
 fn test_parse_antismash_json() {
@@ -59,6 +59,7 @@ fn test_parse_cluster_compare_json() {
 
     let antismash_data = result.unwrap();
 }
+
 #[test]
 fn test_parse_nrps_pks_json() {
     // Read the JSON file
