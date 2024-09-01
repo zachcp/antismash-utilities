@@ -1,0 +1,97 @@
+{
+  "schema_version": 3,
+  "record_id": "CP027858.1",
+  "protocluster_predictions": {
+    "16": {
+      "starter_units": [
+        [
+          "acetyl-CoA",
+          0,
+          0
+        ]
+      ],
+      "elongations": [],
+      "product_classes": [
+        "pentangular polyphenol",
+        "tetracenomycin"
+      ],
+      "mol_weights": {},
+      "cds_preds": {
+        "CRV15_03935": [
+          [
+            "MET",
+            "C6|C8",
+            517.8,
+            2.3e-158
+          ]
+        ],
+        "CRV15_03940": [
+          [
+            "CYC",
+            "C4-C21/C2-C23|C2-C19",
+            143.6,
+            4.4e-45
+          ]
+        ],
+        "CRV15_03945": [
+          [
+            "CYC",
+            "C9-C14",
+            247.2,
+            1.1e-76
+          ]
+        ],
+        "CRV15_03950": [
+          [
+            "ACP",
+            null,
+            69.5,
+            4.3e-22
+          ]
+        ],
+        "CRV15_03955": [
+          [
+            "CLF",
+            null,
+            529.8,
+            9.4e-162
+          ]
+        ],
+        "CRV15_03960": [
+          [
+            "KS",
+            null,
+            728,
+            7e-222
+          ]
+        ],
+        "CRV15_03965": [
+          [
+            "CYC",
+            "C5-C18",
+            211.6,
+            7.3e-66
+          ]
+        ],
+        "CRV15_03975": [
+          [
+            "OXY",
+            null,
+            282.9,
+            1.2e-86
+          ]
+        ],
+        "CRV15_04095": [
+          [
+            "GT",
+            null,
+            134.4,
+            1.5e-41
+          ]
+        ]
+      },
+      "start": 947003,
+      "end": 1019570
+    }
+  }
+}

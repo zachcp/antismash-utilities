@@ -1,0 +1,470 @@
+{
+  "schema version": 1,
+  "record id": "CP027858.1",
+  "pairings": [
+    [
+      "nrpspksdomains_CRV15_00540_PKS_KS.1",
+      [
+        "found active site cysteine: True, scaffold matched GSSS: True",
+        "found active site histidines: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_03960_PKS_KS.1",
+      [
+        "found active site cysteine: True, scaffold matched GSSS: False",
+        "found active site histidines: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_06260_PKS_KS.1",
+      [
+        "found active site cysteine: True, scaffold matched GSSS: True",
+        "found active site histidines: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_25945_PKS_KS.1",
+      [
+        "found active site cysteine: True, scaffold matched GSSS: True",
+        "found active site histidines: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28070_PKS_KS.1",
+      [
+        "found active site cysteine: True, scaffold matched GSSS: True",
+        "found active site histidines: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28070_PKS_KS.2",
+      [
+        "found active site cysteine: True, scaffold matched GSSS: True",
+        "found active site histidines: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28070_PKS_KS.3",
+      [
+        "found active site cysteine: True, scaffold matched GSSS: True",
+        "found active site histidines: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28075_PKS_KS.1",
+      [
+        "found active site cysteine: True, scaffold matched GSSS: True",
+        "found active site histidines: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28075_PKS_KS.2",
+      [
+        "found active site cysteine: True, scaffold matched GSSS: True",
+        "found active site histidines: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28075_PKS_KS.3",
+      [
+        "found active site cysteine: True, scaffold matched GSSS: True",
+        "found active site histidines: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28080_PKS_KS.1",
+      [
+        "found active site cysteine: True, scaffold matched GSSS: True",
+        "found active site histidines: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28080_PKS_KS.2",
+      [
+        "found active site cysteine: True, scaffold matched GSSS: True",
+        "found active site histidines: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28085_PKS_KS.1",
+      [
+        "found active site cysteine: True, scaffold matched GSSS: False",
+        "found active site histidines: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28085_PKS_KS.2",
+      [
+        "found active site cysteine: True, scaffold matched GSSS: True",
+        "found active site histidines: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28090_PKS_KS.1",
+      [
+        "found active site cysteine: True, scaffold matched GSSS: True",
+        "found active site histidines: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_00540_PKS_AT.1",
+      [
+        "found active site serine: True, scaffold matched GHGE: True",
+        "(Methyl)Malonyl-CoA specificity inconclusive"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_06255_PKS_AT.1",
+      [
+        "found active site serine: True, scaffold matched GHGE: True",
+        "Methylmalonyl-CoA specific"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_25945_PKS_AT.1",
+      [
+        "found active site serine: True, scaffold matched GHGE: True",
+        "Malonyl-CoA specific"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28070_PKS_AT.1",
+      [
+        "found active site serine: True, scaffold matched GHGE: True",
+        "(Methyl)Malonyl-CoA specificity inconclusive"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28070_PKS_AT.2",
+      [
+        "found active site serine: True, scaffold matched GHGE: True",
+        "Methylmalonyl-CoA specific"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28070_PKS_AT.3",
+      [
+        "found active site serine: True, scaffold matched GHGE: False",
+        "Malonyl-CoA specific"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28070_PKS_AT.4",
+      [
+        "found active site serine: True, scaffold matched GHGE: True",
+        "(Methyl)Malonyl-CoA specificity inconclusive"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28075_PKS_AT.1",
+      [
+        "found active site serine: True, scaffold matched GHGE: True",
+        "Neither malonyl-CoA or methylmalonyl-CoA specific"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28075_PKS_AT.2",
+      [
+        "found active site serine: True, scaffold matched GHGE: True",
+        "Neither malonyl-CoA or methylmalonyl-CoA specific"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28075_PKS_AT.3",
+      [
+        "found active site serine: True, scaffold matched GHGE: False",
+        "(Methyl)Malonyl-CoA specificity inconclusive"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28080_PKS_AT.1",
+      [
+        "found active site serine: True, scaffold matched GHGE: True",
+        "(Methyl)Malonyl-CoA specificity inconclusive"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28080_PKS_AT.2",
+      [
+        "found active site serine: True, scaffold matched GHGE: True",
+        "Methylmalonyl-CoA specific"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28085_PKS_AT.1",
+      [
+        "found active site serine: True, scaffold matched GHGE: True",
+        "Methylmalonyl-CoA specific"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28085_PKS_AT.2",
+      [
+        "found active site serine: True, scaffold matched GHGE: True",
+        "Methylmalonyl-CoA specific"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28090_PKS_AT.1",
+      [
+        "found active site serine: True, scaffold matched GHGE: True",
+        "Neither malonyl-CoA or methylmalonyl-CoA specific"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_25950_ACP.1",
+      [
+        "non-beta-branching ACP",
+        "found active site serine: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28075_ACP.1",
+      [
+        "non-beta-branching ACP",
+        "found active site serine: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28075_ACP.2",
+      [
+        "non-beta-branching ACP",
+        "found active site serine: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28080_ACP.1",
+      [
+        "non-beta-branching ACP",
+        "found active site serine: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28085_ACP.1",
+      [
+        "non-beta-branching ACP",
+        "found active site serine: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28085_ACP.2",
+      [
+        "non-beta-branching ACP",
+        "found active site serine: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28090_ACP.1",
+      [
+        "non-beta-branching ACP",
+        "found active site serine: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_00540_PKS_DH.1",
+      [
+        "catalytic triad H,G,P found: False"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_06255_PKS_DH.1",
+      [
+        "catalytic triad H,G,P inconclusive"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28075_PKS_DH.1",
+      [
+        "catalytic triad H,G,P found: False"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28080_PKS_DH.1",
+      [
+        "catalytic triad H,G,P found: False"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28080_PKS_DH.2",
+      [
+        "catalytic triad H,G,P found: False"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28085_PKS_DH.1",
+      [
+        "catalytic triad H,G,P found: False"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28090_PKS_DH.1",
+      [
+        "catalytic triad H,G,P found: False"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_00540_PKS_KR.1",
+      [
+        "catalytic triad S,Y,N found: True",
+        "KR domain putatively catalyzing D-configuration product formation"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_00610_PKS_KR.1",
+      [
+        "catalytic triad S,Y,N inconclusive",
+        "KR domain putatively catalyzing L-configuration product formation"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_06255_PKS_KR.1",
+      [
+        "catalytic triad S,Y,N inconclusive",
+        "KR domain putatively catalyzing D-configuration product formation"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28070_PKS_KR.1",
+      [
+        "catalytic triad S,Y,N inconclusive",
+        "KR domain putatively catalyzing D-configuration product formation"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28070_PKS_KR.2",
+      [
+        "catalytic triad S,Y,N inconclusive",
+        "KR domain putatively catalyzing D-configuration product formation"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28075_PKS_KR.1",
+      [
+        "catalytic triad S,Y,N inconclusive",
+        "KR domain putatively catalyzing L-configuration product formation"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28075_PKS_KR.2",
+      [
+        "catalytic triad S,Y,N inconclusive",
+        "KR domain putatively catalyzing D-configuration product formation"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28075_PKS_KR.3",
+      [
+        "catalytic triad S,Y,N found: True",
+        "KR domain putatively catalyzing D-configuration product formation"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28080_PKS_KR.1",
+      [
+        "catalytic triad S,Y,N inconclusive",
+        "KR domain putatively catalyzing D-configuration product formation"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28080_PKS_KR.2",
+      [
+        "catalytic triad S,Y,N inconclusive",
+        "KR domain putatively catalyzing D-configuration product formation"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28085_PKS_KR.1",
+      [
+        "catalytic triad S,Y,N inconclusive",
+        "KR domain putatively catalyzing L-configuration product formation"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28085_PKS_KR.2",
+      [
+        "catalytic triad S,Y,N inconclusive",
+        "KR domain putatively catalyzing D-configuration product formation"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28090_PKS_KR.1",
+      [
+        "catalytic triad S,Y,N inconclusive",
+        "KR domain putatively catalyzing D-configuration product formation"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_00540_Thioesterase.1",
+      [
+        "active site serine present: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_02170_Thioesterase.1",
+      [
+        "active site serine inconclusive"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_04805_Thioesterase.1",
+      [
+        "active site serine inconclusive"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_06250_Thioesterase.1",
+      [
+        "active site serine present: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_07510_Thioesterase.1",
+      [
+        "active site serine inconclusive"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_17090_Thioesterase.1",
+      [
+        "active site serine present: True"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_25825_Thioesterase.1",
+      [
+        "active site serine inconclusive"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28090_Thioesterase.1",
+      [
+        "active site serine inconclusive"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_06255_PKS_ER.1",
+      [
+        "ER domain putatively catalyzing 2S-configuration product formation"
+      ]
+    ],
+    [
+      "nrpspksdomains_CRV15_28080_PKS_ER.1",
+      [
+        "ER domain putatively catalyzing 2R-configuration product formation"
+      ]
+    ],
+    [
+      "clusterhmmer_CRV15_00615_0104",
+      [
+        "active site cysteine inconclusive"
+      ]
+    ],
+    [
+      "clusterhmmer_CRV15_06265_0579",
+      [
+        "active site cysteine inconclusive"
+      ]
+    ]
+  ]
+}

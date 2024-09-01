@@ -1,0 +1,49 @@
+{
+  "record_id": "CP027858.1",
+  "schema_version": 3,
+  "protoclusters with motifs": [],
+  "motifs": [],
+  "cds_features": {},
+  "comparippson": {
+    "db_results": [
+      {
+        "database": {
+          "name": "antiSMASH-DB",
+          "version": "4.0",
+          "url": "https://antismash-db.secondarymetabolites.org/area.html?record=@accession@&start=@start@&end=@end@",
+          "id_format": "@accession@",
+          "description_format": "@type@: @locus@",
+          "fields": [
+            "accession",
+            "type",
+            "locus",
+            "start",
+            "end"
+          ],
+          "dir_name": "asdb"
+        },
+        "hits": {},
+        "aliases": {}
+      },
+      {
+        "database": {
+          "name": "MIBiG",
+          "version": "3.1",
+          "url": "https://mibig.secondarymetabolites.org/go/@accession@",
+          "id_format": "@accession@ (@locus@)",
+          "description_format": "@type@: @compounds@",
+          "fields": [
+            "accession",
+            "compounds",
+            "type",
+            "locus"
+          ],
+          "dir_name": "mibig"
+        },
+        "hits": {},
+        "aliases": {}
+      }
+    ],
+    "aliases": {}
+  }
+}

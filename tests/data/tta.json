@@ -1,0 +1,172 @@
+{
+  "TTA codons": [
+    {
+      "start": 93149,
+      "strand": -1
+    },
+    {
+      "start": 96137,
+      "strand": 1
+    },
+    {
+      "start": 163451,
+      "strand": -1
+    },
+    {
+      "start": 314877,
+      "strand": 1
+    },
+    {
+      "start": 462242,
+      "strand": -1
+    },
+    {
+      "start": 489247,
+      "strand": 1
+    },
+    {
+      "start": 540299,
+      "strand": -1
+    },
+    {
+      "start": 691981,
+      "strand": -1
+    },
+    {
+      "start": 752379,
+      "strand": 1
+    },
+    {
+      "start": 929913,
+      "strand": 1
+    },
+    {
+      "start": 930927,
+      "strand": 1
+    },
+    {
+      "start": 946773,
+      "strand": -1
+    },
+    {
+      "start": 976869,
+      "strand": -1
+    },
+    {
+      "start": 1168771,
+      "strand": -1
+    },
+    {
+      "start": 1580606,
+      "strand": -1
+    },
+    {
+      "start": 1585513,
+      "strand": 1
+    },
+    {
+      "start": 1585768,
+      "strand": 1
+    },
+    {
+      "start": 1659241,
+      "strand": 1
+    },
+    {
+      "start": 1659880,
+      "strand": 1
+    },
+    {
+      "start": 1660831,
+      "strand": 1
+    },
+    {
+      "start": 1661545,
+      "strand": -1
+    },
+    {
+      "start": 1661116,
+      "strand": -1
+    },
+    {
+      "start": 1666908,
+      "strand": -1
+    },
+    {
+      "start": 1671988,
+      "strand": 1
+    },
+    {
+      "start": 1876244,
+      "strand": 1
+    },
+    {
+      "start": 2240938,
+      "strand": 1
+    },
+    {
+      "start": 3854727,
+      "strand": -1
+    },
+    {
+      "start": 3855277,
+      "strand": -1
+    },
+    {
+      "start": 3857691,
+      "strand": 1
+    },
+    {
+      "start": 4016700,
+      "strand": 1
+    },
+    {
+      "start": 4044016,
+      "strand": 1
+    },
+    {
+      "start": 4049258,
+      "strand": 1
+    },
+    {
+      "start": 4430076,
+      "strand": -1
+    },
+    {
+      "start": 6081897,
+      "strand": -1
+    },
+    {
+      "start": 6105153,
+      "strand": -1
+    },
+    {
+      "start": 6112152,
+      "strand": -1
+    },
+    {
+      "start": 6507543,
+      "strand": 1
+    },
+    {
+      "start": 6667237,
+      "strand": 1
+    },
+    {
+      "start": 6676876,
+      "strand": 1
+    },
+    {
+      "start": 6712193,
+      "strand": 1
+    },
+    {
+      "start": 6725874,
+      "strand": 1
+    }
+  ],
+  "schema_version": 2,
+  "record_id": "CP027858.1",
+  "gc_content": 0.7267355511691255,
+  "threshold": 0.65
+}

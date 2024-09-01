@@ -1,0 +1,2312 @@
+{
+  "schema_version": 1,
+  "record_id": "CP027858.1",
+  "tools": [
+    {
+      "schema_version": 2,
+      "record_id": "CP027858.1",
+      "tool": "resist",
+      "best_hits": {
+        "CRV15_25980": {
+          "hit_id": "ABC_efflux",
+          "query_start": 59,
+          "query_end": 588,
+          "evalue": 2.2e-79,
+          "bitscore": 260.3
+        }
+      },
+      "mapping": {
+        "CRV15_25980": "resistance"
+      }
+    },
+    {
+      "schema_version": 2,
+      "record_id": "CP027858.1",
+      "tool": "smcogs",
+      "best_hits": {
+        "CRV15_00040": {
+          "hit_id": "SMCOG1139:aminotransferase class V",
+          "query_start": 46,
+          "query_end": 477,
+          "evalue": 2.5e-101,
+          "bitscore": 333.6
+        },
+        "CRV15_00045": {
+          "hit_id": "SMCOG1007:cytochrome P450",
+          "query_start": 38,
+          "query_end": 421,
+          "evalue": 1.7e-81,
+          "bitscore": 268.4
+        },
+        "CRV15_00050": {
+          "hit_id": "SMCOG1185:carbon starvation protein A",
+          "query_start": 30,
+          "query_end": 707,
+          "evalue": 0,
+          "bitscore": 1113.8
+        },
+        "CRV15_00080": {
+          "hit_id": "SMCOG1264:diaminopimelate decarboxylase",
+          "query_start": 18,
+          "query_end": 395,
+          "evalue": 6.6e-94,
+          "bitscore": 308.8
+        },
+        "CRV15_00105": {
+          "hit_id": "SMCOG1117:sodium/hydrogen exchanger",
+          "query_start": 8,
+          "query_end": 381,
+          "evalue": 1.2e-54,
+          "bitscore": 179.9
+        },
+        "CRV15_00130": {
+          "hit_id": "SMCOG1184:major facilitator transporter",
+          "query_start": 3,
+          "query_end": 374,
+          "evalue": 6.8e-117,
+          "bitscore": 384.5
+        },
+        "CRV15_00140": {
+          "hit_id": "SMCOG1041:transcriptional regulator, SARP family",
+          "query_start": 3,
+          "query_end": 612,
+          "evalue": 4.9e-44,
+          "bitscore": 145.1
+        },
+        "CRV15_00145": {
+          "hit_id": "SMCOG1014:LysR family transcriptional regulator",
+          "query_start": 1,
+          "query_end": 292,
+          "evalue": 1.7e-70,
+          "bitscore": 231.7
+        },
+        "CRV15_00360": {
+          "hit_id": "SMCOG1028:crotonyl-CoA reductase / alcohol dehydrogenase",
+          "query_start": 57,
+          "query_end": 362,
+          "evalue": 2.3e-28,
+          "bitscore": 93.5
+        },
+        "CRV15_00365": {
+          "hit_id": "SMCOG1177:asparagine synthase (glutamine-hydrolyzing)",
+          "query_start": 0,
+          "query_end": 628,
+          "evalue": 1.1e-168,
+          "bitscore": 556.7
+        },
+        "CRV15_00380": {
+          "hit_id": "SMCOG1045:glycosyl transferase group 1",
+          "query_start": 11,
+          "query_end": 379,
+          "evalue": 2.6e-41,
+          "bitscore": 136.3
+        },
+        "CRV15_00385": {
+          "hit_id": "SMCOG1152:nucleotide sugar dehydrogenase",
+          "query_start": 0,
+          "query_end": 428,
+          "evalue": 6.8e-128,
+          "bitscore": 421.2
+        },
+        "CRV15_00390": {
+          "hit_id": "SMCOG1146:sugar transferase",
+          "query_start": 88,
+          "query_end": 492,
+          "evalue": 3.2e-124,
+          "bitscore": 409.4
+        },
+        "CRV15_00410": {
+          "hit_id": "SMCOG1007:cytochrome P450",
+          "query_start": 18,
+          "query_end": 406,
+          "evalue": 6.9e-133,
+          "bitscore": 437.6
+        },
+        "CRV15_00420": {
+          "hit_id": "SMCOG1002:AMP-dependent synthetase and ligase",
+          "query_start": 9,
+          "query_end": 524,
+          "evalue": 2.7e-114,
+          "bitscore": 376.5
+        },
+        "CRV15_00430": {
+          "hit_id": "SMCOG1007:cytochrome P450",
+          "query_start": 17,
+          "query_end": 403,
+          "evalue": 4.4e-118,
+          "bitscore": 388.8
+        },
+        "CRV15_00440": {
+          "hit_id": "SMCOG1087:hypothetical protein",
+          "query_start": 31,
+          "query_end": 382,
+          "evalue": 1e-68,
+          "bitscore": 226.5
+        },
+        "CRV15_00450": {
+          "hit_id": "SMCOG1111:GCN5-related N-acetyltransferase",
+          "query_start": 8,
+          "query_end": 177,
+          "evalue": 4.6e-44,
+          "bitscore": 144.6
+        },
+        "CRV15_00455": {
+          "hit_id": "SMCOG1057:TetR family transcriptional regulator",
+          "query_start": 5,
+          "query_end": 192,
+          "evalue": 2.4e-38,
+          "bitscore": 126.7
+        },
+        "CRV15_00470": {
+          "hit_id": "SMCOG1292:hypothetical protein",
+          "query_start": 10,
+          "query_end": 270,
+          "evalue": 7.2e-107,
+          "bitscore": 350.8
+        },
+        "CRV15_00485": {
+          "hit_id": "SMCOG1135:MarR family transcriptional regulator",
+          "query_start": 63,
+          "query_end": 185,
+          "evalue": 3.8e-29,
+          "bitscore": 95.3
+        },
+        "CRV15_00495": {
+          "hit_id": "SMCOG1041:transcriptional regulator, SARP family",
+          "query_start": 24,
+          "query_end": 631,
+          "evalue": 3.6e-186,
+          "bitscore": 615.2
+        },
+        "CRV15_00500": {
+          "hit_id": "SMCOG1223:ATPase",
+          "query_start": 50,
+          "query_end": 809,
+          "evalue": 0,
+          "bitscore": 1031.6
+        },
+        "CRV15_00510": {
+          "hit_id": "SMCOG1030:serine/threonine protein kinase",
+          "query_start": 605,
+          "query_end": 844,
+          "evalue": 6.5e-37,
+          "bitscore": 121.7
+        },
+        "CRV15_00525": {
+          "hit_id": "SMCOG1222:dehydrogenase",
+          "query_start": 6,
+          "query_end": 523,
+          "evalue": 3.9e-62,
+          "bitscore": 205.1
+        },
+        "CRV15_00540": {
+          "hit_id": "SMCOG1022:Beta-ketoacyl synthase",
+          "query_start": 11,
+          "query_end": 436,
+          "evalue": 1.1e-86,
+          "bitscore": 285.6
+        },
+        "CRV15_00545": {
+          "hit_id": "SMCOG1222:dehydrogenase",
+          "query_start": 28,
+          "query_end": 526,
+          "evalue": 3.9e-99,
+          "bitscore": 327.1
+        },
+        "CRV15_00550": {
+          "hit_id": "SMCOG1222:dehydrogenase",
+          "query_start": 1,
+          "query_end": 520,
+          "evalue": 1e-170,
+          "bitscore": 563.2
+        },
+        "CRV15_00555": {
+          "hit_id": "SMCOG1028:crotonyl-CoA reductase / alcohol dehydrogenase",
+          "query_start": 33,
+          "query_end": 349,
+          "evalue": 7.3e-28,
+          "bitscore": 91.9
+        },
+        "CRV15_00570": {
+          "hit_id": "SMCOG1042:O-methyltransferase",
+          "query_start": 22,
+          "query_end": 346,
+          "evalue": 3.3e-88,
+          "bitscore": 290.3
+        },
+        "CRV15_00605": {
+          "hit_id": "SMCOG1052:Terpene synthase/cyclase metal-binding domain protein",
+          "query_start": 74,
+          "query_end": 283,
+          "evalue": 3.4e-20,
+          "bitscore": 66.9
+        },
+        "CRV15_00610": {
+          "hit_id": "SMCOG1001:short-chain dehydrogenase/reductase SDR",
+          "query_start": 12,
+          "query_end": 250,
+          "evalue": 6.4e-70,
+          "bitscore": 229.7
+        },
+        "CRV15_00615": {
+          "hit_id": "SMCOG1034:cytochrome P450",
+          "query_start": 9,
+          "query_end": 452,
+          "evalue": 1.1e-107,
+          "bitscore": 354.9
+        },
+        "CRV15_00655": {
+          "hit_id": "SMCOG1000:ABC transporter ATP-binding protein",
+          "query_start": 1,
+          "query_end": 214,
+          "evalue": 6.1e-46,
+          "bitscore": 151.2
+        },
+        "CRV15_00660": {
+          "hit_id": "SMCOG1000:ABC transporter ATP-binding protein",
+          "query_start": 5,
+          "query_end": 242,
+          "evalue": 1.3e-49,
+          "bitscore": 163.2
+        },
+        "CRV15_01085": {
+          "hit_id": "SMCOG1002:AMP-dependent synthetase and ligase",
+          "query_start": 98,
+          "query_end": 437,
+          "evalue": 2.1e-24,
+          "bitscore": 80
+        },
+        "CRV15_01090": {
+          "hit_id": "SMCOG1124:acetyl-CoA acetyltransferase",
+          "query_start": 0,
+          "query_end": 393,
+          "evalue": 2e-152,
+          "bitscore": 501.6
+        },
+        "CRV15_01125": {
+          "hit_id": "SMCOG1065:ABC-2 type transporter",
+          "query_start": 22,
+          "query_end": 260,
+          "evalue": 1.3e-32,
+          "bitscore": 107.2
+        },
+        "CRV15_01130": {
+          "hit_id": "SMCOG1000:ABC transporter ATP-binding protein",
+          "query_start": 10,
+          "query_end": 284,
+          "evalue": 3.3e-55,
+          "bitscore": 181.5
+        },
+        "CRV15_01150": {
+          "hit_id": "SMCOG1024:chalcone and stilbene synthase domain protein",
+          "query_start": 3,
+          "query_end": 346,
+          "evalue": 4.1e-111,
+          "bitscore": 365.3
+        },
+        "CRV15_01155": {
+          "hit_id": "SMCOG1007:cytochrome P450",
+          "query_start": 14,
+          "query_end": 400,
+          "evalue": 3.7e-128,
+          "bitscore": 422
+        },
+        "CRV15_01160": {
+          "hit_id": "SMCOG1204:transketolase",
+          "query_start": 7,
+          "query_end": 594,
+          "evalue": 1.1e-168,
+          "bitscore": 557
+        },
+        "CRV15_01170": {
+          "hit_id": "SMCOG1100:3-hydroxyisobutyrate dehydrogenase",
+          "query_start": 3,
+          "query_end": 296,
+          "evalue": 9.2e-91,
+          "bitscore": 298.5
+        },
+        "CRV15_01175": {
+          "hit_id": "SMCOG1004:thioesterase",
+          "query_start": 14,
+          "query_end": 231,
+          "evalue": 1.1e-54,
+          "bitscore": 179.3
+        },
+        "CRV15_01190": {
+          "hit_id": "SMCOG1256:FkbH like protein",
+          "query_start": 170,
+          "query_end": 534,
+          "evalue": 1.3e-101,
+          "bitscore": 333.9
+        },
+        "CRV15_01195": {
+          "hit_id": "SMCOG1072:dehydrogenase",
+          "query_start": 3,
+          "query_end": 317,
+          "evalue": 2.5e-92,
+          "bitscore": 303.2
+        },
+        "CRV15_01205": {
+          "hit_id": "SMCOG1030:serine/threonine protein kinase",
+          "query_start": 9,
+          "query_end": 281,
+          "evalue": 5.7e-63,
+          "bitscore": 207.1
+        },
+        "CRV15_01860": {
+          "hit_id": "SMCOG1045:glycosyl transferase group 1",
+          "query_start": 28,
+          "query_end": 374,
+          "evalue": 3.2e-59,
+          "bitscore": 195.3
+        },
+        "CRV15_01865": {
+          "hit_id": "SMCOG1089:methyltransferase",
+          "query_start": 46,
+          "query_end": 208,
+          "evalue": 1.1e-18,
+          "bitscore": 61.8
+        },
+        "CRV15_01880": {
+          "hit_id": "SMCOG1089:methyltransferase",
+          "query_start": 152,
+          "query_end": 307,
+          "evalue": 1.2e-26,
+          "bitscore": 88
+        },
+        "CRV15_01895": {
+          "hit_id": "SMCOG1007:cytochrome P450",
+          "query_start": 2,
+          "query_end": 370,
+          "evalue": 1.8e-121,
+          "bitscore": 400
+        },
+        "CRV15_01900": {
+          "hit_id": "SMCOG1042:O-methyltransferase",
+          "query_start": 24,
+          "query_end": 291,
+          "evalue": 2.9e-17,
+          "bitscore": 57.1
+        },
+        "CRV15_01905": {
+          "hit_id": "SMCOG1002:AMP-dependent synthetase and ligase",
+          "query_start": 1472,
+          "query_end": 1955,
+          "evalue": 4.3e-95,
+          "bitscore": 313.2
+        },
+        "CRV15_01915": {
+          "hit_id": "SMCOG1002:AMP-dependent synthetase and ligase",
+          "query_start": 1,
+          "query_end": 460,
+          "evalue": 1.1e-119,
+          "bitscore": 394.4
+        },
+        "CRV15_01925": {
+          "hit_id": "SMCOG1074:major facilitator family transporter",
+          "query_start": 8,
+          "query_end": 417,
+          "evalue": 2.1e-132,
+          "bitscore": 436.2
+        },
+        "CRV15_01935": {
+          "hit_id": "SMCOG1277:Radical SAM domain protein",
+          "query_start": 47,
+          "query_end": 527,
+          "evalue": 7.7e-116,
+          "bitscore": 381.8
+        },
+        "CRV15_01945": {
+          "hit_id": "SMCOG1089:methyltransferase",
+          "query_start": 25,
+          "query_end": 190,
+          "evalue": 9.2e-33,
+          "bitscore": 108
+        },
+        "CRV15_01955": {
+          "hit_id": "SMCOG1089:methyltransferase",
+          "query_start": 338,
+          "query_end": 577,
+          "evalue": 1.8e-30,
+          "bitscore": 100.5
+        },
+        "CRV15_01980": {
+          "hit_id": "SMCOG1094:ferredoxin",
+          "query_start": 36,
+          "query_end": 319,
+          "evalue": 6e-59,
+          "bitscore": 193.8
+        },
+        "CRV15_01995": {
+          "hit_id": "SMCOG1079:oxidoreductase",
+          "query_start": 365,
+          "query_end": 700,
+          "evalue": 3.4e-67,
+          "bitscore": 221.4
+        },
+        "CRV15_02160": {
+          "hit_id": "SMCOG1149:LuxR family transcriptional regulator",
+          "query_start": 4,
+          "query_end": 902,
+          "evalue": 2.7e-187,
+          "bitscore": 619
+        },
+        "CRV15_02165": {
+          "hit_id": "SMCOG1127:condensation domain-containing protein",
+          "query_start": 63,
+          "query_end": 472,
+          "evalue": 2.2e-25,
+          "bitscore": 84
+        },
+        "CRV15_02170": {
+          "hit_id": "SMCOG1004:thioesterase",
+          "query_start": 4,
+          "query_end": 229,
+          "evalue": 1.3e-65,
+          "bitscore": 215.1
+        },
+        "CRV15_02175": {
+          "hit_id": "SMCOG1148:hypothetical protein",
+          "query_start": 13,
+          "query_end": 164,
+          "evalue": 8.6e-42,
+          "bitscore": 137.6
+        },
+        "CRV15_02180": {
+          "hit_id": "SMCOG1176:alkyl hydroperoxide reductase subunit",
+          "query_start": 12,
+          "query_end": 309,
+          "evalue": 3.1e-103,
+          "bitscore": 340.3
+        },
+        "CRV15_02185": {
+          "hit_id": "SMCOG1005:Drug resistance transporter, EmrB/QacA",
+          "query_start": 47,
+          "query_end": 481,
+          "evalue": 7.4e-94,
+          "bitscore": 308.9
+        },
+        "CRV15_02200": {
+          "hit_id": "SMCOG1127:condensation domain-containing protein",
+          "query_start": 62,
+          "query_end": 549,
+          "evalue": 7.5e-55,
+          "bitscore": 181
+        },
+        "CRV15_02210": {
+          "hit_id": "SMCOG1004:thioesterase",
+          "query_start": 4,
+          "query_end": 239,
+          "evalue": 1.1e-54,
+          "bitscore": 179.3
+        },
+        "CRV15_02215": {
+          "hit_id": "SMCOG1006:acyl-CoA dehydrogenase",
+          "query_start": 13,
+          "query_end": 383,
+          "evalue": 1.2e-118,
+          "bitscore": 390.6
+        },
+        "CRV15_02265": {
+          "hit_id": "SMCOG1000:ABC transporter ATP-binding protein",
+          "query_start": 36,
+          "query_end": 240,
+          "evalue": 1.3e-66,
+          "bitscore": 218.8
+        },
+        "CRV15_02275": {
+          "hit_id": "SMCOG1044:ABC transporter, permease protein",
+          "query_start": 47,
+          "query_end": 274,
+          "evalue": 6.6e-66,
+          "bitscore": 216
+        },
+        "CRV15_02280": {
+          "hit_id": "SMCOG1268:mandelate racemase/muconate lactonizing enzyme",
+          "query_start": 27,
+          "query_end": 390,
+          "evalue": 1.5e-89,
+          "bitscore": 294.5
+        },
+        "CRV15_02285": {
+          "hit_id": "SMCOG1006:acyl-CoA dehydrogenase",
+          "query_start": 10,
+          "query_end": 373,
+          "evalue": 1e-89,
+          "bitscore": 295.4
+        },
+        "CRV15_02355": {
+          "hit_id": "SMCOG1148:hypothetical protein",
+          "query_start": 25,
+          "query_end": 180,
+          "evalue": 2.1e-35,
+          "bitscore": 116.8
+        },
+        "CRV15_02360": {
+          "hit_id": "SMCOG1013:aminotransferase class-III",
+          "query_start": 47,
+          "query_end": 445,
+          "evalue": 3.8e-113,
+          "bitscore": 372.7
+        },
+        "CRV15_02380": {
+          "hit_id": "SMCOG1182:Polyprenyl synthetase",
+          "query_start": 31,
+          "query_end": 353,
+          "evalue": 2e-85,
+          "bitscore": 280.7
+        },
+        "CRV15_02385": {
+          "hit_id": "SMCOG1222:dehydrogenase",
+          "query_start": 11,
+          "query_end": 427,
+          "evalue": 3.5e-14,
+          "bitscore": 46.9
+        },
+        "CRV15_02400": {
+          "hit_id": "SMCOG1000:ABC transporter ATP-binding protein",
+          "query_start": 50,
+          "query_end": 251,
+          "evalue": 8.2e-37,
+          "bitscore": 121.4
+        },
+        "CRV15_02415": {
+          "hit_id": "SMCOG1181:dehydrogenase",
+          "query_start": 74,
+          "query_end": 344,
+          "evalue": 8.5e-21,
+          "bitscore": 68.5
+        },
+        "CRV15_02420": {
+          "hit_id": "SMCOG1064:glucose-1-phosphate adenylyl/thymidylyltransferase",
+          "query_start": 0,
+          "query_end": 236,
+          "evalue": 1.5e-26,
+          "bitscore": 87.4
+        },
+        "CRV15_02430": {
+          "hit_id": "SMCOG1010:NAD-dependent epimerase/dehydratase",
+          "query_start": 1,
+          "query_end": 315,
+          "evalue": 1.8e-82,
+          "bitscore": 271.4
+        },
+        "CRV15_02780": {
+          "hit_id": "SMCOG1027:isochorismatase",
+          "query_start": 99,
+          "query_end": 241,
+          "evalue": 8.6e-19,
+          "bitscore": 62
+        },
+        "CRV15_02825": {
+          "hit_id": "SMCOG1108:ROK family protein",
+          "query_start": 58,
+          "query_end": 410,
+          "evalue": 1.7e-72,
+          "bitscore": 238.8
+        },
+        "CRV15_02835": {
+          "hit_id": "SMCOG1117:sodium/hydrogen exchanger",
+          "query_start": 7,
+          "query_end": 378,
+          "evalue": 4.4e-65,
+          "bitscore": 214.3
+        },
+        "CRV15_02840": {
+          "hit_id": "SMCOG1002:AMP-dependent synthetase and ligase",
+          "query_start": 517,
+          "query_end": 1065,
+          "evalue": 6.1e-69,
+          "bitscore": 226.9
+        },
+        "CRV15_02845": {
+          "hit_id": "SMCOG1002:AMP-dependent synthetase and ligase",
+          "query_start": 145,
+          "query_end": 700,
+          "evalue": 8.7e-70,
+          "bitscore": 229.7
+        },
+        "CRV15_02855": {
+          "hit_id": "SMCOG1037:heavy metal translocating P-type ATPase",
+          "query_start": 56,
+          "query_end": 659,
+          "evalue": 6.4e-150,
+          "bitscore": 495
+        },
+        "CRV15_03020": {
+          "hit_id": "SMCOG1002:AMP-dependent synthetase and ligase",
+          "query_start": 18,
+          "query_end": 594,
+          "evalue": 3.1e-78,
+          "bitscore": 257.6
+        },
+        "CRV15_03030": {
+          "hit_id": "SMCOG1032:RNA polymerase, sigma-24 subunit, ECF subfamily",
+          "query_start": 4,
+          "query_end": 159,
+          "evalue": 3e-32,
+          "bitscore": 105.9
+        },
+        "CRV15_03080": {
+          "hit_id": "SMCOG1039:aldo/keto reductase family oxidoreductase",
+          "query_start": 6,
+          "query_end": 263,
+          "evalue": 3.1e-68,
+          "bitscore": 224.4
+        },
+        "CRV15_03765": {
+          "hit_id": "SMCOG1016:LuxR family DNA-binding response regulator",
+          "query_start": 2,
+          "query_end": 197,
+          "evalue": 5.1e-27,
+          "bitscore": 88.7
+        },
+        "CRV15_03770": {
+          "hit_id": "SMCOG1288:ABC transporter related protein",
+          "query_start": 23,
+          "query_end": 577,
+          "evalue": 4.9e-52,
+          "bitscore": 171.5
+        },
+        "CRV15_03775": {
+          "hit_id": "SMCOG1288:ABC transporter related protein",
+          "query_start": 21,
+          "query_end": 565,
+          "evalue": 2.5e-94,
+          "bitscore": 311.1
+        },
+        "CRV15_03785": {
+          "hit_id": "SMCOG1030:serine/threonine protein kinase",
+          "query_start": 232,
+          "query_end": 435,
+          "evalue": 1.6e-21,
+          "bitscore": 71.2
+        },
+        "CRV15_03790": {
+          "hit_id": "SMCOG1249:carbamoyl phosphate synthase small subunit",
+          "query_start": 97,
+          "query_end": 230,
+          "evalue": 7.9e-21,
+          "bitscore": 68.5
+        },
+        "CRV15_03795": {
+          "hit_id": "SMCOG1078:LacI family transcription regulator",
+          "query_start": 18,
+          "query_end": 337,
+          "evalue": 8.2e-54,
+          "bitscore": 177.3
+        },
+        "CRV15_03835": {
+          "hit_id": "SMCOG1293:aldehyde oxidase and xanthine dehydrogenase",
+          "query_start": 21,
+          "query_end": 792,
+          "evalue": 8.7e-233,
+          "bitscore": 769.1
+        },
+        "CRV15_03860": {
+          "hit_id": "SMCOG1214:binding-protein-dependent transport systems",
+          "query_start": 280,
+          "query_end": 519,
+          "evalue": 1.5e-58,
+          "bitscore": 192.5
+        },
+        "CRV15_03865": {
+          "hit_id": "SMCOG1000:ABC transporter ATP-binding protein",
+          "query_start": 3,
+          "query_end": 224,
+          "evalue": 1.9e-67,
+          "bitscore": 221.5
+        },
+        "CRV15_03875": {
+          "hit_id": "SMCOG1071:GntR family transcriptional regulator",
+          "query_start": 94,
+          "query_end": 281,
+          "evalue": 1e-40,
+          "bitscore": 134.1
+        },
+        "CRV15_03895": {
+          "hit_id": "SMCOG1055:pyruvate oxidase/decarboxylase",
+          "query_start": 4,
+          "query_end": 537,
+          "evalue": 1.2e-166,
+          "bitscore": 549.8
+        },
+        "CRV15_03935": {
+          "hit_id": "SMCOG1042:O-methyltransferase",
+          "query_start": 23,
+          "query_end": 344,
+          "evalue": 7.6e-89,
+          "bitscore": 292.4
+        },
+        "CRV15_03940": {
+          "hit_id": "SMCOG1225:Polyketide synthesis cyclase",
+          "query_start": 6,
+          "query_end": 110,
+          "evalue": 1.5e-45,
+          "bitscore": 147.9
+        },
+        "CRV15_03945": {
+          "hit_id": "SMCOG1128:cyclase/dehydrase",
+          "query_start": 0,
+          "query_end": 151,
+          "evalue": 2.1e-68,
+          "bitscore": 225.1
+        },
+        "CRV15_03950": {
+          "hit_id": "SMCOG1129:acyl carrier protein",
+          "query_start": 3,
+          "query_end": 83,
+          "evalue": 6.1e-26,
+          "bitscore": 84.6
+        },
+        "CRV15_03955": {
+          "hit_id": "SMCOG1093:Beta-ketoacyl synthase",
+          "query_start": 7,
+          "query_end": 410,
+          "evalue": 3.6e-172,
+          "bitscore": 566.8
+        },
+        "CRV15_03960": {
+          "hit_id": "SMCOG1022:Beta-ketoacyl synthase",
+          "query_start": 2,
+          "query_end": 416,
+          "evalue": 7e-144,
+          "bitscore": 474.1
+        },
+        "CRV15_03975": {
+          "hit_id": "SMCOG1050:monooxygenase FAD-binding",
+          "query_start": 18,
+          "query_end": 544,
+          "evalue": 1.4e-155,
+          "bitscore": 513.2
+        },
+        "CRV15_03980": {
+          "hit_id": "SMCOG1054:hypothetical protein",
+          "query_start": 346,
+          "query_end": 884,
+          "evalue": 1e-144,
+          "bitscore": 477.1
+        },
+        "CRV15_03990": {
+          "hit_id": "SMCOG1101:phosphoglycerate mutase",
+          "query_start": 18,
+          "query_end": 185,
+          "evalue": 1.2e-33,
+          "bitscore": 110.7
+        },
+        "CRV15_04020": {
+          "hit_id": "SMCOG1006:acyl-CoA dehydrogenase",
+          "query_start": 55,
+          "query_end": 438,
+          "evalue": 8.9e-80,
+          "bitscore": 262.8
+        },
+        "CRV15_04060": {
+          "hit_id": "SMCOG1190:GTP-binding protein LepA",
+          "query_start": 13,
+          "query_end": 427,
+          "evalue": 2.6e-106,
+          "bitscore": 350.8
+        },
+        "CRV15_04070": {
+          "hit_id": "SMCOG1000:ABC transporter ATP-binding protein",
+          "query_start": 20,
+          "query_end": 223,
+          "evalue": 3.6e-59,
+          "bitscore": 194.5
+        },
+        "CRV15_04075": {
+          "hit_id": "SMCOG1044:ABC transporter, permease protein",
+          "query_start": 60,
+          "query_end": 290,
+          "evalue": 1.4e-49,
+          "bitscore": 162.7
+        },
+        "CRV15_04095": {
+          "hit_id": "SMCOG1062:glycosyltransferase, MGT family",
+          "query_start": 6,
+          "query_end": 395,
+          "evalue": 2.2e-78,
+          "bitscore": 258.4
+        },
+        "CRV15_04100": {
+          "hit_id": "SMCOG1143:sugar-binding lipoprotein",
+          "query_start": 1,
+          "query_end": 424,
+          "evalue": 5.3e-77,
+          "bitscore": 254
+        },
+        "CRV15_04105": {
+          "hit_id": "SMCOG1069:putative ABC transporter permease protein",
+          "query_start": 16,
+          "query_end": 276,
+          "evalue": 4.3e-84,
+          "bitscore": 276.3
+        },
+        "CRV15_04110": {
+          "hit_id": "SMCOG1067:putative ABC transporter permease protein",
+          "query_start": 35,
+          "query_end": 311,
+          "evalue": 1.5e-83,
+          "bitscore": 274.6
+        },
+        "CRV15_04220": {
+          "hit_id": "SMCOG1284:transcriptional regulator, MarR family",
+          "query_start": 9,
+          "query_end": 130,
+          "evalue": 4.3e-26,
+          "bitscore": 85.6
+        },
+        "CRV15_04225": {
+          "hit_id": "SMCOG1235:polysaccharide deacetylase",
+          "query_start": 41,
+          "query_end": 281,
+          "evalue": 7.8e-35,
+          "bitscore": 114.8
+        },
+        "CRV15_04250": {
+          "hit_id": "SMCOG1222:dehydrogenase",
+          "query_start": 9,
+          "query_end": 509,
+          "evalue": 2.7e-108,
+          "bitscore": 357.3
+        },
+        "CRV15_04690": {
+          "hit_id": "SMCOG1207:inositol monophosphatase",
+          "query_start": 2,
+          "query_end": 258,
+          "evalue": 1.4e-83,
+          "bitscore": 274.8
+        },
+        "CRV15_04700": {
+          "hit_id": "SMCOG1056:DegT/DnrJ/EryC1/StrS aminotransferase",
+          "query_start": 23,
+          "query_end": 411,
+          "evalue": 1.9e-89,
+          "bitscore": 294.6
+        },
+        "CRV15_04705": {
+          "hit_id": "SMCOG1079:oxidoreductase",
+          "query_start": 8,
+          "query_end": 316,
+          "evalue": 9.1e-48,
+          "bitscore": 157.5
+        },
+        "CRV15_04715": {
+          "hit_id": "SMCOG1089:methyltransferase",
+          "query_start": 34,
+          "query_end": 236,
+          "evalue": 2.1e-54,
+          "bitscore": 178.9
+        },
+        "CRV15_04740": {
+          "hit_id": "SMCOG1182:Polyprenyl synthetase",
+          "query_start": 96,
+          "query_end": 437,
+          "evalue": 1.8e-75,
+          "bitscore": 248
+        },
+        "CRV15_04750": {
+          "hit_id": "SMCOG1015:AraC family transcriptional regulator",
+          "query_start": 222,
+          "query_end": 312,
+          "evalue": 4.1e-17,
+          "bitscore": 57
+        },
+        "CRV15_04755": {
+          "hit_id": "SMCOG1046:Dioxygenase TauD/TfdA",
+          "query_start": 38,
+          "query_end": 337,
+          "evalue": 5e-92,
+          "bitscore": 302.4
+        },
+        "CRV15_04760": {
+          "hit_id": "SMCOG1046:Dioxygenase TauD/TfdA",
+          "query_start": 23,
+          "query_end": 313,
+          "evalue": 9.9e-95,
+          "bitscore": 311.3
+        },
+        "CRV15_04765": {
+          "hit_id": "SMCOG1009:mbtH-like protein",
+          "query_start": 7,
+          "query_end": 69,
+          "evalue": 1.6e-28,
+          "bitscore": 92.6
+        },
+        "CRV15_04770": {
+          "hit_id": "SMCOG1002:AMP-dependent synthetase and ligase",
+          "query_start": 1092,
+          "query_end": 1647,
+          "evalue": 6.2e-95,
+          "bitscore": 312.7
+        },
+        "CRV15_04775": {
+          "hit_id": "SMCOG1002:AMP-dependent synthetase and ligase",
+          "query_start": 5882,
+          "query_end": 6384,
+          "evalue": 6.8e-94,
+          "bitscore": 309.2
+        },
+        "CRV15_04780": {
+          "hit_id": "SMCOG1020:major facilitator transporter",
+          "query_start": 0,
+          "query_end": 383,
+          "evalue": 2.7e-72,
+          "bitscore": 238.1
+        },
+        "CRV15_04795": {
+          "hit_id": "SMCOG1035:MMPL domain-containing transport protein",
+          "query_start": 34,
+          "query_end": 752,
+          "evalue": 1.1e-158,
+          "bitscore": 523.9
+        },
+        "CRV15_04805": {
+          "hit_id": "SMCOG1004:thioesterase",
+          "query_start": 11,
+          "query_end": 248,
+          "evalue": 4.5e-74,
+          "bitscore": 242.8
+        },
+        "CRV15_04810": {
+          "hit_id": "SMCOG1002:AMP-dependent synthetase and ligase",
+          "query_start": 473,
+          "query_end": 957,
+          "evalue": 3.7e-107,
+          "bitscore": 353
+        },
+        "CRV15_04820": {
+          "hit_id": "SMCOG1041:transcriptional regulator, SARP family",
+          "query_start": 0,
+          "query_end": 595,
+          "evalue": 3.1e-156,
+          "bitscore": 516.2
+        },
+        "CRV15_04825": {
+          "hit_id": "SMCOG1020:major facilitator transporter",
+          "query_start": 20,
+          "query_end": 410,
+          "evalue": 1.2e-49,
+          "bitscore": 163.5
+        },
+        "CRV15_04890": {
+          "hit_id": "SMCOG1033:iron compound ABC transporter, periplasmic",
+          "query_start": 21,
+          "query_end": 322,
+          "evalue": 7.1e-18,
+          "bitscore": 58.7
+        },
+        "CRV15_04895": {
+          "hit_id": "SMCOG1000:ABC transporter ATP-binding protein",
+          "query_start": 22,
+          "query_end": 242,
+          "evalue": 3.5e-60,
+          "bitscore": 197.8
+        },
+        "CRV15_04900": {
+          "hit_id": "SMCOG1011:transport system permease protein",
+          "query_start": 56,
+          "query_end": 388,
+          "evalue": 1.9e-79,
+          "bitscore": 261.2
+        },
+        "CRV15_04905": {
+          "hit_id": "SMCOG1081:cysteine synthase",
+          "query_start": 26,
+          "query_end": 313,
+          "evalue": 3e-78,
+          "bitscore": 257.1
+        },
+        "CRV15_05085": {
+          "hit_id": "SMCOG1101:phosphoglycerate mutase",
+          "query_start": 6,
+          "query_end": 185,
+          "evalue": 4.8e-38,
+          "bitscore": 125
+        },
+        "CRV15_05090": {
+          "hit_id": "SMCOG1258:Antibiotic biosynthesis monooxygenase",
+          "query_start": 0,
+          "query_end": 201,
+          "evalue": 8.7e-64,
+          "bitscore": 209.2
+        },
+        "CRV15_05120": {
+          "hit_id": "SMCOG1203:putative siderophore biosynthesis protein",
+          "query_start": 99,
+          "query_end": 266,
+          "evalue": 5.8e-54,
+          "bitscore": 178.1
+        },
+        "CRV15_05130": {
+          "hit_id": "SMCOG1013:aminotransferase class-III",
+          "query_start": 23,
+          "query_end": 468,
+          "evalue": 1.5e-123,
+          "bitscore": 406.9
+        },
+        "CRV15_05140": {
+          "hit_id": "SMCOG1227:ribosome biogenesis GTP-binding protein YsxC",
+          "query_start": 241,
+          "query_end": 434,
+          "evalue": 5.1e-18,
+          "bitscore": 59.7
+        },
+        "CRV15_06170": {
+          "hit_id": "SMCOG1081:cysteine synthase",
+          "query_start": 108,
+          "query_end": 390,
+          "evalue": 1.4e-22,
+          "bitscore": 74.1
+        },
+        "CRV15_06180": {
+          "hit_id": "SMCOG1271:2-isopropylmalate synthase",
+          "query_start": 16,
+          "query_end": 525,
+          "evalue": 1.1e-134,
+          "bitscore": 444.1
+        },
+        "CRV15_06190": {
+          "hit_id": "SMCOG1074:major facilitator family transporter",
+          "query_start": 5,
+          "query_end": 415,
+          "evalue": 5.3e-128,
+          "bitscore": 421.7
+        },
+        "CRV15_06195": {
+          "hit_id": "SMCOG1057:TetR family transcriptional regulator",
+          "query_start": 6,
+          "query_end": 197,
+          "evalue": 5.1e-36,
+          "bitscore": 119.1
+        },
+        "CRV15_06220": {
+          "hit_id": "SMCOG1105:amidase",
+          "query_start": 10,
+          "query_end": 474,
+          "evalue": 1.9e-132,
+          "bitscore": 436.6
+        },
+        "CRV15_06235": {
+          "hit_id": "SMCOG1087:hypothetical protein",
+          "query_start": 2,
+          "query_end": 371,
+          "evalue": 1.6e-99,
+          "bitscore": 327.9
+        },
+        "CRV15_06240": {
+          "hit_id": "SMCOG1001:short-chain dehydrogenase/reductase SDR",
+          "query_start": 6,
+          "query_end": 255,
+          "evalue": 1.3e-56,
+          "bitscore": 186.1
+        },
+        "CRV15_06245": {
+          "hit_id": "SMCOG1127:condensation domain-containing protein",
+          "query_start": 15,
+          "query_end": 402,
+          "evalue": 1.4e-20,
+          "bitscore": 68.1
+        },
+        "CRV15_06250": {
+          "hit_id": "SMCOG1002:AMP-dependent synthetase and ligase",
+          "query_start": 1765,
+          "query_end": 2270,
+          "evalue": 1.8e-95,
+          "bitscore": 314.5
+        },
+        "CRV15_06255": {
+          "hit_id": "SMCOG1028:crotonyl-CoA reductase / alcohol dehydrogenase",
+          "query_start": 1223,
+          "query_end": 1636,
+          "evalue": 7.8e-93,
+          "bitscore": 305.4
+        },
+        "CRV15_06260": {
+          "hit_id": "SMCOG1022:Beta-ketoacyl synthase",
+          "query_start": 45,
+          "query_end": 471,
+          "evalue": 1e-89,
+          "bitscore": 295.6
+        },
+        "CRV15_06265": {
+          "hit_id": "SMCOG1034:cytochrome P450",
+          "query_start": 94,
+          "query_end": 523,
+          "evalue": 1.2e-97,
+          "bitscore": 321.9
+        },
+        "CRV15_06270": {
+          "hit_id": "SMCOG1016:LuxR family DNA-binding response regulator",
+          "query_start": 44,
+          "query_end": 230,
+          "evalue": 2.1e-21,
+          "bitscore": 70.4
+        },
+        "CRV15_06300": {
+          "hit_id": "SMCOG1000:ABC transporter ATP-binding protein",
+          "query_start": 11,
+          "query_end": 117,
+          "evalue": 7.8e-25,
+          "bitscore": 82.2
+        },
+        "CRV15_06620": {
+          "hit_id": "SMCOG1140:Lanthionine synthetase C family protein",
+          "query_start": 15,
+          "query_end": 406,
+          "evalue": 1.8e-123,
+          "bitscore": 406.6
+        },
+        "CRV15_06625": {
+          "hit_id": "SMCOG1155:Lantibiotic dehydratase domain protein",
+          "query_start": 26,
+          "query_end": 1014,
+          "evalue": 4.5e-303,
+          "bitscore": 1002
+        },
+        "CRV15_06650": {
+          "hit_id": "SMCOG1115:HAD-superfamily hydrolase, subfamily IA, variant",
+          "query_start": 3,
+          "query_end": 225,
+          "evalue": 1.2e-20,
+          "bitscore": 68.4
+        },
+        "CRV15_07070": {
+          "hit_id": "SMCOG1095:3-hydroxybutyryl-CoA dehydrogenase",
+          "query_start": 5,
+          "query_end": 282,
+          "evalue": 1.9e-96,
+          "bitscore": 316.8
+        },
+        "CRV15_07085": {
+          "hit_id": "SMCOG1048:sensor histidine kinase",
+          "query_start": 41,
+          "query_end": 375,
+          "evalue": 5.4e-46,
+          "bitscore": 151.6
+        },
+        "CRV15_07090": {
+          "hit_id": "SMCOG1016:LuxR family DNA-binding response regulator",
+          "query_start": 16,
+          "query_end": 228,
+          "evalue": 1.1e-55,
+          "bitscore": 182.4
+        },
+        "CRV15_07100": {
+          "hit_id": "SMCOG1010:NAD-dependent epimerase/dehydratase",
+          "query_start": 9,
+          "query_end": 302,
+          "evalue": 3.2e-59,
+          "bitscore": 195.1
+        },
+        "CRV15_07115": {
+          "hit_id": "SMCOG1045:glycosyl transferase group 1",
+          "query_start": 8,
+          "query_end": 348,
+          "evalue": 5.1e-40,
+          "bitscore": 132.1
+        },
+        "CRV15_07125": {
+          "hit_id": "SMCOG1010:NAD-dependent epimerase/dehydratase",
+          "query_start": 1,
+          "query_end": 319,
+          "evalue": 9e-85,
+          "bitscore": 279
+        },
+        "CRV15_07130": {
+          "hit_id": "SMCOG1101:phosphoglycerate mutase",
+          "query_start": 2,
+          "query_end": 167,
+          "evalue": 1.3e-24,
+          "bitscore": 81.2
+        },
+        "CRV15_07140": {
+          "hit_id": "SMCOG1000:ABC transporter ATP-binding protein",
+          "query_start": 9,
+          "query_end": 229,
+          "evalue": 1.9e-61,
+          "bitscore": 202
+        },
+        "CRV15_07450": {
+          "hit_id": "SMCOG1005:Drug resistance transporter, EmrB/QacA",
+          "query_start": 11,
+          "query_end": 431,
+          "evalue": 1.2e-124,
+          "bitscore": 410.5
+        },
+        "CRV15_07455": {
+          "hit_id": "SMCOG1017:aldehyde dehydrogenase",
+          "query_start": 28,
+          "query_end": 496,
+          "evalue": 1.4e-137,
+          "bitscore": 453.1
+        },
+        "CRV15_07465": {
+          "hit_id": "SMCOG1139:aminotransferase class V",
+          "query_start": 8,
+          "query_end": 392,
+          "evalue": 6.1e-88,
+          "bitscore": 289.5
+        },
+        "CRV15_07490": {
+          "hit_id": "SMCOG1041:transcriptional regulator, SARP family",
+          "query_start": 7,
+          "query_end": 251,
+          "evalue": 1.5e-73,
+          "bitscore": 242.7
+        },
+        "CRV15_07505": {
+          "hit_id": "SMCOG1013:aminotransferase class-III",
+          "query_start": 33,
+          "query_end": 449,
+          "evalue": 1e-90,
+          "bitscore": 298.8
+        },
+        "CRV15_07510": {
+          "hit_id": "SMCOG1002:AMP-dependent synthetase and ligase",
+          "query_start": 2276,
+          "query_end": 2969,
+          "evalue": 1.1e-93,
+          "bitscore": 308.6
+        },
+        "CRV15_07525": {
+          "hit_id": "SMCOG1055:pyruvate oxidase/decarboxylase",
+          "query_start": 12,
+          "query_end": 565,
+          "evalue": 4.1e-155,
+          "bitscore": 511.7
+        },
+        "CRV15_07530": {
+          "hit_id": "SMCOG1177:asparagine synthase (glutamine-hydrolyzing)",
+          "query_start": 71,
+          "query_end": 499,
+          "evalue": 4.2e-109,
+          "bitscore": 359.9
+        },
+        "CRV15_07540": {
+          "hit_id": "SMCOG1046:Dioxygenase TauD/TfdA",
+          "query_start": 42,
+          "query_end": 287,
+          "evalue": 1.8e-10,
+          "bitscore": 34.5
+        },
+        "CRV15_07545": {
+          "hit_id": "SMCOG1220:bifunctional ornithine",
+          "query_start": 2,
+          "query_end": 393,
+          "evalue": 6.3e-164,
+          "bitscore": 539.4
+        },
+        "CRV15_07550": {
+          "hit_id": "SMCOG1068:extracellular solute-binding protein family 5",
+          "query_start": 14,
+          "query_end": 537,
+          "evalue": 1.1e-100,
+          "bitscore": 332.1
+        },
+        "CRV15_07555": {
+          "hit_id": "SMCOG1014:LysR family transcriptional regulator",
+          "query_start": 2,
+          "query_end": 411,
+          "evalue": 1.2e-34,
+          "bitscore": 114.1
+        },
+        "CRV15_07560": {
+          "hit_id": "SMCOG1001:short-chain dehydrogenase/reductase SDR",
+          "query_start": 7,
+          "query_end": 237,
+          "evalue": 5.9e-69,
+          "bitscore": 226.5
+        },
+        "CRV15_07565": {
+          "hit_id": "SMCOG1007:cytochrome P450",
+          "query_start": 19,
+          "query_end": 408,
+          "evalue": 3.5e-126,
+          "bitscore": 415.5
+        },
+        "CRV15_07570": {
+          "hit_id": "SMCOG1265:ferredoxin",
+          "query_start": 4,
+          "query_end": 67,
+          "evalue": 4.3e-24,
+          "bitscore": 78.7
+        },
+        "CRV15_07585": {
+          "hit_id": "SMCOG1166:transporter, EamA family",
+          "query_start": 10,
+          "query_end": 291,
+          "evalue": 1e-79,
+          "bitscore": 262.1
+        },
+        "CRV15_09010": {
+          "hit_id": "SMCOG1007:cytochrome P450",
+          "query_start": 32,
+          "query_end": 409,
+          "evalue": 3.4e-101,
+          "bitscore": 333.2
+        },
+        "CRV15_13855": {
+          "hit_id": "SMCOG1019:aminotransferase",
+          "query_start": 33,
+          "query_end": 433,
+          "evalue": 7.1e-67,
+          "bitscore": 220.3
+        },
+        "CRV15_13860": {
+          "hit_id": "SMCOG1116:Homoserine/threonine efflux protein",
+          "query_start": 5,
+          "query_end": 207,
+          "evalue": 2.9e-57,
+          "bitscore": 187.8
+        },
+        "CRV15_13865": {
+          "hit_id": "SMCOG1149:LuxR family transcriptional regulator",
+          "query_start": 8,
+          "query_end": 852,
+          "evalue": 5.8e-43,
+          "bitscore": 141.4
+        },
+        "CRV15_13870": {
+          "hit_id": "SMCOG1160:flavin reductase domain protein FMN-binding",
+          "query_start": 18,
+          "query_end": 169,
+          "evalue": 1.2e-37,
+          "bitscore": 123.4
+        },
+        "CRV15_13880": {
+          "hit_id": "SMCOG1039:aldo/keto reductase family oxidoreductase",
+          "query_start": 26,
+          "query_end": 326,
+          "evalue": 6.2e-95,
+          "bitscore": 312.1
+        },
+        "CRV15_13885": {
+          "hit_id": "SMCOG1046:Dioxygenase TauD/TfdA",
+          "query_start": 31,
+          "query_end": 286,
+          "evalue": 8.6e-10,
+          "bitscore": 32.3
+        },
+        "CRV15_13895": {
+          "hit_id": "SMCOG1251:luciferase family protein",
+          "query_start": 0,
+          "query_end": 393,
+          "evalue": 1.1e-88,
+          "bitscore": 292
+        },
+        "CRV15_13900": {
+          "hit_id": "SMCOG1013:aminotransferase class-III",
+          "query_start": 33,
+          "query_end": 442,
+          "evalue": 4.1e-121,
+          "bitscore": 398.9
+        },
+        "CRV15_13915": {
+          "hit_id": "SMCOG1030:serine/threonine protein kinase",
+          "query_start": 6,
+          "query_end": 257,
+          "evalue": 3.8e-60,
+          "bitscore": 197.8
+        },
+        "CRV15_15010": {
+          "hit_id": "SMCOG1086:MATE efflux family protein",
+          "query_start": 22,
+          "query_end": 459,
+          "evalue": 2.9e-75,
+          "bitscore": 247.8
+        },
+        "CRV15_15015": {
+          "hit_id": "SMCOG1081:cysteine synthase",
+          "query_start": 17,
+          "query_end": 330,
+          "evalue": 1.9e-87,
+          "bitscore": 287.3
+        },
+        "CRV15_15020": {
+          "hit_id": "SMCOG1264:diaminopimelate decarboxylase",
+          "query_start": 28,
+          "query_end": 445,
+          "evalue": 4.4e-53,
+          "bitscore": 174.3
+        },
+        "CRV15_15025": {
+          "hit_id": "SMCOG1158:ornithine cyclodeaminase",
+          "query_start": 45,
+          "query_end": 349,
+          "evalue": 6.5e-53,
+          "bitscore": 173.8
+        },
+        "CRV15_15035": {
+          "hit_id": "SMCOG1068:extracellular solute-binding protein family 5",
+          "query_start": 20,
+          "query_end": 503,
+          "evalue": 2.7e-97,
+          "bitscore": 321
+        },
+        "CRV15_15040": {
+          "hit_id": "SMCOG1118:binding-protein-dependent transport systems",
+          "query_start": 36,
+          "query_end": 333,
+          "evalue": 1.9e-84,
+          "bitscore": 277.6
+        },
+        "CRV15_16175": {
+          "hit_id": "SMCOG1140:Lanthionine synthetase C family protein",
+          "query_start": 15,
+          "query_end": 407,
+          "evalue": 1.2e-110,
+          "bitscore": 364.4
+        },
+        "CRV15_16180": {
+          "hit_id": "SMCOG1155:Lantibiotic dehydratase domain protein",
+          "query_start": 21,
+          "query_end": 1000,
+          "evalue": 4.5e-289,
+          "bitscore": 955.6
+        },
+        "CRV15_16205": {
+          "hit_id": "SMCOG1292:hypothetical protein",
+          "query_start": 17,
+          "query_end": 276,
+          "evalue": 1.5e-77,
+          "bitscore": 254.7
+        },
+        "CRV15_16925": {
+          "hit_id": "SMCOG1111:GCN5-related N-acetyltransferase",
+          "query_start": 3,
+          "query_end": 182,
+          "evalue": 3.4e-36,
+          "bitscore": 119
+        },
+        "CRV15_16940": {
+          "hit_id": "SMCOG1001:short-chain dehydrogenase/reductase SDR",
+          "query_start": 17,
+          "query_end": 260,
+          "evalue": 2.6e-69,
+          "bitscore": 227.7
+        },
+        "CRV15_16970": {
+          "hit_id": "SMCOG1092:hypothetical protein",
+          "query_start": 35,
+          "query_end": 505,
+          "evalue": 6.1e-143,
+          "bitscore": 471.5
+        },
+        "CRV15_16995": {
+          "hit_id": "SMCOG1035:MMPL domain-containing transport protein",
+          "query_start": 6,
+          "query_end": 723,
+          "evalue": 2.1e-195,
+          "bitscore": 645.2
+        },
+        "CRV15_17015": {
+          "hit_id": "SMCOG1000:ABC transporter ATP-binding protein",
+          "query_start": 7,
+          "query_end": 225,
+          "evalue": 5.2e-58,
+          "bitscore": 190.7
+        },
+        "CRV15_17020": {
+          "hit_id": "SMCOG1053:beta-lactamase",
+          "query_start": 28,
+          "query_end": 326,
+          "evalue": 1.8e-33,
+          "bitscore": 110.3
+        },
+        "CRV15_17025": {
+          "hit_id": "SMCOG1001:short-chain dehydrogenase/reductase SDR",
+          "query_start": 10,
+          "query_end": 245,
+          "evalue": 1.4e-67,
+          "bitscore": 222.1
+        },
+        "CRV15_17090": {
+          "hit_id": "SMCOG1127:condensation domain-containing protein",
+          "query_start": 1089,
+          "query_end": 1585,
+          "evalue": 1.3e-61,
+          "bitscore": 203.4
+        },
+        "CRV15_17095": {
+          "hit_id": "SMCOG1087:hypothetical protein",
+          "query_start": 6,
+          "query_end": 358,
+          "evalue": 1.9e-96,
+          "bitscore": 317.8
+        },
+        "CRV15_17190": {
+          "hit_id": "SMCOG1089:methyltransferase",
+          "query_start": 56,
+          "query_end": 247,
+          "evalue": 5e-19,
+          "bitscore": 63
+        },
+        "CRV15_18710": {
+          "hit_id": "SMCOG1008:response regulator",
+          "query_start": 0,
+          "query_end": 221,
+          "evalue": 1e-52,
+          "bitscore": 173.1
+        },
+        "CRV15_18715": {
+          "hit_id": "SMCOG1003:sensor histidine kinase",
+          "query_start": 135,
+          "query_end": 436,
+          "evalue": 1.9e-28,
+          "bitscore": 94
+        },
+        "CRV15_18730": {
+          "hit_id": "SMCOG1287:AraC family transcriptional regulator",
+          "query_start": 230,
+          "query_end": 332,
+          "evalue": 4.9e-27,
+          "bitscore": 89.1
+        },
+        "CRV15_18765": {
+          "hit_id": "SMCOG1203:putative siderophore biosynthesis protein",
+          "query_start": 3,
+          "query_end": 175,
+          "evalue": 1.3e-42,
+          "bitscore": 140.8
+        },
+        "CRV15_18770": {
+          "hit_id": "SMCOG1080:lysine/ornithine N-monooxygenase",
+          "query_start": 7,
+          "query_end": 409,
+          "evalue": 2.2e-127,
+          "bitscore": 419.5
+        },
+        "CRV15_18775": {
+          "hit_id": "SMCOG1180:Decarboxylase, pyridoxal-dependent",
+          "query_start": 51,
+          "query_end": 470,
+          "evalue": 4.7e-115,
+          "bitscore": 379.1
+        },
+        "CRV15_18780": {
+          "hit_id": "SMCOG1200:vibriobactin utilization protein ViuB",
+          "query_start": 14,
+          "query_end": 278,
+          "evalue": 1.1e-76,
+          "bitscore": 251.8
+        },
+        "CRV15_18785": {
+          "hit_id": "SMCOG1006:acyl-CoA dehydrogenase",
+          "query_start": 9,
+          "query_end": 384,
+          "evalue": 3.4e-120,
+          "bitscore": 395.8
+        },
+        "CRV15_18790": {
+          "hit_id": "SMCOG1271:2-isopropylmalate synthase",
+          "query_start": 30,
+          "query_end": 318,
+          "evalue": 1.9e-65,
+          "bitscore": 215.8
+        },
+        "CRV15_18795": {
+          "hit_id": "SMCOG1090:acetyl-CoA carboxylase biotin carboxylase",
+          "query_start": 2,
+          "query_end": 628,
+          "evalue": 6e-217,
+          "bitscore": 716.5
+        },
+        "CRV15_18800": {
+          "hit_id": "SMCOG1059:acetyl-CoA carboxylase, carboxyl transferase,",
+          "query_start": 29,
+          "query_end": 529,
+          "evalue": 2.4e-162,
+          "bitscore": 535.6
+        },
+        "CRV15_18805": {
+          "hit_id": "SMCOG1057:TetR family transcriptional regulator",
+          "query_start": 3,
+          "query_end": 189,
+          "evalue": 4.4e-30,
+          "bitscore": 99.8
+        },
+        "CRV15_18815": {
+          "hit_id": "SMCOG1007:cytochrome P450",
+          "query_start": 22,
+          "query_end": 395,
+          "evalue": 2.7e-117,
+          "bitscore": 386.2
+        },
+        "CRV15_22875": {
+          "hit_id": "SMCOG1139:aminotransferase class V",
+          "query_start": 11,
+          "query_end": 346,
+          "evalue": 8.6e-39,
+          "bitscore": 127.7
+        },
+        "CRV15_22880": {
+          "hit_id": "SMCOG1284:transcriptional regulator, MarR family",
+          "query_start": 38,
+          "query_end": 164,
+          "evalue": 1.5e-35,
+          "bitscore": 116.3
+        },
+        "CRV15_22885": {
+          "hit_id": "SMCOG1217:NADH:flavin oxidoreductase/NADH oxidase",
+          "query_start": 4,
+          "query_end": 357,
+          "evalue": 3.5e-110,
+          "bitscore": 362.6
+        },
+        "CRV15_22900": {
+          "hit_id": "SMCOG1013:aminotransferase class-III",
+          "query_start": 14,
+          "query_end": 417,
+          "evalue": 1.2e-115,
+          "bitscore": 380.9
+        },
+        "CRV15_22910": {
+          "hit_id": "SMCOG1139:aminotransferase class V",
+          "query_start": 88,
+          "query_end": 339,
+          "evalue": 1.4e-23,
+          "bitscore": 77.7
+        },
+        "CRV15_25740": {
+          "hit_id": "SMCOG1122:ATP-dependent RNA helicase",
+          "query_start": 20,
+          "query_end": 595,
+          "evalue": 1.9e-19,
+          "bitscore": 63.8
+        },
+        "CRV15_25755": {
+          "hit_id": "SMCOG1288:ABC transporter related protein",
+          "query_start": 43,
+          "query_end": 599,
+          "evalue": 3.8e-89,
+          "bitscore": 294
+        },
+        "CRV15_25760": {
+          "hit_id": "SMCOG1288:ABC transporter related protein",
+          "query_start": 22,
+          "query_end": 595,
+          "evalue": 2.6e-141,
+          "bitscore": 466.2
+        },
+        "CRV15_25765": {
+          "hit_id": "SMCOG1079:oxidoreductase",
+          "query_start": 94,
+          "query_end": 252,
+          "evalue": 5.8e-30,
+          "bitscore": 99
+        },
+        "CRV15_25770": {
+          "hit_id": "SMCOG1035:MMPL domain-containing transport protein",
+          "query_start": 4,
+          "query_end": 710,
+          "evalue": 6e-162,
+          "bitscore": 534.6
+        },
+        "CRV15_25780": {
+          "hit_id": "SMCOG1050:monooxygenase FAD-binding",
+          "query_start": 3,
+          "query_end": 394,
+          "evalue": 6.7e-65,
+          "bitscore": 214.1
+        },
+        "CRV15_25785": {
+          "hit_id": "SMCOG1007:cytochrome P450",
+          "query_start": 21,
+          "query_end": 411,
+          "evalue": 2.6e-142,
+          "bitscore": 468.6
+        },
+        "CRV15_25795": {
+          "hit_id": "SMCOG1084:3-oxoacyl-(acyl carrier protein) synthase III",
+          "query_start": 8,
+          "query_end": 331,
+          "evalue": 8.4e-41,
+          "bitscore": 134.3
+        },
+        "CRV15_25800": {
+          "hit_id": "SMCOG1264:diaminopimelate decarboxylase",
+          "query_start": 11,
+          "query_end": 420,
+          "evalue": 1e-105,
+          "bitscore": 347.7
+        },
+        "CRV15_25805": {
+          "hit_id": "SMCOG1002:AMP-dependent synthetase and ligase",
+          "query_start": 33,
+          "query_end": 516,
+          "evalue": 1.8e-108,
+          "bitscore": 357.3
+        },
+        "CRV15_25810": {
+          "hit_id": "SMCOG1084:3-oxoacyl-(acyl carrier protein) synthase III",
+          "query_start": 7,
+          "query_end": 332,
+          "evalue": 8.3e-37,
+          "bitscore": 121.1
+        },
+        "CRV15_25820": {
+          "hit_id": "SMCOG1005:Drug resistance transporter, EmrB/QacA",
+          "query_start": 26,
+          "query_end": 490,
+          "evalue": 5.5e-102,
+          "bitscore": 335.7
+        },
+        "CRV15_25825": {
+          "hit_id": "SMCOG1004:thioesterase",
+          "query_start": 0,
+          "query_end": 223,
+          "evalue": 9e-66,
+          "bitscore": 215.6
+        },
+        "CRV15_25830": {
+          "hit_id": "SMCOG1041:transcriptional regulator, SARP family",
+          "query_start": 0,
+          "query_end": 269,
+          "evalue": 6.4e-99,
+          "bitscore": 326.6
+        },
+        "CRV15_25850": {
+          "hit_id": "SMCOG1048:sensor histidine kinase",
+          "query_start": 64,
+          "query_end": 415,
+          "evalue": 2.8e-38,
+          "bitscore": 126.2
+        },
+        "CRV15_25855": {
+          "hit_id": "SMCOG1016:LuxR family DNA-binding response regulator",
+          "query_start": 1,
+          "query_end": 200,
+          "evalue": 9.9e-48,
+          "bitscore": 156.4
+        },
+        "CRV15_25865": {
+          "hit_id": "SMCOG1050:monooxygenase FAD-binding",
+          "query_start": 3,
+          "query_end": 531,
+          "evalue": 2.1e-103,
+          "bitscore": 341.1
+        },
+        "CRV15_25870": {
+          "hit_id": "SMCOG1115:HAD-superfamily hydrolase, subfamily IA, variant",
+          "query_start": 5,
+          "query_end": 202,
+          "evalue": 6.8e-23,
+          "bitscore": 75.7
+        },
+        "CRV15_25875": {
+          "hit_id": "SMCOG1035:MMPL domain-containing transport protein",
+          "query_start": 22,
+          "query_end": 764,
+          "evalue": 9.9e-194,
+          "bitscore": 639.7
+        },
+        "CRV15_25905": {
+          "hit_id": "SMCOG1041:transcriptional regulator, SARP family",
+          "query_start": 0,
+          "query_end": 892,
+          "evalue": 2.4e-226,
+          "bitscore": 748.1
+        },
+        "CRV15_25915": {
+          "hit_id": "SMCOG1262:haloalkane dehalogenase",
+          "query_start": 27,
+          "query_end": 300,
+          "evalue": 1.1e-56,
+          "bitscore": 186.4
+        },
+        "CRV15_25925": {
+          "hit_id": "SMCOG1012:4'-phosphopantetheinyl transferase",
+          "query_start": 36,
+          "query_end": 255,
+          "evalue": 7.3e-47,
+          "bitscore": 153.7
+        },
+        "CRV15_25940": {
+          "hit_id": "SMCOG1084:3-oxoacyl-(acyl carrier protein) synthase III",
+          "query_start": 14,
+          "query_end": 342,
+          "evalue": 1.7e-96,
+          "bitscore": 317.3
+        },
+        "CRV15_25945": {
+          "hit_id": "SMCOG1022:Beta-ketoacyl synthase",
+          "query_start": 2,
+          "query_end": 419,
+          "evalue": 4e-81,
+          "bitscore": 267.3
+        },
+        "CRV15_25950": {
+          "hit_id": "SMCOG1047:phosphopantetheine-binding domain-containing protein",
+          "query_start": 29,
+          "query_end": 101,
+          "evalue": 9.4e-27,
+          "bitscore": 87.4
+        },
+        "CRV15_25955": {
+          "hit_id": "SMCOG1006:acyl-CoA dehydrogenase",
+          "query_start": 75,
+          "query_end": 423,
+          "evalue": 4e-58,
+          "bitscore": 191.5
+        },
+        "CRV15_25960": {
+          "hit_id": "SMCOG1006:acyl-CoA dehydrogenase",
+          "query_start": 30,
+          "query_end": 529,
+          "evalue": 1.7e-81,
+          "bitscore": 268.4
+        },
+        "CRV15_25965": {
+          "hit_id": "SMCOG1002:AMP-dependent synthetase and ligase",
+          "query_start": 8,
+          "query_end": 558,
+          "evalue": 7.9e-118,
+          "bitscore": 388.2
+        },
+        "CRV15_25975": {
+          "hit_id": "SMCOG1256:FkbH like protein",
+          "query_start": 247,
+          "query_end": 640,
+          "evalue": 1.6e-145,
+          "bitscore": 478.5
+        },
+        "CRV15_25980": {
+          "hit_id": "SMCOG1288:ABC transporter related protein",
+          "query_start": 25,
+          "query_end": 591,
+          "evalue": 2.8e-108,
+          "bitscore": 357.2
+        },
+        "CRV15_25985": {
+          "hit_id": "SMCOG1092:hypothetical protein",
+          "query_start": 5,
+          "query_end": 369,
+          "evalue": 8.6e-71,
+          "bitscore": 233.6
+        },
+        "CRV15_25995": {
+          "hit_id": "SMCOG1103:FAD dependent oxidoreductase",
+          "query_start": 11,
+          "query_end": 376,
+          "evalue": 3.8e-95,
+          "bitscore": 313.4
+        },
+        "CRV15_27355": {
+          "hit_id": "SMCOG1002:AMP-dependent synthetase and ligase",
+          "query_start": 3,
+          "query_end": 533,
+          "evalue": 9.6e-112,
+          "bitscore": 368.1
+        },
+        "CRV15_27360": {
+          "hit_id": "SMCOG1023:enoyl-CoA hydratase",
+          "query_start": 1,
+          "query_end": 258,
+          "evalue": 1.7e-81,
+          "bitscore": 267.3
+        },
+        "CRV15_27385": {
+          "hit_id": "SMCOG1052:Terpene synthase/cyclase metal-binding domain protein",
+          "query_start": 374,
+          "query_end": 693,
+          "evalue": 3.2e-87,
+          "bitscore": 287.1
+        },
+        "CRV15_27405": {
+          "hit_id": "SMCOG1054:hypothetical protein",
+          "query_start": 169,
+          "query_end": 537,
+          "evalue": 1.7e-73,
+          "bitscore": 242.6
+        },
+        "CRV15_27410": {
+          "hit_id": "SMCOG1203:putative siderophore biosynthesis protein",
+          "query_start": 5,
+          "query_end": 195,
+          "evalue": 3.6e-49,
+          "bitscore": 162.4
+        },
+        "CRV15_28005": {
+          "hit_id": "SMCOG1089:methyltransferase",
+          "query_start": 21,
+          "query_end": 233,
+          "evalue": 2.2e-21,
+          "bitscore": 70.7
+        },
+        "CRV15_28055": {
+          "hit_id": "SMCOG1007:cytochrome P450",
+          "query_start": 24,
+          "query_end": 415,
+          "evalue": 3.4e-107,
+          "bitscore": 353
+        },
+        "CRV15_28060": {
+          "hit_id": "SMCOG1021:malonyl CoA-acyl carrier protein transacylase",
+          "query_start": 15,
+          "query_end": 278,
+          "evalue": 7.5e-18,
+          "bitscore": 58.8
+        },
+        "CRV15_28070": {
+          "hit_id": "SMCOG1047:phosphopantetheine-binding domain-containing protein",
+          "query_start": 3637,
+          "query_end": 3709,
+          "evalue": 1.1e-18,
+          "bitscore": 61.5
+        },
+        "CRV15_28075": {
+          "hit_id": "SMCOG1022:Beta-ketoacyl synthase",
+          "query_start": 3383,
+          "query_end": 3807,
+          "evalue": 2.6e-88,
+          "bitscore": 291
+        },
+        "CRV15_28080": {
+          "hit_id": "SMCOG1022:Beta-ketoacyl synthase",
+          "query_start": 1883,
+          "query_end": 2308,
+          "evalue": 1.6e-89,
+          "bitscore": 295
+        },
+        "CRV15_28085": {
+          "hit_id": "SMCOG1022:Beta-ketoacyl synthase",
+          "query_start": 1713,
+          "query_end": 2136,
+          "evalue": 2.9e-85,
+          "bitscore": 281
+        },
+        "CRV15_28090": {
+          "hit_id": "SMCOG1022:Beta-ketoacyl synthase",
+          "query_start": 33,
+          "query_end": 590,
+          "evalue": 6.1e-87,
+          "bitscore": 286.5
+        },
+        "CRV15_28095": {
+          "hit_id": "SMCOG1095:3-hydroxybutyryl-CoA dehydrogenase",
+          "query_start": 16,
+          "query_end": 290,
+          "evalue": 3.3e-92,
+          "bitscore": 302.9
+        },
+        "CRV15_28100": {
+          "hit_id": "SMCOG1147:putative acyl carrier protein",
+          "query_start": 24,
+          "query_end": 92,
+          "evalue": 8.3e-28,
+          "bitscore": 90.5
+        },
+        "CRV15_28105": {
+          "hit_id": "SMCOG1006:acyl-CoA dehydrogenase",
+          "query_start": 11,
+          "query_end": 362,
+          "evalue": 4.6e-95,
+          "bitscore": 313
+        },
+        "CRV15_28110": {
+          "hit_id": "SMCOG1256:FkbH like protein",
+          "query_start": 0,
+          "query_end": 341,
+          "evalue": 1.3e-132,
+          "bitscore": 436
+        },
+        "CRV15_28150": {
+          "hit_id": "SMCOG1097:transposase",
+          "query_start": 1,
+          "query_end": 113,
+          "evalue": 3e-29,
+          "bitscore": 96.4
+        }
+      },
+      "mapping": {
+        "CRV15_00040": "biosynthetic-additional",
+        "CRV15_00045": "biosynthetic-additional",
+        "CRV15_00050": "other",
+        "CRV15_00080": "biosynthetic-additional",
+        "CRV15_00105": "transport",
+        "CRV15_00130": "transport",
+        "CRV15_00140": "regulatory",
+        "CRV15_00145": "regulatory",
+        "CRV15_00360": "biosynthetic-additional",
+        "CRV15_00365": "biosynthetic-additional",
+        "CRV15_00380": "biosynthetic-additional",
+        "CRV15_00385": "biosynthetic-additional",
+        "CRV15_00390": "biosynthetic-additional",
+        "CRV15_00410": "biosynthetic-additional",
+        "CRV15_00420": "biosynthetic-additional",
+        "CRV15_00430": "biosynthetic-additional",
+        "CRV15_00440": "other",
+        "CRV15_00450": "biosynthetic-additional",
+        "CRV15_00455": "regulatory",
+        "CRV15_00470": "other",
+        "CRV15_00485": "regulatory",
+        "CRV15_00495": "regulatory",
+        "CRV15_00500": "other",
+        "CRV15_00510": "regulatory",
+        "CRV15_00525": "biosynthetic-additional",
+        "CRV15_00540": "biosynthetic-additional",
+        "CRV15_00545": "biosynthetic-additional",
+        "CRV15_00550": "biosynthetic-additional",
+        "CRV15_00555": "biosynthetic-additional",
+        "CRV15_00570": "biosynthetic-additional",
+        "CRV15_00605": "biosynthetic-additional",
+        "CRV15_00610": "biosynthetic-additional",
+        "CRV15_00615": "biosynthetic-additional",
+        "CRV15_00655": "transport",
+        "CRV15_00660": "transport",
+        "CRV15_01085": "biosynthetic-additional",
+        "CRV15_01090": "biosynthetic-additional",
+        "CRV15_01125": "transport",
+        "CRV15_01130": "transport",
+        "CRV15_01150": "biosynthetic-additional",
+        "CRV15_01155": "biosynthetic-additional",
+        "CRV15_01160": "biosynthetic-additional",
+        "CRV15_01170": "biosynthetic-additional",
+        "CRV15_01175": "biosynthetic-additional",
+        "CRV15_01190": "biosynthetic-additional",
+        "CRV15_01195": "biosynthetic-additional",
+        "CRV15_01205": "regulatory",
+        "CRV15_01860": "biosynthetic-additional",
+        "CRV15_01865": "biosynthetic-additional",
+        "CRV15_01880": "biosynthetic-additional",
+        "CRV15_01895": "biosynthetic-additional",
+        "CRV15_01900": "biosynthetic-additional",
+        "CRV15_01905": "biosynthetic-additional",
+        "CRV15_01915": "biosynthetic-additional",
+        "CRV15_01925": "transport",
+        "CRV15_01935": "other",
+        "CRV15_01945": "biosynthetic-additional",
+        "CRV15_01955": "biosynthetic-additional",
+        "CRV15_01980": "other",
+        "CRV15_01995": "biosynthetic-additional",
+        "CRV15_02160": "regulatory",
+        "CRV15_02165": "biosynthetic-additional",
+        "CRV15_02170": "biosynthetic-additional",
+        "CRV15_02175": "other",
+        "CRV15_02180": "biosynthetic-additional",
+        "CRV15_02185": "transport",
+        "CRV15_02200": "biosynthetic-additional",
+        "CRV15_02210": "biosynthetic-additional",
+        "CRV15_02215": "biosynthetic-additional",
+        "CRV15_02265": "transport",
+        "CRV15_02275": "transport",
+        "CRV15_02280": "biosynthetic-additional",
+        "CRV15_02285": "biosynthetic-additional",
+        "CRV15_02355": "other",
+        "CRV15_02360": "biosynthetic-additional",
+        "CRV15_02380": "biosynthetic-additional",
+        "CRV15_02385": "biosynthetic-additional",
+        "CRV15_02400": "transport",
+        "CRV15_02415": "biosynthetic-additional",
+        "CRV15_02420": "biosynthetic-additional",
+        "CRV15_02430": "biosynthetic-additional",
+        "CRV15_02780": "biosynthetic-additional",
+        "CRV15_02825": "other",
+        "CRV15_02835": "transport",
+        "CRV15_02840": "biosynthetic-additional",
+        "CRV15_02845": "biosynthetic-additional",
+        "CRV15_02855": "other",
+        "CRV15_03020": "biosynthetic-additional",
+        "CRV15_03030": "regulatory",
+        "CRV15_03080": "biosynthetic-additional",
+        "CRV15_03765": "regulatory",
+        "CRV15_03770": "transport",
+        "CRV15_03775": "transport",
+        "CRV15_03785": "regulatory",
+        "CRV15_03790": "biosynthetic-additional",
+        "CRV15_03795": "regulatory",
+        "CRV15_03835": "biosynthetic-additional",
+        "CRV15_03860": "transport",
+        "CRV15_03865": "transport",
+        "CRV15_03875": "regulatory",
+        "CRV15_03895": "biosynthetic-additional",
+        "CRV15_03935": "biosynthetic-additional",
+        "CRV15_03940": "biosynthetic-additional",
+        "CRV15_03945": "biosynthetic-additional",
+        "CRV15_03950": "biosynthetic-additional",
+        "CRV15_03955": "biosynthetic-additional",
+        "CRV15_03960": "biosynthetic-additional",
+        "CRV15_03975": "biosynthetic-additional",
+        "CRV15_03980": "other",
+        "CRV15_03990": "biosynthetic-additional",
+        "CRV15_04020": "biosynthetic-additional",
+        "CRV15_04060": "biosynthetic-additional",
+        "CRV15_04070": "transport",
+        "CRV15_04075": "transport",
+        "CRV15_04095": "biosynthetic-additional",
+        "CRV15_04100": "biosynthetic-additional",
+        "CRV15_04105": "transport",
+        "CRV15_04110": "transport",
+        "CRV15_04220": "regulatory",
+        "CRV15_04225": "biosynthetic-additional",
+        "CRV15_04250": "biosynthetic-additional",
+        "CRV15_04690": "biosynthetic-additional",
+        "CRV15_04700": "biosynthetic-additional",
+        "CRV15_04705": "biosynthetic-additional",
+        "CRV15_04715": "biosynthetic-additional",
+        "CRV15_04740": "biosynthetic-additional",
+        "CRV15_04750": "regulatory",
+        "CRV15_04755": "biosynthetic-additional",
+        "CRV15_04760": "biosynthetic-additional",
+        "CRV15_04765": "biosynthetic-additional",
+        "CRV15_04770": "biosynthetic-additional",
+        "CRV15_04775": "biosynthetic-additional",
+        "CRV15_04780": "transport",
+        "CRV15_04795": "biosynthetic-additional",
+        "CRV15_04805": "biosynthetic-additional",
+        "CRV15_04810": "biosynthetic-additional",
+        "CRV15_04820": "regulatory",
+        "CRV15_04825": "transport",
+        "CRV15_04890": "transport",
+        "CRV15_04895": "transport",
+        "CRV15_04900": "transport",
+        "CRV15_04905": "biosynthetic-additional",
+        "CRV15_05085": "biosynthetic-additional",
+        "CRV15_05090": "biosynthetic-additional",
+        "CRV15_05120": "biosynthetic-additional",
+        "CRV15_05130": "biosynthetic-additional",
+        "CRV15_05140": "other",
+        "CRV15_06170": "biosynthetic-additional",
+        "CRV15_06180": "biosynthetic-additional",
+        "CRV15_06190": "transport",
+        "CRV15_06195": "regulatory",
+        "CRV15_06220": "biosynthetic-additional",
+        "CRV15_06235": "other",
+        "CRV15_06240": "biosynthetic-additional",
+        "CRV15_06245": "biosynthetic-additional",
+        "CRV15_06250": "biosynthetic-additional",
+        "CRV15_06255": "biosynthetic-additional",
+        "CRV15_06260": "biosynthetic-additional",
+        "CRV15_06265": "biosynthetic-additional",
+        "CRV15_06270": "regulatory",
+        "CRV15_06300": "transport",
+        "CRV15_06620": "biosynthetic-additional",
+        "CRV15_06625": "biosynthetic-additional",
+        "CRV15_06650": "biosynthetic-additional",
+        "CRV15_07070": "biosynthetic-additional",
+        "CRV15_07085": "regulatory",
+        "CRV15_07090": "regulatory",
+        "CRV15_07100": "biosynthetic-additional",
+        "CRV15_07115": "biosynthetic-additional",
+        "CRV15_07125": "biosynthetic-additional",
+        "CRV15_07130": "biosynthetic-additional",
+        "CRV15_07140": "transport",
+        "CRV15_07450": "transport",
+        "CRV15_07455": "biosynthetic-additional",
+        "CRV15_07465": "biosynthetic-additional",
+        "CRV15_07490": "regulatory",
+        "CRV15_07505": "biosynthetic-additional",
+        "CRV15_07510": "biosynthetic-additional",
+        "CRV15_07525": "biosynthetic-additional",
+        "CRV15_07530": "biosynthetic-additional",
+        "CRV15_07540": "biosynthetic-additional",
+        "CRV15_07545": "biosynthetic-additional",
+        "CRV15_07550": "transport",
+        "CRV15_07555": "regulatory",
+        "CRV15_07560": "biosynthetic-additional",
+        "CRV15_07565": "biosynthetic-additional",
+        "CRV15_07570": "other",
+        "CRV15_07585": "transport",
+        "CRV15_09010": "biosynthetic-additional",
+        "CRV15_13855": "biosynthetic-additional",
+        "CRV15_13860": "transport",
+        "CRV15_13865": "regulatory",
+        "CRV15_13870": "biosynthetic-additional",
+        "CRV15_13880": "biosynthetic-additional",
+        "CRV15_13885": "biosynthetic-additional",
+        "CRV15_13895": "other",
+        "CRV15_13900": "biosynthetic-additional",
+        "CRV15_13915": "regulatory",
+        "CRV15_15010": "transport",
+        "CRV15_15015": "biosynthetic-additional",
+        "CRV15_15020": "biosynthetic-additional",
+        "CRV15_15025": "biosynthetic-additional",
+        "CRV15_15035": "transport",
+        "CRV15_15040": "transport",
+        "CRV15_16175": "biosynthetic-additional",
+        "CRV15_16180": "biosynthetic-additional",
+        "CRV15_16205": "other",
+        "CRV15_16925": "biosynthetic-additional",
+        "CRV15_16940": "biosynthetic-additional",
+        "CRV15_16970": "other",
+        "CRV15_16995": "biosynthetic-additional",
+        "CRV15_17015": "transport",
+        "CRV15_17020": "biosynthetic-additional",
+        "CRV15_17025": "biosynthetic-additional",
+        "CRV15_17090": "biosynthetic-additional",
+        "CRV15_17095": "other",
+        "CRV15_17190": "biosynthetic-additional",
+        "CRV15_18710": "regulatory",
+        "CRV15_18715": "regulatory",
+        "CRV15_18730": "regulatory",
+        "CRV15_18765": "biosynthetic-additional",
+        "CRV15_18770": "biosynthetic-additional",
+        "CRV15_18775": "biosynthetic-additional",
+        "CRV15_18780": "other",
+        "CRV15_18785": "biosynthetic-additional",
+        "CRV15_18790": "biosynthetic-additional",
+        "CRV15_18795": "biosynthetic-additional",
+        "CRV15_18800": "biosynthetic-additional",
+        "CRV15_18805": "regulatory",
+        "CRV15_18815": "biosynthetic-additional",
+        "CRV15_22875": "biosynthetic-additional",
+        "CRV15_22880": "regulatory",
+        "CRV15_22885": "biosynthetic-additional",
+        "CRV15_22900": "biosynthetic-additional",
+        "CRV15_22910": "biosynthetic-additional",
+        "CRV15_25740": "other",
+        "CRV15_25755": "transport",
+        "CRV15_25760": "transport",
+        "CRV15_25765": "biosynthetic-additional",
+        "CRV15_25770": "biosynthetic-additional",
+        "CRV15_25780": "biosynthetic-additional",
+        "CRV15_25785": "biosynthetic-additional",
+        "CRV15_25795": "biosynthetic-additional",
+        "CRV15_25800": "biosynthetic-additional",
+        "CRV15_25805": "biosynthetic-additional",
+        "CRV15_25810": "biosynthetic-additional",
+        "CRV15_25820": "transport",
+        "CRV15_25825": "biosynthetic-additional",
+        "CRV15_25830": "regulatory",
+        "CRV15_25850": "regulatory",
+        "CRV15_25855": "regulatory",
+        "CRV15_25865": "biosynthetic-additional",
+        "CRV15_25870": "biosynthetic-additional",
+        "CRV15_25875": "biosynthetic-additional",
+        "CRV15_25905": "regulatory",
+        "CRV15_25915": "biosynthetic-additional",
+        "CRV15_25925": "biosynthetic-additional",
+        "CRV15_25940": "biosynthetic-additional",
+        "CRV15_25945": "biosynthetic-additional",
+        "CRV15_25950": "biosynthetic-additional",
+        "CRV15_25955": "biosynthetic-additional",
+        "CRV15_25960": "biosynthetic-additional",
+        "CRV15_25965": "biosynthetic-additional",
+        "CRV15_25975": "biosynthetic-additional",
+        "CRV15_25980": "transport",
+        "CRV15_25985": "other",
+        "CRV15_25995": "biosynthetic-additional",
+        "CRV15_27355": "biosynthetic-additional",
+        "CRV15_27360": "biosynthetic-additional",
+        "CRV15_27385": "biosynthetic-additional",
+        "CRV15_27405": "other",
+        "CRV15_27410": "biosynthetic-additional",
+        "CRV15_28005": "biosynthetic-additional",
+        "CRV15_28055": "biosynthetic-additional",
+        "CRV15_28060": "biosynthetic-additional",
+        "CRV15_28070": "biosynthetic-additional",
+        "CRV15_28075": "biosynthetic-additional",
+        "CRV15_28080": "biosynthetic-additional",
+        "CRV15_28085": "biosynthetic-additional",
+        "CRV15_28090": "biosynthetic-additional",
+        "CRV15_28095": "biosynthetic-additional",
+        "CRV15_28100": "biosynthetic-additional",
+        "CRV15_28105": "biosynthetic-additional",
+        "CRV15_28110": "biosynthetic-additional",
+        "CRV15_28150": "other"
+      }
+    }
+  ]
+}

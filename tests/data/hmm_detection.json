@@ -1,0 +1,6153 @@
+{
+  "record_id": "CP027858.1",
+  "schema_version": 2,
+  "enabled_types": [
+    "isocyanide-nrp",
+    "hglE-KS",
+    "ladderane",
+    "other",
+    "RRE-containing",
+    "prodigiosin",
+    "aminocoumarin",
+    "ranthipeptide",
+    "hserlactone",
+    "methanobactin",
+    "phosphonate-like",
+    "spliceotide",
+    "transAT-PKS-like",
+    "betalactone",
+    "redox-cofactor",
+    "T3PKS",
+    "microviridin",
+    "thioamitides",
+    "sactipeptide",
+    "NRP-metallophore",
+    "arylpolyene",
+    "mycosporine-like",
+    "thioamide-NRP",
+    "terpene",
+    "fungal-RiPP-like",
+    "lanthipeptide-class-i",
+    "LAP",
+    "lipolanthine",
+    "triceptide",
+    "glycocin",
+    "lanthipeptide-class-iii",
+    "T1PKS",
+    "CDPS",
+    "NI-siderophore",
+    "NRPS-like",
+    "NAGGN",
+    "amglyccycl",
+    "RaS-RiPP",
+    "acyl_amino_acids",
+    "opine-like-metallophore",
+    "NRPS",
+    "thiopeptide",
+    "transAT-PKS",
+    "lassopeptide",
+    "aminopolycarboxylic-acid",
+    "isocyanide",
+    "tropodithietic-acid",
+    "melanin",
+    "hydrogen-cyanide",
+    "nucleoside",
+    "blactam",
+    "fungal-RiPP",
+    "cyclic-lactone-autoinducer",
+    "T2PKS",
+    "lanthipeptide-class-v",
+    "resorcinol",
+    "guanidinotides",
+    "bottromycin",
+    "ectoine",
+    "2dos",
+    "oligosaccharide",
+    "proteusin",
+    "HR-T2PKS",
+    "cyanobactin",
+    "epipeptide",
+    "linaridin",
+    "PBDE",
+    "lanthipeptide-class-ii",
+    "archaeal-RiPP",
+    "phenazine",
+    "indole",
+    "darobactin",
+    "butyrolactone",
+    "lanthipeptide-class-iv",
+    "phosphoglycolipid",
+    "RCDPS",
+    "PUFA",
+    "furan",
+    "RiPP-like",
+    "phosphonate",
+    "PKS-like",
+    "crocagin",
+    "NAPAA",
+    "PpyS-KS",
+    "pyrrolidine"
+  ],
+  "rule_results": {
+    "schema_version": 4,
+    "tool": "rule-based-clusters",
+    "cds_by_protocluster": [
+      [
+        {
+          "location": "[2793:34362]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "other"
+            ],
+            "contig_edge": [
+              "True"
+            ],
+            "core_location": [
+              "[16793:20362]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "IucA_IucC"
+            ],
+            "neighbourhood": [
+              "14000"
+            ],
+            "product": [
+              "NI-siderophore"
+            ],
+            "protocluster_number": [
+              "1"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_00040",
+            "domains": [
+              [
+                "Aminotran_5",
+                4.9e-37,
+                126.1,
+                34,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NI-siderophore": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00080",
+            "domains": [
+              [
+                "Orn_Arg_deC_N",
+                1.3e-30,
+                104.9,
+                15,
+                "rule-based-clusters"
+              ],
+              [
+                "Orn_DAP_Arg_deC",
+                2.6e-13,
+                48.4,
+                500,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NI-siderophore": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00085",
+            "domains": [
+              [
+                "IucA_IucC",
+                2.5e-56,
+                189.3,
+                168,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NI-siderophore": [
+                "IucA_IucC"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_00090",
+            "domains": [
+              [
+                "IucA_IucC",
+                2e-29,
+                101.2,
+                168,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NI-siderophore": [
+                "IucA_IucC"
+              ]
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[1282131:1312183]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "other"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[1296131:1298183]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "IucA_IucC"
+            ],
+            "neighbourhood": [
+              "14000"
+            ],
+            "product": [
+              "NI-siderophore"
+            ],
+            "protocluster_number": [
+              "19"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_05125",
+            "domains": [
+              [
+                "IucA_IucC",
+                3.6e-72,
+                241.2,
+                168,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NI-siderophore": [
+                "IucA_IucC"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_05130",
+            "domains": [
+              [
+                "Aminotran_3",
+                2.3e-83,
+                278.5,
+                13,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NI-siderophore": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[4422536:4452411]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "other"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[4436536:4438411]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "IucA_IucC"
+            ],
+            "neighbourhood": [
+              "14000"
+            ],
+            "product": [
+              "NI-siderophore"
+            ],
+            "protocluster_number": [
+              "31"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_18745",
+            "domains": [
+              [
+                "GATase_7",
+                1.9e-17,
+                61.7,
+                307,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NI-siderophore": []
+            }
+          },
+          {
+            "cds_name": "CRV15_18760",
+            "domains": [
+              [
+                "IucA_IucC",
+                1.1e-79,
+                265.8,
+                168,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NI-siderophore": [
+                "IucA_IucC"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_18785",
+            "domains": [
+              [
+                "Acyl-CoA_dh_N",
+                9.8e-38,
+                127.7,
+                790,
+                "rule-based-clusters"
+              ],
+              [
+                "Acyl-CoA_dh_M",
+                1.8e-20,
+                71.3,
+                43,
+                "rule-based-clusters"
+              ],
+              [
+                "Acyl-CoA_dh_1",
+                1.5e-47,
+                159.9,
+                49,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NI-siderophore": []
+            }
+          },
+          {
+            "cds_name": "CRV15_18790",
+            "domains": [
+              [
+                "HMGL-like",
+                5.8e-46,
+                155.5,
+                15,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NI-siderophore": []
+            }
+          },
+          {
+            "cds_name": "CRV15_18795",
+            "domains": [
+              [
+                "Dala_Dala_lig_C",
+                1.6e-7,
+                29.4,
+                12,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NI-siderophore": []
+            }
+          },
+          {
+            "cds_name": "CRV15_18815",
+            "domains": [
+              [
+                "p450",
+                1.9e-22,
+                78,
+                50,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NI-siderophore": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[77560:119429]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "NRPS"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[97560:99429]"
+            ],
+            "cutoff": [
+              "0"
+            ],
+            "detection_rule": [
+              "cds((PP-binding or NAD_binding_4) and (AMP-binding or A-OX))"
+            ],
+            "neighbourhood": [
+              "20000"
+            ],
+            "product": [
+              "NRPS-like"
+            ],
+            "protocluster_number": [
+              "2"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_00360",
+            "domains": [
+              [
+                "ADH_zinc_N",
+                6.2e-15,
+                53.7,
+                86,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "other": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00365",
+            "domains": [
+              [
+                "GATase_7",
+                2.1e-42,
+                142.3,
+                307,
+                "rule-based-clusters"
+              ],
+              [
+                "Asn_synthase",
+                4.6e-90,
+                301.2,
+                78,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "other": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00380",
+            "domains": [
+              [
+                "Glycos_transf_1",
+                1e-18,
+                65.9,
+                63,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "other": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00390",
+            "domains": [
+              [
+                "Bac_transf",
+                1.2e-63,
+                212.1,
+                461,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "other": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00410",
+            "domains": [
+              [
+                "p450",
+                7.8e-15,
+                52.9,
+                50,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "other": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00420",
+            "domains": [
+              [
+                "AMP-binding",
+                4.8e-101,
+                336.7,
+                400,
+                "rule-based-clusters"
+              ],
+              [
+                "PP-binding",
+                7e-14,
+                50.4,
+                164,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [
+                "AMP-binding",
+                "PP-binding"
+              ],
+              "other": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00425",
+            "domains": [
+              [
+                "LmbU",
+                3.6e-75,
+                250.4,
+                21,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "other": [
+                "LmbU"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_00430",
+            "domains": [
+              [
+                "p450",
+                4.8e-11,
+                40.4,
+                50,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "other": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00440",
+            "domains": [
+              [
+                "DAO",
+                1.2e-8,
+                33.3,
+                521,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "other": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00465",
+            "domains": [
+              [
+                "APH",
+                1.3e-20,
+                72.7,
+                156,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "other": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[467234:508878]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "NRPS"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[487234:488878]"
+            ],
+            "cutoff": [
+              "0"
+            ],
+            "detection_rule": [
+              "cds((PP-binding or NAD_binding_4) and (AMP-binding or A-OX))"
+            ],
+            "neighbourhood": [
+              "20000"
+            ],
+            "product": [
+              "NRPS-like"
+            ],
+            "protocluster_number": [
+              "10"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_01875",
+            "domains": [
+              [
+                "Condensation",
+                0.0000089,
+                23.3,
+                42,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_01895",
+            "domains": [
+              [
+                "p450",
+                3.7e-14,
+                50.6,
+                50,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_01905",
+            "domains": [
+              [
+                "Condensation",
+                1.5e-45,
+                153.9,
+                42,
+                "rule-based-clusters"
+              ],
+              [
+                "AMP-binding",
+                6e-77,
+                257.3,
+                400,
+                "rule-based-clusters"
+              ],
+              [
+                "PP-binding",
+                1.7e-14,
+                52.4,
+                164,
+                "rule-based-clusters"
+              ],
+              [
+                "NAD_binding_4",
+                6.4e-45,
+                151.6,
+                102,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "NRPS": [
+                "Condensation",
+                "AMP-binding"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_01915",
+            "domains": [
+              [
+                "AMP-binding",
+                2.1e-87,
+                291.8,
+                400,
+                "rule-based-clusters"
+              ],
+              [
+                "PP-binding",
+                1.7e-14,
+                52.4,
+                164,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [
+                "AMP-binding",
+                "PP-binding"
+              ],
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_01935",
+            "domains": [
+              [
+                "PF04055",
+                1.5e-15,
+                56.3,
+                518,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "NRPS": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[79512:120172]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "other"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[99512:100172]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "(LmbU or Neocarzinostat or bcpB or frbD or mitE or vlmB or prnB or CaiA or bacilysin or orf2_PTase)"
+            ],
+            "neighbourhood": [
+              "20000"
+            ],
+            "product": [
+              "other"
+            ],
+            "protocluster_number": [
+              "3"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_00360",
+            "domains": [
+              [
+                "ADH_zinc_N",
+                6.2e-15,
+                53.7,
+                86,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "other": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00365",
+            "domains": [
+              [
+                "GATase_7",
+                2.1e-42,
+                142.3,
+                307,
+                "rule-based-clusters"
+              ],
+              [
+                "Asn_synthase",
+                4.6e-90,
+                301.2,
+                78,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "other": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00380",
+            "domains": [
+              [
+                "Glycos_transf_1",
+                1e-18,
+                65.9,
+                63,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "other": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00390",
+            "domains": [
+              [
+                "Bac_transf",
+                1.2e-63,
+                212.1,
+                461,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "other": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00410",
+            "domains": [
+              [
+                "p450",
+                7.8e-15,
+                52.9,
+                50,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "other": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00420",
+            "domains": [
+              [
+                "AMP-binding",
+                4.8e-101,
+                336.7,
+                400,
+                "rule-based-clusters"
+              ],
+              [
+                "PP-binding",
+                7e-14,
+                50.4,
+                164,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [
+                "AMP-binding",
+                "PP-binding"
+              ],
+              "other": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00425",
+            "domains": [
+              [
+                "LmbU",
+                3.6e-75,
+                250.4,
+                21,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "other": [
+                "LmbU"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_00430",
+            "domains": [
+              [
+                "p450",
+                4.8e-11,
+                40.4,
+                50,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "other": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00440",
+            "domains": [
+              [
+                "DAO",
+                1.2e-8,
+                33.3,
+                521,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "other": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00465",
+            "domains": [
+              [
+                "APH",
+                1.3e-20,
+                72.7,
+                156,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "other": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[113199:162847]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "PKS"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[133199:142847]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "cds(PKS_AT and (PKS_KS or ene_KS or mod_KS or hyb_KS or itr_KS or tra_KS))"
+            ],
+            "neighbourhood": [
+              "20000"
+            ],
+            "product": [
+              "T1PKS"
+            ],
+            "protocluster_number": [
+              "5"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_00510",
+            "domains": [
+              [
+                "Pkinase",
+                4.1e-17,
+                60.7,
+                54,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": [],
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00525",
+            "domains": [
+              [
+                "DAO",
+                5.3e-11,
+                41,
+                521,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": [],
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00540",
+            "domains": [
+              [
+                "PKS_KS",
+                3.3e-174,
+                578.2,
+                2284,
+                "rule-based-clusters"
+              ],
+              [
+                "PKS_AT",
+                4.7e-99,
+                329.9,
+                1682,
+                "rule-based-clusters"
+              ],
+              [
+                "adh_short",
+                7.8e-49,
+                164.4,
+                230,
+                "rule-based-clusters"
+              ],
+              [
+                "PP-binding",
+                1e-10,
+                40.3,
+                164,
+                "rule-based-clusters"
+              ],
+              [
+                "Condensation",
+                1.8e-65,
+                219.3,
+                42,
+                "rule-based-clusters"
+              ],
+              [
+                "AMP-binding",
+                3.9e-103,
+                343.6,
+                400,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": [
+                "PKS_AT",
+                "PKS_KS"
+              ],
+              "NRPS": [
+                "Condensation",
+                "AMP-binding"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_00555",
+            "domains": [
+              [
+                "ADH_zinc_N",
+                5.8e-15,
+                53.8,
+                86,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": [],
+              "NRPS": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[6110391:6153436]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "PKS"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[6130391:6133436]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "cds(PKS_AT and (PKS_KS or ene_KS or mod_KS or hyb_KS or itr_KS or tra_KS))"
+            ],
+            "neighbourhood": [
+              "20000"
+            ],
+            "product": [
+              "T1PKS"
+            ],
+            "protocluster_number": [
+              "36"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_25890",
+            "domains": [
+              [
+                "TPP_enzyme_C",
+                3.8e-30,
+                103,
+                323,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": [],
+              "butyrolactone": []
+            }
+          },
+          {
+            "cds_name": "CRV15_25900",
+            "domains": [
+              [
+                "AfsA",
+                8.2e-11,
+                40.2,
+                34,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": [],
+              "butyrolactone": [
+                "AfsA"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_25915",
+            "domains": [
+              [
+                "PF00561",
+                2.3e-26,
+                91.3,
+                48,
+                "rule-based-clusters"
+              ],
+              [
+                "Abhydrolase_6",
+                2.4e-23,
+                82.2,
+                455,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_25935",
+            "domains": [
+              [
+                "PP-binding",
+                0.00002,
+                23.4,
+                164,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_25940",
+            "domains": [
+              [
+                "fabH",
+                3.2e-39,
+                133.3,
+                7,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_25945",
+            "domains": [
+              [
+                "PKS_KS",
+                1.1e-166,
+                553.4,
+                2284,
+                "rule-based-clusters"
+              ],
+              [
+                "PKS_AT",
+                3e-93,
+                310.8,
+                1682,
+                "rule-based-clusters"
+              ],
+              [
+                "PP-binding",
+                1.2e-9,
+                36.9,
+                164,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": [
+                "PKS_AT",
+                "PKS_KS"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_25950",
+            "domains": [
+              [
+                "PP-binding",
+                2.1e-12,
+                45.7,
+                164,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_25955",
+            "domains": [
+              [
+                "Acyl-CoA_dh_M",
+                2.6e-9,
+                35.5,
+                43,
+                "rule-based-clusters"
+              ],
+              [
+                "Acyl-CoA_dh_1",
+                2e-8,
+                32.9,
+                49,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_25960",
+            "domains": [
+              [
+                "Acyl-CoA_dh_N",
+                7.2e-7,
+                28.2,
+                790,
+                "rule-based-clusters"
+              ],
+              [
+                "Acyl-CoA_dh_M",
+                1.6e-12,
+                45.8,
+                43,
+                "rule-based-clusters"
+              ],
+              [
+                "Acyl-CoA_dh_1",
+                2.7e-16,
+                58.4,
+                49,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_25965",
+            "domains": [
+              [
+                "AMP-binding",
+                6.7e-92,
+                306.5,
+                400,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_25985",
+            "domains": [
+              [
+                "Pyr_redox_2",
+                8.5e-17,
+                59.6,
+                64,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_25995",
+            "domains": [
+              [
+                "DAO",
+                1.9e-66,
+                223.4,
+                521,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[6654212:6748591]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "PKS"
+            ],
+            "contig_edge": [
+              "True"
+            ],
+            "core_location": [
+              "[6674212:6735112]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "cds(PKS_AT and (PKS_KS or ene_KS or mod_KS or hyb_KS or itr_KS or tra_KS))"
+            ],
+            "neighbourhood": [
+              "20000"
+            ],
+            "product": [
+              "T1PKS"
+            ],
+            "protocluster_number": [
+              "38"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_28055",
+            "domains": [
+              [
+                "p450",
+                1.5e-13,
+                48.7,
+                50,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_28070",
+            "domains": [
+              [
+                "PP-binding",
+                4e-12,
+                44.8,
+                164,
+                "rule-based-clusters"
+              ],
+              [
+                "adh_short",
+                1.8e-54,
+                182.7,
+                230,
+                "rule-based-clusters"
+              ],
+              [
+                "mod_KS",
+                2.3e-220,
+                730.1,
+                217,
+                "rule-based-clusters"
+              ],
+              [
+                "PKS_AT",
+                3e-104,
+                347,
+                1682,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": [
+                "PKS_AT",
+                "mod_KS"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_28075",
+            "domains": [
+              [
+                "PKS_AT",
+                6.1e-106,
+                352.5,
+                1682,
+                "rule-based-clusters"
+              ],
+              [
+                "PP-binding",
+                1.4e-15,
+                55.8,
+                164,
+                "rule-based-clusters"
+              ],
+              [
+                "mod_KS",
+                1.8e-227,
+                753.5,
+                217,
+                "rule-based-clusters"
+              ],
+              [
+                "adh_short",
+                7.2e-62,
+                206.8,
+                230,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": [
+                "PKS_AT",
+                "mod_KS"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_28080",
+            "domains": [
+              [
+                "PKS_AT",
+                1.1e-109,
+                364.8,
+                1682,
+                "rule-based-clusters"
+              ],
+              [
+                "adh_short",
+                5.9e-64,
+                213.6,
+                230,
+                "rule-based-clusters"
+              ],
+              [
+                "PP-binding",
+                1.2e-12,
+                46.5,
+                164,
+                "rule-based-clusters"
+              ],
+              [
+                "mod_KS",
+                2.8e-227,
+                752.9,
+                217,
+                "rule-based-clusters"
+              ],
+              [
+                "ADH_N",
+                0.000017,
+                23,
+                66,
+                "rule-based-clusters"
+              ],
+              [
+                "ADH_zinc_N",
+                7.7e-15,
+                53.4,
+                86,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": [
+                "PKS_AT",
+                "mod_KS"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_28085",
+            "domains": [
+              [
+                "PKS_AT",
+                1.4e-109,
+                364.4,
+                1682,
+                "rule-based-clusters"
+              ],
+              [
+                "mod_KS",
+                1.2e-223,
+                740.9,
+                217,
+                "rule-based-clusters"
+              ],
+              [
+                "adh_short",
+                3.3e-58,
+                194.9,
+                230,
+                "rule-based-clusters"
+              ],
+              [
+                "PP-binding",
+                2.3e-13,
+                48.8,
+                164,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": [
+                "PKS_AT",
+                "mod_KS"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_28090",
+            "domains": [
+              [
+                "mod_KS",
+                3.8e-227,
+                752.5,
+                217,
+                "rule-based-clusters"
+              ],
+              [
+                "PKS_AT",
+                9.4e-97,
+                322.3,
+                1682,
+                "rule-based-clusters"
+              ],
+              [
+                "adh_short",
+                3.5e-58,
+                194.8,
+                230,
+                "rule-based-clusters"
+              ],
+              [
+                "PP-binding",
+                1.9e-10,
+                39.4,
+                164,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": [
+                "PKS_AT",
+                "mod_KS"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_28100",
+            "domains": [
+              [
+                "PP-binding",
+                1.4e-7,
+                30.3,
+                164,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_28105",
+            "domains": [
+              [
+                "Acyl-CoA_dh_N",
+                1.5e-13,
+                49.7,
+                790,
+                "rule-based-clusters"
+              ],
+              [
+                "Acyl-CoA_dh_M",
+                1e-19,
+                68.9,
+                43,
+                "rule-based-clusters"
+              ],
+              [
+                "Acyl-CoA_dh_1",
+                3.3e-29,
+                100.4,
+                49,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_28115",
+            "domains": [
+              [
+                "Methyltransf_3",
+                9.7e-65,
+                216,
+                4,
+                "rule-based-clusters"
+              ],
+              [
+                "PCMT",
+                0.00008,
+                20.8,
+                9,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[113199:162847]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "NRPS"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[133199:142847]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "cds(Condensation and (AMP-binding or A-OX))"
+            ],
+            "neighbourhood": [
+              "20000"
+            ],
+            "product": [
+              "NRPS"
+            ],
+            "protocluster_number": [
+              "4"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_00510",
+            "domains": [
+              [
+                "Pkinase",
+                4.1e-17,
+                60.7,
+                54,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": [],
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00525",
+            "domains": [
+              [
+                "DAO",
+                5.3e-11,
+                41,
+                521,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": [],
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00540",
+            "domains": [
+              [
+                "PKS_KS",
+                3.3e-174,
+                578.2,
+                2284,
+                "rule-based-clusters"
+              ],
+              [
+                "PKS_AT",
+                4.7e-99,
+                329.9,
+                1682,
+                "rule-based-clusters"
+              ],
+              [
+                "adh_short",
+                7.8e-49,
+                164.4,
+                230,
+                "rule-based-clusters"
+              ],
+              [
+                "PP-binding",
+                1e-10,
+                40.3,
+                164,
+                "rule-based-clusters"
+              ],
+              [
+                "Condensation",
+                1.8e-65,
+                219.3,
+                42,
+                "rule-based-clusters"
+              ],
+              [
+                "AMP-binding",
+                3.9e-103,
+                343.6,
+                400,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": [
+                "PKS_AT",
+                "PKS_KS"
+              ],
+              "NRPS": [
+                "Condensation",
+                "AMP-binding"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_00555",
+            "domains": [
+              [
+                "ADH_zinc_N",
+                5.8e-15,
+                53.8,
+                86,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": [],
+              "NRPS": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[459595:506870]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "NRPS"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[479595:486870]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "cds(Condensation and (AMP-binding or A-OX))"
+            ],
+            "neighbourhood": [
+              "20000"
+            ],
+            "product": [
+              "NRPS"
+            ],
+            "protocluster_number": [
+              "9"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_01860",
+            "domains": [
+              [
+                "Glycos_transf_1",
+                9.6e-23,
+                79,
+                63,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_01875",
+            "domains": [
+              [
+                "Condensation",
+                0.0000089,
+                23.3,
+                42,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_01895",
+            "domains": [
+              [
+                "p450",
+                3.7e-14,
+                50.6,
+                50,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_01905",
+            "domains": [
+              [
+                "Condensation",
+                1.5e-45,
+                153.9,
+                42,
+                "rule-based-clusters"
+              ],
+              [
+                "AMP-binding",
+                6e-77,
+                257.3,
+                400,
+                "rule-based-clusters"
+              ],
+              [
+                "PP-binding",
+                1.7e-14,
+                52.4,
+                164,
+                "rule-based-clusters"
+              ],
+              [
+                "NAD_binding_4",
+                6.4e-45,
+                151.6,
+                102,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "NRPS": [
+                "Condensation",
+                "AMP-binding"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_01915",
+            "domains": [
+              [
+                "AMP-binding",
+                2.1e-87,
+                291.8,
+                400,
+                "rule-based-clusters"
+              ],
+              [
+                "PP-binding",
+                1.7e-14,
+                52.4,
+                164,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [
+                "AMP-binding",
+                "PP-binding"
+              ],
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_01935",
+            "domains": [
+              [
+                "PF04055",
+                1.5e-15,
+                56.3,
+                518,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS-like": [],
+              "NRPS": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[527572:570863]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "NRPS"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[547572:550863]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "cds(Condensation and (AMP-binding or A-OX))"
+            ],
+            "neighbourhood": [
+              "20000"
+            ],
+            "product": [
+              "NRPS"
+            ],
+            "protocluster_number": [
+              "11"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_02165",
+            "domains": [
+              [
+                "Condensation",
+                6e-12,
+                43.6,
+                42,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_02170",
+            "domains": [
+              [
+                "Abhydrolase_6",
+                3.8e-9,
+                35.9,
+                455,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_02180",
+            "domains": [
+              [
+                "Pyr_redox_2",
+                2.4e-23,
+                81.2,
+                64,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_02195",
+            "domains": [
+              [
+                "Flavoprotein",
+                2.2e-21,
+                74.4,
+                143,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_02200",
+            "domains": [
+              [
+                "Condensation",
+                1.8e-39,
+                133.9,
+                42,
+                "rule-based-clusters"
+              ],
+              [
+                "AMP-binding",
+                7.8e-99,
+                329.4,
+                400,
+                "rule-based-clusters"
+              ],
+              [
+                "PP-binding",
+                1.7e-9,
+                36.4,
+                164,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": [
+                "Condensation",
+                "AMP-binding"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_02215",
+            "domains": [
+              [
+                "Acyl-CoA_dh_N",
+                8.9e-30,
+                102,
+                790,
+                "rule-based-clusters"
+              ],
+              [
+                "Acyl-CoA_dh_M",
+                1e-25,
+                88.1,
+                43,
+                "rule-based-clusters"
+              ],
+              [
+                "Acyl-CoA_dh_1",
+                6.8e-40,
+                135.1,
+                49,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_02285",
+            "domains": [
+              [
+                "Acyl-CoA_dh_N",
+                1.2e-24,
+                85.5,
+                790,
+                "rule-based-clusters"
+              ],
+              [
+                "Acyl-CoA_dh_M",
+                1.7e-20,
+                71.4,
+                43,
+                "rule-based-clusters"
+              ],
+              [
+                "Acyl-CoA_dh_1",
+                7e-30,
+                102.6,
+                49,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[684210:727552]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "NRPS"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[704210:707552]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "cds(Condensation and (AMP-binding or A-OX))"
+            ],
+            "neighbourhood": [
+              "20000"
+            ],
+            "product": [
+              "NRPS"
+            ],
+            "protocluster_number": [
+              "13"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_02840",
+            "domains": [
+              [
+                "Condensation",
+                2.7e-21,
+                74.2,
+                42,
+                "rule-based-clusters"
+              ],
+              [
+                "AMP-binding",
+                7.7e-70,
+                233.9,
+                400,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": [
+                "Condensation",
+                "AMP-binding"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_02845",
+            "domains": [
+              [
+                "AMP-binding",
+                2.8e-69,
+                232,
+                400,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_02885",
+            "domains": [
+              [
+                "SPASM",
+                3.2e-8,
+                32.3,
+                166,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[1163791:1242550]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "NRPS"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[1183791:1222550]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "cds(Condensation and (AMP-binding or A-OX))"
+            ],
+            "neighbourhood": [
+              "20000"
+            ],
+            "product": [
+              "NRPS"
+            ],
+            "protocluster_number": [
+              "18"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_04700",
+            "domains": [
+              [
+                "DegT_DnrJ_EryC1",
+                3.5e-96,
+                320.9,
+                38,
+                "rule-based-clusters"
+              ],
+              [
+                "Aminotran_1_2",
+                0.00017,
+                19.3,
+                48,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_04755",
+            "domains": [
+              [
+                "TauD",
+                1.8e-37,
+                127.9,
+                119,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_04760",
+            "domains": [
+              [
+                "TauD",
+                1.7e-35,
+                121.5,
+                119,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_04770",
+            "domains": [
+              [
+                "AMP-binding",
+                1.2e-117,
+                391.4,
+                400,
+                "rule-based-clusters"
+              ],
+              [
+                "Condensation",
+                6e-59,
+                197.9,
+                42,
+                "rule-based-clusters"
+              ],
+              [
+                "PP-binding",
+                6.3e-13,
+                47.4,
+                164,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": [
+                "Condensation",
+                "AMP-binding"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_04775",
+            "domains": [
+              [
+                "Condensation",
+                7.6e-66,
+                220.5,
+                42,
+                "rule-based-clusters"
+              ],
+              [
+                "PP-binding",
+                5.2e-14,
+                50.8,
+                164,
+                "rule-based-clusters"
+              ],
+              [
+                "AMP-binding",
+                4.4e-118,
+                392.8,
+                400,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": [
+                "Condensation",
+                "AMP-binding"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_04805",
+            "domains": [
+              [
+                "Abhydrolase_6",
+                4.9e-12,
+                45.3,
+                455,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_04810",
+            "domains": [
+              [
+                "AMP-binding",
+                2.1e-107,
+                357.6,
+                400,
+                "rule-based-clusters"
+              ],
+              [
+                "PP-binding",
+                4.9e-10,
+                38.1,
+                164,
+                "rule-based-clusters"
+              ],
+              [
+                "Condensation",
+                5.3e-53,
+                178.4,
+                42,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": [
+                "Condensation",
+                "AMP-binding"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_04905",
+            "domains": [
+              [
+                "PALP",
+                4.6e-33,
+                113.2,
+                145,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[1543625:1591620]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "NRPS"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[1563625:1571620]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "cds(Condensation and (AMP-binding or A-OX))"
+            ],
+            "neighbourhood": [
+              "20000"
+            ],
+            "product": [
+              "NRPS"
+            ],
+            "protocluster_number": [
+              "20"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_06170",
+            "domains": [
+              [
+                "PALP",
+                5.8e-68,
+                227.8,
+                145,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_06180",
+            "domains": [
+              [
+                "HMGL-like",
+                1.4e-46,
+                157.5,
+                15,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_06230",
+            "domains": [
+              [
+                "PF00561",
+                6.9e-8,
+                30.8,
+                48,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_06250",
+            "domains": [
+              [
+                "Condensation",
+                2.4e-29,
+                100.7,
+                42,
+                "rule-based-clusters"
+              ],
+              [
+                "AMP-binding",
+                2.4e-112,
+                373.9,
+                400,
+                "rule-based-clusters"
+              ],
+              [
+                "PP-binding",
+                8.4e-11,
+                40.6,
+                164,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": [
+                "Condensation",
+                "AMP-binding"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_06255",
+            "domains": [
+              [
+                "PKS_AT",
+                2e-108,
+                360.6,
+                1682,
+                "rule-based-clusters"
+              ],
+              [
+                "ADH_N",
+                0.0000085,
+                24,
+                66,
+                "rule-based-clusters"
+              ],
+              [
+                "ADH_zinc_N",
+                4.4e-16,
+                57.4,
+                86,
+                "rule-based-clusters"
+              ],
+              [
+                "adh_short",
+                2.6e-63,
+                211.5,
+                230,
+                "rule-based-clusters"
+              ],
+              [
+                "PP-binding",
+                2.3e-10,
+                39.1,
+                164,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_06260",
+            "domains": [
+              [
+                "mod_KS",
+                1.3e-196,
+                651.9,
+                217,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_06265",
+            "domains": [
+              [
+                "p450",
+                3.3e-51,
+                172.8,
+                50,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[1861371:1912633]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "NRPS"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[1881371:1892633]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "cds(Condensation and (AMP-binding or A-OX))"
+            ],
+            "neighbourhood": [
+              "20000"
+            ],
+            "product": [
+              "NRPS"
+            ],
+            "protocluster_number": [
+              "23"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_07455",
+            "domains": [
+              [
+                "Aldedh",
+                8.8e-138,
+                458,
+                89,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_07460",
+            "domains": [
+              [
+                "2OG-FeII_Oxy",
+                3.3e-13,
+                48.3,
+                135,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_07465",
+            "domains": [
+              [
+                "Aminotran_5",
+                1.9e-36,
+                124.2,
+                34,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_07480",
+            "domains": [
+              [
+                "2OG-FeII_Oxy",
+                2e-12,
+                45.8,
+                135,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_07485",
+            "domains": [
+              [
+                "Carbam_trans_N",
+                2.2e-15,
+                55.3,
+                4,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_07505",
+            "domains": [
+              [
+                "Aminotran_3",
+                3.2e-78,
+                261.5,
+                13,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_07510",
+            "domains": [
+              [
+                "PP-binding",
+                4.7e-14,
+                51,
+                164,
+                "rule-based-clusters"
+              ],
+              [
+                "Condensation",
+                2.1e-70,
+                235.5,
+                42,
+                "rule-based-clusters"
+              ],
+              [
+                "AMP-binding",
+                1.4e-105,
+                351.6,
+                400,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": [
+                "Condensation",
+                "AMP-binding"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_07515",
+            "domains": [
+              [
+                "2OG-FeII_Oxy",
+                3.5e-14,
+                51.5,
+                135,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": [],
+              "blactam": []
+            }
+          },
+          {
+            "cds_name": "CRV15_07525",
+            "domains": [
+              [
+                "TPP_enzyme_N",
+                1.1e-40,
+                137.4,
+                75,
+                "rule-based-clusters"
+              ],
+              [
+                "TPP_enzyme_C",
+                3.2e-33,
+                113,
+                323,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": [],
+              "blactam": []
+            }
+          },
+          {
+            "cds_name": "CRV15_07530",
+            "domains": [
+              [
+                "GATase_7",
+                7.6e-12,
+                43.6,
+                307,
+                "rule-based-clusters"
+              ],
+              [
+                "BLS",
+                3.8e-173,
+                574.4,
+                11,
+                "rule-based-clusters"
+              ],
+              [
+                "Asn_synthase",
+                3.9e-23,
+                81,
+                78,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": [],
+              "blactam": [
+                "BLS"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_07540",
+            "domains": [
+              [
+                "CAS",
+                5.3e-204,
+                675,
+                7,
+                "rule-based-clusters"
+              ],
+              [
+                "TauD",
+                1.2e-11,
+                43.2,
+                119,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": [],
+              "blactam": [
+                "CAS"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_07560",
+            "domains": [
+              [
+                "adh_short",
+                9.1e-40,
+                134.9,
+                230,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": [],
+              "blactam": []
+            }
+          },
+          {
+            "cds_name": "CRV15_07565",
+            "domains": [
+              [
+                "p450",
+                2.5e-27,
+                94.1,
+                50,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": [],
+              "blactam": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[4028922:4076251]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "NRPS"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[4048922:4056251]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "cds(Condensation and (AMP-binding or A-OX))"
+            ],
+            "neighbourhood": [
+              "20000"
+            ],
+            "product": [
+              "NRPS"
+            ],
+            "protocluster_number": [
+              "30"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_17025",
+            "domains": [
+              [
+                "adh_short",
+                6.5e-31,
+                106,
+                230,
+                "rule-based-clusters"
+              ],
+              [
+                "adh_short_C2",
+                1.9e-34,
+                118,
+                47,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_17030",
+            "domains": [
+              [
+                "PF00561",
+                3.7e-25,
+                87.4,
+                48,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_17090",
+            "domains": [
+              [
+                "AMP-binding",
+                3.2e-116,
+                386.6,
+                400,
+                "rule-based-clusters"
+              ],
+              [
+                "Condensation",
+                2.2e-42,
+                143.5,
+                42,
+                "rule-based-clusters"
+              ],
+              [
+                "PP-binding",
+                3.3e-14,
+                51.5,
+                164,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": [
+                "Condensation",
+                "AMP-binding"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_17140",
+            "domains": [
+              [
+                "TP_methylase",
+                3.1e-28,
+                97.5,
+                87,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[154394:175333]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "terpene"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[164394:165333]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "(Terpene_synth or Terpene_synth_C or phytoene_synt or Lycopene_cycl or terpene_cyclase or NapT7 or fung_ggpps or fung_ggpps2 or trichodiene_synth or TRI5)"
+            ],
+            "neighbourhood": [
+              "10000"
+            ],
+            "product": [
+              "terpene"
+            ],
+            "protocluster_number": [
+              "6"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_00605",
+            "domains": [
+              [
+                "Terpene_synth_C",
+                4e-8,
+                31.4,
+                87,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "terpene": [
+                "Terpene_synth_C"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_00610",
+            "domains": [
+              [
+                "adh_short",
+                5.6e-38,
+                129,
+                230,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "terpene": []
+            }
+          },
+          {
+            "cds_name": "CRV15_00615",
+            "domains": [
+              [
+                "p450",
+                2.5e-65,
+                219.4,
+                50,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "terpene": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[578226:605009]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "terpene"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[588226:595009]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "(Terpene_synth or Terpene_synth_C or phytoene_synt or Lycopene_cycl or terpene_cyclase or NapT7 or fung_ggpps or fung_ggpps2 or trichodiene_synth or TRI5)"
+            ],
+            "neighbourhood": [
+              "10000"
+            ],
+            "product": [
+              "terpene"
+            ],
+            "protocluster_number": [
+              "12"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_02360",
+            "domains": [
+              [
+                "Aminotran_3",
+                5.8e-87,
+                290.3,
+                13,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "terpene": []
+            }
+          },
+          {
+            "cds_name": "CRV15_02365",
+            "domains": [
+              [
+                "PF04055",
+                5.5e-16,
+                57.7,
+                518,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "terpene": []
+            }
+          },
+          {
+            "cds_name": "CRV15_02375",
+            "domains": [
+              [
+                "terpene_cyclase",
+                6e-20,
+                70.1,
+                14,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "terpene": [
+                "terpene_cyclase"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_02385",
+            "domains": [
+              [
+                "DAO",
+                4.5e-11,
+                41.2,
+                521,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "terpene": []
+            }
+          },
+          {
+            "cds_name": "CRV15_02390",
+            "domains": [
+              [
+                "phytoene_synt",
+                6.4e-56,
+                187.9,
+                8,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "terpene": [
+                "phytoene_synt"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_02395",
+            "domains": [
+              [
+                "phytoene_synt",
+                2.8e-37,
+                126.8,
+                8,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "terpene": [
+                "phytoene_synt"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_02415",
+            "domains": [
+              [
+                "Fe-ADH",
+                1.6e-17,
+                61.7,
+                218,
+                "rule-based-clusters"
+              ],
+              [
+                "DHQ_synthase",
+                7.7e-8,
+                30.1,
+                76,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "terpene": []
+            }
+          },
+          {
+            "cds_name": "CRV15_02420",
+            "domains": [
+              [
+                "NTP_transf_3",
+                2.6e-12,
+                45.7,
+                297,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "terpene": []
+            }
+          },
+          {
+            "cds_name": "CRV15_02430",
+            "domains": [
+              [
+                "RmlD_sub_bind",
+                2.5e-18,
+                64.5,
+                37,
+                "rule-based-clusters"
+              ],
+              [
+                "Polysacc_synt_2",
+                2.2e-11,
+                41.8,
+                77,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "terpene": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[6504863:6527038]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "terpene"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[6514863:6517038]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "(Terpene_synth or Terpene_synth_C or phytoene_synt or Lycopene_cycl or terpene_cyclase or NapT7 or fung_ggpps or fung_ggpps2 or trichodiene_synth or TRI5)"
+            ],
+            "neighbourhood": [
+              "10000"
+            ],
+            "product": [
+              "terpene"
+            ],
+            "protocluster_number": [
+              "37"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_27350",
+            "domains": [
+              [
+                "PF00561",
+                6.9e-20,
+                70.1,
+                48,
+                "rule-based-clusters"
+              ],
+              [
+                "Abhydrolase_6",
+                3.3e-16,
+                58.9,
+                455,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "terpene": []
+            }
+          },
+          {
+            "cds_name": "CRV15_27355",
+            "domains": [
+              [
+                "AMP-binding",
+                2.6e-71,
+                238.7,
+                400,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "terpene": []
+            }
+          },
+          {
+            "cds_name": "CRV15_27385",
+            "domains": [
+              [
+                "Terpene_synth_C",
+                3e-33,
+                113.8,
+                87,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "terpene": [
+                "Terpene_synth_C"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_27395",
+            "domains": [
+              [
+                "APH",
+                3.9e-16,
+                58,
+                156,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "terpene": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[284808:306656]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "RiPP"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[294808:296656]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "(TIGR03973 or SCIFF or (cds(PF04055 and (TIGR04085 or SPASM)) and minimum(1, [Bottromycin_Methyltransferase_RRE, Cyanobactin_D_RRE, Cytolysin_C_RRE, Goadsporin_CD_RRE, Heterocycloanthracin_C_RRE, Lanthipeptide_LanB_RRE, Lasso_Fused_RRE, Mycofactocin_RRE, NHLP_CD_RRE, Other_Sactipeptide_rSAM_RRE, Pantocin_Microcin_RRE, Plantazolicin_C_RRE, PlpY_RRE, PqqD_RRE, Proteusin_Epimerase_RRE, Proteusin_Methyltransferase_RRE, Quinohemoprotein_rSAM_RRE, Ranthipeptide_rSAM_RRE, Stand_Alone_Lasso_RRE, Streptide_RRE, Subtilosin_rSAM_RRE, Thiaglutamate_B_RRE, Thiaglutamate_G_RRE, Thiaglutamate_I_RRE, Thiopeptide_F_RRE, Thuricin_rSAM_RRE, Thurincin_rSAM_RRE, Trifolitoxin_RRE]) and not (TIGR01716 or subtilosin or TIGR02111 or TIGR03966 or TIGR04103 or (YcaO or TIGR03604))))"
+            ],
+            "neighbourhood": [
+              "10000"
+            ],
+            "product": [
+              "ranthipeptide"
+            ],
+            "protocluster_number": [
+              "8"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_01135",
+            "domains": [
+              [
+                "Stand_Alone_Lasso_RRE",
+                2.8e-12,
+                44.8,
+                25,
+                "rule-based-clusters"
+              ],
+              [
+                "PF05402",
+                1.3e-13,
+                49.3,
+                461,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "ranthipeptide": [
+                "Stand_Alone_Lasso_RRE"
+              ],
+              "T3PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_01140",
+            "domains": [
+              [
+                "PF04055",
+                5.4e-27,
+                93.5,
+                518,
+                "rule-based-clusters"
+              ],
+              [
+                "Fer4_12",
+                1.5e-12,
+                46.3,
+                84,
+                "rule-based-clusters"
+              ],
+              [
+                "TIGR04085",
+                2.5e-14,
+                51.8,
+                281,
+                "rule-based-clusters"
+              ],
+              [
+                "SPASM",
+                2.3e-9,
+                36,
+                166,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "ranthipeptide": [
+                "TIGR04085",
+                "SPASM",
+                "PF04055"
+              ],
+              "T3PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_01150",
+            "domains": [
+              [
+                "Chal_sti_synt_N",
+                4.3e-18,
+                63.9,
+                21,
+                "rule-based-clusters"
+              ],
+              [
+                "Chal_sti_synt_C",
+                2.9e-17,
+                61.6,
+                21,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "ranthipeptide": [],
+              "T3PKS": [
+                "Chal_sti_synt_C",
+                "Chal_sti_synt_N"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_01155",
+            "domains": [
+              [
+                "p450",
+                2.2e-20,
+                71.2,
+                50,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "ranthipeptide": [],
+              "T3PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_01170",
+            "domains": [
+              [
+                "2-Hacid_dh_C",
+                3.4e-8,
+                31.4,
+                135,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "ranthipeptide": [],
+              "T3PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_01175",
+            "domains": [
+              [
+                "Abhydrolase_6",
+                2.1e-13,
+                49.7,
+                455,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "ranthipeptide": [],
+              "T3PKS": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[278059:319115]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "PKS"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[298059:299115]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "(Chal_sti_synt_C or Chal_sti_synt_N)"
+            ],
+            "neighbourhood": [
+              "20000"
+            ],
+            "product": [
+              "T3PKS"
+            ],
+            "protocluster_number": [
+              "7"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_01085",
+            "domains": [
+              [
+                "AMP-binding",
+                9e-27,
+                92,
+                400,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T3PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_01090",
+            "domains": [
+              [
+                "ketoacyl-synt",
+                7.6e-9,
+                33.8,
+                77,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T3PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_01135",
+            "domains": [
+              [
+                "Stand_Alone_Lasso_RRE",
+                2.8e-12,
+                44.8,
+                25,
+                "rule-based-clusters"
+              ],
+              [
+                "PF05402",
+                1.3e-13,
+                49.3,
+                461,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "ranthipeptide": [
+                "Stand_Alone_Lasso_RRE"
+              ],
+              "T3PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_01140",
+            "domains": [
+              [
+                "PF04055",
+                5.4e-27,
+                93.5,
+                518,
+                "rule-based-clusters"
+              ],
+              [
+                "Fer4_12",
+                1.5e-12,
+                46.3,
+                84,
+                "rule-based-clusters"
+              ],
+              [
+                "TIGR04085",
+                2.5e-14,
+                51.8,
+                281,
+                "rule-based-clusters"
+              ],
+              [
+                "SPASM",
+                2.3e-9,
+                36,
+                166,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "ranthipeptide": [
+                "TIGR04085",
+                "SPASM",
+                "PF04055"
+              ],
+              "T3PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_01150",
+            "domains": [
+              [
+                "Chal_sti_synt_N",
+                4.3e-18,
+                63.9,
+                21,
+                "rule-based-clusters"
+              ],
+              [
+                "Chal_sti_synt_C",
+                2.9e-17,
+                61.6,
+                21,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "ranthipeptide": [],
+              "T3PKS": [
+                "Chal_sti_synt_C",
+                "Chal_sti_synt_N"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_01155",
+            "domains": [
+              [
+                "p450",
+                2.2e-20,
+                71.2,
+                50,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "ranthipeptide": [],
+              "T3PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_01170",
+            "domains": [
+              [
+                "2-Hacid_dh_C",
+                3.4e-8,
+                31.4,
+                135,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "ranthipeptide": [],
+              "T3PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_01175",
+            "domains": [
+              [
+                "Abhydrolase_6",
+                2.1e-13,
+                49.7,
+                455,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "ranthipeptide": [],
+              "T3PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_01185",
+            "domains": [
+              [
+                "PP-binding",
+                2e-10,
+                39.4,
+                164,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T3PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_01195",
+            "domains": [
+              [
+                "2-Hacid_dh_C",
+                1.7e-51,
+                172.4,
+                135,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T3PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_01205",
+            "domains": [
+              [
+                "Pkinase",
+                2.6e-38,
+                130.2,
+                54,
+                "rule-based-clusters"
+              ],
+              [
+                "APH",
+                9.6e-7,
+                27.3,
+                156,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T3PKS": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[750602:772973]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "RiPP"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[760602:762973]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "(cds(PF04055 and (TIGR04085 or SPASM)) and (TIGR02111 or TIGR03966) and minimum(1, [Bottromycin_Methyltransferase_RRE, Cyanobactin_D_RRE, Cytolysin_C_RRE, Goadsporin_CD_RRE, Heterocycloanthracin_C_RRE, Lanthipeptide_LanB_RRE, Lasso_Fused_RRE, Mycofactocin_RRE, NHLP_CD_RRE, Other_Sactipeptide_rSAM_RRE, Pantocin_Microcin_RRE, Plantazolicin_C_RRE, PlpY_RRE, PqqD_RRE, Proteusin_Epimerase_RRE, Proteusin_Methyltransferase_RRE, Quinohemoprotein_rSAM_RRE, Ranthipeptide_rSAM_RRE, Stand_Alone_Lasso_RRE, Streptide_RRE, Subtilosin_rSAM_RRE, Thiaglutamate_B_RRE, Thiaglutamate_G_RRE, Thiaglutamate_I_RRE, Thiopeptide_F_RRE, Thuricin_rSAM_RRE, Thurincin_rSAM_RRE, Trifolitoxin_RRE]))"
+            ],
+            "neighbourhood": [
+              "10000"
+            ],
+            "product": [
+              "redox-cofactor"
+            ],
+            "protocluster_number": [
+              "14"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_03020",
+            "domains": [
+              [
+                "AMP-binding",
+                3e-83,
+                278,
+                400,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "redox-cofactor": []
+            }
+          },
+          {
+            "cds_name": "CRV15_03055",
+            "domains": [
+              [
+                "PF04055",
+                2.1e-21,
+                75.3,
+                518,
+                "rule-based-clusters"
+              ],
+              [
+                "Fer4_12",
+                0.0000093,
+                24.3,
+                84,
+                "rule-based-clusters"
+              ],
+              [
+                "SPASM",
+                4.5e-8,
+                31.8,
+                166,
+                "rule-based-clusters"
+              ],
+              [
+                "TIGR04085",
+                2.7e-10,
+                38.8,
+                281,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "redox-cofactor": [
+                "TIGR04085",
+                "SPASM",
+                "PF04055"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_03060",
+            "domains": [
+              [
+                "PqqD_RRE",
+                4.2e-17,
+                60,
+                9,
+                "rule-based-clusters"
+              ],
+              [
+                "PF05402",
+                0.0000017,
+                26.5,
+                461,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "redox-cofactor": [
+                "PqqD_RRE"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_03065",
+            "domains": [
+              [
+                "TIGR02111",
+                2.4e-87,
+                290.6,
+                5,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "redox-cofactor": [
+                "TIGR02111"
+              ]
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[926045:948832]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "RiPP"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[936045:938832]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "(micKC and not PKS_KS)"
+            ],
+            "neighbourhood": [
+              "10000"
+            ],
+            "product": [
+              "lanthipeptide-class-iii"
+            ],
+            "protocluster_number": [
+              "15"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_03755",
+            "domains": [
+              [
+                "APH",
+                0.0000034,
+                25.5,
+                156,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "lanthipeptide-class-iii": []
+            }
+          },
+          {
+            "cds_name": "CRV15_03785",
+            "domains": [
+              [
+                "micKC",
+                8e-141,
+                469,
+                18,
+                "rule-based-clusters"
+              ],
+              [
+                "Pkinase",
+                1.2e-9,
+                36.3,
+                54,
+                "rule-based-clusters"
+              ],
+              [
+                "LANC_like",
+                0.00016,
+                18.9,
+                47,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "lanthipeptide-class-iii": [
+                "micKC"
+              ]
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[947003:1019570]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "PKS"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[982003:984570]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "(t2ks and t2clf)"
+            ],
+            "neighbourhood": [
+              "35000"
+            ],
+            "product": [
+              "T2PKS"
+            ],
+            "protocluster_number": [
+              "16"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_03895",
+            "domains": [
+              [
+                "TPP_enzyme_N",
+                1.2e-41,
+                140.5,
+                75,
+                "rule-based-clusters"
+              ],
+              [
+                "TPP_enzyme_C",
+                2.6e-38,
+                129.6,
+                323,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T2PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_03950",
+            "domains": [
+              [
+                "PP-binding",
+                2.8e-10,
+                38.9,
+                164,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T2PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_03955",
+            "domains": [
+              [
+                "t2clf",
+                2.2e-133,
+                443.2,
+                26,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T2PKS": [
+                "t2clf"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_03960",
+            "domains": [
+              [
+                "t2ks",
+                5e-211,
+                699.4,
+                25,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T2PKS": [
+                "t2ks"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_04020",
+            "domains": [
+              [
+                "Acyl-CoA_dh_M",
+                6.7e-17,
+                59.8,
+                43,
+                "rule-based-clusters"
+              ],
+              [
+                "Acyl-CoA_dh_1",
+                1.5e-30,
+                104.8,
+                49,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T2PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_04095",
+            "domains": [
+              [
+                "MGT",
+                2.8e-44,
+                150.3,
+                193,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T2PKS": []
+            }
+          },
+          {
+            "cds_name": "CRV15_04115",
+            "domains": [
+              [
+                "APH",
+                9e-16,
+                56.8,
+                156,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T2PKS": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[1041262:1052636]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "RiPP"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[1046262:1047636]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "(strepbact or Antimicrobial14 or Bacteriocin_IId or BacteriocIIc_cy or Bacteriocin_II or Bacteriocin_IIi or Lactococcin or Antimicrobial17 or Lactococcin_972 or Bacteriocin_IIc or LcnG-beta or Cloacin or Linocin_M18 or TIGR03651 or TIGR03693 or TIGR03601 or TIGR03795 or TIGR03975 or DUF692 or TIGR01193 or (YcaO or TIGR03604))"
+            ],
+            "neighbourhood": [
+              "5000"
+            ],
+            "product": [
+              "RiPP-like"
+            ],
+            "protocluster_number": [
+              "17"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_04240",
+            "domains": [
+              [
+                "DUF692",
+                8.1e-94,
+                312.1,
+                7,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "RiPP-like": [
+                "DUF692"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_04250",
+            "domains": [
+              [
+                "DAO",
+                3.6e-11,
+                41.6,
+                521,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "RiPP-like": []
+            }
+          },
+          {
+            "cds_name": "CRV15_04255",
+            "domains": [
+              [
+                "PF00561",
+                1.4e-24,
+                85.5,
+                48,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "RiPP-like": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[1653874:1679161]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "RiPP"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[1663874:1669161]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "((LANC_like and (Lant_dehydr_N or Lant_dehydr_C)) and not (YcaO or TIGR03604))"
+            ],
+            "neighbourhood": [
+              "10000"
+            ],
+            "product": [
+              "lanthipeptide-class-i"
+            ],
+            "protocluster_number": [
+              "21"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_06600",
+            "domains": [
+              [
+                "ThiF",
+                4.9e-17,
+                60.4,
+                54,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "lanthipeptide-class-i": []
+            }
+          },
+          {
+            "cds_name": "CRV15_06615",
+            "domains": [
+              [
+                "Lant_dehydr_C",
+                3.1e-36,
+                123.8,
+                35,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "lanthipeptide-class-i": [
+                "Lant_dehydr_C"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_06620",
+            "domains": [
+              [
+                "LANC_like",
+                4.5e-43,
+                145.7,
+                47,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "lanthipeptide-class-i": [
+                "LANC_like"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_06625",
+            "domains": [
+              [
+                "Lant_dehydr_N",
+                6.4e-202,
+                670.5,
+                73,
+                "rule-based-clusters"
+              ],
+              [
+                "Lanthipeptide_LanB_RRE",
+                2e-15,
+                55.6,
+                20,
+                "rule-based-clusters"
+              ],
+              [
+                "Lant_dehydr_C",
+                1e-11,
+                43.3,
+                35,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "lanthipeptide-class-i": [
+                "Lant_dehydr_N",
+                "Lant_dehydr_C"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_06630",
+            "domains": [
+              [
+                "LD_lanti_pre",
+                1.7e-17,
+                61.4,
+                21,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "lanthipeptide-class-i": []
+            }
+          },
+          {
+            "cds_name": "CRV15_06635",
+            "domains": [
+              [
+                "PCMT",
+                1.6e-38,
+                130.9,
+                9,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "lanthipeptide-class-i": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[3834468:3859566]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "RiPP"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[3844468:3849566]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "((LANC_like and (Lant_dehydr_N or Lant_dehydr_C)) and not (YcaO or TIGR03604))"
+            ],
+            "neighbourhood": [
+              "10000"
+            ],
+            "product": [
+              "lanthipeptide-class-i"
+            ],
+            "protocluster_number": [
+              "28"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_16170",
+            "domains": [
+              [
+                "Lant_dehydr_C",
+                1e-34,
+                118.8,
+                35,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "lanthipeptide-class-i": [
+                "Lant_dehydr_C"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_16175",
+            "domains": [
+              [
+                "LANC_like",
+                2e-38,
+                130.4,
+                47,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "lanthipeptide-class-i": [
+                "LANC_like"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_16180",
+            "domains": [
+              [
+                "Lant_dehydr_N",
+                3e-192,
+                638.5,
+                73,
+                "rule-based-clusters"
+              ],
+              [
+                "Lanthipeptide_LanB_RRE",
+                1e-14,
+                53.3,
+                20,
+                "rule-based-clusters"
+              ],
+              [
+                "Lant_dehydr_C",
+                1.9e-27,
+                95,
+                35,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "lanthipeptide-class-i": [
+                "Lant_dehydr_N",
+                "Lant_dehydr_C"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_16185",
+            "domains": [
+              [
+                "LD_lanti_pre",
+                9e-17,
+                59.1,
+                21,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "lanthipeptide-class-i": []
+            }
+          },
+          {
+            "cds_name": "CRV15_16190",
+            "domains": [
+              [
+                "PCMT",
+                2.6e-44,
+                149.8,
+                9,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "lanthipeptide-class-i": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[1782691:1803654]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "other"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[1792691:1793654]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "(LipM or LipV or LipU or ToyB or TunD or pur6 or pur10 or nikJ or nikO or truD)"
+            ],
+            "neighbourhood": [
+              "10000"
+            ],
+            "product": [
+              "nucleoside"
+            ],
+            "protocluster_number": [
+              "22"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_07100",
+            "domains": [
+              [
+                "TunD",
+                4.2e-175,
+                579.6,
+                3,
+                "rule-based-clusters"
+              ],
+              [
+                "RmlD_sub_bind",
+                6.3e-10,
+                36.9,
+                37,
+                "rule-based-clusters"
+              ],
+              [
+                "Polysacc_synt_2",
+                0.000032,
+                21.5,
+                77,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "nucleoside": [
+                "TunD"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_07105",
+            "domains": [
+              [
+                "PF04055",
+                5e-18,
+                64.4,
+                518,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "nucleoside": []
+            }
+          },
+          {
+            "cds_name": "CRV15_07115",
+            "domains": [
+              [
+                "Glycos_transf_1",
+                5e-31,
+                106,
+                63,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "nucleoside": []
+            }
+          },
+          {
+            "cds_name": "CRV15_07120",
+            "domains": [
+              [
+                "PIG-L",
+                2.2e-20,
+                72.1,
+                137,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "nucleoside": []
+            }
+          },
+          {
+            "cds_name": "CRV15_07125",
+            "domains": [
+              [
+                "RmlD_sub_bind",
+                2.2e-19,
+                68,
+                37,
+                "rule-based-clusters"
+              ],
+              [
+                "Polysacc_synt_2",
+                4e-13,
+                47.5,
+                77,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "nucleoside": []
+            }
+          },
+          {
+            "cds_name": "CRV15_07150",
+            "domains": [
+              [
+                "PP-binding",
+                1.3e-11,
+                43.2,
+                164,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "nucleoside": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[1887634:1911283]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "other"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[1897634:1901283]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "(BLS or CAS or tabtoxin)"
+            ],
+            "neighbourhood": [
+              "10000"
+            ],
+            "product": [
+              "blactam"
+            ],
+            "protocluster_number": [
+              "24"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_07515",
+            "domains": [
+              [
+                "2OG-FeII_Oxy",
+                3.5e-14,
+                51.5,
+                135,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": [],
+              "blactam": []
+            }
+          },
+          {
+            "cds_name": "CRV15_07525",
+            "domains": [
+              [
+                "TPP_enzyme_N",
+                1.1e-40,
+                137.4,
+                75,
+                "rule-based-clusters"
+              ],
+              [
+                "TPP_enzyme_C",
+                3.2e-33,
+                113,
+                323,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": [],
+              "blactam": []
+            }
+          },
+          {
+            "cds_name": "CRV15_07530",
+            "domains": [
+              [
+                "GATase_7",
+                7.6e-12,
+                43.6,
+                307,
+                "rule-based-clusters"
+              ],
+              [
+                "BLS",
+                3.8e-173,
+                574.4,
+                11,
+                "rule-based-clusters"
+              ],
+              [
+                "Asn_synthase",
+                3.9e-23,
+                81,
+                78,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": [],
+              "blactam": [
+                "BLS"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_07540",
+            "domains": [
+              [
+                "CAS",
+                5.3e-204,
+                675,
+                7,
+                "rule-based-clusters"
+              ],
+              [
+                "TauD",
+                1.2e-11,
+                43.2,
+                119,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": [],
+              "blactam": [
+                "CAS"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_07560",
+            "domains": [
+              [
+                "adh_short",
+                9.1e-40,
+                134.9,
+                230,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": [],
+              "blactam": []
+            }
+          },
+          {
+            "cds_name": "CRV15_07565",
+            "domains": [
+              [
+                "p450",
+                2.5e-27,
+                94.1,
+                50,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "NRPS": [],
+              "blactam": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[3301353:3322328]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "other"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[3311353:3312328]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "(BLS or CAS or tabtoxin)"
+            ],
+            "neighbourhood": [
+              "10000"
+            ],
+            "product": [
+              "blactam"
+            ],
+            "protocluster_number": [
+              "26"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_13885",
+            "domains": [
+              [
+                "CAS",
+                3.1e-195,
+                646.2,
+                7,
+                "rule-based-clusters"
+              ],
+              [
+                "TauD",
+                5.3e-11,
+                41.1,
+                119,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "blactam": [
+                "CAS"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_13890",
+            "domains": [
+              [
+                "PF00561",
+                2.7e-11,
+                41.9,
+                48,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "blactam": []
+            }
+          },
+          {
+            "cds_name": "CRV15_13900",
+            "domains": [
+              [
+                "Aminotran_3",
+                1.7e-87,
+                292.1,
+                13,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "blactam": []
+            }
+          },
+          {
+            "cds_name": "CRV15_13915",
+            "domains": [
+              [
+                "Pkinase",
+                1.9e-38,
+                130.7,
+                54,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "blactam": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[2231582:2242017]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "other"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[2236582:2237017]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "melC"
+            ],
+            "neighbourhood": [
+              "5000"
+            ],
+            "product": [
+              "melanin"
+            ],
+            "protocluster_number": [
+              "25"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_09000",
+            "domains": [
+              [
+                "melC",
+                3e-43,
+                145.7,
+                38,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "melanin": [
+                "melC"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_09010",
+            "domains": [
+              [
+                "p450",
+                6e-18,
+                63.1,
+                50,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "melanin": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[3561810:3575400]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "other"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[3566810:3570400]"
+            ],
+            "cutoff": [
+              "10000"
+            ],
+            "detection_rule": [
+              "(AesA and AesB and AesC)"
+            ],
+            "neighbourhood": [
+              "5000"
+            ],
+            "product": [
+              "aminopolycarboxylic-acid"
+            ],
+            "protocluster_number": [
+              "27"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_15015",
+            "domains": [
+              [
+                "AesC",
+                6.4e-174,
+                576.2,
+                5,
+                "rule-based-clusters"
+              ],
+              [
+                "PALP",
+                2.8e-53,
+                179.6,
+                145,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "aminopolycarboxylic-acid": [
+                "AesC"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_15020",
+            "domains": [
+              [
+                "AesB",
+                1.8e-185,
+                614.7,
+                5,
+                "rule-based-clusters"
+              ],
+              [
+                "Orn_Arg_deC_N",
+                3.4e-24,
+                83.9,
+                15,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "aminopolycarboxylic-acid": [
+                "AesB"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_15025",
+            "domains": [
+              [
+                "AesA",
+                7e-162,
+                535.9,
+                5,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "aminopolycarboxylic-acid": [
+                "AesA"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_15030",
+            "domains": [
+              [
+                "TauD",
+                2.2e-7,
+                29.3,
+                119,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "aminopolycarboxylic-acid": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[4011688:4022657]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "other"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[4016688:4017657]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "AfsA"
+            ],
+            "neighbourhood": [
+              "5000"
+            ],
+            "product": [
+              "butyrolactone"
+            ],
+            "protocluster_number": [
+              "29"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_16940",
+            "domains": [
+              [
+                "adh_short",
+                4.6e-35,
+                119.6,
+                230,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "butyrolactone": []
+            }
+          },
+          {
+            "cds_name": "CRV15_16950",
+            "domains": [
+              [
+                "AfsA",
+                4.2e-25,
+                86,
+                34,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "butyrolactone": [
+                "AfsA"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_16970",
+            "domains": [
+              [
+                "Pyr_redox_2",
+                8.2e-13,
+                46.6,
+                64,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "butyrolactone": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[6100737:6124225]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "other"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[6105737:6119225]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "AfsA"
+            ],
+            "neighbourhood": [
+              "5000"
+            ],
+            "product": [
+              "butyrolactone"
+            ],
+            "protocluster_number": [
+              "35"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_25845",
+            "domains": [
+              [
+                "goadsporin_like",
+                2.2e-235,
+                780.3,
+                5,
+                "rule-based-clusters"
+              ],
+              [
+                "PF00881",
+                1.5e-16,
+                59.2,
+                78,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "butyrolactone": [],
+              "PKS-like": [],
+              "LAP": [
+                "goadsporin_like",
+                "PF00881"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_25860",
+            "domains": [
+              [
+                "AfsA",
+                6.3e-18,
+                63,
+                34,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "butyrolactone": [
+                "AfsA"
+              ],
+              "PKS-like": [],
+              "LAP": []
+            }
+          },
+          {
+            "cds_name": "CRV15_25890",
+            "domains": [
+              [
+                "TPP_enzyme_C",
+                3.8e-30,
+                103,
+                323,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": [],
+              "butyrolactone": []
+            }
+          },
+          {
+            "cds_name": "CRV15_25900",
+            "domains": [
+              [
+                "AfsA",
+                8.2e-11,
+                40.2,
+                34,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "T1PKS": [],
+              "butyrolactone": [
+                "AfsA"
+              ]
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[5423822:5434248]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "other"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[5428822:5429248]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "ectoine_synt"
+            ],
+            "neighbourhood": [
+              "5000"
+            ],
+            "product": [
+              "ectoine"
+            ],
+            "protocluster_number": [
+              "32"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_22875",
+            "domains": [
+              [
+                "Aminotran_5",
+                6.8e-18,
+                63.1,
+                34,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "ectoine": []
+            }
+          },
+          {
+            "cds_name": "CRV15_22890",
+            "domains": [
+              [
+                "PhyH",
+                1.3e-37,
+                128.4,
+                39,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "ectoine": []
+            }
+          },
+          {
+            "cds_name": "CRV15_22895",
+            "domains": [
+              [
+                "ectoine_synt",
+                7.3e-52,
+                172.9,
+                10,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "ectoine": [
+                "ectoine_synt"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_22900",
+            "domains": [
+              [
+                "Aminotran_3",
+                7.1e-73,
+                243.9,
+                13,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "ectoine": []
+            }
+          },
+          {
+            "cds_name": "CRV15_22910",
+            "domains": [
+              [
+                "Aminotran_5",
+                8.7e-23,
+                79.2,
+                34,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "ectoine": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[6066294:6111638]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "PKS"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[6086294:6091638]"
+            ],
+            "cutoff": [
+              "10000"
+            ],
+            "detection_rule": [
+              "(t2pks2 or ksIII)"
+            ],
+            "neighbourhood": [
+              "20000"
+            ],
+            "product": [
+              "PKS-like"
+            ],
+            "protocluster_number": [
+              "33"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_25785",
+            "domains": [
+              [
+                "p450",
+                8.3e-21,
+                72.6,
+                50,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "PKS-like": []
+            }
+          },
+          {
+            "cds_name": "CRV15_25795",
+            "domains": [
+              [
+                "ksIII",
+                1e-115,
+                384.3,
+                7,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "PKS-like": [
+                "ksIII"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_25800",
+            "domains": [
+              [
+                "Orn_DAP_Arg_deC",
+                5.3e-16,
+                57,
+                500,
+                "rule-based-clusters"
+              ],
+              [
+                "Orn_Arg_deC_N",
+                1.5e-31,
+                108,
+                15,
+                "rule-based-clusters"
+              ],
+              [
+                "PP-binding",
+                4.7e-8,
+                31.8,
+                164,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "PKS-like": []
+            }
+          },
+          {
+            "cds_name": "CRV15_25805",
+            "domains": [
+              [
+                "AMP-binding",
+                2.2e-96,
+                321.3,
+                400,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "PKS-like": []
+            }
+          },
+          {
+            "cds_name": "CRV15_25810",
+            "domains": [
+              [
+                "ksIII",
+                2.3e-134,
+                445.5,
+                7,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "PKS-like": [
+                "ksIII"
+              ],
+              "LAP": []
+            }
+          },
+          {
+            "cds_name": "CRV15_25825",
+            "domains": [
+              [
+                "Abhydrolase_6",
+                3.4e-8,
+                32.7,
+                455,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "PKS-like": [],
+              "LAP": []
+            }
+          },
+          {
+            "cds_name": "CRV15_25840",
+            "domains": [
+              [
+                "Goadsporin_CD_RRE",
+                4e-22,
+                76.5,
+                8,
+                "rule-based-clusters"
+              ],
+              [
+                "NHLP_CD_RRE",
+                5.8e-17,
+                59.9,
+                8,
+                "rule-based-clusters"
+              ],
+              [
+                "Cyanobactin_D_RRE",
+                6.9e-13,
+                46.8,
+                10,
+                "rule-based-clusters"
+              ],
+              [
+                "TIGR03882",
+                9.3e-45,
+                151,
+                35,
+                "rule-based-clusters"
+              ],
+              [
+                "YcaO",
+                3.1e-86,
+                288.4,
+                127,
+                "rule-based-clusters"
+              ],
+              [
+                "TIGR03604",
+                1.5e-74,
+                249.4,
+                25,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "PKS-like": [],
+              "LAP": [
+                "TIGR03882",
+                "YcaO",
+                "TIGR03604"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_25845",
+            "domains": [
+              [
+                "goadsporin_like",
+                2.2e-235,
+                780.3,
+                5,
+                "rule-based-clusters"
+              ],
+              [
+                "PF00881",
+                1.5e-16,
+                59.2,
+                78,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "butyrolactone": [],
+              "PKS-like": [],
+              "LAP": [
+                "goadsporin_like",
+                "PF00881"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_25860",
+            "domains": [
+              [
+                "AfsA",
+                6.3e-18,
+                63,
+                34,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "butyrolactone": [
+                "AfsA"
+              ],
+              "PKS-like": [],
+              "LAP": []
+            }
+          }
+        ]
+      ],
+      [
+        {
+          "location": "[6089315:6113541]",
+          "type": "protocluster",
+          "qualifiers": {
+            "aStool": [
+              "rule-based-clusters"
+            ],
+            "category": [
+              "RiPP"
+            ],
+            "contig_edge": [
+              "False"
+            ],
+            "core_location": [
+              "[6099315:6103541]"
+            ],
+            "cutoff": [
+              "20000"
+            ],
+            "detection_rule": [
+              "((((goadsporin_like or PF00881 or TIGR03605) and (YcaO or TIGR03604)) or TIGR03882 or TIGR03603 or TIGR03602) and not cyanobactin_synth)"
+            ],
+            "neighbourhood": [
+              "10000"
+            ],
+            "product": [
+              "LAP"
+            ],
+            "protocluster_number": [
+              "34"
+            ],
+            "tool": [
+              "antismash"
+            ]
+          }
+        },
+        [
+          {
+            "cds_name": "CRV15_25810",
+            "domains": [
+              [
+                "ksIII",
+                2.3e-134,
+                445.5,
+                7,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "PKS-like": [
+                "ksIII"
+              ],
+              "LAP": []
+            }
+          },
+          {
+            "cds_name": "CRV15_25825",
+            "domains": [
+              [
+                "Abhydrolase_6",
+                3.4e-8,
+                32.7,
+                455,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "PKS-like": [],
+              "LAP": []
+            }
+          },
+          {
+            "cds_name": "CRV15_25840",
+            "domains": [
+              [
+                "Goadsporin_CD_RRE",
+                4e-22,
+                76.5,
+                8,
+                "rule-based-clusters"
+              ],
+              [
+                "NHLP_CD_RRE",
+                5.8e-17,
+                59.9,
+                8,
+                "rule-based-clusters"
+              ],
+              [
+                "Cyanobactin_D_RRE",
+                6.9e-13,
+                46.8,
+                10,
+                "rule-based-clusters"
+              ],
+              [
+                "TIGR03882",
+                9.3e-45,
+                151,
+                35,
+                "rule-based-clusters"
+              ],
+              [
+                "YcaO",
+                3.1e-86,
+                288.4,
+                127,
+                "rule-based-clusters"
+              ],
+              [
+                "TIGR03604",
+                1.5e-74,
+                249.4,
+                25,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "PKS-like": [],
+              "LAP": [
+                "TIGR03882",
+                "YcaO",
+                "TIGR03604"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_25845",
+            "domains": [
+              [
+                "goadsporin_like",
+                2.2e-235,
+                780.3,
+                5,
+                "rule-based-clusters"
+              ],
+              [
+                "PF00881",
+                1.5e-16,
+                59.2,
+                78,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "butyrolactone": [],
+              "PKS-like": [],
+              "LAP": [
+                "goadsporin_like",
+                "PF00881"
+              ]
+            }
+          },
+          {
+            "cds_name": "CRV15_25860",
+            "domains": [
+              [
+                "AfsA",
+                6.3e-18,
+                63,
+                34,
+                "rule-based-clusters"
+              ]
+            ],
+            "definition_domains": {
+              "butyrolactone": [
+                "AfsA"
+              ],
+              "PKS-like": [],
+              "LAP": []
+            }
+          }
+        ]
+      ]
+    ],
+    "outside_protoclusters": [],
+    "multipliers": {
+      "cutoff": 1,
+      "neighbourhood": 1
+    }
+  },
+  "strictness": "relaxed"
+}

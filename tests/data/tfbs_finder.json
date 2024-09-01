@@ -1,0 +1,1107 @@
+{
+  "schema_version": 1,
+  "pvalue": 0.00001,
+  "start_overlap": 50,
+  "record_id": "CP027858.1",
+  "hits_by_region": {
+    "1": [
+      {
+        "name": "CsoR",
+        "start": 10106,
+        "description": "Copper-responsive repressor",
+        "consensus": "ATACCCCTNGGGGGTA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 21.99905175207473,
+        "max_score": 32.37643
+      },
+      {
+        "name": "DasR",
+        "start": 6310,
+        "description": "N-acetylglucosamine dependent repressor",
+        "consensus": "ANWGGTCTAGACCANW",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 19.417790620060376,
+        "max_score": 27.0358
+      },
+      {
+        "name": "DmdR1",
+        "start": 21696,
+        "description": "Iron(II)-dependent repressor",
+        "consensus": "TTAGGTTAGGCTCACCTWA",
+        "confidence": "medium",
+        "strand": 1,
+        "score": 27.89663073361812,
+        "max_score": 36.52555
+      },
+      {
+        "name": "DmdR1",
+        "start": 21771,
+        "description": "Iron(II)-dependent repressor",
+        "consensus": "TTAGGTTAGGCTCACCTWA",
+        "confidence": "medium",
+        "strand": -1,
+        "score": 28.57460671003367,
+        "max_score": 36.52555
+      },
+      {
+        "name": "DmdR1",
+        "start": 24464,
+        "description": "Iron(II)-dependent repressor",
+        "consensus": "TTAGGTTAGGCTCACCTWA",
+        "confidence": "medium",
+        "strand": 1,
+        "score": 30.896454017391793,
+        "max_score": 36.52555
+      },
+      {
+        "name": "HypR",
+        "start": 14738,
+        "description": "L-hydroxyproline utilization repressor",
+        "consensus": "TGCMATGTCAC",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 16.960645641254523,
+        "max_score": 22.39835
+      }
+    ],
+    "2": [
+      {
+        "name": "LexA",
+        "start": 108846,
+        "description": "Repressor of DNA damage response",
+        "consensus": "TCGAANKNNTGTTCGA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 19.445394771337696,
+        "max_score": 29.65219
+      },
+      {
+        "name": "NuR",
+        "start": 163775,
+        "description": "Nickel-responsive regulator",
+        "consensus": "TTGCANANNACTYGCAA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 20.317256829270992,
+        "max_score": 30.97839
+      },
+      {
+        "name": "ZuR",
+        "start": 93575,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 18.192290447325075,
+        "max_score": 28.18779
+      },
+      {
+        "name": "ZuR",
+        "start": 109791,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 16.233129444001314,
+        "max_score": 28.18779
+      },
+      {
+        "name": "ZuR",
+        "start": 131632,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 16.013059322587967,
+        "max_score": 28.18779
+      },
+      {
+        "name": "ZuR",
+        "start": 131697,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 16.70193542761576,
+        "max_score": 28.18779
+      },
+      {
+        "name": "ZuR",
+        "start": 144579,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 18.257749057065467,
+        "max_score": 28.18779
+      }
+    ],
+    "3": [
+      {
+        "name": "CatR",
+        "start": 318867,
+        "description": "H2O2-responsive repressor",
+        "consensus": "TGGANMGNRTCTAA",
+        "confidence": "medium",
+        "strand": -1,
+        "score": 18.513516750057807,
+        "max_score": 25.31008
+      },
+      {
+        "name": "DasR",
+        "start": 318689,
+        "description": "N-acetylglucosamine dependent repressor",
+        "consensus": "ANWGGTCTAGACCANW",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 20.68914650403285,
+        "max_score": 27.0358
+      },
+      {
+        "name": "LexA",
+        "start": 286529,
+        "description": "Repressor of DNA damage response",
+        "consensus": "TCGAANKNNTGTTCGA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 20.344228071692026,
+        "max_score": 29.65219
+      },
+      {
+        "name": "ZuR",
+        "start": 286280,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 17.60250997537586,
+        "max_score": 28.18779
+      }
+    ],
+    "4": [
+      {
+        "name": "ZuR",
+        "start": 492584,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 18.257749057065467,
+        "max_score": 28.18779
+      }
+    ],
+    "5": [
+      {
+        "name": "NrtR",
+        "start": 568227,
+        "description": "NAD synthesis repressor",
+        "consensus": "TTNTNGTCRNNNTGACGATTA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 18.962595995203436,
+        "max_score": 35.6303
+      }
+    ],
+    "6": [
+      {
+        "name": "AfsR",
+        "start": 580493,
+        "description": "Pleiotropic regulatory for antibiotic production",
+        "consensus": "GTAAATGAACGC",
+        "confidence": "medium",
+        "strand": 1,
+        "score": 19.283765867148958,
+        "max_score": 23.04516
+      },
+      {
+        "name": "LexA",
+        "start": 604932,
+        "description": "Repressor of DNA damage response",
+        "consensus": "TCGAANKNNTGTTCGA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 21.96198050753085,
+        "max_score": 29.65219
+      },
+      {
+        "name": "LexA",
+        "start": 604944,
+        "description": "Repressor of DNA damage response",
+        "consensus": "TCGAANKNNTGTTCGA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 21.808357318417638,
+        "max_score": 29.65219
+      },
+      {
+        "name": "ZuR",
+        "start": 603860,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 18.72443628189482,
+        "max_score": 28.18779
+      }
+    ],
+    "7": [
+      {
+        "name": "AfsQ1",
+        "start": 698653,
+        "description": "Two-component system AfsQ1-Q2, activator of antibiotic production",
+        "consensus": "GTCACNNNNNNGTCAC",
+        "confidence": "strong",
+        "strand": -1,
+        "score": 18.33039363216951,
+        "max_score": 19.52302
+      },
+      {
+        "name": "AfsQ1",
+        "start": 727406,
+        "description": "Two-component system AfsQ1-Q2, activator of antibiotic production",
+        "consensus": "GTCACNNNNNNGTCAC",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 16.93811608258475,
+        "max_score": 19.52302
+      },
+      {
+        "name": "CsoR",
+        "start": 692106,
+        "description": "Copper-responsive repressor",
+        "consensus": "ATACCCCTNGGGGGTA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 22.47311921742107,
+        "max_score": 32.37643
+      },
+      {
+        "name": "DasR",
+        "start": 685073,
+        "description": "N-acetylglucosamine dependent repressor",
+        "consensus": "ANWGGTCTAGACCANW",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 19.483801257591267,
+        "max_score": 27.0358
+      },
+      {
+        "name": "DasR",
+        "start": 690295,
+        "description": "N-acetylglucosamine dependent repressor",
+        "consensus": "ANWGGTCTAGACCANW",
+        "confidence": "medium",
+        "strand": -1,
+        "score": 22.612638274137733,
+        "max_score": 27.0358
+      },
+      {
+        "name": "DmdR1",
+        "start": 726288,
+        "description": "Iron(II)-dependent repressor",
+        "consensus": "TTAGGTTAGGCTCACCTWA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 22.700464249135358,
+        "max_score": 36.52555
+      },
+      {
+        "name": "NuR",
+        "start": 701519,
+        "description": "Nickel-responsive regulator",
+        "consensus": "TTGCANANNACTYGCAA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 19.9453015525481,
+        "max_score": 30.97839
+      },
+      {
+        "name": "OsdR",
+        "start": 723267,
+        "description": "Development and stress management regulator",
+        "consensus": "GGGCCGACCGGCCCT",
+        "confidence": "medium",
+        "strand": 1,
+        "score": 25.83633389433311,
+        "max_score": 30.11854
+      },
+      {
+        "name": "ZuR",
+        "start": 714457,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 17.122241279352135,
+        "max_score": 28.18779
+      }
+    ],
+    "8": [],
+    "9": [
+      {
+        "name": "AfsQ1",
+        "start": 972146,
+        "description": "Two-component system AfsQ1-Q2, activator of antibiotic production",
+        "consensus": "GTCACNNNNNNGTCAC",
+        "confidence": "medium",
+        "strand": 1,
+        "score": 17.108039681418468,
+        "max_score": 19.52302
+      },
+      {
+        "name": "AfsR",
+        "start": 1002194,
+        "description": "Pleiotropic regulatory for antibiotic production",
+        "consensus": "GTAAATGAACGC",
+        "confidence": "medium",
+        "strand": -1,
+        "score": 18.46067740327897,
+        "max_score": 23.04516
+      },
+      {
+        "name": "BldD",
+        "start": 978227,
+        "description": "Development and antibiotic global regulator",
+        "consensus": "GTNACKCTNNGTGA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 18.688169934658596,
+        "max_score": 23.43222
+      },
+      {
+        "name": "DmdR1",
+        "start": 956726,
+        "description": "Iron(II)-dependent repressor",
+        "consensus": "TTAGGTTAGGCTCACCTWA",
+        "confidence": "medium",
+        "strand": 1,
+        "score": 28.42260586074774,
+        "max_score": 36.52555
+      },
+      {
+        "name": "DmdR1",
+        "start": 963629,
+        "description": "Iron(II)-dependent repressor",
+        "consensus": "TTAGGTTAGGCTCACCTWA",
+        "confidence": "medium",
+        "strand": 1,
+        "score": 27.619116801905374,
+        "max_score": 36.52555
+      },
+      {
+        "name": "HypR",
+        "start": 954492,
+        "description": "L-hydroxyproline utilization repressor",
+        "consensus": "TGCMATGTCAC",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 18.594059458850385,
+        "max_score": 22.39835
+      },
+      {
+        "name": "LexA",
+        "start": 966729,
+        "description": "Repressor of DNA damage response",
+        "consensus": "TCGAANKNNTGTTCGA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 19.408598718105534,
+        "max_score": 29.65219
+      },
+      {
+        "name": "ZuR",
+        "start": 956627,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 16.32257176105332,
+        "max_score": 28.18779
+      },
+      {
+        "name": "ZuR",
+        "start": 988198,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 16.026640793782338,
+        "max_score": 28.18779
+      }
+    ],
+    "10": [],
+    "11": [
+      {
+        "name": "LexA",
+        "start": 1179539,
+        "description": "Repressor of DNA damage response",
+        "consensus": "TCGAANKNNTGTTCGA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 19.734174590008042,
+        "max_score": 29.65219
+      },
+      {
+        "name": "LexA",
+        "start": 1183785,
+        "description": "Repressor of DNA damage response",
+        "consensus": "TCGAANKNNTGTTCGA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 20.3742649208494,
+        "max_score": 29.65219
+      },
+      {
+        "name": "NrtR",
+        "start": 1226694,
+        "description": "NAD synthesis repressor",
+        "consensus": "TTNTNGTCRNNNTGACGATTA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 20.258658579654266,
+        "max_score": 35.6303
+      },
+      {
+        "name": "NuR",
+        "start": 1215543,
+        "description": "Nickel-responsive regulator",
+        "consensus": "TTGCANANNACTYGCAA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 22.00287208444533,
+        "max_score": 30.97839
+      },
+      {
+        "name": "ZuR",
+        "start": 1212162,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 16.958733606095524,
+        "max_score": 28.18779
+      },
+      {
+        "name": "ZuR",
+        "start": 1226685,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "medium",
+        "strand": 1,
+        "score": 23.183968574519294,
+        "max_score": 28.18779
+      },
+      {
+        "name": "ZuR",
+        "start": 1238585,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "medium",
+        "strand": 1,
+        "score": 22.983275139253273,
+        "max_score": 28.18779
+      }
+    ],
+    "12": [
+      {
+        "name": "BldD",
+        "start": 1291856,
+        "description": "Development and antibiotic global regulator",
+        "consensus": "GTNACKCTNNGTGA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 19.682776418872084,
+        "max_score": 23.43222
+      },
+      {
+        "name": "LexA",
+        "start": 1292220,
+        "description": "Repressor of DNA damage response",
+        "consensus": "TCGAANKNNTGTTCGA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 23.09332347729913,
+        "max_score": 29.65219
+      },
+      {
+        "name": "NrdR",
+        "start": 1291584,
+        "description": "Represses ribonucleotide reductase encoding genes",
+        "consensus": "NCACAASATGTGGGS",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 21.159093947354588,
+        "max_score": 27.17858
+      },
+      {
+        "name": "NrdR",
+        "start": 1291615,
+        "description": "Represses ribonucleotide reductase encoding genes",
+        "consensus": "NCACAASATGTGGGS",
+        "confidence": "strong",
+        "strand": 1,
+        "score": 25.084923829896287,
+        "max_score": 27.17858
+      }
+    ],
+    "13": [
+      {
+        "name": "AfsR",
+        "start": 1544638,
+        "description": "Pleiotropic regulatory for antibiotic production",
+        "consensus": "GTAAATGAACGC",
+        "confidence": "medium",
+        "strand": -1,
+        "score": 18.46067740327897,
+        "max_score": 23.04516
+      },
+      {
+        "name": "NuR",
+        "start": 1591128,
+        "description": "Nickel-responsive regulator",
+        "consensus": "TTGCANANNACTYGCAA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 19.693402165376625,
+        "max_score": 30.97839
+      },
+      {
+        "name": "ZuR",
+        "start": 1591129,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "medium",
+        "strand": -1,
+        "score": 22.773386092903678,
+        "max_score": 28.18779
+      }
+    ],
+    "14": [
+      {
+        "name": "AbrC3",
+        "start": 1654028,
+        "description": "Antibiotic production activator",
+        "consensus": "GAASGCGRCS",
+        "confidence": "strong",
+        "strand": -1,
+        "score": 18.06747299585037,
+        "max_score": 18.15656
+      },
+      {
+        "name": "DasR",
+        "start": 1678950,
+        "description": "N-acetylglucosamine dependent repressor",
+        "consensus": "ANWGGTCTAGACCANW",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 20.27436946464272,
+        "max_score": 27.0358
+      },
+      {
+        "name": "LexA",
+        "start": 1656713,
+        "description": "Repressor of DNA damage response",
+        "consensus": "TCGAANKNNTGTTCGA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 20.10138356419627,
+        "max_score": 29.65219
+      },
+      {
+        "name": "LexA",
+        "start": 1657901,
+        "description": "Repressor of DNA damage response",
+        "consensus": "TCGAANKNNTGTTCGA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 21.845741638509832,
+        "max_score": 29.65219
+      }
+    ],
+    "15": [
+      {
+        "name": "BldD",
+        "start": 1786144,
+        "description": "Development and antibiotic global regulator",
+        "consensus": "GTNACKCTNNGTGA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 18.68136338906471,
+        "max_score": 23.43222
+      },
+      {
+        "name": "DasR",
+        "start": 1789675,
+        "description": "N-acetylglucosamine dependent repressor",
+        "consensus": "ANWGGTCTAGACCANW",
+        "confidence": "medium",
+        "strand": -1,
+        "score": 22.78891146286541,
+        "max_score": 27.0358
+      },
+      {
+        "name": "DasR",
+        "start": 1789696,
+        "description": "N-acetylglucosamine dependent repressor",
+        "consensus": "ANWGGTCTAGACCANW",
+        "confidence": "medium",
+        "strand": -1,
+        "score": 21.253651812751723,
+        "max_score": 27.0358
+      },
+      {
+        "name": "NrtR",
+        "start": 1789679,
+        "description": "NAD synthesis repressor",
+        "consensus": "TTNTNGTCRNNNTGACGATTA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 19.333557569992205,
+        "max_score": 35.6303
+      },
+      {
+        "name": "NrtR",
+        "start": 1802649,
+        "description": "NAD synthesis repressor",
+        "consensus": "TTNTNGTCRNNNTGACGATTA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 20.73245925494083,
+        "max_score": 35.6303
+      },
+      {
+        "name": "ZuR",
+        "start": 1792243,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 19.270253589036066,
+        "max_score": 28.18779
+      },
+      {
+        "name": "ZuR",
+        "start": 1792422,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 19.005541436818255,
+        "max_score": 28.18779
+      }
+    ],
+    "16": [
+      {
+        "name": "BldD",
+        "start": 1875994,
+        "description": "Development and antibiotic global regulator",
+        "consensus": "GTNACKCTNNGTGA",
+        "confidence": "medium",
+        "strand": 1,
+        "score": 20.653640807161477,
+        "max_score": 23.43222
+      },
+      {
+        "name": "DasR",
+        "start": 1870575,
+        "description": "N-acetylglucosamine dependent repressor",
+        "consensus": "ANWGGTCTAGACCANW",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 19.609360422584903,
+        "max_score": 27.0358
+      },
+      {
+        "name": "DasR",
+        "start": 1875607,
+        "description": "N-acetylglucosamine dependent repressor",
+        "consensus": "ANWGGTCTAGACCANW",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 20.952524554490772,
+        "max_score": 27.0358
+      },
+      {
+        "name": "DasR",
+        "start": 1895612,
+        "description": "N-acetylglucosamine dependent repressor",
+        "consensus": "ANWGGTCTAGACCANW",
+        "confidence": "medium",
+        "strand": -1,
+        "score": 21.485664565304674,
+        "max_score": 27.0358
+      },
+      {
+        "name": "ZuR",
+        "start": 1879543,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 16.725240268930893,
+        "max_score": 28.18779
+      }
+    ],
+    "17": [
+      {
+        "name": "DasR",
+        "start": 2231727,
+        "description": "N-acetylglucosamine dependent repressor",
+        "consensus": "ANWGGTCTAGACCANW",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 19.373798010079028,
+        "max_score": 27.0358
+      },
+      {
+        "name": "LexA",
+        "start": 2232518,
+        "description": "Repressor of DNA damage response",
+        "consensus": "TCGAANKNNTGTTCGA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 20.658553912896107,
+        "max_score": 29.65219
+      }
+    ],
+    "18": [
+      {
+        "name": "BldD",
+        "start": 3316854,
+        "description": "Development and antibiotic global regulator",
+        "consensus": "GTNACKCTNNGTGA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 18.942056341903854,
+        "max_score": 23.43222
+      },
+      {
+        "name": "ZuR",
+        "start": 3322172,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 17.381760987966025,
+        "max_score": 28.18779
+      }
+    ],
+    "19": [
+      {
+        "name": "BldD",
+        "start": 3571957,
+        "description": "Development and antibiotic global regulator",
+        "consensus": "GTNACKCTNNGTGA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 19.891236301184765,
+        "max_score": 23.43222
+      },
+      {
+        "name": "DmdR1",
+        "start": 3571836,
+        "description": "Iron(II)-dependent repressor",
+        "consensus": "TTAGGTTAGGCTCACCTWA",
+        "confidence": "medium",
+        "strand": -1,
+        "score": 27.43720600046673,
+        "max_score": 36.52555
+      },
+      {
+        "name": "DmdR1",
+        "start": 3571841,
+        "description": "Iron(II)-dependent repressor",
+        "consensus": "TTAGGTTAGGCTCACCTWA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 21.235140996490177,
+        "max_score": 36.52555
+      },
+      {
+        "name": "DmdR1",
+        "start": 3571991,
+        "description": "Iron(II)-dependent repressor",
+        "consensus": "TTAGGTTAGGCTCACCTWA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 24.574884404310204,
+        "max_score": 36.52555
+      }
+    ],
+    "20": [
+      {
+        "name": "BldD",
+        "start": 3857320,
+        "description": "Development and antibiotic global regulator",
+        "consensus": "GTNACKCTNNGTGA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 19.376230140607984,
+        "max_score": 23.43222
+      }
+    ],
+    "21": [],
+    "22": [
+      {
+        "name": "ArgR",
+        "start": 4058387,
+        "description": "Regulator of arginine biosynthesis genes",
+        "consensus": "YGCATRNNCATGCA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 17.240599765,
+        "max_score": 20.00603
+      },
+      {
+        "name": "NuR",
+        "start": 4031973,
+        "description": "Nickel-responsive regulator",
+        "consensus": "TTGCANANNACTYGCAA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 21.19168769563375,
+        "max_score": 30.97839
+      },
+      {
+        "name": "ZuR",
+        "start": 4059592,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 17.091022464298963,
+        "max_score": 28.18779
+      }
+    ],
+    "23": [
+      {
+        "name": "AfsQ1",
+        "start": 4430871,
+        "description": "Two-component system AfsQ1-Q2, activator of antibiotic production",
+        "consensus": "GTCACNNNNNNGTCAC",
+        "confidence": "strong",
+        "strand": -1,
+        "score": 19.523022480026007,
+        "max_score": 19.52302
+      },
+      {
+        "name": "AfsR",
+        "start": 4431939,
+        "description": "Pleiotropic regulatory for antibiotic production",
+        "consensus": "GTAAATGAACGC",
+        "confidence": "strong",
+        "strand": -1,
+        "score": 20.575895712611008,
+        "max_score": 23.04516
+      },
+      {
+        "name": "BldD",
+        "start": 4430940,
+        "description": "Development and antibiotic global regulator",
+        "consensus": "GTNACKCTNNGTGA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 19.23289970638503,
+        "max_score": 23.43222
+      },
+      {
+        "name": "CatR",
+        "start": 4447180,
+        "description": "H2O2-responsive repressor",
+        "consensus": "TGGANMGNRTCTAA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 17.98654548139751,
+        "max_score": 25.31008
+      },
+      {
+        "name": "DmdR1",
+        "start": 4441731,
+        "description": "Iron(II)-dependent repressor",
+        "consensus": "TTAGGTTAGGCTCACCTWA",
+        "confidence": "strong",
+        "strand": -1,
+        "score": 33.618763369452715,
+        "max_score": 36.52555
+      },
+      {
+        "name": "DmdR1",
+        "start": 4442934,
+        "description": "Iron(II)-dependent repressor",
+        "consensus": "TTAGGTTAGGCTCACCTWA",
+        "confidence": "medium",
+        "strand": -1,
+        "score": 30.355853510669093,
+        "max_score": 36.52555
+      },
+      {
+        "name": "OsdR",
+        "start": 4432336,
+        "description": "Development and stress management regulator",
+        "consensus": "GGGCCGACCGGCCCT",
+        "confidence": "medium",
+        "strand": 1,
+        "score": 26.89645609087627,
+        "max_score": 30.11854
+      }
+    ],
+    "24": [],
+    "25": [
+      {
+        "name": "AbrC3",
+        "start": 6149966,
+        "description": "Antibiotic production activator",
+        "consensus": "GAASGCGRCS",
+        "confidence": "strong",
+        "strand": -1,
+        "score": 18.15655576909236,
+        "max_score": 18.15656
+      },
+      {
+        "name": "AfsQ1",
+        "start": 6067933,
+        "description": "Two-component system AfsQ1-Q2, activator of antibiotic production",
+        "consensus": "GTCACNNNNNNGTCAC",
+        "confidence": "medium",
+        "strand": 1,
+        "score": 17.108039681418468,
+        "max_score": 19.52302
+      },
+      {
+        "name": "AfsR",
+        "start": 6126619,
+        "description": "Pleiotropic regulatory for antibiotic production",
+        "consensus": "GTAAATGAACGC",
+        "confidence": "medium",
+        "strand": 1,
+        "score": 18.46067740327897,
+        "max_score": 23.04516
+      },
+      {
+        "name": "BldD",
+        "start": 6067907,
+        "description": "Development and antibiotic global regulator",
+        "consensus": "GTNACKCTNNGTGA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 19.77824558000972,
+        "max_score": 23.43222
+      },
+      {
+        "name": "HypR",
+        "start": 6125287,
+        "description": "L-hydroxyproline utilization repressor",
+        "consensus": "TGCMATGTCAC",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 18.594059458850385,
+        "max_score": 22.39835
+      },
+      {
+        "name": "LexA",
+        "start": 6097490,
+        "description": "Repressor of DNA damage response",
+        "consensus": "TCGAANKNNTGTTCGA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 20.344228071692026,
+        "max_score": 29.65219
+      },
+      {
+        "name": "ZuR",
+        "start": 6118014,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 19.32779822503841,
+        "max_score": 28.18779
+      }
+    ],
+    "26": [],
+    "27": [
+      {
+        "name": "NrtR",
+        "start": 6688620,
+        "description": "NAD synthesis repressor",
+        "consensus": "TTNTNGTCRNNNTGACGATTA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 19.275561485948494,
+        "max_score": 35.6303
+      },
+      {
+        "name": "NrtR",
+        "start": 6748226,
+        "description": "NAD synthesis repressor",
+        "consensus": "TTNTNGTCRNNNTGACGATTA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 19.43459588494175,
+        "max_score": 35.6303
+      },
+      {
+        "name": "OsdR",
+        "start": 6666841,
+        "description": "Development and stress management regulator",
+        "consensus": "GGGCCGACCGGCCCT",
+        "confidence": "medium",
+        "strand": 1,
+        "score": 25.372976457671058,
+        "max_score": 30.11854
+      },
+      {
+        "name": "ZuR",
+        "start": 6667022,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 16.258553044101536,
+        "max_score": 28.18779
+      },
+      {
+        "name": "ZuR",
+        "start": 6671488,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": 1,
+        "score": 16.43510451661286,
+        "max_score": 28.18779
+      },
+      {
+        "name": "ZuR",
+        "start": 6671526,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 16.265629896400014,
+        "max_score": 28.18779
+      },
+      {
+        "name": "ZuR",
+        "start": 6728628,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 16.460528116713082,
+        "max_score": 28.18779
+      },
+      {
+        "name": "ZuR",
+        "start": 6728637,
+        "description": "Zinc-responsive repressor",
+        "consensus": "TGAANNTCATTTTCA",
+        "confidence": "weak",
+        "strand": -1,
+        "score": 16.460528116713082,
+        "max_score": 28.18779
+      }
+    ]
+  }
+}

@@ -1,0 +1,5688 @@
+{
+  "schema_version": 3,
+  "record_id": "CP027858.1",
+  "domain_predictions": {
+    "nrpspksdomains_CRV15_00420_AMP-binding.1": {
+      "nrpys": {
+        "aa10": "DAWTVTGVGK",
+        "aa34": "LGQAFDASFWDLTLVSTGDFNGYGPTEVTVGISV",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "tryptophan",
+                "short": "Trp",
+                "norine": "Trp"
+              }
+            ],
+            "signature": "DAWTVTGVGK",
+            "aa10_score": 1,
+            "aa34_score": 0.9117647058823529
+          }
+        ],
+        "physiochemical_class": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "large_cluster": {
+          "name": "Aromatic side chain",
+          "score": 0.3070791731413691,
+          "substrates": [
+            {
+              "long": "phenylalanine",
+              "short": "Phe",
+              "norine": "Phe"
+            },
+            {
+              "long": "tryptophan",
+              "short": "Trp",
+              "norine": "Trp"
+            },
+            {
+              "long": "phenylglycine",
+              "short": "Pgl",
+              "norine": "Ph-Gly"
+            },
+            {
+              "long": "tyrosine",
+              "short": "Tyr",
+              "norine": "Tyr"
+            },
+            {
+              "long": "R-beta-hydroxytyrosine",
+              "short": "R-ohTyr",
+              "norine": "bOH-Tyr"
+            }
+          ]
+        },
+        "small_cluster": {
+          "name": "Unpolar aromatic ring",
+          "score": 0.34849521525070704,
+          "substrates": [
+            {
+              "long": "phenylalanine",
+              "short": "Phe",
+              "norine": "Phe"
+            },
+            {
+              "long": "tryptophan",
+              "short": "Trp",
+              "norine": "Trp"
+            }
+          ]
+        },
+        "single_amino": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_00540_AMP-binding.1": {
+      "nrpys": {
+        "aa10": "DVGEVGSIDK",
+        "aa34": "AAWAFDVFTGDREFVVGSDINSYGVTEATIDSAC",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "ornithine",
+                "short": "Orn",
+                "norine": "Orn"
+              }
+            ],
+            "signature": "DVGEVGSIDK",
+            "aa10_score": 1,
+            "aa34_score": 0.8823529411764706
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophilic",
+          "score": 1.0702221729737869,
+          "substrates": [
+            {
+              "long": "arginine",
+              "short": "Arg",
+              "norine": "Arg"
+            },
+            {
+              "long": "aspartic acid",
+              "short": "Asp",
+              "norine": "Asp"
+            },
+            {
+              "long": "glutamic acid",
+              "short": "Glu",
+              "norine": "Glu"
+            },
+            {
+              "long": "asparagine",
+              "short": "Asn",
+              "norine": "Asn"
+            },
+            {
+              "long": "lysine",
+              "short": "Lys",
+              "norine": "Lys"
+            },
+            {
+              "long": "glutamine",
+              "short": "Gln",
+              "norine": "Gln"
+            },
+            {
+              "long": "ornithine",
+              "short": "Orn",
+              "norine": "Orn"
+            },
+            {
+              "long": "2-aminoadipic acid",
+              "short": "Aad",
+              "norine": "Aad"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "Long positively charged side chain",
+          "score": 1.2457579686188691,
+          "substrates": [
+            {
+              "long": "ornithine",
+              "short": "Orn",
+              "norine": "Orn"
+            },
+            {
+              "long": "lysine",
+              "short": "Lys",
+              "norine": "Lys"
+            },
+            {
+              "long": "arginine",
+              "short": "Arg",
+              "norine": "Arg"
+            }
+          ]
+        },
+        "small_cluster": {
+          "name": "Orn and hydroxy-Orn specific",
+          "score": 0.06056708215537043,
+          "substrates": [
+            {
+              "long": "ornithine",
+              "short": "Orn",
+              "norine": "Orn"
+            },
+            {
+              "long": "N5-hydroxyornithine",
+              "short": "ohOrn",
+              "norine": "OH-Orn"
+            }
+          ]
+        },
+        "single_amino": {
+          "name": "orn",
+          "score": 0.09145191190079127,
+          "substrates": [
+            {
+              "long": "ornithine",
+              "short": "Orn",
+              "norine": "Orn"
+            }
+          ]
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_01085_AMP-binding.1": {
+      "nrpys": {
+        "aa10": "GLGMIGI--K",
+        "aa34": "SAAIYGLFTGGGMVIFGAEVDIYGLSE----VMG",
+        "stachelhaus_matches": [],
+        "physiochemical_class": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "large_cluster": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "small_cluster": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "single_amino": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_01905_AMP-binding.1": {
+      "nrpys": {
+        "aa10": "DIWQVIAIWK",
+        "aa34": "MRSTFDISVWEGQVVSIGEWNAYGPTETTIWSTA",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "glycine",
+                "short": "Gly",
+                "norine": "Gly"
+              }
+            ],
+            "signature": "DILQVGVIWK",
+            "aa10_score": 0.7,
+            "aa34_score": 0.7058823529411765
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophobic-aliphatic",
+          "score": 1.725177894750446,
+          "substrates": [
+            {
+              "long": "alanine",
+              "short": "Ala",
+              "norine": "Ala"
+            },
+            {
+              "long": "glycine",
+              "short": "Gly",
+              "norine": "Gly"
+            },
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            },
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            },
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            },
+            {
+              "long": "pipecolic acid",
+              "short": "Pip",
+              "norine": "Hpr"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "Apolar, aliphatic",
+          "score": 0.001078282929112162,
+          "substrates": [
+            {
+              "long": "glycine",
+              "short": "Gly",
+              "norine": "Gly"
+            },
+            {
+              "long": "alanine",
+              "short": "Ala",
+              "norine": "Ala"
+            },
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            }
+          ]
+        },
+        "small_cluster": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "single_amino": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_01905_AMP-binding.2": {
+      "nrpys": {
+        "aa10": "DAGNMGQVCK",
+        "aa34": "LALPFDAAFGDPNTMVGGDHNQYGPTEATVCATT",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "leucine",
+                "short": "Leu",
+                "norine": "Leu"
+              }
+            ],
+            "signature": "DAFFHGQVCK",
+            "aa10_score": 0.7,
+            "aa34_score": 0.5588235294117647
+          }
+        ],
+        "physiochemical_class": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "large_cluster": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "small_cluster": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "single_amino": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_01915_AMP-binding.1": {
+      "nrpys": {
+        "aa10": "DVACIAAACK",
+        "aa34": "LAQAFDVAVADMCMIVAGEVNAYGPTETTACATM",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "leucine",
+                "short": "Leu",
+                "norine": "Leu"
+              },
+              {
+                "long": "methionine",
+                "short": "Met",
+                "norine": "Met"
+              }
+            ],
+            "signature": "DAWCIAAVCK",
+            "aa10_score": 0.7,
+            "aa34_score": 0.6764705882352942
+          },
+          {
+            "substrates": [
+              {
+                "long": "tyrosine",
+                "short": "Tyr",
+                "norine": "Tyr"
+              }
+            ],
+            "signature": "DAAIIAAVCK",
+            "aa10_score": 0.7,
+            "aa34_score": 0.6764705882352942
+          },
+          {
+            "substrates": [
+              {
+                "long": "alanine",
+                "short": "Ala",
+                "norine": "Ala"
+              }
+            ],
+            "signature": "DVWCIAAIYK",
+            "aa10_score": 0.7,
+            "aa34_score": 0.6470588235294118
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophobic-aromatic",
+          "score": 0.28717184402418594,
+          "substrates": [
+            {
+              "long": "phenylalanine",
+              "short": "Phe",
+              "norine": "Phe"
+            },
+            {
+              "long": "tyrosine",
+              "short": "Tyr",
+              "norine": "Tyr"
+            },
+            {
+              "long": "2,3-dihydroxybenzoic acid",
+              "short": "2,3-dohBza",
+              "norine": "diOH-Bz"
+            },
+            {
+              "long": "phenylglycine",
+              "short": "Pgl",
+              "norine": "Ph-Gly"
+            },
+            {
+              "long": "R-beta-hydroxytyrosine",
+              "short": "R-ohTyr",
+              "norine": "bOH-Tyr"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "Aromatic side chain",
+          "score": 0.17461638957928782,
+          "substrates": [
+            {
+              "long": "phenylalanine",
+              "short": "Phe",
+              "norine": "Phe"
+            },
+            {
+              "long": "tryptophan",
+              "short": "Trp",
+              "norine": "Trp"
+            },
+            {
+              "long": "phenylglycine",
+              "short": "Pgl",
+              "norine": "Ph-Gly"
+            },
+            {
+              "long": "tyrosine",
+              "short": "Tyr",
+              "norine": "Tyr"
+            },
+            {
+              "long": "R-beta-hydroxytyrosine",
+              "short": "R-ohTyr",
+              "norine": "bOH-Tyr"
+            }
+          ]
+        },
+        "small_cluster": {
+          "name": "Polar aromatic ring",
+          "score": 0.0879107728245958,
+          "substrates": [
+            {
+              "long": "tyrosine",
+              "short": "Tyr",
+              "norine": "Tyr"
+            },
+            {
+              "long": "R-beta-hydroxytyrosine",
+              "short": "R-ohTyr",
+              "norine": "bOH-Tyr"
+            }
+          ]
+        },
+        "single_amino": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_02200_AMP-binding.1": {
+      "nrpys": {
+        "aa10": "DLYNLSLIWK",
+        "aa34": "TDIAFDLSVYDGNSLLSGDISLGGATEGSIWSVC",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "cysteine",
+                "short": "Cys",
+                "norine": "Cys"
+              }
+            ],
+            "signature": "DLYNLSLIWK",
+            "aa10_score": 1,
+            "aa34_score": 0.9411764705882353
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophobic-aliphatic",
+          "score": 1.8990961625978233,
+          "substrates": [
+            {
+              "long": "alanine",
+              "short": "Ala",
+              "norine": "Ala"
+            },
+            {
+              "long": "glycine",
+              "short": "Gly",
+              "norine": "Gly"
+            },
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            },
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            },
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            },
+            {
+              "long": "pipecolic acid",
+              "short": "Pip",
+              "norine": "Hpr"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "Polar, uncharged (aliphatic with -SH)",
+          "score": 1.0251169299265066,
+          "substrates": [
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            }
+          ]
+        },
+        "small_cluster": {
+          "name": "Polar, uncharged (aliphatic with -SH)",
+          "score": 1.0111680807849632,
+          "substrates": [
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            }
+          ]
+        },
+        "single_amino": {
+          "name": "Polar, uncharged (aliphatic with -SH)",
+          "score": 1.0249683241538161,
+          "substrates": [
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            }
+          ]
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_02840_AMP-binding.1": {
+      "nrpys": {
+        "aa10": "DTQFVGQVVK",
+        "aa34": "VRQAQDTVFQESFLVVGGGDHQYGPPETHVVTAG",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "proline",
+                "short": "Pro",
+                "norine": "Pro"
+              }
+            ],
+            "signature": "DVQFVAQVVK",
+            "aa10_score": 0.8,
+            "aa34_score": 0.6176470588235294
+          },
+          {
+            "substrates": [
+              {
+                "long": "pipecolic acid",
+                "short": "Pip",
+                "norine": "Hpr"
+              }
+            ],
+            "signature": "DVQFVAQVVK",
+            "aa10_score": 0.8,
+            "aa34_score": 0.5588235294117647
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophobic-aliphatic",
+          "score": 0.2586806330986615,
+          "substrates": [
+            {
+              "long": "alanine",
+              "short": "Ala",
+              "norine": "Ala"
+            },
+            {
+              "long": "glycine",
+              "short": "Gly",
+              "norine": "Gly"
+            },
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            },
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            },
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            },
+            {
+              "long": "pipecolic acid",
+              "short": "Pip",
+              "norine": "Hpr"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "Cyclic aliphatic chain (polar NH2 group)",
+          "score": 0.6535057581397268,
+          "substrates": [
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            },
+            {
+              "long": "pipecolic acid",
+              "short": "Pip",
+              "norine": "Hpr"
+            }
+          ]
+        },
+        "small_cluster": {
+          "name": "pro",
+          "score": 0.41036223259238147,
+          "substrates": [
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            }
+          ]
+        },
+        "single_amino": {
+          "name": "pro",
+          "score": 0.17898113068674615,
+          "substrates": [
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            }
+          ]
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_02845_AMP-binding.1": {
+      "nrpys": {
+        "aa10": "DTLFLGCVLK",
+        "aa34": "LDAAGDTYSLEVFLLTGGEVNCYGPAGNGVLATV",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "isoleucine",
+                "short": "Ile",
+                "norine": "Ile"
+              }
+            ],
+            "signature": "DALFLGCTFK",
+            "aa10_score": 0.7,
+            "aa34_score": 0.4411764705882353
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophobic-aliphatic",
+          "score": 0.6556584182430725,
+          "substrates": [
+            {
+              "long": "alanine",
+              "short": "Ala",
+              "norine": "Ala"
+            },
+            {
+              "long": "glycine",
+              "short": "Gly",
+              "norine": "Gly"
+            },
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            },
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            },
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            },
+            {
+              "long": "pipecolic acid",
+              "short": "Pip",
+              "norine": "Hpr"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "Apolar, aliphatic",
+          "score": 0.5770071447125488,
+          "substrates": [
+            {
+              "long": "glycine",
+              "short": "Gly",
+              "norine": "Gly"
+            },
+            {
+              "long": "alanine",
+              "short": "Ala",
+              "norine": "Ala"
+            },
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            }
+          ]
+        },
+        "small_cluster": {
+          "name": "Aliphatic, branched hydrophobic",
+          "score": 0.09444027922894938,
+          "substrates": [
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            }
+          ]
+        },
+        "single_amino": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_03020_AMP-binding.1": {
+      "nrpys": {
+        "aa10": "GREL--ASAK",
+        "aa34": "LRWLFGRVVE-ALG---GEQQAFGLGPGPSAALR",
+        "stachelhaus_matches": [],
+        "physiochemical_class": {
+          "name": "hydrophobic-aliphatic",
+          "score": 0.47027056603710715,
+          "substrates": [
+            {
+              "long": "alanine",
+              "short": "Ala",
+              "norine": "Ala"
+            },
+            {
+              "long": "glycine",
+              "short": "Gly",
+              "norine": "Gly"
+            },
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            },
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            },
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            },
+            {
+              "long": "pipecolic acid",
+              "short": "Pip",
+              "norine": "Hpr"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "small_cluster": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "single_amino": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_04770_AMP-binding.1": {
+      "nrpys": {
+        "aa10": "DAWQLGTVNK",
+        "aa34": "LWMTFDAHVWEAQVLSGGEWNTYGPTECSVNATA",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "glutamine",
+                "short": "Gln",
+                "norine": "Gln"
+              }
+            ],
+            "signature": "DAWQFGLINK",
+            "aa10_score": 0.7,
+            "aa34_score": 0.6764705882352942
+          },
+          {
+            "substrates": [
+              {
+                "long": "leucine",
+                "short": "Leu",
+                "norine": "Leu"
+              }
+            ],
+            "signature": "DAWFLGHVVK",
+            "aa10_score": 0.7,
+            "aa34_score": 0.6470588235294118
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophilic",
+          "score": 0.614860302235974,
+          "substrates": [
+            {
+              "long": "arginine",
+              "short": "Arg",
+              "norine": "Arg"
+            },
+            {
+              "long": "aspartic acid",
+              "short": "Asp",
+              "norine": "Asp"
+            },
+            {
+              "long": "glutamic acid",
+              "short": "Glu",
+              "norine": "Glu"
+            },
+            {
+              "long": "asparagine",
+              "short": "Asn",
+              "norine": "Asn"
+            },
+            {
+              "long": "lysine",
+              "short": "Lys",
+              "norine": "Lys"
+            },
+            {
+              "long": "glutamine",
+              "short": "Gln",
+              "norine": "Gln"
+            },
+            {
+              "long": "ornithine",
+              "short": "Orn",
+              "norine": "Orn"
+            },
+            {
+              "long": "2-aminoadipic acid",
+              "short": "Aad",
+              "norine": "Aad"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "Aliphatic chain with H-bond donor",
+          "score": 0.3457038690818841,
+          "substrates": [
+            {
+              "long": "aspartic acid",
+              "short": "Asp",
+              "norine": "Asp"
+            },
+            {
+              "long": "asparagine",
+              "short": "Asn",
+              "norine": "Asn"
+            },
+            {
+              "long": "glutamic acid",
+              "short": "Glu",
+              "norine": "Glu"
+            },
+            {
+              "long": "glutamine",
+              "short": "Gln",
+              "norine": "Gln"
+            },
+            {
+              "long": "2-aminoadipic acid",
+              "short": "Aad",
+              "norine": "Aad"
+            }
+          ]
+        },
+        "small_cluster": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "single_amino": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_04770_AMP-binding.2": {
+      "nrpys": {
+        "aa10": "DLPKVAEVGK",
+        "aa34": "HWASFDLVVPNAKLVVAGEINEYGPTEASVGTSI",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "D-alanine",
+                "short": "D-Ala",
+                "norine": "D-Ala"
+              }
+            ],
+            "signature": "DLTKVNEVGK",
+            "aa10_score": 0.8,
+            "aa34_score": 0.7647058823529411
+          },
+          {
+            "substrates": [
+              {
+                "long": "asparagine",
+                "short": "Asn",
+                "norine": "Asn"
+              }
+            ],
+            "signature": "DLTKVGEVGK",
+            "aa10_score": 0.8,
+            "aa34_score": 0.6764705882352942
+          }
+        ],
+        "physiochemical_class": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "large_cluster": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "small_cluster": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "single_amino": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_04775_AMP-binding.1": {
+      "nrpys": {
+        "aa10": "DVFSIAMVHK",
+        "aa34": "LTAHFDVSVFEGSQIFAGEVNMYGITETTVHTTY",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "serine",
+                "short": "Ser",
+                "norine": "Ser"
+              }
+            ],
+            "signature": "DVWSIAMVHK",
+            "aa10_score": 0.9,
+            "aa34_score": 0.8529411764705882
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophobic-aliphatic",
+          "score": 0.8560319067053807,
+          "substrates": [
+            {
+              "long": "alanine",
+              "short": "Ala",
+              "norine": "Ala"
+            },
+            {
+              "long": "glycine",
+              "short": "Gly",
+              "norine": "Gly"
+            },
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            },
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            },
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            },
+            {
+              "long": "pipecolic acid",
+              "short": "Pip",
+              "norine": "Hpr"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "Aliphatic chain or phenyl group with -OH",
+          "score": 0.5467703880839212,
+          "substrates": [
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            }
+          ]
+        },
+        "small_cluster": {
+          "name": "thr",
+          "score": 0.36081480913802855,
+          "substrates": [
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            }
+          ]
+        },
+        "single_amino": {
+          "name": "thr",
+          "score": 0.3603758019607426,
+          "substrates": [
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            }
+          ]
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_04775_AMP-binding.2": {
+      "nrpys": {
+        "aa10": "DVFSIAMVHK",
+        "aa34": "LTAHFDVSVFEGSQIFAGEVNMYGITETTVHTTY",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "serine",
+                "short": "Ser",
+                "norine": "Ser"
+              }
+            ],
+            "signature": "DVWSIAMVHK",
+            "aa10_score": 0.9,
+            "aa34_score": 0.8529411764705882
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophobic-aliphatic",
+          "score": 0.8560319067053807,
+          "substrates": [
+            {
+              "long": "alanine",
+              "short": "Ala",
+              "norine": "Ala"
+            },
+            {
+              "long": "glycine",
+              "short": "Gly",
+              "norine": "Gly"
+            },
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            },
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            },
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            },
+            {
+              "long": "pipecolic acid",
+              "short": "Pip",
+              "norine": "Hpr"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "Aliphatic chain or phenyl group with -OH",
+          "score": 0.5467703880839212,
+          "substrates": [
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            }
+          ]
+        },
+        "small_cluster": {
+          "name": "thr",
+          "score": 0.36081480913802855,
+          "substrates": [
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            }
+          ]
+        },
+        "single_amino": {
+          "name": "thr",
+          "score": 0.3603758019607426,
+          "substrates": [
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            }
+          ]
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_04775_AMP-binding.3": {
+      "nrpys": {
+        "aa10": "DVFSIAMVHK",
+        "aa34": "LTAHFDVSVFEGSQIFAGEVNMYGITETTVHTTY",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "serine",
+                "short": "Ser",
+                "norine": "Ser"
+              }
+            ],
+            "signature": "DVWSIAMVHK",
+            "aa10_score": 0.9,
+            "aa34_score": 0.8529411764705882
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophobic-aliphatic",
+          "score": 0.8560319067053807,
+          "substrates": [
+            {
+              "long": "alanine",
+              "short": "Ala",
+              "norine": "Ala"
+            },
+            {
+              "long": "glycine",
+              "short": "Gly",
+              "norine": "Gly"
+            },
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            },
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            },
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            },
+            {
+              "long": "pipecolic acid",
+              "short": "Pip",
+              "norine": "Hpr"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "Aliphatic chain or phenyl group with -OH",
+          "score": 0.5467703880839212,
+          "substrates": [
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            }
+          ]
+        },
+        "small_cluster": {
+          "name": "thr",
+          "score": 0.36081480913802855,
+          "substrates": [
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            }
+          ]
+        },
+        "single_amino": {
+          "name": "thr",
+          "score": 0.3603758019607426,
+          "substrates": [
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            }
+          ]
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_04775_AMP-binding.4": {
+      "nrpys": {
+        "aa10": "DLPKVAEIGK",
+        "aa34": "HWATFDLVIPNAKLVTAGEINEYGPTETSIGTTT",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "D-alanine",
+                "short": "D-Ala",
+                "norine": "D-Ala"
+              }
+            ],
+            "signature": "DLTKVNEVGK",
+            "aa10_score": 0.7,
+            "aa34_score": 0.6176470588235294
+          },
+          {
+            "substrates": [
+              {
+                "long": "asparagine",
+                "short": "Asn",
+                "norine": "Asn"
+              }
+            ],
+            "signature": "DLTKVGEVGK",
+            "aa10_score": 0.7,
+            "aa34_score": 0.5588235294117647
+          },
+          {
+            "substrates": [
+              {
+                "long": "aspartic acid",
+                "short": "Asp",
+                "norine": "Asp"
+              }
+            ],
+            "signature": "DLTKVGHIGK",
+            "aa10_score": 0.7,
+            "aa34_score": 0.5294117647058824
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophilic",
+          "score": 0.025900438389131683,
+          "substrates": [
+            {
+              "long": "arginine",
+              "short": "Arg",
+              "norine": "Arg"
+            },
+            {
+              "long": "aspartic acid",
+              "short": "Asp",
+              "norine": "Asp"
+            },
+            {
+              "long": "glutamic acid",
+              "short": "Glu",
+              "norine": "Glu"
+            },
+            {
+              "long": "asparagine",
+              "short": "Asn",
+              "norine": "Asn"
+            },
+            {
+              "long": "lysine",
+              "short": "Lys",
+              "norine": "Lys"
+            },
+            {
+              "long": "glutamine",
+              "short": "Gln",
+              "norine": "Gln"
+            },
+            {
+              "long": "ornithine",
+              "short": "Orn",
+              "norine": "Orn"
+            },
+            {
+              "long": "2-aminoadipic acid",
+              "short": "Aad",
+              "norine": "Aad"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "small_cluster": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "single_amino": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_04775_AMP-binding.5": {
+      "nrpys": {
+        "aa10": "DVFSIAMVHK",
+        "aa34": "LTAHFDVSVFEGSQIFAGEVNMYGITETTVHTTY",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "serine",
+                "short": "Ser",
+                "norine": "Ser"
+              }
+            ],
+            "signature": "DVWSIAMVHK",
+            "aa10_score": 0.9,
+            "aa34_score": 0.8529411764705882
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophobic-aliphatic",
+          "score": 0.8560319067053807,
+          "substrates": [
+            {
+              "long": "alanine",
+              "short": "Ala",
+              "norine": "Ala"
+            },
+            {
+              "long": "glycine",
+              "short": "Gly",
+              "norine": "Gly"
+            },
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            },
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            },
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            },
+            {
+              "long": "pipecolic acid",
+              "short": "Pip",
+              "norine": "Hpr"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "Aliphatic chain or phenyl group with -OH",
+          "score": 0.5467703880839212,
+          "substrates": [
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            }
+          ]
+        },
+        "small_cluster": {
+          "name": "thr",
+          "score": 0.36081480913802855,
+          "substrates": [
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            }
+          ]
+        },
+        "single_amino": {
+          "name": "thr",
+          "score": 0.3603758019607426,
+          "substrates": [
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            }
+          ]
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_04775_AMP-binding.6": {
+      "nrpys": {
+        "aa10": "DLPKVAEIGK",
+        "aa34": "HWATFDLVIPNAKLVTAGEINEYGPTETSIGTTT",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "D-alanine",
+                "short": "D-Ala",
+                "norine": "D-Ala"
+              }
+            ],
+            "signature": "DLTKVNEVGK",
+            "aa10_score": 0.7,
+            "aa34_score": 0.6176470588235294
+          },
+          {
+            "substrates": [
+              {
+                "long": "asparagine",
+                "short": "Asn",
+                "norine": "Asn"
+              }
+            ],
+            "signature": "DLTKVGEVGK",
+            "aa10_score": 0.7,
+            "aa34_score": 0.5588235294117647
+          },
+          {
+            "substrates": [
+              {
+                "long": "aspartic acid",
+                "short": "Asp",
+                "norine": "Asp"
+              }
+            ],
+            "signature": "DLTKVGHIGK",
+            "aa10_score": 0.7,
+            "aa34_score": 0.5294117647058824
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophilic",
+          "score": 0.025900438389131683,
+          "substrates": [
+            {
+              "long": "arginine",
+              "short": "Arg",
+              "norine": "Arg"
+            },
+            {
+              "long": "aspartic acid",
+              "short": "Asp",
+              "norine": "Asp"
+            },
+            {
+              "long": "glutamic acid",
+              "short": "Glu",
+              "norine": "Glu"
+            },
+            {
+              "long": "asparagine",
+              "short": "Asn",
+              "norine": "Asn"
+            },
+            {
+              "long": "lysine",
+              "short": "Lys",
+              "norine": "Lys"
+            },
+            {
+              "long": "glutamine",
+              "short": "Gln",
+              "norine": "Gln"
+            },
+            {
+              "long": "ornithine",
+              "short": "Orn",
+              "norine": "Orn"
+            },
+            {
+              "long": "2-aminoadipic acid",
+              "short": "Aad",
+              "norine": "Aad"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "small_cluster": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "single_amino": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_04810_AMP-binding.1": {
+      "nrpys": {
+        "aa10": "DAYFIGGTFK",
+        "aa34": "FERSFDASTYEVFLIAGGEINGYGPTETTTFAAL",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "leucine",
+                "short": "Leu",
+                "norine": "Leu"
+              },
+              {
+                "long": "isoleucine",
+                "short": "Ile",
+                "norine": "Ile"
+              }
+            ],
+            "signature": "DALFIGGTFK",
+            "aa10_score": 0.9,
+            "aa34_score": 0.7352941176470589
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophobic-aliphatic",
+          "score": 0.6289527764204457,
+          "substrates": [
+            {
+              "long": "alanine",
+              "short": "Ala",
+              "norine": "Ala"
+            },
+            {
+              "long": "glycine",
+              "short": "Gly",
+              "norine": "Gly"
+            },
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            },
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            },
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            },
+            {
+              "long": "pipecolic acid",
+              "short": "Pip",
+              "norine": "Hpr"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "Apolar, aliphatic",
+          "score": 0.5675079459808968,
+          "substrates": [
+            {
+              "long": "glycine",
+              "short": "Gly",
+              "norine": "Gly"
+            },
+            {
+              "long": "alanine",
+              "short": "Ala",
+              "norine": "Ala"
+            },
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            }
+          ]
+        },
+        "small_cluster": {
+          "name": "Aliphatic, branched hydrophobic",
+          "score": 0.6550955201603803,
+          "substrates": [
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            }
+          ]
+        },
+        "single_amino": {
+          "name": "val",
+          "score": 0.4767662530992478,
+          "substrates": [
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            }
+          ]
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_06250_AMP-binding.1": {
+      "nrpys": {
+        "aa10": "DVWHFSLVDK",
+        "aa34": "RWMTFDVSVWEWHFFASGEVNLYGPTEAAVDVSF",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "serine",
+                "short": "Ser",
+                "norine": "Ser"
+              }
+            ],
+            "signature": "DVWHFSLVDK",
+            "aa10_score": 1,
+            "aa34_score": 0.9411764705882353
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophobic-aliphatic",
+          "score": 0.9342637053906068,
+          "substrates": [
+            {
+              "long": "alanine",
+              "short": "Ala",
+              "norine": "Ala"
+            },
+            {
+              "long": "glycine",
+              "short": "Gly",
+              "norine": "Gly"
+            },
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            },
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            },
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            },
+            {
+              "long": "pipecolic acid",
+              "short": "Pip",
+              "norine": "Hpr"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "Aliphatic chain or phenyl group with -OH",
+          "score": 0.986787730659157,
+          "substrates": [
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            }
+          ]
+        },
+        "small_cluster": {
+          "name": "ser",
+          "score": 1.0521109515737712,
+          "substrates": [
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            }
+          ]
+        },
+        "single_amino": {
+          "name": "ser",
+          "score": 1.057130674903856,
+          "substrates": [
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            }
+          ]
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_06250_AMP-binding.2": {
+      "nrpys": {
+        "aa10": "DVQFASQVVK",
+        "aa34": "LWQAFDVFFQESFLASSGEENQYGPTETHVVLAH",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "proline",
+                "short": "Pro",
+                "norine": "Pro"
+              }
+            ],
+            "signature": "DVQFAAQVVK",
+            "aa10_score": 0.9,
+            "aa34_score": 0.7352941176470589
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophobic-aliphatic",
+          "score": 1.2996016280157672,
+          "substrates": [
+            {
+              "long": "alanine",
+              "short": "Ala",
+              "norine": "Ala"
+            },
+            {
+              "long": "glycine",
+              "short": "Gly",
+              "norine": "Gly"
+            },
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            },
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            },
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            },
+            {
+              "long": "pipecolic acid",
+              "short": "Pip",
+              "norine": "Hpr"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "Cyclic aliphatic chain (polar NH2 group)",
+          "score": 0.5412504549442609,
+          "substrates": [
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            },
+            {
+              "long": "pipecolic acid",
+              "short": "Pip",
+              "norine": "Hpr"
+            }
+          ]
+        },
+        "small_cluster": {
+          "name": "pro",
+          "score": 0.5722327391759077,
+          "substrates": [
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            }
+          ]
+        },
+        "single_amino": {
+          "name": "pro",
+          "score": 0.44628413800603495,
+          "substrates": [
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            }
+          ]
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_07510_AMP-binding.1": {
+      "nrpys": {
+        "aa10": "EPRNLVEFVK",
+        "aa34": "SDLAFEPHLRQINALLVGEVNEYAFTEAAFVTAV",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "2-aminoadipic acid",
+                "short": "Aad",
+                "norine": "Aad"
+              }
+            ],
+            "signature": "EPRNLVEFVK",
+            "aa10_score": 1,
+            "aa34_score": 1
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophilic",
+          "score": 1.2541409207895227,
+          "substrates": [
+            {
+              "long": "arginine",
+              "short": "Arg",
+              "norine": "Arg"
+            },
+            {
+              "long": "aspartic acid",
+              "short": "Asp",
+              "norine": "Asp"
+            },
+            {
+              "long": "glutamic acid",
+              "short": "Glu",
+              "norine": "Glu"
+            },
+            {
+              "long": "asparagine",
+              "short": "Asn",
+              "norine": "Asn"
+            },
+            {
+              "long": "lysine",
+              "short": "Lys",
+              "norine": "Lys"
+            },
+            {
+              "long": "glutamine",
+              "short": "Gln",
+              "norine": "Gln"
+            },
+            {
+              "long": "ornithine",
+              "short": "Orn",
+              "norine": "Orn"
+            },
+            {
+              "long": "2-aminoadipic acid",
+              "short": "Aad",
+              "norine": "Aad"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "Aliphatic chain with H-bond donor",
+          "score": 1.0987854209210675,
+          "substrates": [
+            {
+              "long": "aspartic acid",
+              "short": "Asp",
+              "norine": "Asp"
+            },
+            {
+              "long": "asparagine",
+              "short": "Asn",
+              "norine": "Asn"
+            },
+            {
+              "long": "glutamic acid",
+              "short": "Glu",
+              "norine": "Glu"
+            },
+            {
+              "long": "glutamine",
+              "short": "Gln",
+              "norine": "Gln"
+            },
+            {
+              "long": "2-aminoadipic acid",
+              "short": "Aad",
+              "norine": "Aad"
+            }
+          ]
+        },
+        "small_cluster": {
+          "name": "aad",
+          "score": 0.9996916995127094,
+          "substrates": [
+            {
+              "long": "2-aminoadipic acid",
+              "short": "Aad",
+              "norine": "Aad"
+            }
+          ]
+        },
+        "single_amino": {
+          "name": "aad",
+          "score": 1.0000098904997345,
+          "substrates": [
+            {
+              "long": "2-aminoadipic acid",
+              "short": "Aad",
+              "norine": "Aad"
+            }
+          ]
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_07510_AMP-binding.2": {
+      "nrpys": {
+        "aa10": "DHESDIGITK",
+        "aa34": "LSLSFDHFVEQDSGDAIGEINGYGPTEISITSHK",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "cysteine",
+                "short": "Cys",
+                "norine": "Cys"
+              }
+            ],
+            "signature": "DHESDIGITK",
+            "aa10_score": 1,
+            "aa34_score": 1
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophobic-aliphatic",
+          "score": 1.0001802436184115,
+          "substrates": [
+            {
+              "long": "alanine",
+              "short": "Ala",
+              "norine": "Ala"
+            },
+            {
+              "long": "glycine",
+              "short": "Gly",
+              "norine": "Gly"
+            },
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            },
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            },
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            },
+            {
+              "long": "pipecolic acid",
+              "short": "Pip",
+              "norine": "Hpr"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "Polar, uncharged (aliphatic with -SH)",
+          "score": 0.9993898794629086,
+          "substrates": [
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            }
+          ]
+        },
+        "small_cluster": {
+          "name": "Polar, uncharged (aliphatic with -SH)",
+          "score": 0.9996562396135902,
+          "substrates": [
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            }
+          ]
+        },
+        "single_amino": {
+          "name": "Polar, uncharged (aliphatic with -SH)",
+          "score": 0.9998084613149334,
+          "substrates": [
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            }
+          ]
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_07510_AMP-binding.3": {
+      "nrpys": {
+        "aa10": "DFESLAAVYK",
+        "aa34": "FTLAFDFSVEQLSGLVAGELNAYGTTETAVYNTV",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "valine",
+                "short": "Val",
+                "norine": "Val"
+              }
+            ],
+            "signature": "DFESLAAVYK",
+            "aa10_score": 1,
+            "aa34_score": 1
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophobic-aliphatic",
+          "score": 0.920789970609425,
+          "substrates": [
+            {
+              "long": "alanine",
+              "short": "Ala",
+              "norine": "Ala"
+            },
+            {
+              "long": "glycine",
+              "short": "Gly",
+              "norine": "Gly"
+            },
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            },
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            },
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            },
+            {
+              "long": "pipecolic acid",
+              "short": "Pip",
+              "norine": "Hpr"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "Apolar, aliphatic",
+          "score": 0.9156759996441698,
+          "substrates": [
+            {
+              "long": "glycine",
+              "short": "Gly",
+              "norine": "Gly"
+            },
+            {
+              "long": "alanine",
+              "short": "Ala",
+              "norine": "Ala"
+            },
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            }
+          ]
+        },
+        "small_cluster": {
+          "name": "Aliphatic, branched hydrophobic",
+          "score": 1.0015517985318296,
+          "substrates": [
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            }
+          ]
+        },
+        "single_amino": {
+          "name": "val",
+          "score": 0.917780117879754,
+          "substrates": [
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            }
+          ]
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_17090_AMP-binding.1": {
+      "nrpys": {
+        "aa10": "DVWHFSLVDK",
+        "aa34": "RWMTFDVSVWEWHFFCSGETNLYGPTEATVDVSY",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "serine",
+                "short": "Ser",
+                "norine": "Ser"
+              }
+            ],
+            "signature": "DVWHFSLVDK",
+            "aa10_score": 1,
+            "aa34_score": 0.9705882352941176
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophobic-aliphatic",
+          "score": 1.052908598338555,
+          "substrates": [
+            {
+              "long": "alanine",
+              "short": "Ala",
+              "norine": "Ala"
+            },
+            {
+              "long": "glycine",
+              "short": "Gly",
+              "norine": "Gly"
+            },
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            },
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            },
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            },
+            {
+              "long": "pipecolic acid",
+              "short": "Pip",
+              "norine": "Hpr"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "Aliphatic chain or phenyl group with -OH",
+          "score": 1.0069603888402423,
+          "substrates": [
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            }
+          ]
+        },
+        "small_cluster": {
+          "name": "ser",
+          "score": 1.0850181389221998,
+          "substrates": [
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            }
+          ]
+        },
+        "single_amino": {
+          "name": "ser",
+          "score": 1.0862500402454722,
+          "substrates": [
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            }
+          ]
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_17090_AMP-binding.2": {
+      "nrpys": {
+        "aa10": "DVQYLSQVVK",
+        "aa34": "LWQAFDVSFQESYLLSSGEENQYGPTESHVVTRY",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "proline",
+                "short": "Pro",
+                "norine": "Pro"
+              }
+            ],
+            "signature": "DVQFVAQVVK",
+            "aa10_score": 0.7,
+            "aa34_score": 0.7941176470588235
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophobic-aliphatic",
+          "score": 1.0417115252266536,
+          "substrates": [
+            {
+              "long": "alanine",
+              "short": "Ala",
+              "norine": "Ala"
+            },
+            {
+              "long": "glycine",
+              "short": "Gly",
+              "norine": "Gly"
+            },
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            },
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            },
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            },
+            {
+              "long": "pipecolic acid",
+              "short": "Pip",
+              "norine": "Hpr"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "Cyclic aliphatic chain (polar NH2 group)",
+          "score": 0.6310094422504922,
+          "substrates": [
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            },
+            {
+              "long": "pipecolic acid",
+              "short": "Pip",
+              "norine": "Hpr"
+            }
+          ]
+        },
+        "small_cluster": {
+          "name": "pro",
+          "score": 0.5850509572918039,
+          "substrates": [
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            }
+          ]
+        },
+        "single_amino": {
+          "name": "pro",
+          "score": 0.3908119751039725,
+          "substrates": [
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            }
+          ]
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_25805_AMP-binding.1": {
+      "nrpys": {
+        "aa10": "DYFPTTMRIK",
+        "aa34": "AAIVFDYGLFQLPLTNTGAAPMYGTTECKRITIL",
+        "stachelhaus_matches": [
+          {
+            "substrates": [
+              {
+                "long": "aspartic acid",
+                "short": "Asp",
+                "norine": "Asp"
+              }
+            ],
+            "signature": "DYYPTTMRVK",
+            "aa10_score": 0.8,
+            "aa34_score": 0.7352941176470589
+          }
+        ],
+        "physiochemical_class": {
+          "name": "hydrophobic-aliphatic",
+          "score": 1.5740257997311402,
+          "substrates": [
+            {
+              "long": "alanine",
+              "short": "Ala",
+              "norine": "Ala"
+            },
+            {
+              "long": "glycine",
+              "short": "Gly",
+              "norine": "Gly"
+            },
+            {
+              "long": "valine",
+              "short": "Val",
+              "norine": "Val"
+            },
+            {
+              "long": "leucine",
+              "short": "Leu",
+              "norine": "Leu"
+            },
+            {
+              "long": "isoleucine",
+              "short": "Ile",
+              "norine": "Ile"
+            },
+            {
+              "long": "2-aminobutyric acid",
+              "short": "Abu",
+              "norine": "Abu"
+            },
+            {
+              "long": "isovaline",
+              "short": "Iva",
+              "norine": "Ival"
+            },
+            {
+              "long": "serine",
+              "short": "Ser",
+              "norine": "Ser"
+            },
+            {
+              "long": "threonine",
+              "short": "Thr",
+              "norine": "Thr"
+            },
+            {
+              "long": "4-hydroxyphenylglycine",
+              "short": "Hpg",
+              "norine": "Hpg"
+            },
+            {
+              "long": "3,5-dihydroxyphenylglycine",
+              "short": "dHpg",
+              "norine": "Dhpg"
+            },
+            {
+              "long": "cysteine",
+              "short": "Cys",
+              "norine": "Cys"
+            },
+            {
+              "long": "proline",
+              "short": "Pro",
+              "norine": "Pro"
+            },
+            {
+              "long": "pipecolic acid",
+              "short": "Pip",
+              "norine": "Hpr"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "small_cluster": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "single_amino": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_27355_AMP-binding.1": {
+      "nrpys": {
+        "aa10": "GTMSSSNFNK",
+        "aa34": "TELPHGTAAMTISLSSSGAINNFGSSESGFNGTA",
+        "stachelhaus_matches": [],
+        "physiochemical_class": {
+          "name": "hydrophobic-aromatic",
+          "score": 0.19104406059009316,
+          "substrates": [
+            {
+              "long": "phenylalanine",
+              "short": "Phe",
+              "norine": "Phe"
+            },
+            {
+              "long": "tyrosine",
+              "short": "Tyr",
+              "norine": "Tyr"
+            },
+            {
+              "long": "2,3-dihydroxybenzoic acid",
+              "short": "2,3-dohBza",
+              "norine": "diOH-Bz"
+            },
+            {
+              "long": "phenylglycine",
+              "short": "Pgl",
+              "norine": "Ph-Gly"
+            },
+            {
+              "long": "R-beta-hydroxytyrosine",
+              "short": "R-ohTyr",
+              "norine": "bOH-Tyr"
+            }
+          ]
+        },
+        "large_cluster": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "small_cluster": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        },
+        "single_amino": {
+          "name": "N/A",
+          "score": 0,
+          "substrates": []
+        }
+      }
+    },
+    "nrpspksdomains_CRV15_00540_PKS_AT.1": {
+      "signature": {
+        "method": "ATSignature",
+        "predictions": {
+          "mal": [
+            "Q50JA4_AT1__mal",
+            "MWRTDIAQQGGHSAGREVPYHTNT",
+            70.83333333333333
+          ],
+          "mmal": [
+            "Q93TW6_AT2__mmal",
+            "QWEINVVQQAGHSMGRNVASHTNV",
+            62.5
+          ],
+          "cemal": [
+            "B0L7F7_AT2__cemal",
+            "GWATDIQQQSGHSIGRDRPGHTNV",
+            58.333333333333336
+          ],
+          "emal": [
+            "Q846X3_AT1__emal",
+            "QWRIDVVQMAGHSQGRDVAGHTNV",
+            54.166666666666664
+          ],
+          "Acetyl-CoA": [
+            "Q8RJY6_AT1__Acetyl-CoA",
+            "TWECSGLQQGGHSIGLDTPSHTNV",
+            54.166666666666664
+          ]
+        }
+      },
+      "minowa_at": {
+        "method": "minowa",
+        "predictions": [
+          [
+            "Malonyl-CoA",
+            118.1
+          ],
+          [
+            "Methylmalonyl-CoA",
+            115.9
+          ],
+          [
+            "Methoxymalonyl-CoA",
+            107.7
+          ],
+          [
+            "Ethylmalonyl-CoA",
+            95.2
+          ],
+          [
+            "Isobutyryl-CoA",
+            85.6
+          ],
+          [
+            "2-Methylbutyryl-CoA",
+            64.8
+          ],
+          [
+            "Propionyl-CoA",
+            64.4
+          ],
+          [
+            "Acetyl-CoA",
+            62.2
+          ],
+          [
+            "trans-1,2-CPDA",
+            59.2
+          ],
+          [
+            "Benzoyl-CoA",
+            57.1
+          ],
+          [
+            "fatty_acid",
+            42.5
+          ],
+          [
+            "CHC-CoA",
+            41.5
+          ],
+          [
+            "inactive",
+            38.5
+          ],
+          [
+            "3-Methylbutyryl-CoA",
+            28.6
+          ]
+        ]
+      }
+    },
+    "nrpspksdomains_CRV15_06255_PKS_AT.1": {
+      "signature": {
+        "method": "ATSignature",
+        "predictions": {
+          "mmal": [
+            "O33954_AT1__mmal",
+            "QWRVDVVQMSGHSQGRDYASHTNV",
+            100
+          ],
+          "mxmal": [
+            "Q53840_AT4__mxmal",
+            "QWRVDVVQMSGHSQGRDFASHTNV",
+            95.83333333333333
+          ],
+          "emal": [
+            "O30766_AT2__emal",
+            "QWRVDVVQMSGHSQGRDTAGHTNV",
+            91.66666666666667
+          ],
+          "mal": [
+            "Q5SFB4_AT3__mal",
+            "AWREDVVQMSGHSQGRGYASHTNV",
+            87.5
+          ],
+          "trans-1,2-CPDA": [
+            "Q70I02_AT1__trans-1,2-CPDA",
+            "QWRVDVLQMSGHCCGRDTVGHTNV",
+            75
+          ],
+          "2metbut": [
+            "Q9S0R8_AT1__2metbut",
+            "QWRVDVVQMSGHSLGWDVPAHSNV",
+            75
+          ],
+          "prop": [
+            "A4F5D6_AT1__mal_or_prop",
+            "HWDLDVIQEAGHSFGRSYASHTNV",
+            66.66666666666667
+          ],
+          "isobut": [
+            "Q30CS2_AT1__isobut",
+            "QWGADVVQMAGHSLGWGLAAHANV",
+            62.5
+          ],
+          "cemal": [
+            "B0L7F7_AT2__cemal",
+            "GWATDIQQQSGHSIGRDRPGHTNV",
+            58.333333333333336
+          ],
+          "CHC-CoA": [
+            "Q6V1M8_AT1__CHC-CoA",
+            "QWRVEVIQMSGHSFGVGIAGHSSA",
+            58.333333333333336
+          ]
+        }
+      },
+      "minowa_at": {
+        "method": "minowa",
+        "predictions": [
+          [
+            "Methylmalonyl-CoA",
+            220.7
+          ],
+          [
+            "Ethylmalonyl-CoA",
+            209.3
+          ],
+          [
+            "Methoxymalonyl-CoA",
+            185.7
+          ],
+          [
+            "2-Methylbutyryl-CoA",
+            148.3
+          ],
+          [
+            "trans-1,2-CPDA",
+            135.7
+          ],
+          [
+            "Malonyl-CoA",
+            127
+          ],
+          [
+            "Propionyl-CoA",
+            118.5
+          ],
+          [
+            "CHC-CoA",
+            96.9
+          ],
+          [
+            "Isobutyryl-CoA",
+            79
+          ],
+          [
+            "Benzoyl-CoA",
+            65.6
+          ],
+          [
+            "inactive",
+            49.7
+          ],
+          [
+            "Acetyl-CoA",
+            46.6
+          ],
+          [
+            "3-Methylbutyryl-CoA",
+            44.2
+          ],
+          [
+            "fatty_acid",
+            17
+          ]
+        ]
+      }
+    },
+    "nrpspksdomains_CRV15_25945_PKS_AT.1": {
+      "signature": {
+        "method": "ATSignature",
+        "predictions": {
+          "mal": [
+            "Q6DNE0_AT1__mal",
+            "QYQTGYTQEAGHSVGRSHAFHNHV",
+            83.33333333333333
+          ],
+          "inactive": [
+            "Q6DNF2_AT1__inactive",
+            "QYQTAYTQEAGHSVGRSHAFHNHV",
+            79.16666666666667
+          ],
+          "mmal": [
+            "B5L6K8_AT4__mmal",
+            "QYRVDVIQMAGHSQGRTYASHTNV",
+            54.166666666666664
+          ]
+        }
+      },
+      "minowa_at": {
+        "method": "minowa",
+        "predictions": [
+          [
+            "Malonyl-CoA",
+            157.2
+          ],
+          [
+            "inactive",
+            93.4
+          ],
+          [
+            "Methoxymalonyl-CoA",
+            71.1
+          ],
+          [
+            "Methylmalonyl-CoA",
+            67.2
+          ],
+          [
+            "Propionyl-CoA",
+            51.1
+          ],
+          [
+            "Isobutyryl-CoA",
+            32.4
+          ],
+          [
+            "Ethylmalonyl-CoA",
+            31.8
+          ],
+          [
+            "2-Methylbutyryl-CoA",
+            28.7
+          ],
+          [
+            "Acetyl-CoA",
+            19.2
+          ],
+          [
+            "Benzoyl-CoA",
+            17.4
+          ],
+          [
+            "fatty_acid",
+            17
+          ],
+          [
+            "CHC-CoA",
+            14
+          ],
+          [
+            "trans-1,2-CPDA",
+            8.8
+          ],
+          [
+            "3-Methylbutyryl-CoA",
+            2.8
+          ]
+        ]
+      }
+    },
+    "nrpspksdomains_CRV15_28060_PKS_AT.1": {
+      "signature": {
+        "method": "ATSignature",
+        "predictions": {}
+      },
+      "minowa_at": {
+        "method": "minowa",
+        "predictions": [
+          [
+            "trans-1,2-CPDA",
+            0
+          ],
+          [
+            "inactive",
+            0
+          ],
+          [
+            "fatty_acid",
+            0
+          ],
+          [
+            "Propionyl-CoA",
+            0
+          ],
+          [
+            "Methylmalonyl-CoA",
+            0
+          ],
+          [
+            "Methoxymalonyl-CoA",
+            0
+          ],
+          [
+            "Malonyl-CoA",
+            0
+          ],
+          [
+            "Isobutyryl-CoA",
+            0
+          ],
+          [
+            "Ethylmalonyl-CoA",
+            0
+          ],
+          [
+            "CHC-CoA",
+            0
+          ],
+          [
+            "Benzoyl-CoA",
+            0
+          ],
+          [
+            "Acetyl-CoA",
+            0
+          ],
+          [
+            "3-Methylbutyryl-CoA",
+            0
+          ],
+          [
+            "2-Methylbutyryl-CoA",
+            0
+          ]
+        ]
+      }
+    },
+    "nrpspksdomains_CRV15_28070_PKS_AT.1": {
+      "signature": {
+        "method": "ATSignature",
+        "predictions": {
+          "isobut": [
+            "Q30CS2_AT1__isobut",
+            "QWGADVVQMAGHSLGWGLAAHANV",
+            70.83333333333333
+          ],
+          "mal": [
+            "B3TMQ8_AT1__mal",
+            "HWRVDIVQTSGHSQGRGYASHTNV",
+            62.5
+          ],
+          "mxmal": [
+            "O30767_AT1__mxmal",
+            "QWRADVVQMSGHSQGRDFAGHTNV",
+            62.5
+          ],
+          "mmal": [
+            "Q3S865_AT3__mmal",
+            "QWRVDVVQMSGHSQGRDYAAHTNV",
+            62.5
+          ],
+          "emal": [
+            "Q6V1N8_AT1__emal",
+            "QWEVDVLQMSGHSQGRGIAAHTNV",
+            62.5
+          ],
+          "2metbut": [
+            "Q83X69_AT1__2metbut",
+            "QWRVEIVQSAGHSMGWSMAAHSNV",
+            62.5
+          ],
+          "prop": [
+            "Q9F830_AT1__prop",
+            "QWRVEVVQQSGHSIGWSMAAHGSV",
+            62.5
+          ],
+          "trans-1,2-CPDA": [
+            "Q70I02_AT1__trans-1,2-CPDA",
+            "QWRVDVLQMSGHCCGRDTVGHTNV",
+            54.166666666666664
+          ]
+        }
+      },
+      "minowa_at": {
+        "method": "minowa",
+        "predictions": [
+          [
+            "Methylmalonyl-CoA",
+            155.2
+          ],
+          [
+            "2-Methylbutyryl-CoA",
+            149.5
+          ],
+          [
+            "Ethylmalonyl-CoA",
+            145.6
+          ],
+          [
+            "Methoxymalonyl-CoA",
+            143
+          ],
+          [
+            "Propionyl-CoA",
+            130.4
+          ],
+          [
+            "Malonyl-CoA",
+            98.9
+          ],
+          [
+            "CHC-CoA",
+            95.5
+          ],
+          [
+            "trans-1,2-CPDA",
+            91.7
+          ],
+          [
+            "Isobutyryl-CoA",
+            91.1
+          ],
+          [
+            "Benzoyl-CoA",
+            56.6
+          ],
+          [
+            "3-Methylbutyryl-CoA",
+            27
+          ],
+          [
+            "inactive",
+            24.6
+          ],
+          [
+            "Acetyl-CoA",
+            18.5
+          ],
+          [
+            "fatty_acid",
+            11.6
+          ]
+        ]
+      }
+    },
+    "nrpspksdomains_CRV15_28070_PKS_AT.2": {
+      "signature": {
+        "method": "ATSignature",
+        "predictions": {
+          "mmal": [
+            "O33954_AT1__mmal",
+            "QWRVDVVQMSGHSQGRDYASHTNV",
+            100
+          ],
+          "mxmal": [
+            "Q53840_AT4__mxmal",
+            "QWRVDVVQMSGHSQGRDFASHTNV",
+            95.83333333333333
+          ],
+          "emal": [
+            "O30766_AT2__emal",
+            "QWRVDVVQMSGHSQGRDTAGHTNV",
+            91.66666666666667
+          ],
+          "mal": [
+            "Q5SFB4_AT3__mal",
+            "AWREDVVQMSGHSQGRGYASHTNV",
+            87.5
+          ],
+          "trans-1,2-CPDA": [
+            "Q70I02_AT1__trans-1,2-CPDA",
+            "QWRVDVLQMSGHCCGRDTVGHTNV",
+            75
+          ],
+          "2metbut": [
+            "Q9S0R8_AT1__2metbut",
+            "QWRVDVVQMSGHSLGWDVPAHSNV",
+            75
+          ],
+          "prop": [
+            "A4F5D6_AT1__mal_or_prop",
+            "HWDLDVIQEAGHSFGRSYASHTNV",
+            66.66666666666667
+          ],
+          "isobut": [
+            "Q30CS2_AT1__isobut",
+            "QWGADVVQMAGHSLGWGLAAHANV",
+            62.5
+          ],
+          "cemal": [
+            "B0L7F7_AT2__cemal",
+            "GWATDIQQQSGHSIGRDRPGHTNV",
+            58.333333333333336
+          ],
+          "CHC-CoA": [
+            "Q6V1M8_AT1__CHC-CoA",
+            "QWRVEVIQMSGHSFGVGIAGHSSA",
+            58.333333333333336
+          ]
+        }
+      },
+      "minowa_at": {
+        "method": "minowa",
+        "predictions": [
+          [
+            "Methylmalonyl-CoA",
+            208
+          ],
+          [
+            "Ethylmalonyl-CoA",
+            195.6
+          ],
+          [
+            "Methoxymalonyl-CoA",
+            161.8
+          ],
+          [
+            "2-Methylbutyryl-CoA",
+            156.4
+          ],
+          [
+            "trans-1,2-CPDA",
+            123
+          ],
+          [
+            "Propionyl-CoA",
+            110.2
+          ],
+          [
+            "Malonyl-CoA",
+            85.3
+          ],
+          [
+            "CHC-CoA",
+            80.9
+          ],
+          [
+            "Isobutyryl-CoA",
+            65.1
+          ],
+          [
+            "Benzoyl-CoA",
+            62.2
+          ],
+          [
+            "fatty_acid",
+            34.3
+          ],
+          [
+            "Acetyl-CoA",
+            33.3
+          ],
+          [
+            "3-Methylbutyryl-CoA",
+            23.5
+          ],
+          [
+            "inactive",
+            23
+          ]
+        ]
+      }
+    },
+    "nrpspksdomains_CRV15_28070_PKS_AT.3": {
+      "signature": {
+        "method": "ATSignature",
+        "predictions": {
+          "mal": [
+            "Q3S865_AT2__mal",
+            "QRRTRYTQEAGHSVGRSHAFHNHV",
+            87.5
+          ],
+          "inactive": [
+            "Q6DNF2_AT1__inactive",
+            "QYQTAYTQEAGHSVGRSHAFHNHV",
+            75
+          ],
+          "mmal": [
+            "Q9KIZ8_AT1__mmal",
+            "QWRIDVVQAAGHSMGRDVASHTNV",
+            54.166666666666664
+          ]
+        }
+      },
+      "minowa_at": {
+        "method": "minowa",
+        "predictions": [
+          [
+            "Malonyl-CoA",
+            197.4
+          ],
+          [
+            "inactive",
+            93.8
+          ],
+          [
+            "Methoxymalonyl-CoA",
+            65.9
+          ],
+          [
+            "Methylmalonyl-CoA",
+            55.1
+          ],
+          [
+            "Propionyl-CoA",
+            35.7
+          ],
+          [
+            "Acetyl-CoA",
+            18.3
+          ],
+          [
+            "Isobutyryl-CoA",
+            17.5
+          ],
+          [
+            "Ethylmalonyl-CoA",
+            14.1
+          ],
+          [
+            "Benzoyl-CoA",
+            12.6
+          ],
+          [
+            "CHC-CoA",
+            11.8
+          ],
+          [
+            "2-Methylbutyryl-CoA",
+            8.2
+          ],
+          [
+            "fatty_acid",
+            6.4
+          ],
+          [
+            "trans-1,2-CPDA",
+            0
+          ],
+          [
+            "3-Methylbutyryl-CoA",
+            0
+          ]
+        ]
+      }
+    },
+    "nrpspksdomains_CRV15_28070_PKS_AT.4": {
+      "signature": {
+        "method": "ATSignature",
+        "predictions": {
+          "mmal": [
+            "Q3S865_AT3__mmal",
+            "QWRVDVVQMSGHSQGRDYAAHTNV",
+            100
+          ],
+          "emal": [
+            "O30766_AT2__emal",
+            "QWRVDVVQMSGHSQGRDTAGHTNV",
+            91.66666666666667
+          ],
+          "mxmal": [
+            "Q53840_AT4__mxmal",
+            "QWRVDVVQMSGHSQGRDFASHTNV",
+            91.66666666666667
+          ],
+          "mal": [
+            "Q5SFB4_AT3__mal",
+            "AWREDVVQMSGHSQGRGYASHTNV",
+            83.33333333333333
+          ],
+          "2metbut": [
+            "Q9S0R8_AT1__2metbut",
+            "QWRVDVVQMSGHSLGWDVPAHSNV",
+            79.16666666666667
+          ],
+          "trans-1,2-CPDA": [
+            "Q70I02_AT1__trans-1,2-CPDA",
+            "QWRVDVLQMSGHCCGRDTVGHTNV",
+            75
+          ],
+          "prop": [
+            "Q03131_AT1__prop",
+            "QWRVEVVQQSGHSIGWSMAAHSSV",
+            66.66666666666667
+          ],
+          "isobut": [
+            "Q30CS2_AT1__isobut",
+            "QWGADVVQMAGHSLGWGLAAHANV",
+            66.66666666666667
+          ],
+          "cemal": [
+            "B0L7F7_AT2__cemal",
+            "GWATDIQQQSGHSIGRDRPGHTNV",
+            58.333333333333336
+          ],
+          "CHC-CoA": [
+            "Q6V1M8_AT1__CHC-CoA",
+            "QWRVEVIQMSGHSFGVGIAGHSSA",
+            58.333333333333336
+          ]
+        }
+      },
+      "minowa_at": {
+        "method": "minowa",
+        "predictions": [
+          [
+            "Ethylmalonyl-CoA",
+            206.7
+          ],
+          [
+            "Methylmalonyl-CoA",
+            206.2
+          ],
+          [
+            "Methoxymalonyl-CoA",
+            169.4
+          ],
+          [
+            "2-Methylbutyryl-CoA",
+            126.8
+          ],
+          [
+            "CHC-CoA",
+            110.1
+          ],
+          [
+            "trans-1,2-CPDA",
+            107.8
+          ],
+          [
+            "Malonyl-CoA",
+            106.5
+          ],
+          [
+            "Propionyl-CoA",
+            97.1
+          ],
+          [
+            "Isobutyryl-CoA",
+            85.3
+          ],
+          [
+            "Benzoyl-CoA",
+            84.5
+          ],
+          [
+            "Acetyl-CoA",
+            50.7
+          ],
+          [
+            "inactive",
+            37.1
+          ],
+          [
+            "fatty_acid",
+            27.5
+          ],
+          [
+            "3-Methylbutyryl-CoA",
+            25.5
+          ]
+        ]
+      }
+    },
+    "nrpspksdomains_CRV15_28075_PKS_AT.1": {
+      "signature": {
+        "method": "ATSignature",
+        "predictions": {
+          "mmal": [
+            "Q3S865_AT3__mmal",
+            "QWRVDVVQMSGHSQGRDYAAHTNV",
+            100
+          ],
+          "emal": [
+            "O30766_AT2__emal",
+            "QWRVDVVQMSGHSQGRDTAGHTNV",
+            91.66666666666667
+          ],
+          "mxmal": [
+            "Q53840_AT4__mxmal",
+            "QWRVDVVQMSGHSQGRDFASHTNV",
+            91.66666666666667
+          ],
+          "mal": [
+            "Q5SFB4_AT3__mal",
+            "AWREDVVQMSGHSQGRGYASHTNV",
+            83.33333333333333
+          ],
+          "2metbut": [
+            "Q9S0R8_AT1__2metbut",
+            "QWRVDVVQMSGHSLGWDVPAHSNV",
+            79.16666666666667
+          ],
+          "trans-1,2-CPDA": [
+            "Q70I02_AT1__trans-1,2-CPDA",
+            "QWRVDVLQMSGHCCGRDTVGHTNV",
+            75
+          ],
+          "prop": [
+            "Q03131_AT1__prop",
+            "QWRVEVVQQSGHSIGWSMAAHSSV",
+            66.66666666666667
+          ],
+          "isobut": [
+            "Q30CS2_AT1__isobut",
+            "QWGADVVQMAGHSLGWGLAAHANV",
+            66.66666666666667
+          ],
+          "cemal": [
+            "B0L7F7_AT2__cemal",
+            "GWATDIQQQSGHSIGRDRPGHTNV",
+            58.333333333333336
+          ],
+          "CHC-CoA": [
+            "Q6V1M8_AT1__CHC-CoA",
+            "QWRVEVIQMSGHSFGVGIAGHSSA",
+            58.333333333333336
+          ]
+        }
+      },
+      "minowa_at": {
+        "method": "minowa",
+        "predictions": [
+          [
+            "Ethylmalonyl-CoA",
+            219.5
+          ],
+          [
+            "Methylmalonyl-CoA",
+            214
+          ],
+          [
+            "Methoxymalonyl-CoA",
+            177.3
+          ],
+          [
+            "2-Methylbutyryl-CoA",
+            174.8
+          ],
+          [
+            "trans-1,2-CPDA",
+            140
+          ],
+          [
+            "Propionyl-CoA",
+            132.2
+          ],
+          [
+            "CHC-CoA",
+            119.7
+          ],
+          [
+            "Malonyl-CoA",
+            98.9
+          ],
+          [
+            "Isobutyryl-CoA",
+            70.1
+          ],
+          [
+            "Benzoyl-CoA",
+            60.7
+          ],
+          [
+            "Acetyl-CoA",
+            42.8
+          ],
+          [
+            "fatty_acid",
+            38.7
+          ],
+          [
+            "3-Methylbutyryl-CoA",
+            32.6
+          ],
+          [
+            "inactive",
+            27.6
+          ]
+        ]
+      }
+    },
+    "nrpspksdomains_CRV15_28075_PKS_AT.2": {
+      "signature": {
+        "method": "ATSignature",
+        "predictions": {
+          "emal": [
+            "O30766_AT2__emal",
+            "QWRVDVVQMSGHSQGRDTAGHTNV",
+            95.83333333333333
+          ],
+          "mmal": [
+            "O30767_AT1__mmal",
+            "QWRADVVQMSGHSQGRDFAGHTNV",
+            95.83333333333333
+          ],
+          "mxmal": [
+            "O30767_AT1__mxmal",
+            "QWRADVVQMSGHSQGRDFAGHTNV",
+            95.83333333333333
+          ],
+          "mal": [
+            "Q5SFB4_AT3__mal",
+            "AWREDVVQMSGHSQGRGYASHTNV",
+            79.16666666666667
+          ],
+          "trans-1,2-CPDA": [
+            "Q70I02_AT1__trans-1,2-CPDA",
+            "QWRVDVLQMSGHCCGRDTVGHTNV",
+            79.16666666666667
+          ],
+          "2metbut": [
+            "Q9S0R8_AT1__2metbut",
+            "QWRVDVVQMSGHSLGWDVPAHSNV",
+            75
+          ],
+          "cemal": [
+            "B0L7F7_AT2__cemal",
+            "GWATDIQQQSGHSIGRDRPGHTNV",
+            62.5
+          ],
+          "prop": [
+            "Q03131_AT1__prop",
+            "QWRVEVVQQSGHSIGWSMAAHSSV",
+            62.5
+          ],
+          "isobut": [
+            "Q30CS2_AT1__isobut",
+            "QWGADVVQMAGHSLGWGLAAHANV",
+            62.5
+          ],
+          "CHC-CoA": [
+            "Q6V1M8_AT1__CHC-CoA",
+            "QWRVEVIQMSGHSFGVGIAGHSSA",
+            62.5
+          ]
+        }
+      },
+      "minowa_at": {
+        "method": "minowa",
+        "predictions": [
+          [
+            "Ethylmalonyl-CoA",
+            210.4
+          ],
+          [
+            "Methylmalonyl-CoA",
+            210.3
+          ],
+          [
+            "Methoxymalonyl-CoA",
+            186.4
+          ],
+          [
+            "trans-1,2-CPDA",
+            137.7
+          ],
+          [
+            "2-Methylbutyryl-CoA",
+            135.1
+          ],
+          [
+            "Propionyl-CoA",
+            111.8
+          ],
+          [
+            "Malonyl-CoA",
+            91.9
+          ],
+          [
+            "CHC-CoA",
+            91.1
+          ],
+          [
+            "Benzoyl-CoA",
+            86.5
+          ],
+          [
+            "Isobutyryl-CoA",
+            75.6
+          ],
+          [
+            "Acetyl-CoA",
+            38.7
+          ],
+          [
+            "3-Methylbutyryl-CoA",
+            38.5
+          ],
+          [
+            "fatty_acid",
+            34
+          ],
+          [
+            "inactive",
+            20.9
+          ]
+        ]
+      }
+    },
+    "nrpspksdomains_CRV15_28075_PKS_AT.3": {
+      "signature": {
+        "method": "ATSignature",
+        "predictions": {
+          "mal": [
+            "O30764_AT3__mal",
+            "QHRTEYTQQAGHSVGRSHAFHNHV",
+            87.5
+          ],
+          "inactive": [
+            "Q6DNF2_AT1__inactive",
+            "QYQTAYTQEAGHSVGRSHAFHNHV",
+            79.16666666666667
+          ]
+        }
+      },
+      "minowa_at": {
+        "method": "minowa",
+        "predictions": [
+          [
+            "Malonyl-CoA",
+            189.3
+          ],
+          [
+            "inactive",
+            75.7
+          ],
+          [
+            "Methoxymalonyl-CoA",
+            61.1
+          ],
+          [
+            "Methylmalonyl-CoA",
+            55.1
+          ],
+          [
+            "Propionyl-CoA",
+            42.9
+          ],
+          [
+            "Isobutyryl-CoA",
+            24.4
+          ],
+          [
+            "CHC-CoA",
+            20.9
+          ],
+          [
+            "Ethylmalonyl-CoA",
+            18
+          ],
+          [
+            "Acetyl-CoA",
+            14.5
+          ],
+          [
+            "2-Methylbutyryl-CoA",
+            12.9
+          ],
+          [
+            "Benzoyl-CoA",
+            10.9
+          ],
+          [
+            "trans-1,2-CPDA",
+            9.6
+          ],
+          [
+            "fatty_acid",
+            3.1
+          ],
+          [
+            "3-Methylbutyryl-CoA",
+            0
+          ]
+        ]
+      }
+    },
+    "nrpspksdomains_CRV15_28080_PKS_AT.1": {
+      "signature": {
+        "method": "ATSignature",
+        "predictions": {
+          "mmal": [
+            "Q68BG4_AT2__mmal",
+            "QWRVDVVQMSGHSQGRDYASHANV",
+            100
+          ],
+          "mxmal": [
+            "Q53840_AT4__mxmal",
+            "QWRVDVVQMSGHSQGRDFASHTNV",
+            91.66666666666667
+          ],
+          "emal": [
+            "O30766_AT2__emal",
+            "QWRVDVVQMSGHSQGRDTAGHTNV",
+            87.5
+          ],
+          "mal": [
+            "Q5SFB4_AT3__mal",
+            "AWREDVVQMSGHSQGRGYASHTNV",
+            83.33333333333333
+          ],
+          "2metbut": [
+            "Q9S0R8_AT1__2metbut",
+            "QWRVDVVQMSGHSLGWDVPAHSNV",
+            75
+          ],
+          "trans-1,2-CPDA": [
+            "Q70I02_AT1__trans-1,2-CPDA",
+            "QWRVDVLQMSGHCCGRDTVGHTNV",
+            70.83333333333333
+          ],
+          "isobut": [
+            "Q30CS2_AT1__isobut",
+            "QWGADVVQMAGHSLGWGLAAHANV",
+            66.66666666666667
+          ],
+          "prop": [
+            "Q03131_AT1__prop",
+            "QWRVEVVQQSGHSIGWSMAAHSSV",
+            62.5
+          ],
+          "CHC-CoA": [
+            "Q6V1M8_AT1__CHC-CoA",
+            "QWRVEVIQMSGHSFGVGIAGHSSA",
+            58.333333333333336
+          ],
+          "cemal": [
+            "B0L7F7_AT2__cemal",
+            "GWATDIQQQSGHSIGRDRPGHTNV",
+            54.166666666666664
+          ]
+        }
+      },
+      "minowa_at": {
+        "method": "minowa",
+        "predictions": [
+          [
+            "Methylmalonyl-CoA",
+            212.3
+          ],
+          [
+            "Ethylmalonyl-CoA",
+            206.8
+          ],
+          [
+            "Methoxymalonyl-CoA",
+            182.2
+          ],
+          [
+            "2-Methylbutyryl-CoA",
+            157.4
+          ],
+          [
+            "trans-1,2-CPDA",
+            122.9
+          ],
+          [
+            "Propionyl-CoA",
+            114.5
+          ],
+          [
+            "CHC-CoA",
+            113.2
+          ],
+          [
+            "Malonyl-CoA",
+            108.2
+          ],
+          [
+            "Isobutyryl-CoA",
+            92.8
+          ],
+          [
+            "Benzoyl-CoA",
+            72.9
+          ],
+          [
+            "inactive",
+            39.6
+          ],
+          [
+            "Acetyl-CoA",
+            39.2
+          ],
+          [
+            "fatty_acid",
+            35.2
+          ],
+          [
+            "3-Methylbutyryl-CoA",
+            33
+          ]
+        ]
+      }
+    },
+    "nrpspksdomains_CRV15_28080_PKS_AT.2": {
+      "signature": {
+        "method": "ATSignature",
+        "predictions": {
+          "mmal": [
+            "O33954_AT1__mmal",
+            "QWRVDVVQMSGHSQGRDYASHTNV",
+            100
+          ],
+          "mxmal": [
+            "Q53840_AT4__mxmal",
+            "QWRVDVVQMSGHSQGRDFASHTNV",
+            95.83333333333333
+          ],
+          "emal": [
+            "O30766_AT2__emal",
+            "QWRVDVVQMSGHSQGRDTAGHTNV",
+            91.66666666666667
+          ],
+          "mal": [
+            "Q5SFB4_AT3__mal",
+            "AWREDVVQMSGHSQGRGYASHTNV",
+            87.5
+          ],
+          "trans-1,2-CPDA": [
+            "Q70I02_AT1__trans-1,2-CPDA",
+            "QWRVDVLQMSGHCCGRDTVGHTNV",
+            75
+          ],
+          "2metbut": [
+            "Q9S0R8_AT1__2metbut",
+            "QWRVDVVQMSGHSLGWDVPAHSNV",
+            75
+          ],
+          "prop": [
+            "A4F5D6_AT1__mal_or_prop",
+            "HWDLDVIQEAGHSFGRSYASHTNV",
+            66.66666666666667
+          ],
+          "isobut": [
+            "Q30CS2_AT1__isobut",
+            "QWGADVVQMAGHSLGWGLAAHANV",
+            62.5
+          ],
+          "cemal": [
+            "B0L7F7_AT2__cemal",
+            "GWATDIQQQSGHSIGRDRPGHTNV",
+            58.333333333333336
+          ],
+          "CHC-CoA": [
+            "Q6V1M8_AT1__CHC-CoA",
+            "QWRVEVIQMSGHSFGVGIAGHSSA",
+            58.333333333333336
+          ]
+        }
+      },
+      "minowa_at": {
+        "method": "minowa",
+        "predictions": [
+          [
+            "Methylmalonyl-CoA",
+            212.1
+          ],
+          [
+            "Ethylmalonyl-CoA",
+            201.7
+          ],
+          [
+            "Methoxymalonyl-CoA",
+            170.1
+          ],
+          [
+            "2-Methylbutyryl-CoA",
+            160.7
+          ],
+          [
+            "trans-1,2-CPDA",
+            131.8
+          ],
+          [
+            "Propionyl-CoA",
+            110.8
+          ],
+          [
+            "CHC-CoA",
+            85
+          ],
+          [
+            "Malonyl-CoA",
+            79.7
+          ],
+          [
+            "Isobutyryl-CoA",
+            76
+          ],
+          [
+            "Benzoyl-CoA",
+            73
+          ],
+          [
+            "fatty_acid",
+            38.4
+          ],
+          [
+            "Acetyl-CoA",
+            37.5
+          ],
+          [
+            "3-Methylbutyryl-CoA",
+            30.9
+          ],
+          [
+            "inactive",
+            24.1
+          ]
+        ]
+      }
+    },
+    "nrpspksdomains_CRV15_28085_PKS_AT.1": {
+      "signature": {
+        "method": "ATSignature",
+        "predictions": {
+          "mmal": [
+            "O33954_AT1__mmal",
+            "QWRVDVVQMSGHSQGRDYASHTNV",
+            100
+          ],
+          "mxmal": [
+            "Q53840_AT4__mxmal",
+            "QWRVDVVQMSGHSQGRDFASHTNV",
+            95.83333333333333
+          ],
+          "emal": [
+            "O30766_AT2__emal",
+            "QWRVDVVQMSGHSQGRDTAGHTNV",
+            91.66666666666667
+          ],
+          "mal": [
+            "Q5SFB4_AT3__mal",
+            "AWREDVVQMSGHSQGRGYASHTNV",
+            87.5
+          ],
+          "trans-1,2-CPDA": [
+            "Q70I02_AT1__trans-1,2-CPDA",
+            "QWRVDVLQMSGHCCGRDTVGHTNV",
+            75
+          ],
+          "2metbut": [
+            "Q9S0R8_AT1__2metbut",
+            "QWRVDVVQMSGHSLGWDVPAHSNV",
+            75
+          ],
+          "prop": [
+            "A4F5D6_AT1__mal_or_prop",
+            "HWDLDVIQEAGHSFGRSYASHTNV",
+            66.66666666666667
+          ],
+          "isobut": [
+            "Q30CS2_AT1__isobut",
+            "QWGADVVQMAGHSLGWGLAAHANV",
+            62.5
+          ],
+          "cemal": [
+            "B0L7F7_AT2__cemal",
+            "GWATDIQQQSGHSIGRDRPGHTNV",
+            58.333333333333336
+          ],
+          "CHC-CoA": [
+            "Q6V1M8_AT1__CHC-CoA",
+            "QWRVEVIQMSGHSFGVGIAGHSSA",
+            58.333333333333336
+          ]
+        }
+      },
+      "minowa_at": {
+        "method": "minowa",
+        "predictions": [
+          [
+            "Methylmalonyl-CoA",
+            217.1
+          ],
+          [
+            "Ethylmalonyl-CoA",
+            213.5
+          ],
+          [
+            "Methoxymalonyl-CoA",
+            187.4
+          ],
+          [
+            "2-Methylbutyryl-CoA",
+            157.9
+          ],
+          [
+            "trans-1,2-CPDA",
+            142
+          ],
+          [
+            "CHC-CoA",
+            129
+          ],
+          [
+            "Propionyl-CoA",
+            125.8
+          ],
+          [
+            "Malonyl-CoA",
+            114.6
+          ],
+          [
+            "Isobutyryl-CoA",
+            93.6
+          ],
+          [
+            "Benzoyl-CoA",
+            69.6
+          ],
+          [
+            "Acetyl-CoA",
+            57.2
+          ],
+          [
+            "fatty_acid",
+            45.1
+          ],
+          [
+            "inactive",
+            39.8
+          ],
+          [
+            "3-Methylbutyryl-CoA",
+            38.5
+          ]
+        ]
+      }
+    },
+    "nrpspksdomains_CRV15_28085_PKS_AT.2": {
+      "signature": {
+        "method": "ATSignature",
+        "predictions": {
+          "mmal": [
+            "O33954_AT1__mmal",
+            "QWRVDVVQMSGHSQGRDYASHTNV",
+            100
+          ],
+          "mxmal": [
+            "Q53840_AT4__mxmal",
+            "QWRVDVVQMSGHSQGRDFASHTNV",
+            95.83333333333333
+          ],
+          "emal": [
+            "O30766_AT2__emal",
+            "QWRVDVVQMSGHSQGRDTAGHTNV",
+            91.66666666666667
+          ],
+          "mal": [
+            "Q5SFB4_AT3__mal",
+            "AWREDVVQMSGHSQGRGYASHTNV",
+            87.5
+          ],
+          "trans-1,2-CPDA": [
+            "Q70I02_AT1__trans-1,2-CPDA",
+            "QWRVDVLQMSGHCCGRDTVGHTNV",
+            75
+          ],
+          "2metbut": [
+            "Q9S0R8_AT1__2metbut",
+            "QWRVDVVQMSGHSLGWDVPAHSNV",
+            75
+          ],
+          "prop": [
+            "A4F5D6_AT1__mal_or_prop",
+            "HWDLDVIQEAGHSFGRSYASHTNV",
+            66.66666666666667
+          ],
+          "isobut": [
+            "Q30CS2_AT1__isobut",
+            "QWGADVVQMAGHSLGWGLAAHANV",
+            62.5
+          ],
+          "cemal": [
+            "B0L7F7_AT2__cemal",
+            "GWATDIQQQSGHSIGRDRPGHTNV",
+            58.333333333333336
+          ],
+          "CHC-CoA": [
+            "Q6V1M8_AT1__CHC-CoA",
+            "QWRVEVIQMSGHSFGVGIAGHSSA",
+            58.333333333333336
+          ]
+        }
+      },
+      "minowa_at": {
+        "method": "minowa",
+        "predictions": [
+          [
+            "Methylmalonyl-CoA",
+            214.9
+          ],
+          [
+            "Ethylmalonyl-CoA",
+            205.4
+          ],
+          [
+            "Methoxymalonyl-CoA",
+            167.9
+          ],
+          [
+            "2-Methylbutyryl-CoA",
+            161.5
+          ],
+          [
+            "trans-1,2-CPDA",
+            128.9
+          ],
+          [
+            "Propionyl-CoA",
+            115.1
+          ],
+          [
+            "Malonyl-CoA",
+            91.9
+          ],
+          [
+            "CHC-CoA",
+            84.4
+          ],
+          [
+            "Isobutyryl-CoA",
+            71.2
+          ],
+          [
+            "Benzoyl-CoA",
+            64.6
+          ],
+          [
+            "Acetyl-CoA",
+            36.5
+          ],
+          [
+            "fatty_acid",
+            28.3
+          ],
+          [
+            "3-Methylbutyryl-CoA",
+            26.4
+          ],
+          [
+            "inactive",
+            25.3
+          ]
+        ]
+      }
+    },
+    "nrpspksdomains_CRV15_28090_PKS_AT.1": {
+      "signature": {
+        "method": "ATSignature",
+        "predictions": {
+          "emal": [
+            "O30766_AT2__emal",
+            "QWRVDVVQMSGHSQGRDTAGHTNV",
+            95.83333333333333
+          ],
+          "mmal": [
+            "O30767_AT1__mmal",
+            "QWRADVVQMSGHSQGRDFAGHTNV",
+            95.83333333333333
+          ],
+          "mxmal": [
+            "O30767_AT1__mxmal",
+            "QWRADVVQMSGHSQGRDFAGHTNV",
+            95.83333333333333
+          ],
+          "mal": [
+            "Q5SFB4_AT3__mal",
+            "AWREDVVQMSGHSQGRGYASHTNV",
+            79.16666666666667
+          ],
+          "trans-1,2-CPDA": [
+            "Q70I02_AT1__trans-1,2-CPDA",
+            "QWRVDVLQMSGHCCGRDTVGHTNV",
+            79.16666666666667
+          ],
+          "2metbut": [
+            "Q9S0R8_AT1__2metbut",
+            "QWRVDVVQMSGHSLGWDVPAHSNV",
+            75
+          ],
+          "cemal": [
+            "B0L7F7_AT2__cemal",
+            "GWATDIQQQSGHSIGRDRPGHTNV",
+            62.5
+          ],
+          "prop": [
+            "Q03131_AT1__prop",
+            "QWRVEVVQQSGHSIGWSMAAHSSV",
+            62.5
+          ],
+          "isobut": [
+            "Q30CS2_AT1__isobut",
+            "QWGADVVQMAGHSLGWGLAAHANV",
+            62.5
+          ],
+          "CHC-CoA": [
+            "Q6V1M8_AT1__CHC-CoA",
+            "QWRVEVIQMSGHSFGVGIAGHSSA",
+            62.5
+          ]
+        }
+      },
+      "minowa_at": {
+        "method": "minowa",
+        "predictions": [
+          [
+            "Methylmalonyl-CoA",
+            213.8
+          ],
+          [
+            "Ethylmalonyl-CoA",
+            211.6
+          ],
+          [
+            "Methoxymalonyl-CoA",
+            187.2
+          ],
+          [
+            "2-Methylbutyryl-CoA",
+            138.9
+          ],
+          [
+            "trans-1,2-CPDA",
+            137.6
+          ],
+          [
+            "Propionyl-CoA",
+            113.5
+          ],
+          [
+            "Malonyl-CoA",
+            93.9
+          ],
+          [
+            "CHC-CoA",
+            91.9
+          ],
+          [
+            "Benzoyl-CoA",
+            86.1
+          ],
+          [
+            "Isobutyryl-CoA",
+            76.5
+          ],
+          [
+            "3-Methylbutyryl-CoA",
+            39.1
+          ],
+          [
+            "Acetyl-CoA",
+            38.9
+          ],
+          [
+            "fatty_acid",
+            33.8
+          ],
+          [
+            "inactive",
+            20.9
+          ]
+        ]
+      }
+    },
+    "nrpspksdomains_CRV15_25965_CAL_domain.1": {
+      "minowa_cal": {
+        "method": "minowa",
+        "predictions": [
+          [
+            "NH2",
+            196.1
+          ],
+          [
+            "fatty_acid",
+            22.6
+          ],
+          [
+            "AHBA",
+            6.3
+          ],
+          [
+            "shikimic_acid",
+            3.8
+          ],
+          [
+            "Acetyl-CoA",
+            0.2
+          ]
+        ]
+      }
+    },
+    "nrpspksdomains_CRV15_00540_PKS_KR.1": {
+      "kr_activity": {
+        "class": "SimplePrediction",
+        "method": "kr_activity",
+        "prediction": "active"
+      }
+    },
+    "nrpspksdomains_CRV15_00610_PKS_KR.1": {
+      "kr_activity": {
+        "class": "SimplePrediction",
+        "method": "kr_activity",
+        "prediction": "inactive"
+      },
+      "kr_stereochem": {
+        "class": "SimplePrediction",
+        "method": "kr_stereochem",
+        "prediction": "C2"
+      }
+    },
+    "nrpspksdomains_CRV15_02430_PKS_KR.1": {
+      "kr_activity": {
+        "class": "SimplePrediction",
+        "method": "kr_activity",
+        "prediction": "inactive"
+      },
+      "kr_stereochem": {
+        "class": "SimplePrediction",
+        "method": "kr_stereochem",
+        "prediction": "C1"
+      }
+    },
+    "nrpspksdomains_CRV15_06240_PKS_KR.1": {
+      "kr_activity": {
+        "class": "SimplePrediction",
+        "method": "kr_activity",
+        "prediction": "inactive"
+      },
+      "kr_stereochem": {
+        "class": "SimplePrediction",
+        "method": "kr_stereochem",
+        "prediction": "C2"
+      }
+    },
+    "nrpspksdomains_CRV15_06255_PKS_KR.1": {
+      "kr_activity": {
+        "class": "SimplePrediction",
+        "method": "kr_activity",
+        "prediction": "active"
+      },
+      "kr_stereochem": {
+        "class": "SimplePrediction",
+        "method": "kr_stereochem",
+        "prediction": "B1"
+      }
+    },
+    "nrpspksdomains_CRV15_07560_PKS_KR.1": {
+      "kr_activity": {
+        "class": "SimplePrediction",
+        "method": "kr_activity",
+        "prediction": "inactive"
+      },
+      "kr_stereochem": {
+        "class": "SimplePrediction",
+        "method": "kr_stereochem",
+        "prediction": "C2"
+      }
+    },
+    "nrpspksdomains_CRV15_16940_PKS_KR.1": {
+      "kr_activity": {
+        "class": "SimplePrediction",
+        "method": "kr_activity",
+        "prediction": "inactive"
+      },
+      "kr_stereochem": {
+        "class": "SimplePrediction",
+        "method": "kr_stereochem",
+        "prediction": "C1"
+      }
+    },
+    "nrpspksdomains_CRV15_17025_PKS_KR.1": {
+      "kr_activity": {
+        "class": "SimplePrediction",
+        "method": "kr_activity",
+        "prediction": "inactive"
+      },
+      "kr_stereochem": {
+        "class": "SimplePrediction",
+        "method": "kr_stereochem",
+        "prediction": "C2"
+      }
+    },
+    "nrpspksdomains_CRV15_28070_PKS_KR.1": {
+      "kr_activity": {
+        "class": "SimplePrediction",
+        "method": "kr_activity",
+        "prediction": "active"
+      },
+      "kr_stereochem": {
+        "class": "SimplePrediction",
+        "method": "kr_stereochem",
+        "prediction": "B1"
+      }
+    },
+    "nrpspksdomains_CRV15_28070_PKS_KR.2": {
+      "kr_activity": {
+        "class": "SimplePrediction",
+        "method": "kr_activity",
+        "prediction": "active"
+      },
+      "kr_stereochem": {
+        "class": "SimplePrediction",
+        "method": "kr_stereochem",
+        "prediction": "A1"
+      }
+    },
+    "nrpspksdomains_CRV15_28075_PKS_KR.1": {
+      "kr_activity": {
+        "class": "SimplePrediction",
+        "method": "kr_activity",
+        "prediction": "active"
+      },
+      "kr_stereochem": {
+        "class": "SimplePrediction",
+        "method": "kr_stereochem",
+        "prediction": "A2"
+      }
+    },
+    "nrpspksdomains_CRV15_28075_PKS_KR.2": {
+      "kr_activity": {
+        "class": "SimplePrediction",
+        "method": "kr_activity",
+        "prediction": "active"
+      },
+      "kr_stereochem": {
+        "class": "SimplePrediction",
+        "method": "kr_stereochem",
+        "prediction": "B1"
+      }
+    },
+    "nrpspksdomains_CRV15_28075_PKS_KR.3": {
+      "kr_activity": {
+        "class": "SimplePrediction",
+        "method": "kr_activity",
+        "prediction": "active"
+      }
+    },
+    "nrpspksdomains_CRV15_28080_PKS_KR.1": {
+      "kr_activity": {
+        "class": "SimplePrediction",
+        "method": "kr_activity",
+        "prediction": "active"
+      },
+      "kr_stereochem": {
+        "class": "SimplePrediction",
+        "method": "kr_stereochem",
+        "prediction": "B1"
+      }
+    },
+    "nrpspksdomains_CRV15_28080_PKS_KR.2": {
+      "kr_activity": {
+        "class": "SimplePrediction",
+        "method": "kr_activity",
+        "prediction": "active"
+      },
+      "kr_stereochem": {
+        "class": "SimplePrediction",
+        "method": "kr_stereochem",
+        "prediction": "B1"
+      }
+    },
+    "nrpspksdomains_CRV15_28085_PKS_KR.1": {
+      "kr_activity": {
+        "class": "SimplePrediction",
+        "method": "kr_activity",
+        "prediction": "active"
+      },
+      "kr_stereochem": {
+        "class": "SimplePrediction",
+        "method": "kr_stereochem",
+        "prediction": "A2"
+      }
+    },
+    "nrpspksdomains_CRV15_28085_PKS_KR.2": {
+      "kr_activity": {
+        "class": "SimplePrediction",
+        "method": "kr_activity",
+        "prediction": "active"
+      },
+      "kr_stereochem": {
+        "class": "SimplePrediction",
+        "method": "kr_stereochem",
+        "prediction": "B1"
+      }
+    },
+    "nrpspksdomains_CRV15_28090_PKS_KR.1": {
+      "kr_activity": {
+        "class": "SimplePrediction",
+        "method": "kr_activity",
+        "prediction": "active"
+      },
+      "kr_stereochem": {
+        "class": "SimplePrediction",
+        "method": "kr_stereochem",
+        "prediction": "B1"
+      }
+    },
+    "nrpspksdomains_CRV15_00040_Aminotran_5.1": {},
+    "nrpspksdomains_CRV15_00135_Polyketide_cyc2.1": {},
+    "nrpspksdomains_CRV15_00360_PKS_ER.1": {},
+    "nrpspksdomains_CRV15_00420_PCP.1": {},
+    "nrpspksdomains_CRV15_00540_PKS_KS.1": {},
+    "nrpspksdomains_CRV15_00540_PKS_DH.1": {},
+    "nrpspksdomains_CRV15_00540_PKS_PP.1": {},
+    "nrpspksdomains_CRV15_00540_Condensation_LCL.1": {},
+    "nrpspksdomains_CRV15_00540_PCP.1": {},
+    "nrpspksdomains_CRV15_00540_Thioesterase.1": {},
+    "nrpspksdomains_CRV15_00555_PKS_ER.1": {},
+    "nrpspksdomains_CRV15_01175_Thioesterase.1": {},
+    "nrpspksdomains_CRV15_01185_PCP.1": {},
+    "nrpspksdomains_CRV15_01190_FkbH.1": {},
+    "nrpspksdomains_CRV15_01905_Condensation_LCL.1": {},
+    "nrpspksdomains_CRV15_01905_PCP.1": {},
+    "nrpspksdomains_CRV15_01905_Condensation_LCL.2": {},
+    "nrpspksdomains_CRV15_01905_PCP.2": {},
+    "nrpspksdomains_CRV15_01905_TD.1": {},
+    "nrpspksdomains_CRV15_01915_PCP.1": {},
+    "nrpspksdomains_CRV15_01945_oMT.1": {},
+    "nrpspksdomains_CRV15_02165_Condensation_DCL.1": {},
+    "nrpspksdomains_CRV15_02170_Thioesterase.1": {},
+    "nrpspksdomains_CRV15_02200_Heterocyclization.1": {},
+    "nrpspksdomains_CRV15_02200_PCP.1": {},
+    "nrpspksdomains_CRV15_02210_Thioesterase.1": {},
+    "nrpspksdomains_CRV15_02360_Aminotran_3.1": {},
+    "nrpspksdomains_CRV15_02840_Condensation_LCL.1": {},
+    "nrpspksdomains_CRV15_03945_Polyketide_cyc2.1": {},
+    "nrpspksdomains_CRV15_03950_PP-binding.1": {},
+    "nrpspksdomains_CRV15_03955_PKS_KS.1": {},
+    "nrpspksdomains_CRV15_03960_PKS_KS.1": {},
+    "nrpspksdomains_CRV15_04715_oMT.1": {},
+    "nrpspksdomains_CRV15_04755_TauD.1": {},
+    "nrpspksdomains_CRV15_04760_TauD.1": {},
+    "nrpspksdomains_CRV15_04770_PCP.1": {},
+    "nrpspksdomains_CRV15_04770_Condensation_LCL.1": {},
+    "nrpspksdomains_CRV15_04770_PCP.2": {},
+    "nrpspksdomains_CRV15_04775_Condensation_LCL.1": {},
+    "nrpspksdomains_CRV15_04775_PCP.1": {},
+    "nrpspksdomains_CRV15_04775_Condensation_DCL.1": {},
+    "nrpspksdomains_CRV15_04775_PCP.2": {},
+    "nrpspksdomains_CRV15_04775_Condensation_DCL.2": {},
+    "nrpspksdomains_CRV15_04775_PCP.3": {},
+    "nrpspksdomains_CRV15_04775_Condensation_DCL.3": {},
+    "nrpspksdomains_CRV15_04775_PCP.4": {},
+    "nrpspksdomains_CRV15_04775_Condensation_DCL.4": {},
+    "nrpspksdomains_CRV15_04775_PCP.5": {},
+    "nrpspksdomains_CRV15_04775_Condensation_DCL.5": {},
+    "nrpspksdomains_CRV15_04775_PCP.6": {},
+    "nrpspksdomains_CRV15_04805_Thioesterase.1": {},
+    "nrpspksdomains_CRV15_04810_Condensation_Starter.1": {},
+    "nrpspksdomains_CRV15_04810_PCP.1": {},
+    "nrpspksdomains_CRV15_04810_Epimerization.1": {},
+    "nrpspksdomains_CRV15_04810_TIGR01720.1": {},
+    "nrpspksdomains_CRV15_04810_Cglyc.1": {},
+    "nrpspksdomains_CRV15_05130_Aminotran_3.1": {},
+    "nrpspksdomains_CRV15_06245_Condensation_LCL.1": {},
+    "nrpspksdomains_CRV15_06250_Condensation_Starter.1": {},
+    "nrpspksdomains_CRV15_06250_PCP.1": {},
+    "nrpspksdomains_CRV15_06250_Condensation_DCL.1": {},
+    "nrpspksdomains_CRV15_06250_PCP.2": {},
+    "nrpspksdomains_CRV15_06250_Thioesterase.1": {},
+    "nrpspksdomains_CRV15_06255_PKS_DH.1": {},
+    "nrpspksdomains_CRV15_06255_PKS_ER.1": {},
+    "nrpspksdomains_CRV15_06255_PKS_PP.1": {},
+    "nrpspksdomains_CRV15_06260_PKS_KS.1": {},
+    "nrpspksdomains_CRV15_06275_Aminotran_4.1": {},
+    "nrpspksdomains_CRV15_07100_NAD_binding_4.1": {},
+    "nrpspksdomains_CRV15_07125_NAD_binding_4.1": {},
+    "nrpspksdomains_CRV15_07150_PP-binding.1": {},
+    "nrpspksdomains_CRV15_07465_Aminotran_5.1": {},
+    "nrpspksdomains_CRV15_07505_Aminotran_3.1": {},
+    "nrpspksdomains_CRV15_07510_PCP.1": {},
+    "nrpspksdomains_CRV15_07510_Condensation_DCL.1": {},
+    "nrpspksdomains_CRV15_07510_PCP.2": {},
+    "nrpspksdomains_CRV15_07510_Condensation_LCL.1": {},
+    "nrpspksdomains_CRV15_07510_PCP.3": {},
+    "nrpspksdomains_CRV15_07510_Epimerization.1": {},
+    "nrpspksdomains_CRV15_07510_Thioesterase.1": {},
+    "nrpspksdomains_CRV15_13885_TauD.1": {},
+    "nrpspksdomains_CRV15_13900_Aminotran_3.1": {},
+    "nrpspksdomains_CRV15_15030_TauD.1": {},
+    "nrpspksdomains_CRV15_17090_Condensation_Starter.1": {},
+    "nrpspksdomains_CRV15_17090_PCP.1": {},
+    "nrpspksdomains_CRV15_17090_Condensation_DCL.1": {},
+    "nrpspksdomains_CRV15_17090_PCP.2": {},
+    "nrpspksdomains_CRV15_17090_Thioesterase.1": {},
+    "nrpspksdomains_CRV15_18775_Aminotran_5.1": {},
+    "nrpspksdomains_CRV15_22875_Aminotran_5.1": {},
+    "nrpspksdomains_CRV15_22900_Aminotran_3.1": {},
+    "nrpspksdomains_CRV15_22910_Aminotran_5.1": {},
+    "nrpspksdomains_CRV15_25775_Polyketide_cyc2.1": {},
+    "nrpspksdomains_CRV15_25800_PP-binding.1": {},
+    "nrpspksdomains_CRV15_25825_Thioesterase.1": {},
+    "nrpspksdomains_CRV15_25925_ACPS.1": {},
+    "nrpspksdomains_CRV15_25935_PP-binding.1": {},
+    "nrpspksdomains_CRV15_25945_PKS_KS.1": {},
+    "nrpspksdomains_CRV15_25945_PP-binding.1": {},
+    "nrpspksdomains_CRV15_25950_ACP.1": {},
+    "nrpspksdomains_CRV15_25975_FkbH.1": {},
+    "nrpspksdomains_CRV15_27360_ECH.1": {},
+    "nrpspksdomains_CRV15_28005_oMT.1": {},
+    "nrpspksdomains_CRV15_28070_PKS_PP.1": {},
+    "nrpspksdomains_CRV15_28070_PKS_KS.1": {},
+    "nrpspksdomains_CRV15_28070_PKS_PP.2": {},
+    "nrpspksdomains_CRV15_28070_PKS_KS.2": {},
+    "nrpspksdomains_CRV15_28070_PKS_PP.3": {},
+    "nrpspksdomains_CRV15_28070_PKS_KS.3": {},
+    "nrpspksdomains_CRV15_28075_PKS_Docking_Nterm.1": {},
+    "nrpspksdomains_CRV15_28075_PKS_KS.1": {},
+    "nrpspksdomains_CRV15_28075_PKS_PP.1": {},
+    "nrpspksdomains_CRV15_28075_PKS_KS.2": {},
+    "nrpspksdomains_CRV15_28075_ACP.1": {},
+    "nrpspksdomains_CRV15_28075_PKS_KS.3": {},
+    "nrpspksdomains_CRV15_28075_PKS_DH.1": {},
+    "nrpspksdomains_CRV15_28075_ACP.2": {},
+    "nrpspksdomains_CRV15_28075_PKS_Docking_Cterm.1": {},
+    "nrpspksdomains_CRV15_28080_PKS_Docking_Nterm.1": {},
+    "nrpspksdomains_CRV15_28080_PKS_KS.1": {},
+    "nrpspksdomains_CRV15_28080_PKS_DH.1": {},
+    "nrpspksdomains_CRV15_28080_ACP.1": {},
+    "nrpspksdomains_CRV15_28080_PKS_KS.2": {},
+    "nrpspksdomains_CRV15_28080_PKS_DH.2": {},
+    "nrpspksdomains_CRV15_28080_PKS_ER.1": {},
+    "nrpspksdomains_CRV15_28080_PKS_PP.1": {},
+    "nrpspksdomains_CRV15_28080_PKS_Docking_Cterm.1": {},
+    "nrpspksdomains_CRV15_28085_PKS_Docking_Nterm.1": {},
+    "nrpspksdomains_CRV15_28085_PKS_KS.1": {},
+    "nrpspksdomains_CRV15_28085_ACP.1": {},
+    "nrpspksdomains_CRV15_28085_PKS_KS.2": {},
+    "nrpspksdomains_CRV15_28085_PKS_DH.1": {},
+    "nrpspksdomains_CRV15_28085_ACP.2": {},
+    "nrpspksdomains_CRV15_28085_PKS_Docking_Cterm.1": {},
+    "nrpspksdomains_CRV15_28090_PKS_KS.1": {},
+    "nrpspksdomains_CRV15_28090_PKS_DH.1": {},
+    "nrpspksdomains_CRV15_28090_ACP.1": {},
+    "nrpspksdomains_CRV15_28090_Thioesterase.1": {},
+    "nrpspksdomains_CRV15_28100_PP-binding.1": {},
+    "nrpspksdomains_CRV15_28110_FkbH.1": {}
+  },
+  "consensus": {
+    "nrpspksdomains_CRV15_00420_AMP-binding.1": "Trp",
+    "nrpspksdomains_CRV15_00540_PKS_AT.1": "mal",
+    "nrpspksdomains_CRV15_00540_AMP-binding.1": "Orn",
+    "nrpspksdomains_CRV15_01085_AMP-binding.1": "X",
+    "nrpspksdomains_CRV15_01905_AMP-binding.1": "X",
+    "nrpspksdomains_CRV15_01905_AMP-binding.2": "X",
+    "nrpspksdomains_CRV15_01915_AMP-binding.1": "X",
+    "nrpspksdomains_CRV15_02200_AMP-binding.1": "Cys",
+    "nrpspksdomains_CRV15_02840_AMP-binding.1": "Pro",
+    "nrpspksdomains_CRV15_02845_AMP-binding.1": "X",
+    "nrpspksdomains_CRV15_03020_AMP-binding.1": "X",
+    "nrpspksdomains_CRV15_04770_AMP-binding.1": "X",
+    "nrpspksdomains_CRV15_04770_AMP-binding.2": "X",
+    "nrpspksdomains_CRV15_04775_AMP-binding.1": "X",
+    "nrpspksdomains_CRV15_04775_AMP-binding.2": "X",
+    "nrpspksdomains_CRV15_04775_AMP-binding.3": "X",
+    "nrpspksdomains_CRV15_04775_AMP-binding.4": "X",
+    "nrpspksdomains_CRV15_04775_AMP-binding.5": "X",
+    "nrpspksdomains_CRV15_04775_AMP-binding.6": "X",
+    "nrpspksdomains_CRV15_04810_AMP-binding.1": "X",
+    "nrpspksdomains_CRV15_06250_AMP-binding.1": "Ser",
+    "nrpspksdomains_CRV15_06250_AMP-binding.2": "Pro",
+    "nrpspksdomains_CRV15_06255_PKS_AT.1": "mmal",
+    "nrpspksdomains_CRV15_07510_AMP-binding.1": "Aad",
+    "nrpspksdomains_CRV15_07510_AMP-binding.2": "Cys",
+    "nrpspksdomains_CRV15_07510_AMP-binding.3": "Val",
+    "nrpspksdomains_CRV15_17090_AMP-binding.1": "Ser",
+    "nrpspksdomains_CRV15_17090_AMP-binding.2": "Pro",
+    "nrpspksdomains_CRV15_25805_AMP-binding.1": "X",
+    "nrpspksdomains_CRV15_25945_PKS_AT.1": "mal",
+    "nrpspksdomains_CRV15_25965_CAL_domain.1": "pk",
+    "nrpspksdomains_CRV15_27355_AMP-binding.1": "X",
+    "nrpspksdomains_CRV15_28060_PKS_AT.1": "pk",
+    "nrpspksdomains_CRV15_28070_PKS_AT.1": "mmal",
+    "nrpspksdomains_CRV15_28070_PKS_AT.2": "mmal",
+    "nrpspksdomains_CRV15_28070_PKS_AT.3": "mal",
+    "nrpspksdomains_CRV15_28070_PKS_AT.4": "pk",
+    "nrpspksdomains_CRV15_28075_PKS_AT.1": "pk",
+    "nrpspksdomains_CRV15_28075_PKS_AT.2": "emal",
+    "nrpspksdomains_CRV15_28075_PKS_AT.3": "mal",
+    "nrpspksdomains_CRV15_28080_PKS_AT.1": "mmal",
+    "nrpspksdomains_CRV15_28080_PKS_AT.2": "mmal",
+    "nrpspksdomains_CRV15_28085_PKS_AT.1": "mmal",
+    "nrpspksdomains_CRV15_28085_PKS_AT.2": "mmal",
+    "nrpspksdomains_CRV15_28090_PKS_AT.1": "mmal"
+  },
+  "consensus_transat": {},
+  "region_predictions": {
+    "2": [
+      {
+        "sc_number": 2,
+        "polymer": "(Trp) + (ccmal - Orn)",
+        "docking_used": false,
+        "smiles": "NC(CC1=CNc2c1cccc2)C(=O)C=CNC(CCCN)C(=O)O",
+        "ordering": [
+          "CRV15_00420",
+          "CRV15_00540"
+        ]
+      },
+      {
+        "sc_number": 3,
+        "polymer": "(Trp)",
+        "docking_used": false,
+        "smiles": "NC(CC1=CNc2c1cccc2)C(=O)O",
+        "ordering": [
+          "CRV15_00420"
+        ]
+      },
+      {
+        "sc_number": 5,
+        "polymer": "(ccmal - Orn)",
+        "docking_used": false,
+        "smiles": "C=CNC(CCCN)C(=O)O",
+        "ordering": [
+          "CRV15_00540"
+        ]
+      }
+    ],
+    "3": [
+      {
+        "sc_number": 7,
+        "polymer": "",
+        "docking_used": false,
+        "smiles": "",
+        "ordering": []
+      }
+    ],
+    "4": [
+      {
+        "sc_number": 9,
+        "polymer": "(X) + (X - X)",
+        "docking_used": false,
+        "smiles": "NC([*])C(=O)NC([*])C(=O)NC([*])C(=O)O",
+        "ordering": [
+          "CRV15_01915",
+          "CRV15_01905"
+        ]
+      },
+      {
+        "sc_number": 10,
+        "polymer": "(X) + (X - X)",
+        "docking_used": false,
+        "smiles": "NC([*])C(=O)NC([*])C(=O)NC([*])C(=O)O",
+        "ordering": [
+          "CRV15_01915",
+          "CRV15_01905"
+        ]
+      },
+      {
+        "sc_number": 11,
+        "polymer": "(X) + (X - X)",
+        "docking_used": false,
+        "smiles": "NC([*])C(=O)NC([*])C(=O)NC([*])C(=O)O",
+        "ordering": [
+          "CRV15_01915",
+          "CRV15_01905"
+        ]
+      }
+    ],
+    "5": [
+      {
+        "sc_number": 12,
+        "polymer": "(Cys)",
+        "docking_used": false,
+        "smiles": "NC(CS)C(=O)O",
+        "ordering": [
+          "CRV15_02200"
+        ]
+      }
+    ],
+    "7": [
+      {
+        "sc_number": 14,
+        "polymer": "",
+        "docking_used": false,
+        "smiles": "",
+        "ordering": []
+      }
+    ],
+    "9": [
+      {
+        "sc_number": 16,
+        "polymer": "",
+        "docking_used": false,
+        "smiles": "",
+        "ordering": []
+      },
+      {
+        "sc_number": 18,
+        "polymer": "",
+        "docking_used": false,
+        "smiles": "",
+        "ordering": []
+      }
+    ],
+    "11": [
+      {
+        "sc_number": 20,
+        "polymer": "(X - X) + (X - X - X - X - X - X) + (D-X)",
+        "docking_used": false,
+        "smiles": "NC([*])C(=O)NC([*])C(=O)NC([*])C(=O)NC([*])C(=O)NC([*])C(=O)NC([*])C(=O)NC([*])C(=O)NC([*])C(=O)NC([*])C(=O)O",
+        "ordering": [
+          "CRV15_04770",
+          "CRV15_04775",
+          "CRV15_04810"
+        ]
+      }
+    ],
+    "13": [
+      {
+        "sc_number": 22,
+        "polymer": "(Me-redmal) + (Ser - Pro)",
+        "docking_used": false,
+        "smiles": "C(C)CNC(CO)C(=O)N1C(CCC1)C(=O)O",
+        "ordering": [
+          "CRV15_06255",
+          "CRV15_06250"
+        ]
+      }
+    ],
+    "16": [
+      {
+        "sc_number": 25,
+        "polymer": "(Aad - Cys - D-Val)",
+        "docking_used": false,
+        "smiles": "NC(CCCC(=O)O)C(=O)NC(CS)C(=O)NC(C(C)C)C(=O)O",
+        "ordering": [
+          "CRV15_07510"
+        ]
+      }
+    ],
+    "22": [
+      {
+        "sc_number": 32,
+        "polymer": "(Ser - Pro)",
+        "docking_used": false,
+        "smiles": "NC(CO)C(=O)N1C(CCC1)C(=O)O",
+        "ordering": [
+          "CRV15_17090"
+        ]
+      }
+    ],
+    "25": [
+      {
+        "sc_number": 35,
+        "polymer": "(mal)",
+        "docking_used": false,
+        "smiles": "CC(=O)C(=O)O",
+        "ordering": [
+          "CRV15_25945"
+        ]
+      },
+      {
+        "sc_number": 36,
+        "polymer": "",
+        "docking_used": false,
+        "smiles": "",
+        "ordering": []
+      },
+      {
+        "sc_number": 39,
+        "polymer": "(mal)",
+        "docking_used": false,
+        "smiles": "CC(=O)C(=O)O",
+        "ordering": [
+          "CRV15_25945"
+        ]
+      }
+    ],
+    "27": [
+      {
+        "sc_number": 41,
+        "polymer": "(Me-mal - Me-ohmal - ohmal) + (pk - ohemal - ccmal) + (Me-ccmal - Me-redmal) + (Me-ohmal - Me-ccmal) + (Me-ccmal)",
+        "docking_used": true,
+        "smiles": "C(C)C(=O)C(C)C(O)CC(O)C([*])C(-O)C(CC)C(O)C=CC(C)=CC(C)CC(C)C(O)C(C)=CC(C)=CC(=O)O",
+        "ordering": [
+          "CRV15_28070",
+          "CRV15_28075",
+          "CRV15_28080",
+          "CRV15_28085",
+          "CRV15_28090"
+        ]
+      }
+    ]
+  }
+}

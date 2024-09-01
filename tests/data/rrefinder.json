@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "bitscore_cutoff": 25,
+  "hits_by_protocluster": {
+    "8": [
+      "CRV15_01135"
+    ],
+    "14": [
+      "CRV15_03060"
+    ],
+    "21": [
+      "CRV15_06625"
+    ],
+    "28": [
+      "CRV15_16180"
+    ],
+    "34": [
+      "CRV15_25840"
+    ]
+  },
+  "hits_by_cds": {
+    "CRV15_01135": [
+      {
+        "location": "[294883:295141](-)",
+        "label": "CRV15_01135",
+        "locus_tag": "CRV15_01135",
+        "domain": "Stand_Alone_Lasso_RRE",
+        "evalue": 1.4e-14,
+        "score": 44.8,
+        "identifier": "RREFam002.1",
+        "description": "Stand-alone RRE protein in a lasso peptide cluster",
+        "protein_start": 3,
+        "protein_end": 89,
+        "translation": "RIAADVVWMSDDGEVRLYDPASGEFQTLNSTATELWLLIAEGRDTEDIAAELGRRYGAEDPGQLDEITRDVTEFLTRLTRQGLLTT"
+      }
+    ],
+    "CRV15_03060": [
+      {
+        "location": "[761906:762146](-)",
+        "label": "CRV15_03060",
+        "locus_tag": "CRV15_03060",
+        "domain": "PqqD_RRE",
+        "evalue": 2.1e-19,
+        "score": 60,
+        "identifier": "RREFam006.1",
+        "description": "RRE-containing protein in a pyrroloquinoline cluster",
+        "protein_start": 23,
+        "protein_end": 103,
+        "translation": "RPALARSVVLRHDRVRGTDLLLLPERAVVLKGAAGPILRLCDGTRDLAALVAELGARHPGAPVADEVPRFLARVREEGWI"
+      }
+    ],
+    "CRV15_06625": [
+      {
+        "location": "[1668417:1668696](-)",
+        "label": "CRV15_06625",
+        "locus_tag": "CRV15_06625",
+        "domain": "Lanthipeptide_LanB_RRE",
+        "evalue": 1e-17,
+        "score": 55.6,
+        "identifier": "RREFam001.1",
+        "description": "RRE-containing LanB protein in a class I lanthipeptide cluster",
+        "protein_start": 155,
+        "protein_end": 248,
+        "translation": "VMANAPVRIRDDRLVAPGSPADAYASHLAPEEIAVWNTRSLAAAMEAARLPIPYRELRECLRTRFPRAAAGQIDTLLQELVSHHLLITSLWAP"
+      }
+    ],
+    "CRV15_16180": [
+      {
+        "location": "[3848846:3849107](-)",
+        "label": "CRV15_16180",
+        "locus_tag": "CRV15_16180",
+        "domain": "Lanthipeptide_LanB_RRE",
+        "evalue": 5.2e-17,
+        "score": 53.3,
+        "identifier": "RREFam001.1",
+        "description": "RRE-containing LanB protein in a class I lanthipeptide cluster",
+        "protein_start": 153,
+        "protein_end": 240,
+        "translation": "ALVVEKDGHLVLDHRGPGSAGGAPARVQVRATPPVRSALDAARRPIRVADLLSELAGDFPRVPTEVIGKLLADLTAQRFLTTNLRPP"
+      }
+    ],
+    "CRV15_25840": [
+      {
+        "location": "[6099369:6099672](+)",
+        "label": "CRV15_25840",
+        "locus_tag": "CRV15_25840",
+        "domain": "Goadsporin_CD_RRE",
+        "evalue": 2e-24,
+        "score": 76.5,
+        "identifier": "RREFam013.1",
+        "description": "RRE-containing CD fusion protein in a goadsporin cluster",
+        "protein_start": 18,
+        "protein_end": 119,
+        "translation": "RRVGFRSHLRAEVVAGDAAYLLSDRGVTALQGDQIEALVPLLDGTRDLPSVLREAARTIPAEQAGRLIGRLAQAGLVGYSAATPADTVRDPARAYWELAGI"
+      },
+      {
+        "location": "[6099372:6099660](+)",
+        "label": "CRV15_25840",
+        "locus_tag": "CRV15_25840",
+        "domain": "NHLP_CD_RRE",
+        "evalue": 2.9e-19,
+        "score": 59.9,
+        "identifier": "RREFam015.1",
+        "description": "RRE-containing CD fusion protein in a NHLP/Nif11 LAP cluster",
+        "protein_start": 19,
+        "protein_end": 115,
+        "translation": "RVGFRSHLRAEVVAGDAAYLLSDRGVTALQGDQIEALVPLLDGTRDLPSVLREAARTIPAEQAGRLIGRLAQAGLVGYSAATPADTVRDPARAYWE"
+      },
+      {
+        "location": "[6099375:6099600](+)",
+        "label": "CRV15_25840",
+        "locus_tag": "CRV15_25840",
+        "domain": "Cyanobactin_D_RRE",
+        "evalue": 3.5e-15,
+        "score": 46.8,
+        "identifier": "RREFam007.1",
+        "description": "RRE-containing D protein in a cyanobactin cluster",
+        "protein_start": 20,
+        "protein_end": 95,
+        "translation": "VGFRSHLRAEVVAGDAAYLLSDRGVTALQGDQIEALVPLLDGTRDLPSVLREAARTIPAEQAGRLIGRLAQAGLV"
+      }
+    ]
+  },
+  "min_length": 50,
+  "record_id": "CP027858.1"
+}

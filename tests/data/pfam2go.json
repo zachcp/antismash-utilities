@@ -1,0 +1,769 @@
+{
+  "pfams": {
+    "PF01545": {
+      "GO:0008324": "monoatomic cation transmembrane transporter activity",
+      "GO:0006812": "monoatomic cation transport",
+      "GO:0055085": "transmembrane transport",
+      "GO:0016020": "membrane"
+    },
+    "PF02554": {
+      "GO:0009267": "cellular response to starvation",
+      "GO:0016020": "membrane"
+    },
+    "PF02784": {
+      "GO:0003824": "catalytic activity"
+    },
+    "PF04183": {
+      "GO:0019290": "siderophore biosynthetic process"
+    },
+    "PF00999": {
+      "GO:0015297": "antiporter activity",
+      "GO:0006812": "monoatomic cation transport",
+      "GO:0055085": "transmembrane transport",
+      "GO:1902600": "proton transmembrane transport",
+      "GO:0016020": "membrane"
+    },
+    "PF07690": {
+      "GO:0022857": "transmembrane transporter activity",
+      "GO:0055085": "transmembrane transport"
+    },
+    "PF00126": {
+      "GO:0003700": "DNA-binding transcription factor activity",
+      "GO:0006355": "regulation of DNA-templated transcription"
+    },
+    "PF07940": {
+      "GO:0016829": "lyase activity"
+    },
+    "PF01408": {
+      "GO:0000166": "nucleotide binding"
+    },
+    "PF00733": {
+      "GO:0004066": "asparagine synthase (glutamine-hydrolyzing) activity",
+      "GO:0006529": "asparagine biosynthetic process"
+    },
+    "PF02706": {
+      "GO:0009103": "lipopolysaccharide biosynthetic process",
+      "GO:0016020": "membrane"
+    },
+    "PF03721": {
+      "GO:0016616": "oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",
+      "GO:0051287": "NAD binding"
+    },
+    "PF00984": {
+      "GO:0016616": "oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",
+      "GO:0051287": "NAD binding"
+    },
+    "PF03720": {
+      "GO:0016616": "oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",
+      "GO:0051287": "NAD binding"
+    },
+    "PF00067": {
+      "GO:0004497": "monooxygenase activity",
+      "GO:0005506": "iron ion binding",
+      "GO:0016705": "oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",
+      "GO:0020037": "heme binding"
+    },
+    "PF00355": {
+      "GO:0051537": "2 iron, 2 sulfur cluster binding"
+    },
+    "PF19298": {
+      "GO:0016491": "oxidoreductase activity",
+      "GO:0008203": "cholesterol metabolic process"
+    },
+    "PF01494": {
+      "GO:0071949": "FAD binding"
+    },
+    "PF13302": {
+      "GO:0016747": "acyltransferase activity, transferring groups other than amino-acyl groups"
+    },
+    "PF00440": {
+      "GO:0003677": "DNA binding"
+    },
+    "PF13499": {
+      "GO:0005509": "calcium ion binding"
+    },
+    "PF12802": {
+      "GO:0003700": "DNA-binding transcription factor activity",
+      "GO:0006355": "regulation of DNA-templated transcription"
+    },
+    "PF00486": {
+      "GO:0003677": "DNA binding",
+      "GO:0000160": "phosphorelay signal transduction system",
+      "GO:0006355": "regulation of DNA-templated transcription"
+    },
+    "PF00931": {
+      "GO:0043531": "ADP binding"
+    },
+    "PF00004": {
+      "GO:0005524": "ATP binding",
+      "GO:0016887": "ATP hydrolysis activity"
+    },
+    "PF07724": {
+      "GO:0005524": "ATP binding",
+      "GO:0016887": "ATP hydrolysis activity"
+    },
+    "PF01590": {
+      "GO:0005515": "protein binding"
+    },
+    "PF00069": {
+      "GO:0004672": "protein kinase activity",
+      "GO:0005524": "ATP binding",
+      "GO:0006468": "protein phosphorylation"
+    },
+    "PF01593": {
+      "GO:0016491": "oxidoreductase activity"
+    },
+    "PF04116": {
+      "GO:0005506": "iron ion binding",
+      "GO:0016491": "oxidoreductase activity",
+      "GO:0008610": "lipid biosynthetic process"
+    },
+    "PF00668": {
+      "GO:0003824": "catalytic activity"
+    },
+    "PF00975": {
+      "GO:0009058": "biosynthetic process"
+    },
+    "PF02733": {
+      "GO:0004371": "glycerone kinase activity",
+      "GO:0006071": "glycerol metabolic process"
+    },
+    "PF02734": {
+      "GO:0004371": "glycerone kinase activity",
+      "GO:0006071": "glycerol metabolic process"
+    },
+    "PF00891": {
+      "GO:0008171": "O-methyltransferase activity"
+    },
+    "PF00432": {
+      "GO:0003824": "catalytic activity"
+    },
+    "PF04075": {
+      "GO:0016491": "oxidoreductase activity"
+    },
+    "PF00005": {
+      "GO:0005524": "ATP binding"
+    },
+    "PF08352": {
+      "GO:0000166": "nucleotide binding",
+      "GO:0005524": "ATP binding",
+      "GO:0015833": "peptide transport"
+    },
+    "PF00108": {
+      "GO:0016747": "acyltransferase activity, transferring groups other than amino-acyl groups"
+    },
+    "PF02803": {
+      "GO:0016747": "acyltransferase activity, transferring groups other than amino-acyl groups"
+    },
+    "PF00905": {
+      "GO:0008658": "penicillin binding"
+    },
+    "PF03734": {
+      "GO:0016740": "transferase activity"
+    },
+    "PF01061": {
+      "GO:0140359": "ABC-type transporter activity",
+      "GO:0016020": "membrane"
+    },
+    "PF04055": {
+      "GO:0003824": "catalytic activity",
+      "GO:0051536": "iron-sulfur cluster binding"
+    },
+    "PF03446": {
+      "GO:0050661": "NADP binding"
+    },
+    "PF14833": {
+      "GO:0051287": "NAD binding"
+    },
+    "PF02826": {
+      "GO:0051287": "NAD binding"
+    },
+    "PF02384": {
+      "GO:0003677": "DNA binding",
+      "GO:0008170": "N-methyltransferase activity",
+      "GO:0006306": "DNA methylation"
+    },
+    "PF11380": {
+      "GO:0016772": "transferase activity, transferring phosphorus-containing groups"
+    },
+    "PF01757": {
+      "GO:0016747": "acyltransferase activity, transferring groups other than amino-acyl groups"
+    },
+    "PF00534": {
+      "GO:0016757": "glycosyltransferase activity"
+    },
+    "PF08241": {
+      "GO:0008757": "S-adenosylmethionine-dependent methyltransferase activity"
+    },
+    "PF11847": {
+      "GO:0016740": "transferase activity"
+    },
+    "PF00083": {
+      "GO:0022857": "transmembrane transporter activity",
+      "GO:0055085": "transmembrane transport",
+      "GO:0016020": "membrane"
+    },
+    "PF00884": {
+      "GO:0008484": "sulfuric ester hydrolase activity"
+    },
+    "PF02310": {
+      "GO:0031419": "cobalamin binding",
+      "GO:0046872": "metal ion binding"
+    },
+    "PF02915": {
+      "GO:0016491": "oxidoreductase activity",
+      "GO:0046872": "metal ion binding"
+    },
+    "PF00204": {
+      "GO:0003677": "DNA binding",
+      "GO:0003918": "DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity",
+      "GO:0005524": "ATP binding",
+      "GO:0006265": "DNA topological change"
+    },
+    "PF00175": {
+      "GO:0016491": "oxidoreductase activity"
+    },
+    "PF00111": {
+      "GO:0051536": "iron-sulfur cluster binding"
+    },
+    "PF00487": {
+      "GO:0006629": "lipid metabolic process"
+    },
+    "PF04185": {
+      "GO:0016788": "hydrolase activity, acting on ester bonds"
+    },
+    "PF05506": {
+      "GO:0004629": "phospholipase C activity",
+      "GO:0016042": "lipid catabolic process"
+    },
+    "PF00196": {
+      "GO:0006355": "regulation of DNA-templated transcription"
+    },
+    "PF07992": {
+      "GO:0016491": "oxidoreductase activity"
+    },
+    "PF01152": {
+      "GO:0019825": "oxygen binding"
+    },
+    "PF02441": {
+      "GO:0003824": "catalytic activity"
+    },
+    "PF00732": {
+      "GO:0016614": "oxidoreductase activity, acting on CH-OH group of donors",
+      "GO:0050660": "flavin adenine dinucleotide binding"
+    },
+    "PF05199": {
+      "GO:0016614": "oxidoreductase activity, acting on CH-OH group of donors"
+    },
+    "PF02771": {
+      "GO:0016627": "oxidoreductase activity, acting on the CH-CH group of donors",
+      "GO:0050660": "flavin adenine dinucleotide binding"
+    },
+    "PF02770": {
+      "GO:0016627": "oxidoreductase activity, acting on the CH-CH group of donors"
+    },
+    "PF00441": {
+      "GO:0016627": "oxidoreductase activity, acting on the CH-CH group of donors"
+    },
+    "PF00583": {
+      "GO:0016747": "acyltransferase activity, transferring groups other than amino-acyl groups"
+    },
+    "PF00589": {
+      "GO:0003677": "DNA binding",
+      "GO:0006310": "DNA recombination",
+      "GO:0015074": "DNA integration"
+    },
+    "PF03422": {
+      "GO:0030246": "carbohydrate binding"
+    },
+    "PF00528": {
+      "GO:0055085": "transmembrane transport",
+      "GO:0016020": "membrane"
+    },
+    "PF13350": {
+      "GO:0004721": "phosphoprotein phosphatase activity"
+    },
+    "PF00202": {
+      "GO:0008483": "transaminase activity",
+      "GO:0030170": "pyridoxal phosphate binding"
+    },
+    "PF01048": {
+      "GO:0003824": "catalytic activity",
+      "GO:0009116": "nucleoside metabolic process"
+    },
+    "PF00348": {
+      "GO:0008299": "isoprenoid biosynthetic process"
+    },
+    "PF00494": {
+      "GO:0009058": "biosynthetic process"
+    },
+    "PF01066": {
+      "GO:0016780": "phosphotransferase activity, for other substituted phosphate groups",
+      "GO:0008654": "phospholipid biosynthetic process",
+      "GO:0016020": "membrane"
+    },
+    "PF00483": {
+      "GO:0009058": "biosynthetic process"
+    },
+    "PF02080": {
+      "GO:0008324": "monoatomic cation transmembrane transporter activity",
+      "GO:0006813": "potassium ion transport"
+    },
+    "PF02669": {
+      "GO:0008556": "P-type potassium transmembrane transporter activity",
+      "GO:0006813": "potassium ion transport",
+      "GO:0016020": "membrane"
+    },
+    "PF03814": {
+      "GO:0008556": "P-type potassium transmembrane transporter activity",
+      "GO:0006813": "potassium ion transport"
+    },
+    "PF09604": {
+      "GO:0008556": "P-type potassium transmembrane transporter activity",
+      "GO:0043462": "regulation of ATP-dependent activity",
+      "GO:0005886": "plasma membrane"
+    },
+    "PF04542": {
+      "GO:0003700": "DNA-binding transcription factor activity",
+      "GO:0006352": "DNA-templated transcription initiation",
+      "GO:0006355": "regulation of DNA-templated transcription"
+    },
+    "PF08281": {
+      "GO:0003677": "DNA binding",
+      "GO:0003700": "DNA-binding transcription factor activity",
+      "GO:0016987": "sigma factor activity",
+      "GO:0006352": "DNA-templated transcription initiation",
+      "GO:0006355": "regulation of DNA-templated transcription"
+    },
+    "PF00295": {
+      "GO:0004650": "polygalacturonase activity",
+      "GO:0005975": "carbohydrate metabolic process"
+    },
+    "PF16990": {
+      "GO:0030246": "carbohydrate binding"
+    },
+    "PF04675": {
+      "GO:0003677": "DNA binding",
+      "GO:0003910": "DNA ligase (ATP) activity",
+      "GO:0006281": "DNA repair",
+      "GO:0006310": "DNA recombination"
+    },
+    "PF01068": {
+      "GO:0003910": "DNA ligase (ATP) activity",
+      "GO:0005524": "ATP binding",
+      "GO:0006281": "DNA repair",
+      "GO:0006310": "DNA recombination"
+    },
+    "PF04679": {
+      "GO:0003910": "DNA ligase (ATP) activity",
+      "GO:0006281": "DNA repair",
+      "GO:0006310": "DNA recombination"
+    },
+    "PF00664": {
+      "GO:0005524": "ATP binding",
+      "GO:0140359": "ABC-type transporter activity",
+      "GO:0055085": "transmembrane transport",
+      "GO:0016020": "membrane"
+    },
+    "PF00356": {
+      "GO:0003677": "DNA binding",
+      "GO:0006355": "regulation of DNA-templated transcription"
+    },
+    "PF02738": {
+      "GO:0016491": "oxidoreductase activity"
+    },
+    "PF01799": {
+      "GO:0016491": "oxidoreductase activity",
+      "GO:0046872": "metal ion binding"
+    },
+    "PF00941": {
+      "GO:0016491": "oxidoreductase activity"
+    },
+    "PF08402": {
+      "GO:0005524": "ATP binding",
+      "GO:0022857": "transmembrane transporter activity",
+      "GO:0055085": "transmembrane transport",
+      "GO:0043190": "ATP-binding cassette (ABC) transporter complex"
+    },
+    "PF00392": {
+      "GO:0003700": "DNA-binding transcription factor activity",
+      "GO:0006355": "regulation of DNA-templated transcription"
+    },
+    "PF11575": {
+      "GO:0051537": "2 iron, 2 sulfur cluster binding"
+    },
+    "PF02776": {
+      "GO:0030976": "thiamine pyrophosphate binding"
+    },
+    "PF00205": {
+      "GO:0000287": "magnesium ion binding",
+      "GO:0030976": "thiamine pyrophosphate binding"
+    },
+    "PF02775": {
+      "GO:0003824": "catalytic activity",
+      "GO:0030976": "thiamine pyrophosphate binding"
+    },
+    "PF03193": {
+      "GO:0003924": "GTPase activity",
+      "GO:0005525": "GTP binding"
+    },
+    "PF04673": {
+      "GO:0030639": "polyketide biosynthetic process"
+    },
+    "PF12833": {
+      "GO:0003700": "DNA-binding transcription factor activity",
+      "GO:0043565": "sequence-specific DNA binding",
+      "GO:0006355": "regulation of DNA-templated transcription"
+    },
+    "PF03460": {
+      "GO:0016491": "oxidoreductase activity"
+    },
+    "PF01077": {
+      "GO:0016491": "oxidoreductase activity",
+      "GO:0020037": "heme binding",
+      "GO:0051536": "iron-sulfur cluster binding"
+    },
+    "PF01507": {
+      "GO:0003824": "catalytic activity"
+    },
+    "PF00009": {
+      "GO:0003924": "GTPase activity",
+      "GO:0005525": "GTP binding"
+    },
+    "PF01903": {
+      "GO:0016829": "lyase activity"
+    },
+    "PF00201": {
+      "GO:0008194": "UDP-glycosyltransferase activity"
+    },
+    "PF01047": {
+      "GO:0003700": "DNA-binding transcription factor activity",
+      "GO:0006355": "regulation of DNA-templated transcription"
+    },
+    "PF01522": {
+      "GO:0016810": "hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds",
+      "GO:0005975": "carbohydrate metabolic process"
+    },
+    "PF05175": {
+      "GO:0008168": "methyltransferase activity"
+    },
+    "PF00656": {
+      "GO:0004197": "cysteine-type endopeptidase activity",
+      "GO:0006508": "proteolysis"
+    },
+    "PF13086": {
+      "GO:0004386": "helicase activity"
+    },
+    "PF09995": {
+      "GO:0016491": "oxidoreductase activity"
+    },
+    "PF00165": {
+      "GO:0003700": "DNA-binding transcription factor activity",
+      "GO:0043565": "sequence-specific DNA binding",
+      "GO:0006355": "regulation of DNA-templated transcription"
+    },
+    "PF02668": {
+      "GO:0016491": "oxidoreductase activity"
+    },
+    "PF01022": {
+      "GO:0003700": "DNA-binding transcription factor activity",
+      "GO:0006355": "regulation of DNA-templated transcription"
+    },
+    "PF03176": {
+      "GO:0016020": "membrane"
+    },
+    "PF00288": {
+      "GO:0005524": "ATP binding"
+    },
+    "PF01032": {
+      "GO:0022857": "transmembrane transporter activity",
+      "GO:0016020": "membrane"
+    },
+    "PF00588": {
+      "GO:0003723": "RNA binding",
+      "GO:0008173": "RNA methyltransferase activity",
+      "GO:0006396": "RNA processing"
+    },
+    "PF01351": {
+      "GO:0004523": "RNA-DNA hybrid ribonuclease activity"
+    },
+    "PF08471": {
+      "GO:0004748": "ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor",
+      "GO:0050897": "cobalt ion binding"
+    },
+    "PF01726": {
+      "GO:0004252": "serine-type endopeptidase activity",
+      "GO:0006508": "proteolysis"
+    },
+    "PF13307": {
+      "GO:0003676": "nucleic acid binding",
+      "GO:0004386": "helicase activity",
+      "GO:0005524": "ATP binding",
+      "GO:0016818": "hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides",
+      "GO:0006139": "nucleobase-containing compound metabolic process"
+    },
+    "PF01926": {
+      "GO:0005525": "GTP binding"
+    },
+    "PF01433": {
+      "GO:0008237": "metallopeptidase activity",
+      "GO:0008270": "zinc ion binding"
+    },
+    "PF04607": {
+      "GO:0015969": "guanosine tetraphosphate metabolic process"
+    },
+    "PF01678": {
+      "GO:0008837": "diaminopimelate epimerase activity",
+      "GO:0009089": "lysine biosynthetic process via diaminopimelate"
+    },
+    "PF00682": {
+      "GO:0003824": "catalytic activity"
+    },
+    "PF08502": {
+      "GO:0003852": "2-isopropylmalate synthase activity",
+      "GO:0009098": "leucine biosynthetic process"
+    },
+    "PF04371": {
+      "GO:0004668": "protein-arginine deiminase activity",
+      "GO:0009446": "putrescine biosynthetic process"
+    },
+    "PF01979": {
+      "GO:0016787": "hydrolase activity"
+    },
+    "PF00547": {
+      "GO:0016151": "nickel cation binding",
+      "GO:0043419": "urea catabolic process"
+    },
+    "PF00699": {
+      "GO:0043419": "urea catabolic process",
+      "GO:0035550": "urease complex"
+    },
+    "PF01674": {
+      "GO:0016787": "hydrolase activity",
+      "GO:0016042": "lipid catabolic process"
+    },
+    "PF01063": {
+      "GO:0003824": "catalytic activity"
+    },
+    "PF03315": {
+      "GO:0003941": "L-serine ammonia-lyase activity",
+      "GO:0051539": "4 iron, 4 sulfur cluster binding",
+      "GO:0006094": "gluconeogenesis"
+    },
+    "PF05147": {
+      "GO:0031179": "peptide modification"
+    },
+    "PF06737": {
+      "GO:0016787": "hydrolase activity"
+    },
+    "PF02737": {
+      "GO:0070403": "NAD+ binding",
+      "GO:0006631": "fatty acid metabolic process"
+    },
+    "PF00725": {
+      "GO:0016491": "oxidoreductase activity",
+      "GO:0016616": "oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",
+      "GO:0006631": "fatty acid metabolic process"
+    },
+    "PF07730": {
+      "GO:0000155": "phosphorelay sensor kinase activity",
+      "GO:0046983": "protein dimerization activity",
+      "GO:0000160": "phosphorelay signal transduction system",
+      "GO:0016020": "membrane"
+    },
+    "PF00072": {
+      "GO:0000160": "phosphorelay signal transduction system"
+    },
+    "PF00553": {
+      "GO:0004553": "hydrolase activity, hydrolyzing O-glycosyl compounds",
+      "GO:0030246": "carbohydrate binding",
+      "GO:0005975": "carbohydrate metabolic process"
+    },
+    "PF00704": {
+      "GO:0005975": "carbohydrate metabolic process"
+    },
+    "PF00768": {
+      "GO:0009002": "serine-type D-Ala-D-Ala carboxypeptidase activity",
+      "GO:0006508": "proteolysis"
+    },
+    "PF00171": {
+      "GO:0016491": "oxidoreductase activity"
+    },
+    "PF04989": {
+      "GO:0008168": "methyltransferase activity",
+      "GO:0008610": "lipid biosynthetic process"
+    },
+    "PF02543": {
+      "GO:0003824": "catalytic activity",
+      "GO:0009058": "biosynthetic process"
+    },
+    "PF05223": {
+      "GO:0046677": "response to antibiotic"
+    },
+    "PF00491": {
+      "GO:0046872": "metal ion binding"
+    },
+    "PF01960": {
+      "GO:0004358": "glutamate N-acetyltransferase activity",
+      "GO:0006526": "arginine biosynthetic process"
+    },
+    "PF13354": {
+      "GO:0008800": "beta-lactamase activity",
+      "GO:0017001": "antibiotic catabolic process",
+      "GO:0030655": "beta-lactam antibiotic catabolic process"
+    },
+    "PF00892": {
+      "GO:0016020": "membrane"
+    },
+    "PF00264": {
+      "GO:0016491": "oxidoreductase activity"
+    },
+    "PF06236": {
+      "GO:0005507": "copper ion binding",
+      "GO:0042438": "melanin biosynthetic process"
+    },
+    "PF01810": {
+      "GO:0006865": "amino acid transport",
+      "GO:0016020": "membrane"
+    },
+    "PF01613": {
+      "GO:0010181": "FMN binding"
+    },
+    "PF00296": {
+      "GO:0016705": "oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen"
+    },
+    "PF01554": {
+      "GO:0015297": "antiporter activity",
+      "GO:0042910": "xenobiotic transmembrane transporter activity",
+      "GO:0055085": "transmembrane transport",
+      "GO:0016020": "membrane"
+    },
+    "PF01695": {
+      "GO:0005524": "ATP binding"
+    },
+    "PF03372": {
+      "GO:0003824": "catalytic activity"
+    },
+    "PF13411": {
+      "GO:0003677": "DNA binding",
+      "GO:0006355": "regulation of DNA-templated transcription"
+    },
+    "PF00743": {
+      "GO:0004499": "N,N-dimethylaniline monooxygenase activity",
+      "GO:0050660": "flavin adenine dinucleotide binding",
+      "GO:0050661": "NADP binding"
+    },
+    "PF04686": {
+      "GO:0051301": "cell division"
+    },
+    "PF01891": {
+      "GO:0000041": "transition metal ion transport",
+      "GO:0016020": "membrane"
+    },
+    "PF04073": {
+      "GO:0002161": "aminoacyl-tRNA editing activity"
+    },
+    "PF02366": {
+      "GO:0000030": "mannosyltransferase activity",
+      "GO:0006493": "protein O-linked glycosylation",
+      "GO:0016020": "membrane"
+    },
+    "PF00590": {
+      "GO:0008168": "methyltransferase activity"
+    },
+    "PF01026": {
+      "GO:0016788": "hydrolase activity, acting on ester bonds"
+    },
+    "PF00672": {
+      "GO:0007165": "signal transduction",
+      "GO:0016020": "membrane"
+    },
+    "PF00512": {
+      "GO:0000155": "phosphorelay sensor kinase activity",
+      "GO:0007165": "signal transduction"
+    },
+    "PF01380": {
+      "GO:0097367": "carbohydrate derivative binding",
+      "GO:1901135": "carbohydrate derivative metabolic process"
+    },
+    "PF00282": {
+      "GO:0016830": "carbon-carbon lyase activity",
+      "GO:0030170": "pyridoxal phosphate binding",
+      "GO:0019752": "carboxylic acid metabolic process"
+    },
+    "PF02786": {
+      "GO:0005524": "ATP binding"
+    },
+    "PF00724": {
+      "GO:0010181": "FMN binding",
+      "GO:0016491": "oxidoreductase activity"
+    },
+    "PF06339": {
+      "GO:0033990": "ectoine synthase activity",
+      "GO:0019491": "ectoine biosynthetic process"
+    },
+    "PF00255": {
+      "GO:0004602": "glutathione peroxidase activity",
+      "GO:0006979": "response to oxidative stress"
+    },
+    "PF00270": {
+      "GO:0003676": "nucleic acid binding",
+      "GO:0005524": "ATP binding"
+    },
+    "PF08545": {
+      "GO:0004315": "3-oxoacyl-[acyl-carrier-protein] synthase activity",
+      "GO:0006633": "fatty acid biosynthetic process"
+    },
+    "PF01558": {
+      "GO:0016903": "oxidoreductase activity, acting on the aldehyde or oxo group of donors"
+    },
+    "PF01855": {
+      "GO:0016491": "oxidoreductase activity"
+    },
+    "PF01648": {
+      "GO:0000287": "magnesium ion binding",
+      "GO:0008897": "holo-[acyl-carrier-protein] synthase activity"
+    },
+    "PF00198": {
+      "GO:0016746": "acyltransferase activity"
+    },
+    "PF07063": {
+      "GO:0016491": "oxidoreductase activity"
+    },
+    "PF01266": {
+      "GO:0016491": "oxidoreductase activity"
+    },
+    "PF01699": {
+      "GO:0055085": "transmembrane transport",
+      "GO:0016020": "membrane"
+    },
+    "PF01510": {
+      "GO:0008745": "N-acetylmuramoyl-L-alanine amidase activity",
+      "GO:0009253": "peptidoglycan catabolic process"
+    },
+    "PF08447": {
+      "GO:0005515": "protein binding"
+    },
+    "PF11716": {
+      "GO:0046872": "metal ion binding"
+    },
+    "PF08990": {
+      "GO:0016740": "transferase activity"
+    },
+    "PF01596": {
+      "GO:0008171": "O-methyltransferase activity"
+    },
+    "PF01609": {
+      "GO:0003677": "DNA binding",
+      "GO:0004803": "transposase activity",
+      "GO:0006313": "DNA transposition"
+    },
+    "PF01527": {
+      "GO:0003677": "DNA binding",
+      "GO:0004803": "transposase activity",
+      "GO:0006313": "DNA transposition"
+    }
+  },
+  "record_id": "CP027858.1",
+  "schema_version": 1
+}

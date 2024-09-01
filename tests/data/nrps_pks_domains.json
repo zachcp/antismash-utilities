@@ -1,0 +1,7069 @@
+{
+  "cds_results": {
+    "CRV15_00035": {
+      "domain_hmms": [],
+      "motif_hmms": [
+        {
+          "hit_id": "NRPS-te1",
+          "query_start": 219,
+          "query_end": 233,
+          "evalue": 0.0015,
+          "bitscore": 11.1
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_00040": {
+      "domain_hmms": [
+        {
+          "hit_id": "Aminotran_5",
+          "query_start": 53,
+          "query_end": 473,
+          "evalue": 6.5e-39,
+          "bitscore": 125.7
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_00135": {
+      "domain_hmms": [
+        {
+          "hit_id": "Polyketide_cyc2",
+          "query_start": 5,
+          "query_end": 164,
+          "evalue": 1.2e-26,
+          "bitscore": 85.7
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_00360": {
+      "domain_hmms": [
+        {
+          "hit_id": "PKS_ER",
+          "query_start": 75,
+          "query_end": 274,
+          "evalue": 2.9e-13,
+          "bitscore": 41.5
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_00420": {
+      "domain_hmms": [
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 15,
+          "query_end": 426,
+          "evalue": 8.4e-95,
+          "bitscore": 309.6
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 548,
+          "query_end": 615,
+          "evalue": 1.1e-17,
+          "bitscore": 55.9
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 76,
+          "query_end": 90,
+          "evalue": 0.00017,
+          "bitscore": 15
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 176,
+          "query_end": 196,
+          "evalue": 7.9e-10,
+          "bitscore": 30.7
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 357,
+          "query_end": 386,
+          "evalue": 4e-15,
+          "bitscore": 47.9
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 414,
+          "query_end": 436,
+          "evalue": 2.2e-11,
+          "bitscore": 35.7
+        }
+      ],
+      "modules": [
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 15,
+                "query_end": 426,
+                "evalue": 8.4e-95,
+                "bitscore": 309.6
+              },
+              "locus": "CRV15_00420"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 548,
+                "query_end": 615,
+                "evalue": 1.1e-17,
+                "bitscore": 55.9
+              },
+              "locus": "CRV15_00420"
+            }
+          ],
+          "first_in_cds": true
+        }
+      ]
+    },
+    "CRV15_00540": {
+      "domain_hmms": [
+        {
+          "hit_id": "PKS_KS",
+          "query_start": 12,
+          "query_end": 439,
+          "evalue": 3.3e-176,
+          "bitscore": 578.2,
+          "internal_hits": [
+            {
+              "hit_id": "Hybrid-KS",
+              "query_start": 12,
+              "query_end": 439,
+              "evalue": 7.5e-174,
+              "bitscore": 566.9
+            }
+          ]
+        },
+        {
+          "hit_id": "PKS_AT",
+          "query_start": 551,
+          "query_end": 847,
+          "evalue": 4.8e-101,
+          "bitscore": 329.9
+        },
+        {
+          "hit_id": "PKS_DH",
+          "query_start": 909,
+          "query_end": 1072,
+          "evalue": 3.2e-34,
+          "bitscore": 110.5
+        },
+        {
+          "hit_id": "PKS_KR",
+          "query_start": 1475,
+          "query_end": 1668,
+          "evalue": 2.1e-59,
+          "bitscore": 192.4
+        },
+        {
+          "hit_id": "PKS_PP",
+          "query_start": 1758,
+          "query_end": 1837,
+          "evalue": 2.4e-15,
+          "bitscore": 48.5
+        },
+        {
+          "hit_id": "Condensation_LCL",
+          "query_start": 1864,
+          "query_end": 2161,
+          "evalue": 1.8e-87,
+          "bitscore": 285
+        },
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 2344,
+          "query_end": 2758,
+          "evalue": 4.7e-97,
+          "bitscore": 317
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 2882,
+          "query_end": 2949,
+          "evalue": 2e-14,
+          "bitscore": 45.5
+        },
+        {
+          "hit_id": "Thioesterase",
+          "query_start": 2974,
+          "query_end": 3167,
+          "evalue": 7.3e-25,
+          "bitscore": 80.6
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-KS_m3",
+          "query_start": 174,
+          "query_end": 190,
+          "evalue": 0.0000073,
+          "bitscore": 18.1
+        },
+        {
+          "hit_id": "PKSI-KS_m4",
+          "query_start": 237,
+          "query_end": 250,
+          "evalue": 0.00039,
+          "bitscore": 13.5
+        },
+        {
+          "hit_id": "PKSI-KS_m5",
+          "query_start": 314,
+          "query_end": 330,
+          "evalue": 0.0041,
+          "bitscore": 9.9
+        },
+        {
+          "hit_id": "PKSI-KS_m6",
+          "query_start": 350,
+          "query_end": 365,
+          "evalue": 0.00068,
+          "bitscore": 12.1
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m1",
+          "query_start": 549,
+          "query_end": 567,
+          "evalue": 0.00039,
+          "bitscore": 13.1
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m2",
+          "query_start": 611,
+          "query_end": 628,
+          "evalue": 0.00052,
+          "bitscore": 13.3
+        },
+        {
+          "hit_id": "PKSI-AT-M_m3",
+          "query_start": 630,
+          "query_end": 669,
+          "evalue": 1.9e-14,
+          "bitscore": 45.6
+        },
+        {
+          "hit_id": "PKSI-DH_m2",
+          "query_start": 934,
+          "query_end": 960,
+          "evalue": 3.8e-13,
+          "bitscore": 41.7
+        },
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 1476,
+          "query_end": 1509,
+          "evalue": 7.4e-13,
+          "bitscore": 41
+        },
+        {
+          "hit_id": "PKSI-KR_m4",
+          "query_start": 1616,
+          "query_end": 1653,
+          "evalue": 9.8e-22,
+          "bitscore": 69.6
+        },
+        {
+          "hit_id": "C2_LCL_024-062",
+          "query_start": 1887,
+          "query_end": 1924,
+          "evalue": 2e-10,
+          "bitscore": 33.1
+        },
+        {
+          "hit_id": "C3_DCL_135-156",
+          "query_start": 1993,
+          "query_end": 2015,
+          "evalue": 0.0000063,
+          "bitscore": 18.8
+        },
+        {
+          "hit_id": "C5_LCL_267-296",
+          "query_start": 2129,
+          "query_end": 2157,
+          "evalue": 3.8e-11,
+          "bitscore": 35.4
+        },
+        {
+          "hit_id": "C67_LCL_14fromHMM",
+          "query_start": 2174,
+          "query_end": 2214,
+          "evalue": 5.1e-16,
+          "bitscore": 51
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 2412,
+          "query_end": 2425,
+          "evalue": 0.00094,
+          "bitscore": 12.7
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 2489,
+          "query_end": 2509,
+          "evalue": 2.1e-8,
+          "bitscore": 26.4
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 2685,
+          "query_end": 2715,
+          "evalue": 5.8e-15,
+          "bitscore": 47.4
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 2748,
+          "query_end": 2768,
+          "evalue": 3.5e-8,
+          "bitscore": 25.8
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m2",
+          "query_start": 2869,
+          "query_end": 2889,
+          "evalue": 2.7,
+          "bitscore": 2
+        },
+        {
+          "hit_id": "NRPS-te1",
+          "query_start": 3023,
+          "query_end": 3048,
+          "evalue": 6.8e-10,
+          "bitscore": 31.4
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 3053,
+          "query_end": 3067,
+          "evalue": 9.3,
+          "bitscore": -0.4
+        },
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 3096,
+          "query_end": 3115,
+          "evalue": 0.83,
+          "bitscore": 2.4
+        }
+      ],
+      "modules": [
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "PKS_KS",
+                "query_start": 12,
+                "query_end": 439,
+                "evalue": 3.3e-176,
+                "bitscore": 578.2,
+                "internal_hits": [
+                  {
+                    "hit_id": "Hybrid-KS",
+                    "query_start": 12,
+                    "query_end": 439,
+                    "evalue": 7.5e-174,
+                    "bitscore": 566.9
+                  }
+                ]
+              },
+              "locus": "CRV15_00540"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_AT",
+                "query_start": 551,
+                "query_end": 847,
+                "evalue": 4.8e-101,
+                "bitscore": 329.9
+              },
+              "locus": "CRV15_00540"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_DH",
+                "query_start": 909,
+                "query_end": 1072,
+                "evalue": 3.2e-34,
+                "bitscore": 110.5
+              },
+              "locus": "CRV15_00540"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_KR",
+                "query_start": 1475,
+                "query_end": 1668,
+                "evalue": 2.1e-59,
+                "bitscore": 192.4
+              },
+              "locus": "CRV15_00540"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_PP",
+                "query_start": 1758,
+                "query_end": 1837,
+                "evalue": 2.4e-15,
+                "bitscore": 48.5
+              },
+              "locus": "CRV15_00540"
+            }
+          ],
+          "first_in_cds": true
+        },
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "Condensation_LCL",
+                "query_start": 1864,
+                "query_end": 2161,
+                "evalue": 1.8e-87,
+                "bitscore": 285
+              },
+              "locus": "CRV15_00540"
+            },
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 2344,
+                "query_end": 2758,
+                "evalue": 4.7e-97,
+                "bitscore": 317
+              },
+              "locus": "CRV15_00540"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 2882,
+                "query_end": 2949,
+                "evalue": 2e-14,
+                "bitscore": 45.5
+              },
+              "locus": "CRV15_00540"
+            },
+            {
+              "domain": {
+                "hit_id": "Thioesterase",
+                "query_start": 2974,
+                "query_end": 3167,
+                "evalue": 7.3e-25,
+                "bitscore": 80.6
+              },
+              "locus": "CRV15_00540"
+            }
+          ],
+          "first_in_cds": false
+        }
+      ]
+    },
+    "CRV15_00555": {
+      "domain_hmms": [
+        {
+          "hit_id": "PKS_ER",
+          "query_start": 145,
+          "query_end": 252,
+          "evalue": 2.4e-12,
+          "bitscore": 38.4
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_00610": {
+      "domain_hmms": [
+        {
+          "hit_id": "PKS_KR",
+          "query_start": 11,
+          "query_end": 176,
+          "evalue": 1e-14,
+          "bitscore": 46.7
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 12,
+          "query_end": 32,
+          "evalue": 0.00044,
+          "bitscore": 12.9
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_01085": {
+      "domain_hmms": [
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 101,
+          "query_end": 348,
+          "evalue": 2e-21,
+          "bitscore": 67.8
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 337,
+          "query_end": 358,
+          "evalue": 0.00026,
+          "bitscore": 13.8
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_01140": {
+      "domain_hmms": [],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 134,
+          "query_end": 153,
+          "evalue": 0.0023,
+          "bitscore": 10.6
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_01175": {
+      "domain_hmms": [
+        {
+          "hit_id": "Thioesterase",
+          "query_start": 16,
+          "query_end": 220,
+          "evalue": 4.8e-30,
+          "bitscore": 97.5
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "NRPS-te1",
+          "query_start": 82,
+          "query_end": 102,
+          "evalue": 3.9e-9,
+          "bitscore": 28.9
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_01185": {
+      "domain_hmms": [
+        {
+          "hit_id": "PCP",
+          "query_start": 410,
+          "query_end": 474,
+          "evalue": 1.4e-17,
+          "bitscore": 55.6
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_01190": {
+      "domain_hmms": [
+        {
+          "hit_id": "FkbH",
+          "query_start": 206,
+          "query_end": 347,
+          "evalue": 9e-44,
+          "bitscore": 140.6
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_01875": {
+      "domain_hmms": [],
+      "motif_hmms": [
+        {
+          "hit_id": "C2_LCL_024-062",
+          "query_start": 43,
+          "query_end": 67,
+          "evalue": 0.000016,
+          "bitscore": 17.3
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_01885": {
+      "domain_hmms": [],
+      "motif_hmms": [
+        {
+          "hit_id": "NRPS-E6",
+          "query_start": 166,
+          "query_end": 178,
+          "evalue": 0.0033,
+          "bitscore": 10.2
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_01905": {
+      "domain_hmms": [
+        {
+          "hit_id": "Condensation_LCL",
+          "query_start": 2,
+          "query_end": 275,
+          "evalue": 1.6e-37,
+          "bitscore": 121
+        },
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 445,
+          "query_end": 795,
+          "evalue": 2.6e-76,
+          "bitscore": 248.6
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 894,
+          "query_end": 961,
+          "evalue": 1.5e-22,
+          "bitscore": 71.5
+        },
+        {
+          "hit_id": "Condensation_LCL",
+          "query_start": 980,
+          "query_end": 1299,
+          "evalue": 1.1e-45,
+          "bitscore": 147.8
+        },
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 1479,
+          "query_end": 1855,
+          "evalue": 1.4e-88,
+          "bitscore": 289.1
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 1974,
+          "query_end": 2043,
+          "evalue": 1.9e-21,
+          "bitscore": 68
+        },
+        {
+          "hit_id": "TD",
+          "query_start": 2087,
+          "query_end": 2309,
+          "evalue": 5.1e-77,
+          "bitscore": 250.2
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "C2_LCL_024-062",
+          "query_start": 23,
+          "query_end": 60,
+          "evalue": 1.9e-15,
+          "bitscore": 49.2
+        },
+        {
+          "hit_id": "C3_LCL_132-143",
+          "query_start": 125,
+          "query_end": 146,
+          "evalue": 6.9e-7,
+          "bitscore": 21.9
+        },
+        {
+          "hit_id": "C5_LCL_267-296",
+          "query_start": 243,
+          "query_end": 273,
+          "evalue": 1.2e-11,
+          "bitscore": 37
+        },
+        {
+          "hit_id": "C67_LCL_14fromHMM",
+          "query_start": 300,
+          "query_end": 325,
+          "evalue": 1.8e-10,
+          "bitscore": 33.1
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 488,
+          "query_end": 501,
+          "evalue": 0.00089,
+          "bitscore": 12.8
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 543,
+          "query_end": 563,
+          "evalue": 2.3e-7,
+          "bitscore": 23.2
+        },
+        {
+          "hit_id": "NRPS-A_a5",
+          "query_start": 682,
+          "query_end": 690,
+          "evalue": 0.064,
+          "bitscore": 6.5
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 727,
+          "query_end": 754,
+          "evalue": 2.8e-9,
+          "bitscore": 29.3
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 783,
+          "query_end": 805,
+          "evalue": 1.1e-9,
+          "bitscore": 30.4
+        },
+        {
+          "hit_id": "C2_DCL_024-062",
+          "query_start": 999,
+          "query_end": 1038,
+          "evalue": 0.0000059,
+          "bitscore": 18.6
+        },
+        {
+          "hit_id": "C3_LCL_132-143",
+          "query_start": 1113,
+          "query_end": 1132,
+          "evalue": 0.000018,
+          "bitscore": 17.4
+        },
+        {
+          "hit_id": "C5_LCL_267-296",
+          "query_start": 1267,
+          "query_end": 1296,
+          "evalue": 4.9e-11,
+          "bitscore": 35
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 1540,
+          "query_end": 1554,
+          "evalue": 0.0001,
+          "bitscore": 15.6
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 1596,
+          "query_end": 1616,
+          "evalue": 6.4e-8,
+          "bitscore": 24.9
+        },
+        {
+          "hit_id": "NRPS-A_a5",
+          "query_start": 1737,
+          "query_end": 1747,
+          "evalue": 0.011,
+          "bitscore": 8.6
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 1784,
+          "query_end": 1814,
+          "evalue": 1.4e-11,
+          "bitscore": 36.6
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 1843,
+          "query_end": 1864,
+          "evalue": 8.5e-11,
+          "bitscore": 33.9
+        },
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 2088,
+          "query_end": 2116,
+          "evalue": 0.0057,
+          "bitscore": 9.4
+        }
+      ],
+      "modules": [
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "Condensation_LCL",
+                "query_start": 2,
+                "query_end": 275,
+                "evalue": 1.6e-37,
+                "bitscore": 121
+              },
+              "locus": "CRV15_01905"
+            },
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 445,
+                "query_end": 795,
+                "evalue": 2.6e-76,
+                "bitscore": 248.6
+              },
+              "locus": "CRV15_01905"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 894,
+                "query_end": 961,
+                "evalue": 1.5e-22,
+                "bitscore": 71.5
+              },
+              "locus": "CRV15_01905"
+            }
+          ],
+          "first_in_cds": true
+        },
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "Condensation_LCL",
+                "query_start": 980,
+                "query_end": 1299,
+                "evalue": 1.1e-45,
+                "bitscore": 147.8
+              },
+              "locus": "CRV15_01905"
+            },
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 1479,
+                "query_end": 1855,
+                "evalue": 1.4e-88,
+                "bitscore": 289.1
+              },
+              "locus": "CRV15_01905"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 1974,
+                "query_end": 2043,
+                "evalue": 1.9e-21,
+                "bitscore": 68
+              },
+              "locus": "CRV15_01905"
+            },
+            {
+              "domain": {
+                "hit_id": "TD",
+                "query_start": 2087,
+                "query_end": 2309,
+                "evalue": 5.1e-77,
+                "bitscore": 250.2
+              },
+              "locus": "CRV15_01905"
+            }
+          ],
+          "first_in_cds": false
+        }
+      ]
+    },
+    "CRV15_01915": {
+      "domain_hmms": [
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 4,
+          "query_end": 375,
+          "evalue": 7.7e-99,
+          "bitscore": 322.9
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 473,
+          "query_end": 538,
+          "evalue": 1.8e-20,
+          "bitscore": 64.8
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 127,
+          "query_end": 147,
+          "evalue": 2.3e-11,
+          "bitscore": 35.3
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 309,
+          "query_end": 335,
+          "evalue": 1.9e-14,
+          "bitscore": 45.7
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 363,
+          "query_end": 385,
+          "evalue": 1.6e-12,
+          "bitscore": 39.2
+        }
+      ],
+      "modules": [
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 4,
+                "query_end": 375,
+                "evalue": 7.7e-99,
+                "bitscore": 322.9
+              },
+              "locus": "CRV15_01915"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 473,
+                "query_end": 538,
+                "evalue": 1.8e-20,
+                "bitscore": 64.8
+              },
+              "locus": "CRV15_01915"
+            }
+          ],
+          "first_in_cds": true
+        }
+      ]
+    },
+    "CRV15_01945": {
+      "domain_hmms": [
+        {
+          "hit_id": "oMT",
+          "query_start": 41,
+          "query_end": 136,
+          "evalue": 3.9e-8,
+          "bitscore": 23.5
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_02165": {
+      "domain_hmms": [
+        {
+          "hit_id": "Condensation_DCL",
+          "query_start": 63,
+          "query_end": 232,
+          "evalue": 1.3e-22,
+          "bitscore": 72.2
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "C2_DCL_024-062",
+          "query_start": 86,
+          "query_end": 117,
+          "evalue": 0.0075,
+          "bitscore": 8.6
+        },
+        {
+          "hit_id": "C3_DCL_135-156",
+          "query_start": 195,
+          "query_end": 213,
+          "evalue": 0.00028,
+          "bitscore": 13.6
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_02170": {
+      "domain_hmms": [
+        {
+          "hit_id": "Thioesterase",
+          "query_start": 6,
+          "query_end": 228,
+          "evalue": 3.1e-44,
+          "bitscore": 143.9
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "NRPS-te1",
+          "query_start": 70,
+          "query_end": 92,
+          "evalue": 2.4e-7,
+          "bitscore": 23.2
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_02200": {
+      "domain_hmms": [
+        {
+          "hit_id": "Heterocyclization",
+          "query_start": 34,
+          "query_end": 332,
+          "evalue": 3.5e-101,
+          "bitscore": 330.4
+        },
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 503,
+          "query_end": 907,
+          "evalue": 2.5e-94,
+          "bitscore": 308
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 1017,
+          "query_end": 1088,
+          "evalue": 3.3e-16,
+          "bitscore": 51.2
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "C2_DCL_024-062",
+          "query_start": 71,
+          "query_end": 95,
+          "evalue": 7.6e-8,
+          "bitscore": 24.7
+        },
+        {
+          "hit_id": "Cy3",
+          "query_start": 162,
+          "query_end": 177,
+          "evalue": 0.00019,
+          "bitscore": 14.7
+        },
+        {
+          "hit_id": "Cy4",
+          "query_start": 275,
+          "query_end": 295,
+          "evalue": 7.5e-9,
+          "bitscore": 28.2
+        },
+        {
+          "hit_id": "afterCy4",
+          "query_start": 299,
+          "query_end": 312,
+          "evalue": 0.0054,
+          "bitscore": 9.7
+        },
+        {
+          "hit_id": "afterCy5",
+          "query_start": 352,
+          "query_end": 368,
+          "evalue": 0.0000019,
+          "bitscore": 20.3
+        },
+        {
+          "hit_id": "Cy6",
+          "query_start": 379,
+          "query_end": 389,
+          "evalue": 0.0022,
+          "bitscore": 10.7
+        },
+        {
+          "hit_id": "Cy7",
+          "query_start": 410,
+          "query_end": 425,
+          "evalue": 0.0000028,
+          "bitscore": 20.2
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 564,
+          "query_end": 578,
+          "evalue": 0.0016,
+          "bitscore": 12
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 641,
+          "query_end": 661,
+          "evalue": 1.9e-11,
+          "bitscore": 35.5
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 698,
+          "query_end": 709,
+          "evalue": 14,
+          "bitscore": 0.2
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 839,
+          "query_end": 869,
+          "evalue": 3.7e-14,
+          "bitscore": 44.8
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 896,
+          "query_end": 917,
+          "evalue": 4.7e-11,
+          "bitscore": 34.7
+        }
+      ],
+      "modules": [
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "Heterocyclization",
+                "query_start": 34,
+                "query_end": 332,
+                "evalue": 3.5e-101,
+                "bitscore": 330.4
+              },
+              "locus": "CRV15_02200"
+            },
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 503,
+                "query_end": 907,
+                "evalue": 2.5e-94,
+                "bitscore": 308
+              },
+              "locus": "CRV15_02200"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 1017,
+                "query_end": 1088,
+                "evalue": 3.3e-16,
+                "bitscore": 51.2
+              },
+              "locus": "CRV15_02200"
+            }
+          ],
+          "first_in_cds": true
+        }
+      ]
+    },
+    "CRV15_02205": {
+      "domain_hmms": [],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 18,
+          "query_end": 43,
+          "evalue": 0.022,
+          "bitscore": 7.5
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_02210": {
+      "domain_hmms": [
+        {
+          "hit_id": "Thioesterase",
+          "query_start": 11,
+          "query_end": 231,
+          "evalue": 5.2e-26,
+          "bitscore": 84.3
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_02360": {
+      "domain_hmms": [
+        {
+          "hit_id": "Aminotran_3",
+          "query_start": 51,
+          "query_end": 373,
+          "evalue": 1.1e-88,
+          "bitscore": 289.3
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_02430": {
+      "domain_hmms": [
+        {
+          "hit_id": "PKS_KR",
+          "query_start": 1,
+          "query_end": 127,
+          "evalue": 2.8e-10,
+          "bitscore": 32.2
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 1,
+          "query_end": 30,
+          "evalue": 0.00002,
+          "bitscore": 17.2
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_02840": {
+      "domain_hmms": [
+        {
+          "hit_id": "Condensation_LCL",
+          "query_start": 12,
+          "query_end": 342,
+          "evalue": 4.1e-50,
+          "bitscore": 162.3
+        },
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 520,
+          "query_end": 916,
+          "evalue": 9e-78,
+          "bitscore": 253.5
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "C2_LCL_024-062",
+          "query_start": 35,
+          "query_end": 71,
+          "evalue": 8.4e-11,
+          "bitscore": 34.3
+        },
+        {
+          "hit_id": "Cy2",
+          "query_start": 117,
+          "query_end": 127,
+          "evalue": 40,
+          "bitscore": -2.5
+        },
+        {
+          "hit_id": "C67_LCL_14fromHMM",
+          "query_start": 357,
+          "query_end": 405,
+          "evalue": 0.031,
+          "bitscore": 6.6
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 581,
+          "query_end": 595,
+          "evalue": 0.000094,
+          "bitscore": 15.7
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 658,
+          "query_end": 678,
+          "evalue": 0.000096,
+          "bitscore": 15.3
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 714,
+          "query_end": 728,
+          "evalue": 38,
+          "bitscore": -1.1
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 852,
+          "query_end": 882,
+          "evalue": 6.5e-13,
+          "bitscore": 40.9
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 950,
+          "query_end": 962,
+          "evalue": 13,
+          "bitscore": -0.3
+        }
+      ],
+      "modules": [
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "Condensation_LCL",
+                "query_start": 12,
+                "query_end": 342,
+                "evalue": 4.1e-50,
+                "bitscore": 162.3
+              },
+              "locus": "CRV15_02840"
+            },
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 520,
+                "query_end": 916,
+                "evalue": 9e-78,
+                "bitscore": 253.5
+              },
+              "locus": "CRV15_02840"
+            }
+          ],
+          "first_in_cds": true
+        }
+      ]
+    },
+    "CRV15_02845": {
+      "domain_hmms": [
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 149,
+          "query_end": 576,
+          "evalue": 4.4e-69,
+          "bitscore": 224.8
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 319,
+          "query_end": 339,
+          "evalue": 0.000054,
+          "bitscore": 16
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 507,
+          "query_end": 537,
+          "evalue": 2.5e-12,
+          "bitscore": 39
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 565,
+          "query_end": 587,
+          "evalue": 0.000049,
+          "bitscore": 16
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_03020": {
+      "domain_hmms": [
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 22,
+          "query_end": 477,
+          "evalue": 1.6e-86,
+          "bitscore": 282.3
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 181,
+          "query_end": 201,
+          "evalue": 1.9e-8,
+          "bitscore": 26.5
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 421,
+          "query_end": 444,
+          "evalue": 0.00034,
+          "bitscore": 13.1
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_03760": {
+      "domain_hmms": [],
+      "motif_hmms": [
+        {
+          "hit_id": "C2_starter_024-063",
+          "query_start": 21,
+          "query_end": 37,
+          "evalue": 0.0033,
+          "bitscore": 10.1
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_03945": {
+      "domain_hmms": [
+        {
+          "hit_id": "Polyketide_cyc2",
+          "query_start": 3,
+          "query_end": 145,
+          "evalue": 1.1e-18,
+          "bitscore": 59.8
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_03950": {
+      "domain_hmms": [
+        {
+          "hit_id": "PP-binding",
+          "query_start": 18,
+          "query_end": 77,
+          "evalue": 2.8e-12,
+          "bitscore": 38.9
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_03955": {
+      "domain_hmms": [
+        {
+          "hit_id": "PKS_KS",
+          "query_start": 146,
+          "query_end": 411,
+          "evalue": 7.9e-22,
+          "bitscore": 69.6,
+          "internal_hits": [
+            {
+              "hit_id": "Iterative-KS",
+              "query_start": 129,
+              "query_end": 408,
+              "evalue": 6.6e-23,
+              "bitscore": 69.5
+            }
+          ]
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_03960": {
+      "domain_hmms": [
+        {
+          "hit_id": "PKS_KS",
+          "query_start": 4,
+          "query_end": 414,
+          "evalue": 3.7e-54,
+          "bitscore": 176.1,
+          "internal_hits": [
+            {
+              "hit_id": "Iterative-KS",
+              "query_start": 4,
+              "query_end": 413,
+              "evalue": 5.4e-55,
+              "bitscore": 175.2
+            }
+          ]
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-KS_m4",
+          "query_start": 54,
+          "query_end": 73,
+          "evalue": 43,
+          "bitscore": -1.3
+        },
+        {
+          "hit_id": "PKSI-KS_m4",
+          "query_start": 227,
+          "query_end": 240,
+          "evalue": 0.021,
+          "bitscore": 8.4
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_04715": {
+      "domain_hmms": [
+        {
+          "hit_id": "oMT",
+          "query_start": 39,
+          "query_end": 232,
+          "evalue": 3.4e-42,
+          "bitscore": 136
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_04755": {
+      "domain_hmms": [
+        {
+          "hit_id": "TauD",
+          "query_start": 63,
+          "query_end": 335,
+          "evalue": 1.8e-39,
+          "bitscore": 127.9
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "C2_LCL_024-062",
+          "query_start": 285,
+          "query_end": 305,
+          "evalue": 0.0056,
+          "bitscore": 9.1
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_04760": {
+      "domain_hmms": [
+        {
+          "hit_id": "TauD",
+          "query_start": 33,
+          "query_end": 312,
+          "evalue": 1.7e-37,
+          "bitscore": 121.5
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_04770": {
+      "domain_hmms": [
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 20,
+          "query_end": 421,
+          "evalue": 5e-109,
+          "bitscore": 356.4
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 553,
+          "query_end": 616,
+          "evalue": 3e-17,
+          "bitscore": 54.5
+        },
+        {
+          "hit_id": "Condensation_LCL",
+          "query_start": 638,
+          "query_end": 931,
+          "evalue": 1.3e-86,
+          "bitscore": 282.2
+        },
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 1094,
+          "query_end": 1542,
+          "evalue": 2.6e-92,
+          "bitscore": 301.4
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 1665,
+          "query_end": 1732,
+          "evalue": 1.3e-21,
+          "bitscore": 68.5
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 81,
+          "query_end": 95,
+          "evalue": 0.00033,
+          "bitscore": 14.1
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 163,
+          "query_end": 183,
+          "evalue": 5.7e-10,
+          "bitscore": 31.1
+        },
+        {
+          "hit_id": "NRPS-A_a5",
+          "query_start": 307,
+          "query_end": 316,
+          "evalue": 0.053,
+          "bitscore": 6.7
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 353,
+          "query_end": 382,
+          "evalue": 1.9e-15,
+          "bitscore": 48.9
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 410,
+          "query_end": 432,
+          "evalue": 6.8e-11,
+          "bitscore": 34.2
+        },
+        {
+          "hit_id": "NRPS-A_a10",
+          "query_start": 505,
+          "query_end": 514,
+          "evalue": 0.1,
+          "bitscore": 5.6
+        },
+        {
+          "hit_id": "C2_LCL_024-062",
+          "query_start": 674,
+          "query_end": 697,
+          "evalue": 0.0000057,
+          "bitscore": 18.8
+        },
+        {
+          "hit_id": "C3_LCL_132-143",
+          "query_start": 764,
+          "query_end": 782,
+          "evalue": 0.000026,
+          "bitscore": 16.9
+        },
+        {
+          "hit_id": "C4_LCL_164-176",
+          "query_start": 802,
+          "query_end": 815,
+          "evalue": 0.000072,
+          "bitscore": 15.4
+        },
+        {
+          "hit_id": "C5_LCL_267-296",
+          "query_start": 898,
+          "query_end": 928,
+          "evalue": 1.5e-13,
+          "bitscore": 43.1
+        },
+        {
+          "hit_id": "C67_LCL_14fromHMM",
+          "query_start": 945,
+          "query_end": 984,
+          "evalue": 3.8e-19,
+          "bitscore": 61.1
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 1155,
+          "query_end": 1169,
+          "evalue": 0.00034,
+          "bitscore": 14
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 1282,
+          "query_end": 1302,
+          "evalue": 3.8e-10,
+          "bitscore": 31.6
+        },
+        {
+          "hit_id": "NRPS-A_a5",
+          "query_start": 1426,
+          "query_end": 1437,
+          "evalue": 0.11,
+          "bitscore": 5.9
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 1472,
+          "query_end": 1502,
+          "evalue": 4e-16,
+          "bitscore": 51.1
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 1530,
+          "query_end": 1551,
+          "evalue": 3.1e-10,
+          "bitscore": 32.1
+        },
+        {
+          "hit_id": "NRPS-A_a10",
+          "query_start": 1639,
+          "query_end": 1648,
+          "evalue": 0.39,
+          "bitscore": 4.1
+        }
+      ],
+      "modules": [
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 20,
+                "query_end": 421,
+                "evalue": 5e-109,
+                "bitscore": 356.4
+              },
+              "locus": "CRV15_04770"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 553,
+                "query_end": 616,
+                "evalue": 3e-17,
+                "bitscore": 54.5
+              },
+              "locus": "CRV15_04770"
+            }
+          ],
+          "first_in_cds": true
+        },
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "Condensation_LCL",
+                "query_start": 638,
+                "query_end": 931,
+                "evalue": 1.3e-86,
+                "bitscore": 282.2
+              },
+              "locus": "CRV15_04770"
+            },
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 1094,
+                "query_end": 1542,
+                "evalue": 2.6e-92,
+                "bitscore": 301.4
+              },
+              "locus": "CRV15_04770"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 1665,
+                "query_end": 1732,
+                "evalue": 1.3e-21,
+                "bitscore": 68.5
+              },
+              "locus": "CRV15_04770"
+            }
+          ],
+          "first_in_cds": false
+        }
+      ]
+    },
+    "CRV15_04775": {
+      "domain_hmms": [
+        {
+          "hit_id": "Condensation_LCL",
+          "query_start": 41,
+          "query_end": 348,
+          "evalue": 6.6e-95,
+          "bitscore": 309.4
+        },
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 515,
+          "query_end": 922,
+          "evalue": 1.1e-106,
+          "bitscore": 348.7
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 1032,
+          "query_end": 1096,
+          "evalue": 3e-23,
+          "bitscore": 73.7
+        },
+        {
+          "hit_id": "Condensation_DCL",
+          "query_start": 1129,
+          "query_end": 1427,
+          "evalue": 1e-44,
+          "bitscore": 144.7
+        },
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 1581,
+          "query_end": 1987,
+          "evalue": 8.3e-106,
+          "bitscore": 345.8
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 2096,
+          "query_end": 2163,
+          "evalue": 6.1e-22,
+          "bitscore": 69.5
+        },
+        {
+          "hit_id": "Condensation_DCL",
+          "query_start": 2193,
+          "query_end": 2490,
+          "evalue": 4.5e-45,
+          "bitscore": 145.9
+        },
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 2643,
+          "query_end": 3050,
+          "evalue": 3.8e-107,
+          "bitscore": 350.2
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 3160,
+          "query_end": 3227,
+          "evalue": 3.9e-22,
+          "bitscore": 70.1
+        },
+        {
+          "hit_id": "Condensation_DCL",
+          "query_start": 3257,
+          "query_end": 3561,
+          "evalue": 2.6e-43,
+          "bitscore": 140.1
+        },
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 3715,
+          "query_end": 4128,
+          "evalue": 1.3e-92,
+          "bitscore": 302.3
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 4245,
+          "query_end": 4313,
+          "evalue": 6e-19,
+          "bitscore": 59.9
+        },
+        {
+          "hit_id": "Condensation_DCL",
+          "query_start": 4342,
+          "query_end": 4640,
+          "evalue": 3.8e-48,
+          "bitscore": 156
+        },
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 4792,
+          "query_end": 5198,
+          "evalue": 1.6e-108,
+          "bitscore": 354.8
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 5308,
+          "query_end": 5373,
+          "evalue": 1.8e-17,
+          "bitscore": 55.2
+        },
+        {
+          "hit_id": "Condensation_DCL",
+          "query_start": 5412,
+          "query_end": 5721,
+          "evalue": 1.6e-38,
+          "bitscore": 124.4
+        },
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 5881,
+          "query_end": 6294,
+          "evalue": 1.3e-92,
+          "bitscore": 302.3
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 6403,
+          "query_end": 6470,
+          "evalue": 1.5e-16,
+          "bitscore": 52.2
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "C2_LCL_024-062",
+          "query_start": 65,
+          "query_end": 101,
+          "evalue": 5.6e-15,
+          "bitscore": 47.7
+        },
+        {
+          "hit_id": "C3_LCL_132-143",
+          "query_start": 174,
+          "query_end": 196,
+          "evalue": 1.7e-9,
+          "bitscore": 30.1
+        },
+        {
+          "hit_id": "C4_LCL_164-176",
+          "query_start": 220,
+          "query_end": 233,
+          "evalue": 0.00026,
+          "bitscore": 13.7
+        },
+        {
+          "hit_id": "C5_LCL_267-296",
+          "query_start": 316,
+          "query_end": 346,
+          "evalue": 5.1e-9,
+          "bitscore": 28.6
+        },
+        {
+          "hit_id": "C67_LCL_14fromHMM",
+          "query_start": 363,
+          "query_end": 403,
+          "evalue": 1.3e-18,
+          "bitscore": 59.3
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 577,
+          "query_end": 591,
+          "evalue": 0.0017,
+          "bitscore": 12
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 655,
+          "query_end": 674,
+          "evalue": 2.8e-8,
+          "bitscore": 26
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 852,
+          "query_end": 882,
+          "evalue": 9.1e-18,
+          "bitscore": 56.3
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 911,
+          "query_end": 931,
+          "evalue": 1.4e-10,
+          "bitscore": 33.2
+        },
+        {
+          "hit_id": "PCP_mE",
+          "query_start": 1053,
+          "query_end": 1063,
+          "evalue": 1.7,
+          "bitscore": 2.7
+        },
+        {
+          "hit_id": "C2_DCL_024-062",
+          "query_start": 1166,
+          "query_end": 1191,
+          "evalue": 6.1e-7,
+          "bitscore": 21.7
+        },
+        {
+          "hit_id": "C3_LCL_132-143",
+          "query_start": 1271,
+          "query_end": 1287,
+          "evalue": 7.6,
+          "bitscore": -0.4
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 1643,
+          "query_end": 1657,
+          "evalue": 0.0017,
+          "bitscore": 12
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 1721,
+          "query_end": 1740,
+          "evalue": 2.8e-8,
+          "bitscore": 26
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 1917,
+          "query_end": 1947,
+          "evalue": 2.1e-17,
+          "bitscore": 55.1
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 1975,
+          "query_end": 1996,
+          "evalue": 1.3e-10,
+          "bitscore": 33.3
+        },
+        {
+          "hit_id": "PCP_mE",
+          "query_start": 2117,
+          "query_end": 2127,
+          "evalue": 1.9,
+          "bitscore": 2.6
+        },
+        {
+          "hit_id": "C1_DCL_004-017",
+          "query_start": 2195,
+          "query_end": 2207,
+          "evalue": 4.5,
+          "bitscore": 1.2
+        },
+        {
+          "hit_id": "C2_LCL_024-062",
+          "query_start": 2230,
+          "query_end": 2254,
+          "evalue": 0.00027,
+          "bitscore": 13.4
+        },
+        {
+          "hit_id": "C3_DCL_135-156",
+          "query_start": 2332,
+          "query_end": 2352,
+          "evalue": 0.31,
+          "bitscore": 3.9
+        },
+        {
+          "hit_id": "C5_DCL_263-294",
+          "query_start": 2471,
+          "query_end": 2489,
+          "evalue": 0.014,
+          "bitscore": 8
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 2705,
+          "query_end": 2719,
+          "evalue": 0.0017,
+          "bitscore": 12
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 2783,
+          "query_end": 2802,
+          "evalue": 2.8e-8,
+          "bitscore": 26
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 2980,
+          "query_end": 3010,
+          "evalue": 9.1e-18,
+          "bitscore": 56.3
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 3039,
+          "query_end": 3059,
+          "evalue": 1.4e-10,
+          "bitscore": 33.2
+        },
+        {
+          "hit_id": "PCP_mE",
+          "query_start": 3181,
+          "query_end": 3191,
+          "evalue": 1.4,
+          "bitscore": 3
+        },
+        {
+          "hit_id": "C1_DCL_004-017",
+          "query_start": 3259,
+          "query_end": 3272,
+          "evalue": 0.2,
+          "bitscore": 5
+        },
+        {
+          "hit_id": "C2_DCL_024-062",
+          "query_start": 3292,
+          "query_end": 3318,
+          "evalue": 3.1e-10,
+          "bitscore": 32.3
+        },
+        {
+          "hit_id": "C3_LCL_132-143",
+          "query_start": 3393,
+          "query_end": 3413,
+          "evalue": 15,
+          "bitscore": -1.4
+        },
+        {
+          "hit_id": "C5_DCL_263-294",
+          "query_start": 3541,
+          "query_end": 3560,
+          "evalue": 0.0044,
+          "bitscore": 9.6
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 3777,
+          "query_end": 3791,
+          "evalue": 0.00013,
+          "bitscore": 15.3
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 3859,
+          "query_end": 3879,
+          "evalue": 6.1e-9,
+          "bitscore": 28
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 4058,
+          "query_end": 4088,
+          "evalue": 1e-9,
+          "bitscore": 30.6
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 4116,
+          "query_end": 4138,
+          "evalue": 1.1e-10,
+          "bitscore": 33.5
+        },
+        {
+          "hit_id": "PCP_mE",
+          "query_start": 4266,
+          "query_end": 4276,
+          "evalue": 6.2,
+          "bitscore": 1.3
+        },
+        {
+          "hit_id": "C1_DCL_004-017",
+          "query_start": 4344,
+          "query_end": 4355,
+          "evalue": 30,
+          "bitscore": -1.1
+        },
+        {
+          "hit_id": "C2_LCL_024-062",
+          "query_start": 4382,
+          "query_end": 4407,
+          "evalue": 7.8e-7,
+          "bitscore": 21.5
+        },
+        {
+          "hit_id": "C3_DCL_135-156",
+          "query_start": 4483,
+          "query_end": 4503,
+          "evalue": 0.00069,
+          "bitscore": 12.3
+        },
+        {
+          "hit_id": "C5_DCL_263-294",
+          "query_start": 4619,
+          "query_end": 4640,
+          "evalue": 0.0069,
+          "bitscore": 9
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 4854,
+          "query_end": 4868,
+          "evalue": 0.0017,
+          "bitscore": 12
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 4932,
+          "query_end": 4951,
+          "evalue": 2.8e-8,
+          "bitscore": 26
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 5128,
+          "query_end": 5158,
+          "evalue": 2.2e-17,
+          "bitscore": 55.1
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 5186,
+          "query_end": 5207,
+          "evalue": 1.3e-10,
+          "bitscore": 33.3
+        },
+        {
+          "hit_id": "PCP_mE",
+          "query_start": 5329,
+          "query_end": 5339,
+          "evalue": 0.52,
+          "bitscore": 4.1
+        },
+        {
+          "hit_id": "C2_DCL_024-062",
+          "query_start": 5435,
+          "query_end": 5473,
+          "evalue": 0.000012,
+          "bitscore": 17.6
+        },
+        {
+          "hit_id": "C3_DCL_135-156",
+          "query_start": 5550,
+          "query_end": 5570,
+          "evalue": 0.0000086,
+          "bitscore": 18.4
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 5943,
+          "query_end": 5957,
+          "evalue": 0.00013,
+          "bitscore": 15.3
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 6025,
+          "query_end": 6045,
+          "evalue": 6.1e-9,
+          "bitscore": 28
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 6224,
+          "query_end": 6254,
+          "evalue": 1e-9,
+          "bitscore": 30.6
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 6282,
+          "query_end": 6303,
+          "evalue": 1.3e-9,
+          "bitscore": 30.2
+        }
+      ],
+      "modules": [
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "Condensation_LCL",
+                "query_start": 41,
+                "query_end": 348,
+                "evalue": 6.6e-95,
+                "bitscore": 309.4
+              },
+              "locus": "CRV15_04775"
+            },
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 515,
+                "query_end": 922,
+                "evalue": 1.1e-106,
+                "bitscore": 348.7
+              },
+              "locus": "CRV15_04775"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 1032,
+                "query_end": 1096,
+                "evalue": 3e-23,
+                "bitscore": 73.7
+              },
+              "locus": "CRV15_04775"
+            }
+          ],
+          "first_in_cds": true
+        },
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "Condensation_DCL",
+                "query_start": 1129,
+                "query_end": 1427,
+                "evalue": 1e-44,
+                "bitscore": 144.7
+              },
+              "locus": "CRV15_04775"
+            },
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 1581,
+                "query_end": 1987,
+                "evalue": 8.3e-106,
+                "bitscore": 345.8
+              },
+              "locus": "CRV15_04775"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 2096,
+                "query_end": 2163,
+                "evalue": 6.1e-22,
+                "bitscore": 69.5
+              },
+              "locus": "CRV15_04775"
+            }
+          ],
+          "first_in_cds": false
+        },
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "Condensation_DCL",
+                "query_start": 2193,
+                "query_end": 2490,
+                "evalue": 4.5e-45,
+                "bitscore": 145.9
+              },
+              "locus": "CRV15_04775"
+            },
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 2643,
+                "query_end": 3050,
+                "evalue": 3.8e-107,
+                "bitscore": 350.2
+              },
+              "locus": "CRV15_04775"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 3160,
+                "query_end": 3227,
+                "evalue": 3.9e-22,
+                "bitscore": 70.1
+              },
+              "locus": "CRV15_04775"
+            }
+          ],
+          "first_in_cds": false
+        },
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "Condensation_DCL",
+                "query_start": 3257,
+                "query_end": 3561,
+                "evalue": 2.6e-43,
+                "bitscore": 140.1
+              },
+              "locus": "CRV15_04775"
+            },
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 3715,
+                "query_end": 4128,
+                "evalue": 1.3e-92,
+                "bitscore": 302.3
+              },
+              "locus": "CRV15_04775"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 4245,
+                "query_end": 4313,
+                "evalue": 6e-19,
+                "bitscore": 59.9
+              },
+              "locus": "CRV15_04775"
+            }
+          ],
+          "first_in_cds": false
+        },
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "Condensation_DCL",
+                "query_start": 4342,
+                "query_end": 4640,
+                "evalue": 3.8e-48,
+                "bitscore": 156
+              },
+              "locus": "CRV15_04775"
+            },
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 4792,
+                "query_end": 5198,
+                "evalue": 1.6e-108,
+                "bitscore": 354.8
+              },
+              "locus": "CRV15_04775"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 5308,
+                "query_end": 5373,
+                "evalue": 1.8e-17,
+                "bitscore": 55.2
+              },
+              "locus": "CRV15_04775"
+            }
+          ],
+          "first_in_cds": false
+        },
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "Condensation_DCL",
+                "query_start": 5412,
+                "query_end": 5721,
+                "evalue": 1.6e-38,
+                "bitscore": 124.4
+              },
+              "locus": "CRV15_04775"
+            },
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 5881,
+                "query_end": 6294,
+                "evalue": 1.3e-92,
+                "bitscore": 302.3
+              },
+              "locus": "CRV15_04775"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 6403,
+                "query_end": 6470,
+                "evalue": 1.5e-16,
+                "bitscore": 52.2
+              },
+              "locus": "CRV15_04775"
+            }
+          ],
+          "first_in_cds": false
+        }
+      ]
+    },
+    "CRV15_04805": {
+      "domain_hmms": [
+        {
+          "hit_id": "Thioesterase",
+          "query_start": 24,
+          "query_end": 236,
+          "evalue": 1e-48,
+          "bitscore": 158.6
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "NRPS-te1",
+          "query_start": 88,
+          "query_end": 110,
+          "evalue": 1.2e-8,
+          "bitscore": 27.4
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_04810": {
+      "domain_hmms": [
+        {
+          "hit_id": "Condensation_Starter",
+          "query_start": 9,
+          "query_end": 311,
+          "evalue": 3.2e-91,
+          "bitscore": 297.6
+        },
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 478,
+          "query_end": 868,
+          "evalue": 2.8e-105,
+          "bitscore": 344.1
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 973,
+          "query_end": 1038,
+          "evalue": 6.8e-20,
+          "bitscore": 63
+        },
+        {
+          "hit_id": "Epimerization",
+          "query_start": 1056,
+          "query_end": 1394,
+          "evalue": 3.7e-100,
+          "bitscore": 327.6
+        },
+        {
+          "hit_id": "TIGR01720",
+          "query_start": 1402,
+          "query_end": 1556,
+          "evalue": 2.4e-27,
+          "bitscore": 87.5
+        },
+        {
+          "hit_id": "Cglyc",
+          "query_start": 1563,
+          "query_end": 1859,
+          "evalue": 1.2e-97,
+          "bitscore": 318.6
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "C1_starter_004-017",
+          "query_start": 9,
+          "query_end": 23,
+          "evalue": 0.00028,
+          "bitscore": 13.5
+        },
+        {
+          "hit_id": "C2_starter_024-063",
+          "query_start": 30,
+          "query_end": 66,
+          "evalue": 9.2e-11,
+          "bitscore": 34.4
+        },
+        {
+          "hit_id": "C3_starter_134-155",
+          "query_start": 141,
+          "query_end": 163,
+          "evalue": 2.3e-9,
+          "bitscore": 30
+        },
+        {
+          "hit_id": "C5_starter_265-294",
+          "query_start": 278,
+          "query_end": 308,
+          "evalue": 6.4e-15,
+          "bitscore": 47.3
+        },
+        {
+          "hit_id": "C67_starter_14fromHMM",
+          "query_start": 324,
+          "query_end": 362,
+          "evalue": 3.3e-15,
+          "bitscore": 48.5
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 540,
+          "query_end": 553,
+          "evalue": 0.0004,
+          "bitscore": 13.8
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 615,
+          "query_end": 633,
+          "evalue": 4.8e-9,
+          "bitscore": 28.3
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 799,
+          "query_end": 829,
+          "evalue": 2.2e-14,
+          "bitscore": 45.5
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 856,
+          "query_end": 878,
+          "evalue": 6e-12,
+          "bitscore": 37.5
+        },
+        {
+          "hit_id": "C2_DCL_024-062",
+          "query_start": 1091,
+          "query_end": 1115,
+          "evalue": 3.6e-7,
+          "bitscore": 22.5
+        },
+        {
+          "hit_id": "NRPS-E2",
+          "query_start": 1217,
+          "query_end": 1239,
+          "evalue": 4.2e-11,
+          "bitscore": 35
+        },
+        {
+          "hit_id": "C67_starter_14fromHMM",
+          "query_start": 1343,
+          "query_end": 1363,
+          "evalue": 11,
+          "bitscore": -1.2
+        },
+        {
+          "hit_id": "NRPS-E5",
+          "query_start": 1377,
+          "query_end": 1394,
+          "evalue": 9e-8,
+          "bitscore": 24.3
+        },
+        {
+          "hit_id": "NRPS-E6",
+          "query_start": 1407,
+          "query_end": 1428,
+          "evalue": 0.000043,
+          "bitscore": 16.1
+        },
+        {
+          "hit_id": "C2_DCL_024-062",
+          "query_start": 1588,
+          "query_end": 1627,
+          "evalue": 3.1e-10,
+          "bitscore": 32.3
+        },
+        {
+          "hit_id": "C3_LCL_132-143",
+          "query_start": 1700,
+          "query_end": 1720,
+          "evalue": 5.7e-10,
+          "bitscore": 31.7
+        },
+        {
+          "hit_id": "C5_DCL_263-294",
+          "query_start": 1824,
+          "query_end": 1856,
+          "evalue": 2.3e-19,
+          "bitscore": 61.8
+        },
+        {
+          "hit_id": "C67_DCL_14fromHMM",
+          "query_start": 1872,
+          "query_end": 1907,
+          "evalue": 3.2e-8,
+          "bitscore": 25.9
+        }
+      ],
+      "modules": [
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "Condensation_Starter",
+                "query_start": 9,
+                "query_end": 311,
+                "evalue": 3.2e-91,
+                "bitscore": 297.6
+              },
+              "locus": "CRV15_04810"
+            },
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 478,
+                "query_end": 868,
+                "evalue": 2.8e-105,
+                "bitscore": 344.1
+              },
+              "locus": "CRV15_04810"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 973,
+                "query_end": 1038,
+                "evalue": 6.8e-20,
+                "bitscore": 63
+              },
+              "locus": "CRV15_04810"
+            },
+            {
+              "domain": {
+                "hit_id": "Epimerization",
+                "query_start": 1056,
+                "query_end": 1394,
+                "evalue": 3.7e-100,
+                "bitscore": 327.6
+              },
+              "locus": "CRV15_04810"
+            },
+            {
+              "domain": {
+                "hit_id": "TIGR01720",
+                "query_start": 1402,
+                "query_end": 1556,
+                "evalue": 2.4e-27,
+                "bitscore": 87.5
+              },
+              "locus": "CRV15_04810"
+            }
+          ],
+          "first_in_cds": true
+        }
+      ]
+    },
+    "CRV15_05130": {
+      "domain_hmms": [
+        {
+          "hit_id": "Aminotran_3",
+          "query_start": 39,
+          "query_end": 373,
+          "evalue": 1e-89,
+          "bitscore": 292.7
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_06240": {
+      "domain_hmms": [
+        {
+          "hit_id": "PKS_KR",
+          "query_start": 5,
+          "query_end": 180,
+          "evalue": 4.7e-9,
+          "bitscore": 28.2
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 7,
+          "query_end": 29,
+          "evalue": 0.000074,
+          "bitscore": 15.4
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_06245": {
+      "domain_hmms": [
+        {
+          "hit_id": "Condensation_LCL",
+          "query_start": 14,
+          "query_end": 172,
+          "evalue": 5.1e-11,
+          "bitscore": 34
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "C2_LCL_024-062",
+          "query_start": 33,
+          "query_end": 66,
+          "evalue": 0.0000092,
+          "bitscore": 18.1
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_06250": {
+      "domain_hmms": [
+        {
+          "hit_id": "Condensation_Starter",
+          "query_start": 179,
+          "query_end": 464,
+          "evalue": 3.3e-54,
+          "bitscore": 176.1
+        },
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 631,
+          "query_end": 1047,
+          "evalue": 8.5e-109,
+          "bitscore": 355.7
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 1179,
+          "query_end": 1247,
+          "evalue": 5.2e-18,
+          "bitscore": 56.9
+        },
+        {
+          "hit_id": "Condensation_DCL",
+          "query_start": 1431,
+          "query_end": 1629,
+          "evalue": 4.3e-27,
+          "bitscore": 86.8
+        },
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 1772,
+          "query_end": 2177,
+          "evalue": 7.2e-87,
+          "bitscore": 283.4
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 2295,
+          "query_end": 2363,
+          "evalue": 1.2e-13,
+          "bitscore": 43
+        },
+        {
+          "hit_id": "Thioesterase",
+          "query_start": 2383,
+          "query_end": 2638,
+          "evalue": 6.2e-38,
+          "bitscore": 123.3
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "C2_starter_024-063",
+          "query_start": 205,
+          "query_end": 238,
+          "evalue": 3.1e-7,
+          "bitscore": 23.1
+        },
+        {
+          "hit_id": "C3_LCL_132-143",
+          "query_start": 306,
+          "query_end": 328,
+          "evalue": 0.000005,
+          "bitscore": 19.2
+        },
+        {
+          "hit_id": "C5_starter_265-294",
+          "query_start": 431,
+          "query_end": 461,
+          "evalue": 2e-8,
+          "bitscore": 26.6
+        },
+        {
+          "hit_id": "C67_LCL_14fromHMM",
+          "query_start": 485,
+          "query_end": 517,
+          "evalue": 0.00084,
+          "bitscore": 11.6
+        },
+        {
+          "hit_id": "C2_starter_024-063",
+          "query_start": 542,
+          "query_end": 563,
+          "evalue": 4.1,
+          "bitscore": 0.2
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 699,
+          "query_end": 712,
+          "evalue": 0.0043,
+          "bitscore": 10.7
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 778,
+          "query_end": 798,
+          "evalue": 2.7e-11,
+          "bitscore": 35.1
+        },
+        {
+          "hit_id": "NRPS-A_a5",
+          "query_start": 933,
+          "query_end": 941,
+          "evalue": 0.51,
+          "bitscore": 3.9
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 978,
+          "query_end": 1008,
+          "evalue": 1.6e-13,
+          "bitscore": 42.7
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 1035,
+          "query_end": 1057,
+          "evalue": 3.5e-10,
+          "bitscore": 32
+        },
+        {
+          "hit_id": "C2_LCL_024-062",
+          "query_start": 1316,
+          "query_end": 1352,
+          "evalue": 4e-7,
+          "bitscore": 22.5
+        },
+        {
+          "hit_id": "C3_DCL_135-156",
+          "query_start": 1451,
+          "query_end": 1469,
+          "evalue": 0.0000087,
+          "bitscore": 18.4
+        },
+        {
+          "hit_id": "C5_DCL_263-294",
+          "query_start": 1596,
+          "query_end": 1627,
+          "evalue": 1.7e-7,
+          "bitscore": 23.7
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 1835,
+          "query_end": 1849,
+          "evalue": 0.00071,
+          "bitscore": 13.1
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 1916,
+          "query_end": 1936,
+          "evalue": 7.6e-10,
+          "bitscore": 30.7
+        },
+        {
+          "hit_id": "NRPS-A_a5",
+          "query_start": 2063,
+          "query_end": 2073,
+          "evalue": 0.19,
+          "bitscore": 5.1
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 2110,
+          "query_end": 2140,
+          "evalue": 1.8e-12,
+          "bitscore": 39.4
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 2165,
+          "query_end": 2187,
+          "evalue": 9.2e-10,
+          "bitscore": 30.7
+        },
+        {
+          "hit_id": "C67_starter_14fromHMM",
+          "query_start": 2354,
+          "query_end": 2374,
+          "evalue": 45,
+          "bitscore": -3.1
+        },
+        {
+          "hit_id": "NRPS-beforete1",
+          "query_start": 2383,
+          "query_end": 2393,
+          "evalue": 0.017,
+          "bitscore": 8.4
+        },
+        {
+          "hit_id": "NRPS-te1",
+          "query_start": 2444,
+          "query_end": 2468,
+          "evalue": 3.5e-13,
+          "bitscore": 41.8
+        }
+      ],
+      "modules": [
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "Condensation_Starter",
+                "query_start": 179,
+                "query_end": 464,
+                "evalue": 3.3e-54,
+                "bitscore": 176.1
+              },
+              "locus": "CRV15_06250"
+            },
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 631,
+                "query_end": 1047,
+                "evalue": 8.5e-109,
+                "bitscore": 355.7
+              },
+              "locus": "CRV15_06250"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 1179,
+                "query_end": 1247,
+                "evalue": 5.2e-18,
+                "bitscore": 56.9
+              },
+              "locus": "CRV15_06250"
+            }
+          ],
+          "first_in_cds": true
+        },
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "Condensation_DCL",
+                "query_start": 1431,
+                "query_end": 1629,
+                "evalue": 4.3e-27,
+                "bitscore": 86.8
+              },
+              "locus": "CRV15_06250"
+            },
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 1772,
+                "query_end": 2177,
+                "evalue": 7.2e-87,
+                "bitscore": 283.4
+              },
+              "locus": "CRV15_06250"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 2295,
+                "query_end": 2363,
+                "evalue": 1.2e-13,
+                "bitscore": 43
+              },
+              "locus": "CRV15_06250"
+            },
+            {
+              "domain": {
+                "hit_id": "Thioesterase",
+                "query_start": 2383,
+                "query_end": 2638,
+                "evalue": 6.2e-38,
+                "bitscore": 123.3
+              },
+              "locus": "CRV15_06250"
+            }
+          ],
+          "first_in_cds": false
+        }
+      ]
+    },
+    "CRV15_06255": {
+      "domain_hmms": [
+        {
+          "hit_id": "PKS_AT",
+          "query_start": 356,
+          "query_end": 656,
+          "evalue": 2.1e-110,
+          "bitscore": 360.6
+        },
+        {
+          "hit_id": "PKS_DH",
+          "query_start": 726,
+          "query_end": 909,
+          "evalue": 7.9e-58,
+          "bitscore": 187.3
+        },
+        {
+          "hit_id": "PKS_ER",
+          "query_start": 1230,
+          "query_end": 1525,
+          "evalue": 3.4e-104,
+          "bitscore": 340.2
+        },
+        {
+          "hit_id": "PKS_KR",
+          "query_start": 1535,
+          "query_end": 1714,
+          "evalue": 2.8e-63,
+          "bitscore": 205
+        },
+        {
+          "hit_id": "PKS_PP",
+          "query_start": 1806,
+          "query_end": 1891,
+          "evalue": 2.4e-24,
+          "bitscore": 77.4
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-AT-mM_m1",
+          "query_start": 354,
+          "query_end": 373,
+          "evalue": 2.3e-8,
+          "bitscore": 25.9
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m2",
+          "query_start": 410,
+          "query_end": 434,
+          "evalue": 4.3e-11,
+          "bitscore": 34.7
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m3",
+          "query_start": 435,
+          "query_end": 472,
+          "evalue": 1.6e-18,
+          "bitscore": 58.5
+        },
+        {
+          "hit_id": "PKSI-AT-M_m5",
+          "query_start": 507,
+          "query_end": 520,
+          "evalue": 0.00013,
+          "bitscore": 15.1
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m6",
+          "query_start": 543,
+          "query_end": 554,
+          "evalue": 0.00075,
+          "bitscore": 12.3
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m8",
+          "query_start": 589,
+          "query_end": 605,
+          "evalue": 0.00014,
+          "bitscore": 14.2
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m9",
+          "query_start": 619,
+          "query_end": 629,
+          "evalue": 0.0041,
+          "bitscore": 9.9
+        },
+        {
+          "hit_id": "PKSI-DH_m2",
+          "query_start": 754,
+          "query_end": 780,
+          "evalue": 4.9e-10,
+          "bitscore": 31.8
+        },
+        {
+          "hit_id": "PKSI-ER_m1",
+          "query_start": 1250,
+          "query_end": 1262,
+          "evalue": 0.0003,
+          "bitscore": 13.7
+        },
+        {
+          "hit_id": "PKSI-ER_m5",
+          "query_start": 1347,
+          "query_end": 1368,
+          "evalue": 5.4e-10,
+          "bitscore": 31.5
+        },
+        {
+          "hit_id": "PKSI-ER_m7",
+          "query_start": 1412,
+          "query_end": 1425,
+          "evalue": 0.000085,
+          "bitscore": 15
+        },
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 1536,
+          "query_end": 1569,
+          "evalue": 4.7e-8,
+          "bitscore": 25.7
+        },
+        {
+          "hit_id": "PKSI-KR_m4",
+          "query_start": 1663,
+          "query_end": 1699,
+          "evalue": 1.2e-21,
+          "bitscore": 69.4
+        }
+      ],
+      "modules": [
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "PKS_AT",
+                "query_start": 356,
+                "query_end": 656,
+                "evalue": 2.1e-110,
+                "bitscore": 360.6
+              },
+              "locus": "CRV15_06255"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_DH",
+                "query_start": 726,
+                "query_end": 909,
+                "evalue": 7.9e-58,
+                "bitscore": 187.3
+              },
+              "locus": "CRV15_06255"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_ER",
+                "query_start": 1230,
+                "query_end": 1525,
+                "evalue": 3.4e-104,
+                "bitscore": 340.2
+              },
+              "locus": "CRV15_06255"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_KR",
+                "query_start": 1535,
+                "query_end": 1714,
+                "evalue": 2.8e-63,
+                "bitscore": 205
+              },
+              "locus": "CRV15_06255"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_PP",
+                "query_start": 1806,
+                "query_end": 1891,
+                "evalue": 2.4e-24,
+                "bitscore": 77.4
+              },
+              "locus": "CRV15_06255"
+            }
+          ],
+          "first_in_cds": true
+        }
+      ]
+    },
+    "CRV15_06260": {
+      "domain_hmms": [
+        {
+          "hit_id": "PKS_KS",
+          "query_start": 46,
+          "query_end": 474,
+          "evalue": 1.8e-166,
+          "bitscore": 546.1,
+          "internal_hits": [
+            {
+              "hit_id": "Modular-KS",
+              "query_start": 44,
+              "query_end": 474,
+              "evalue": 1.2e-199,
+              "bitscore": 651.9
+            }
+          ]
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-KS_m2",
+          "query_start": 131,
+          "query_end": 140,
+          "evalue": 0.0055,
+          "bitscore": 9.5
+        },
+        {
+          "hit_id": "PKSI-KS_m6",
+          "query_start": 180,
+          "query_end": 189,
+          "evalue": 99,
+          "bitscore": -2.6
+        },
+        {
+          "hit_id": "PKSI-KS_m3",
+          "query_start": 207,
+          "query_end": 223,
+          "evalue": 5.5e-7,
+          "bitscore": 21.4
+        },
+        {
+          "hit_id": "PKSI-KS_m4",
+          "query_start": 270,
+          "query_end": 283,
+          "evalue": 0.016,
+          "bitscore": 8.8
+        },
+        {
+          "hit_id": "PKSI-KS_m5",
+          "query_start": 348,
+          "query_end": 363,
+          "evalue": 0.00004,
+          "bitscore": 15.3
+        },
+        {
+          "hit_id": "PKSI-KS_m6",
+          "query_start": 383,
+          "query_end": 398,
+          "evalue": 0.00026,
+          "bitscore": 13.2
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_06275": {
+      "domain_hmms": [
+        {
+          "hit_id": "Aminotran_4",
+          "query_start": 90,
+          "query_end": 343,
+          "evalue": 6e-28,
+          "bitscore": 90
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_06665": {
+      "domain_hmms": [],
+      "motif_hmms": [
+        {
+          "hit_id": "Cy5",
+          "query_start": 211,
+          "query_end": 220,
+          "evalue": 14,
+          "bitscore": -1.2
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_07100": {
+      "domain_hmms": [
+        {
+          "hit_id": "NAD_binding_4",
+          "query_start": 67,
+          "query_end": 176,
+          "evalue": 5.4e-7,
+          "bitscore": 20.8
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 10,
+          "query_end": 31,
+          "evalue": 0.00043,
+          "bitscore": 13
+        },
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 98,
+          "query_end": 116,
+          "evalue": 9,
+          "bitscore": -0.9
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_07125": {
+      "domain_hmms": [
+        {
+          "hit_id": "NAD_binding_4",
+          "query_start": 65,
+          "query_end": 167,
+          "evalue": 6e-12,
+          "bitscore": 37
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 3,
+          "query_end": 24,
+          "evalue": 0.0094,
+          "bitscore": 8.7
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_07150": {
+      "domain_hmms": [
+        {
+          "hit_id": "PP-binding",
+          "query_start": 9,
+          "query_end": 74,
+          "evalue": 1.3e-13,
+          "bitscore": 43.2
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_07465": {
+      "domain_hmms": [
+        {
+          "hit_id": "Aminotran_5",
+          "query_start": 20,
+          "query_end": 388,
+          "evalue": 6.3e-65,
+          "bitscore": 211.3
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_07505": {
+      "domain_hmms": [
+        {
+          "hit_id": "Aminotran_3",
+          "query_start": 43,
+          "query_end": 398,
+          "evalue": 6.8e-68,
+          "bitscore": 221
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_07510": {
+      "domain_hmms": [
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 239,
+          "query_end": 655,
+          "evalue": 1.5e-97,
+          "bitscore": 318.6
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 772,
+          "query_end": 841,
+          "evalue": 2.5e-19,
+          "bitscore": 61.1
+        },
+        {
+          "hit_id": "Condensation_DCL",
+          "query_start": 883,
+          "query_end": 1201,
+          "evalue": 1.4e-57,
+          "bitscore": 186.9
+        },
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 1367,
+          "query_end": 1774,
+          "evalue": 2.1e-102,
+          "bitscore": 334.6
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 1886,
+          "query_end": 1957,
+          "evalue": 8.5e-20,
+          "bitscore": 62.6
+        },
+        {
+          "hit_id": "Condensation_LCL",
+          "query_start": 1978,
+          "query_end": 2279,
+          "evalue": 3.5e-70,
+          "bitscore": 228.2
+        },
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 2460,
+          "query_end": 2865,
+          "evalue": 1.3e-97,
+          "bitscore": 318.8
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 2988,
+          "query_end": 3054,
+          "evalue": 2.5e-19,
+          "bitscore": 61.1
+        },
+        {
+          "hit_id": "Epimerization",
+          "query_start": 3076,
+          "query_end": 3369,
+          "evalue": 3.3e-89,
+          "bitscore": 291.4
+        },
+        {
+          "hit_id": "Thioesterase",
+          "query_start": 3535,
+          "query_end": 3742,
+          "evalue": 3.5e-39,
+          "bitscore": 127.4
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 302,
+          "query_end": 316,
+          "evalue": 0.00001,
+          "bitscore": 18.6
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 391,
+          "query_end": 408,
+          "evalue": 0.0000039,
+          "bitscore": 19.5
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 579,
+          "query_end": 609,
+          "evalue": 4.2e-16,
+          "bitscore": 51
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 644,
+          "query_end": 666,
+          "evalue": 6.3e-9,
+          "bitscore": 28.1
+        },
+        {
+          "hit_id": "PCP_mE",
+          "query_start": 793,
+          "query_end": 803,
+          "evalue": 6,
+          "bitscore": 1.3
+        },
+        {
+          "hit_id": "C2_starter_024-063",
+          "query_start": 910,
+          "query_end": 938,
+          "evalue": 0.01,
+          "bitscore": 8.6
+        },
+        {
+          "hit_id": "C3_LCL_132-143",
+          "query_start": 1011,
+          "query_end": 1033,
+          "evalue": 1.2e-7,
+          "bitscore": 24.3
+        },
+        {
+          "hit_id": "C5_DCL_263-294",
+          "query_start": 1169,
+          "query_end": 1198,
+          "evalue": 3.9e-13,
+          "bitscore": 41.8
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 1430,
+          "query_end": 1444,
+          "evalue": 0.00021,
+          "bitscore": 14.7
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 1509,
+          "query_end": 1529,
+          "evalue": 1.5e-8,
+          "bitscore": 26.8
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 1697,
+          "query_end": 1727,
+          "evalue": 1.7e-15,
+          "bitscore": 49.1
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 1762,
+          "query_end": 1784,
+          "evalue": 4.1e-10,
+          "bitscore": 31.8
+        },
+        {
+          "hit_id": "PCP_mE",
+          "query_start": 1909,
+          "query_end": 1919,
+          "evalue": 1.3,
+          "bitscore": 3
+        },
+        {
+          "hit_id": "C2_DCL_024-062",
+          "query_start": 2000,
+          "query_end": 2040,
+          "evalue": 0.0019,
+          "bitscore": 10.5
+        },
+        {
+          "hit_id": "C3_LCL_132-143",
+          "query_start": 2114,
+          "query_end": 2135,
+          "evalue": 8.3e-7,
+          "bitscore": 21.6
+        },
+        {
+          "hit_id": "C4_LCL_164-176",
+          "query_start": 2150,
+          "query_end": 2162,
+          "evalue": 0.00034,
+          "bitscore": 13.3
+        },
+        {
+          "hit_id": "C5_LCL_267-296",
+          "query_start": 2245,
+          "query_end": 2275,
+          "evalue": 6.3e-14,
+          "bitscore": 44.3
+        },
+        {
+          "hit_id": "C67_LCL_14fromHMM",
+          "query_start": 2293,
+          "query_end": 2331,
+          "evalue": 1.4e-12,
+          "bitscore": 39.9
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 2523,
+          "query_end": 2537,
+          "evalue": 0.00015,
+          "bitscore": 15.1
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 2602,
+          "query_end": 2622,
+          "evalue": 4.5e-8,
+          "bitscore": 25.4
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 2788,
+          "query_end": 2818,
+          "evalue": 4.1e-15,
+          "bitscore": 47.9
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 2853,
+          "query_end": 2875,
+          "evalue": 8.1e-10,
+          "bitscore": 30.8
+        },
+        {
+          "hit_id": "PCP_mE",
+          "query_start": 3009,
+          "query_end": 3019,
+          "evalue": 1.7,
+          "bitscore": 2.7
+        },
+        {
+          "hit_id": "C2_LCL_024-062",
+          "query_start": 3109,
+          "query_end": 3131,
+          "evalue": 0.00023,
+          "bitscore": 13.6
+        },
+        {
+          "hit_id": "NRPS-E2",
+          "query_start": 3206,
+          "query_end": 3228,
+          "evalue": 9.8e-8,
+          "bitscore": 24.5
+        },
+        {
+          "hit_id": "NRPS-E5",
+          "query_start": 3351,
+          "query_end": 3367,
+          "evalue": 0.000002,
+          "bitscore": 20.1
+        },
+        {
+          "hit_id": "NRPS-E6",
+          "query_start": 3381,
+          "query_end": 3399,
+          "evalue": 5e-7,
+          "bitscore": 22.1
+        },
+        {
+          "hit_id": "NRPS-te1",
+          "query_start": 3593,
+          "query_end": 3618,
+          "evalue": 1.5e-11,
+          "bitscore": 36.6
+        }
+      ],
+      "modules": [
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 239,
+                "query_end": 655,
+                "evalue": 1.5e-97,
+                "bitscore": 318.6
+              },
+              "locus": "CRV15_07510"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 772,
+                "query_end": 841,
+                "evalue": 2.5e-19,
+                "bitscore": 61.1
+              },
+              "locus": "CRV15_07510"
+            }
+          ],
+          "first_in_cds": true
+        },
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "Condensation_DCL",
+                "query_start": 883,
+                "query_end": 1201,
+                "evalue": 1.4e-57,
+                "bitscore": 186.9
+              },
+              "locus": "CRV15_07510"
+            },
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 1367,
+                "query_end": 1774,
+                "evalue": 2.1e-102,
+                "bitscore": 334.6
+              },
+              "locus": "CRV15_07510"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 1886,
+                "query_end": 1957,
+                "evalue": 8.5e-20,
+                "bitscore": 62.6
+              },
+              "locus": "CRV15_07510"
+            }
+          ],
+          "first_in_cds": false
+        },
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "Condensation_LCL",
+                "query_start": 1978,
+                "query_end": 2279,
+                "evalue": 3.5e-70,
+                "bitscore": 228.2
+              },
+              "locus": "CRV15_07510"
+            },
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 2460,
+                "query_end": 2865,
+                "evalue": 1.3e-97,
+                "bitscore": 318.8
+              },
+              "locus": "CRV15_07510"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 2988,
+                "query_end": 3054,
+                "evalue": 2.5e-19,
+                "bitscore": 61.1
+              },
+              "locus": "CRV15_07510"
+            },
+            {
+              "domain": {
+                "hit_id": "Epimerization",
+                "query_start": 3076,
+                "query_end": 3369,
+                "evalue": 3.3e-89,
+                "bitscore": 291.4
+              },
+              "locus": "CRV15_07510"
+            }
+          ],
+          "first_in_cds": false
+        }
+      ]
+    },
+    "CRV15_07555": {
+      "domain_hmms": [],
+      "motif_hmms": [
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 291,
+          "query_end": 307,
+          "evalue": 21,
+          "bitscore": -2.2
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_07560": {
+      "domain_hmms": [
+        {
+          "hit_id": "PKS_KR",
+          "query_start": 9,
+          "query_end": 184,
+          "evalue": 9.9e-16,
+          "bitscore": 50
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 11,
+          "query_end": 35,
+          "evalue": 0.000027,
+          "bitscore": 16.8
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_13885": {
+      "domain_hmms": [
+        {
+          "hit_id": "TauD",
+          "query_start": 107,
+          "query_end": 299,
+          "evalue": 5.4e-13,
+          "bitscore": 41.1
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_13900": {
+      "domain_hmms": [
+        {
+          "hit_id": "Aminotran_3",
+          "query_start": 38,
+          "query_end": 385,
+          "evalue": 1.3e-90,
+          "bitscore": 295.7
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_15030": {
+      "domain_hmms": [
+        {
+          "hit_id": "TauD",
+          "query_start": 144,
+          "query_end": 301,
+          "evalue": 2.2e-9,
+          "bitscore": 29.3
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_16940": {
+      "domain_hmms": [
+        {
+          "hit_id": "PKS_KR",
+          "query_start": 20,
+          "query_end": 137,
+          "evalue": 1.3e-13,
+          "bitscore": 43.1
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 21,
+          "query_end": 51,
+          "evalue": 0.00006,
+          "bitscore": 15.7
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_17025": {
+      "domain_hmms": [
+        {
+          "hit_id": "PKS_KR",
+          "query_start": 12,
+          "query_end": 171,
+          "evalue": 4.6e-11,
+          "bitscore": 34.8
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 13,
+          "query_end": 39,
+          "evalue": 1.6e-7,
+          "bitscore": 23.9
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_17090": {
+      "domain_hmms": [
+        {
+          "hit_id": "Condensation_Starter",
+          "query_start": 4,
+          "query_end": 300,
+          "evalue": 1.4e-69,
+          "bitscore": 226.5
+        },
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 467,
+          "query_end": 882,
+          "evalue": 6e-110,
+          "bitscore": 359.5
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 990,
+          "query_end": 1054,
+          "evalue": 1.2e-20,
+          "bitscore": 65.4
+        },
+        {
+          "hit_id": "Condensation_DCL",
+          "query_start": 1085,
+          "query_end": 1385,
+          "evalue": 1.3e-51,
+          "bitscore": 167.4
+        },
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 1544,
+          "query_end": 1967,
+          "evalue": 1.1e-94,
+          "bitscore": 309.1
+        },
+        {
+          "hit_id": "PCP",
+          "query_start": 2083,
+          "query_end": 2151,
+          "evalue": 3.7e-19,
+          "bitscore": 60.6
+        },
+        {
+          "hit_id": "Thioesterase",
+          "query_start": 2175,
+          "query_end": 2434,
+          "evalue": 1.2e-39,
+          "bitscore": 129
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "C2_starter_024-063",
+          "query_start": 36,
+          "query_end": 66,
+          "evalue": 0.0000016,
+          "bitscore": 20.8
+        },
+        {
+          "hit_id": "C3_dual_135-156",
+          "query_start": 138,
+          "query_end": 155,
+          "evalue": 0.0096,
+          "bitscore": 9.1
+        },
+        {
+          "hit_id": "C5_starter_265-294",
+          "query_start": 267,
+          "query_end": 297,
+          "evalue": 3e-10,
+          "bitscore": 32.5
+        },
+        {
+          "hit_id": "C67_starter_14fromHMM",
+          "query_start": 315,
+          "query_end": 352,
+          "evalue": 9.7e-8,
+          "bitscore": 24.6
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 529,
+          "query_end": 543,
+          "evalue": 0.000052,
+          "bitscore": 16.5
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 608,
+          "query_end": 628,
+          "evalue": 9.5e-10,
+          "bitscore": 30.4
+        },
+        {
+          "hit_id": "NRPS-A_a5",
+          "query_start": 766,
+          "query_end": 774,
+          "evalue": 0.12,
+          "bitscore": 5.7
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 813,
+          "query_end": 843,
+          "evalue": 2.2e-15,
+          "bitscore": 48.7
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 870,
+          "query_end": 891,
+          "evalue": 3.2e-10,
+          "bitscore": 32.1
+        },
+        {
+          "hit_id": "C2_LCL_024-062",
+          "query_start": 1123,
+          "query_end": 1146,
+          "evalue": 0.000005,
+          "bitscore": 18.9
+        },
+        {
+          "hit_id": "C3_DCL_135-156",
+          "query_start": 1219,
+          "query_end": 1239,
+          "evalue": 0.000011,
+          "bitscore": 18.1
+        },
+        {
+          "hit_id": "C5_LCL_267-296",
+          "query_start": 1351,
+          "query_end": 1382,
+          "evalue": 2.7e-9,
+          "bitscore": 29.5
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 1606,
+          "query_end": 1620,
+          "evalue": 0.0092,
+          "bitscore": 9.7
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 1703,
+          "query_end": 1723,
+          "evalue": 2.6e-8,
+          "bitscore": 26.1
+        },
+        {
+          "hit_id": "NRPS-A_a5",
+          "query_start": 1850,
+          "query_end": 1861,
+          "evalue": 0.15,
+          "bitscore": 5.5
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 1897,
+          "query_end": 1927,
+          "evalue": 2.5e-14,
+          "bitscore": 45.4
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 1957,
+          "query_end": 1977,
+          "evalue": 1.3e-9,
+          "bitscore": 30.2
+        },
+        {
+          "hit_id": "NRPS-beforete1",
+          "query_start": 2175,
+          "query_end": 2185,
+          "evalue": 0.02,
+          "bitscore": 8.2
+        },
+        {
+          "hit_id": "NRPS-te1",
+          "query_start": 2235,
+          "query_end": 2260,
+          "evalue": 1.8e-15,
+          "bitscore": 49.1
+        }
+      ],
+      "modules": [
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "Condensation_Starter",
+                "query_start": 4,
+                "query_end": 300,
+                "evalue": 1.4e-69,
+                "bitscore": 226.5
+              },
+              "locus": "CRV15_17090"
+            },
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 467,
+                "query_end": 882,
+                "evalue": 6e-110,
+                "bitscore": 359.5
+              },
+              "locus": "CRV15_17090"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 990,
+                "query_end": 1054,
+                "evalue": 1.2e-20,
+                "bitscore": 65.4
+              },
+              "locus": "CRV15_17090"
+            }
+          ],
+          "first_in_cds": true
+        },
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "Condensation_DCL",
+                "query_start": 1085,
+                "query_end": 1385,
+                "evalue": 1.3e-51,
+                "bitscore": 167.4
+              },
+              "locus": "CRV15_17090"
+            },
+            {
+              "domain": {
+                "hit_id": "AMP-binding",
+                "query_start": 1544,
+                "query_end": 1967,
+                "evalue": 1.1e-94,
+                "bitscore": 309.1
+              },
+              "locus": "CRV15_17090"
+            },
+            {
+              "domain": {
+                "hit_id": "PCP",
+                "query_start": 2083,
+                "query_end": 2151,
+                "evalue": 3.7e-19,
+                "bitscore": 60.6
+              },
+              "locus": "CRV15_17090"
+            },
+            {
+              "domain": {
+                "hit_id": "Thioesterase",
+                "query_start": 2175,
+                "query_end": 2434,
+                "evalue": 1.2e-39,
+                "bitscore": 129
+              },
+              "locus": "CRV15_17090"
+            }
+          ],
+          "first_in_cds": false
+        }
+      ]
+    },
+    "CRV15_18775": {
+      "domain_hmms": [
+        {
+          "hit_id": "Aminotran_5",
+          "query_start": 141,
+          "query_end": 265,
+          "evalue": 5.8e-7,
+          "bitscore": 20.6
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_18800": {
+      "domain_hmms": [],
+      "motif_hmms": [
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 147,
+          "query_end": 155,
+          "evalue": 5.6,
+          "bitscore": 1.4
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 188,
+          "query_end": 199,
+          "evalue": 0.13,
+          "bitscore": 6.3
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_22875": {
+      "domain_hmms": [
+        {
+          "hit_id": "Aminotran_5",
+          "query_start": 50,
+          "query_end": 341,
+          "evalue": 6e-24,
+          "bitscore": 76.5
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_22900": {
+      "domain_hmms": [
+        {
+          "hit_id": "Aminotran_3",
+          "query_start": 29,
+          "query_end": 365,
+          "evalue": 2.7e-69,
+          "bitscore": 225.6
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_22910": {
+      "domain_hmms": [
+        {
+          "hit_id": "Aminotran_5",
+          "query_start": 20,
+          "query_end": 338,
+          "evalue": 7.7e-30,
+          "bitscore": 95.8
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_25775": {
+      "domain_hmms": [
+        {
+          "hit_id": "Polyketide_cyc2",
+          "query_start": 0,
+          "query_end": 158,
+          "evalue": 9.1e-23,
+          "bitscore": 73.1
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_25800": {
+      "domain_hmms": [
+        {
+          "hit_id": "PP-binding",
+          "query_start": 466,
+          "query_end": 527,
+          "evalue": 4.7e-10,
+          "bitscore": 31.8
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_25805": {
+      "domain_hmms": [
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 37,
+          "query_end": 433,
+          "evalue": 1.1e-91,
+          "bitscore": 299.3
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 179,
+          "query_end": 199,
+          "evalue": 0.0000018,
+          "bitscore": 20.5
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 365,
+          "query_end": 395,
+          "evalue": 4.3e-10,
+          "bitscore": 31.9
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 421,
+          "query_end": 443,
+          "evalue": 0.0026,
+          "bitscore": 10.6
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_25825": {
+      "domain_hmms": [
+        {
+          "hit_id": "Thioesterase",
+          "query_start": 1,
+          "query_end": 217,
+          "evalue": 2e-35,
+          "bitscore": 115.1
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "NRPS-te1",
+          "query_start": 62,
+          "query_end": 83,
+          "evalue": 3.1e-7,
+          "bitscore": 22.9
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_25915": {
+      "domain_hmms": [],
+      "motif_hmms": [
+        {
+          "hit_id": "NRPS-te1",
+          "query_start": 113,
+          "query_end": 131,
+          "evalue": 0.000087,
+          "bitscore": 15.1
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_25925": {
+      "domain_hmms": [
+        {
+          "hit_id": "ACPS",
+          "query_start": 159,
+          "query_end": 202,
+          "evalue": 3.5e-9,
+          "bitscore": 28.4
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_25935": {
+      "domain_hmms": [
+        {
+          "hit_id": "PP-binding",
+          "query_start": 6,
+          "query_end": 70,
+          "evalue": 2e-7,
+          "bitscore": 23.4
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_25945": {
+      "domain_hmms": [
+        {
+          "hit_id": "PKS_KS",
+          "query_start": 3,
+          "query_end": 422,
+          "evalue": 1.1e-168,
+          "bitscore": 553.4,
+          "internal_hits": [
+            {
+              "hit_id": "Hybrid-KS",
+              "query_start": 2,
+              "query_end": 422,
+              "evalue": 2.7e-162,
+              "bitscore": 528.8
+            }
+          ]
+        },
+        {
+          "hit_id": "PKS_AT",
+          "query_start": 536,
+          "query_end": 822,
+          "evalue": 3e-95,
+          "bitscore": 310.8
+        },
+        {
+          "hit_id": "PP-binding",
+          "query_start": 935,
+          "query_end": 1005,
+          "evalue": 1.2e-11,
+          "bitscore": 36.9
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-KS_m3",
+          "query_start": 161,
+          "query_end": 177,
+          "evalue": 5.2e-7,
+          "bitscore": 21.5
+        },
+        {
+          "hit_id": "PKSI-KS_m4",
+          "query_start": 224,
+          "query_end": 237,
+          "evalue": 0.0027,
+          "bitscore": 11
+        },
+        {
+          "hit_id": "PKSI-KS_m5",
+          "query_start": 302,
+          "query_end": 317,
+          "evalue": 0.0012,
+          "bitscore": 11.3
+        },
+        {
+          "hit_id": "PKSI-KS_m6",
+          "query_start": 335,
+          "query_end": 350,
+          "evalue": 0.0065,
+          "bitscore": 9.4
+        },
+        {
+          "hit_id": "PKSI-AT-M_m1",
+          "query_start": 537,
+          "query_end": 553,
+          "evalue": 0.000015,
+          "bitscore": 17.5
+        },
+        {
+          "hit_id": "PKSI-AT-M_m2",
+          "query_start": 595,
+          "query_end": 607,
+          "evalue": 0.00078,
+          "bitscore": 12.3
+        },
+        {
+          "hit_id": "PKSI-AT-M_m3",
+          "query_start": 613,
+          "query_end": 654,
+          "evalue": 2.5e-22,
+          "bitscore": 71.1
+        },
+        {
+          "hit_id": "PKSI-AT-M_m5",
+          "query_start": 684,
+          "query_end": 697,
+          "evalue": 0.0011,
+          "bitscore": 12.3
+        }
+      ],
+      "modules": [
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "PKS_KS",
+                "query_start": 3,
+                "query_end": 422,
+                "evalue": 1.1e-168,
+                "bitscore": 553.4,
+                "internal_hits": [
+                  {
+                    "hit_id": "Hybrid-KS",
+                    "query_start": 2,
+                    "query_end": 422,
+                    "evalue": 2.7e-162,
+                    "bitscore": 528.8
+                  }
+                ]
+              },
+              "locus": "CRV15_25945"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_AT",
+                "query_start": 536,
+                "query_end": 822,
+                "evalue": 3e-95,
+                "bitscore": 310.8
+              },
+              "locus": "CRV15_25945"
+            },
+            {
+              "domain": {
+                "hit_id": "PP-binding",
+                "query_start": 935,
+                "query_end": 1005,
+                "evalue": 1.2e-11,
+                "bitscore": 36.9
+              },
+              "locus": "CRV15_25945"
+            }
+          ],
+          "first_in_cds": true
+        }
+      ]
+    },
+    "CRV15_25950": {
+      "domain_hmms": [
+        {
+          "hit_id": "ACP",
+          "query_start": 31,
+          "query_end": 101,
+          "evalue": 1.6e-18,
+          "bitscore": 58.6
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_25965": {
+      "domain_hmms": [
+        {
+          "hit_id": "CAL_domain",
+          "query_start": 42,
+          "query_end": 481,
+          "evalue": 4.3e-138,
+          "bitscore": 452.9
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 82,
+          "query_end": 93,
+          "evalue": 0.12,
+          "bitscore": 6.4
+        },
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 167,
+          "query_end": 187,
+          "evalue": 2.1e-8,
+          "bitscore": 26.3
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 394,
+          "query_end": 424,
+          "evalue": 1.3e-11,
+          "bitscore": 36.7
+        },
+        {
+          "hit_id": "NRPS-A_a8",
+          "query_start": 453,
+          "query_end": 474,
+          "evalue": 0.0017,
+          "bitscore": 11.3
+        },
+        {
+          "hit_id": "NRPS-A_a2",
+          "query_start": 562,
+          "query_end": 570,
+          "evalue": 25,
+          "bitscore": -0.5
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_25975": {
+      "domain_hmms": [
+        {
+          "hit_id": "FkbH",
+          "query_start": 283,
+          "query_end": 419,
+          "evalue": 1.7e-36,
+          "bitscore": 117
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_25995": {
+      "domain_hmms": [],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 13,
+          "query_end": 42,
+          "evalue": 0.0014,
+          "bitscore": 11.4
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_27350": {
+      "domain_hmms": [],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-AT-mM_m3",
+          "query_start": 26,
+          "query_end": 45,
+          "evalue": 37,
+          "bitscore": -2.3
+        },
+        {
+          "hit_id": "NRPS-te1",
+          "query_start": 90,
+          "query_end": 106,
+          "evalue": 6,
+          "bitscore": -0.3
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m3",
+          "query_start": 232,
+          "query_end": 259,
+          "evalue": 44,
+          "bitscore": -2.5
+        },
+        {
+          "hit_id": "NRPS-te1",
+          "query_start": 300,
+          "query_end": 317,
+          "evalue": 0.00069,
+          "bitscore": 12.2
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_27355": {
+      "domain_hmms": [
+        {
+          "hit_id": "AMP-binding",
+          "query_start": 8,
+          "query_end": 442,
+          "evalue": 4.8e-67,
+          "bitscore": 218.1
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "NRPS-A_a3",
+          "query_start": 177,
+          "query_end": 194,
+          "evalue": 0.000036,
+          "bitscore": 16.6
+        },
+        {
+          "hit_id": "NRPS-A_a6",
+          "query_start": 392,
+          "query_end": 408,
+          "evalue": 0.000035,
+          "bitscore": 16.2
+        }
+      ],
+      "modules": []
+    },
+    "CRV15_27360": {
+      "domain_hmms": [
+        {
+          "hit_id": "ECH",
+          "query_start": 4,
+          "query_end": 255,
+          "evalue": 5.2e-52,
+          "bitscore": 168.4
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_28005": {
+      "domain_hmms": [
+        {
+          "hit_id": "oMT",
+          "query_start": 38,
+          "query_end": 141,
+          "evalue": 3.9e-17,
+          "bitscore": 53.2
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_28060": {
+      "domain_hmms": [
+        {
+          "hit_id": "PKS_AT",
+          "query_start": 16,
+          "query_end": 277,
+          "evalue": 4e-13,
+          "bitscore": 41.2
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_28070": {
+      "domain_hmms": [
+        {
+          "hit_id": "PKS_AT",
+          "query_start": 20,
+          "query_end": 317,
+          "evalue": 4.5e-99,
+          "bitscore": 323.4
+        },
+        {
+          "hit_id": "PKS_PP",
+          "query_start": 421,
+          "query_end": 504,
+          "evalue": 2.1e-25,
+          "bitscore": 80.7
+        },
+        {
+          "hit_id": "PKS_KS",
+          "query_start": 527,
+          "query_end": 952,
+          "evalue": 3.2e-176,
+          "bitscore": 578.2,
+          "internal_hits": [
+            {
+              "hit_id": "Modular-KS",
+              "query_start": 525,
+              "query_end": 952,
+              "evalue": 4e-220,
+              "bitscore": 719.3
+            }
+          ]
+        },
+        {
+          "hit_id": "PKS_AT",
+          "query_start": 1056,
+          "query_end": 1350,
+          "evalue": 1.9e-98,
+          "bitscore": 321.3
+        },
+        {
+          "hit_id": "PKS_KR",
+          "query_start": 1688,
+          "query_end": 1866,
+          "evalue": 3.2e-53,
+          "bitscore": 172.2
+        },
+        {
+          "hit_id": "PKS_PP",
+          "query_start": 1964,
+          "query_end": 2049,
+          "evalue": 5.2e-29,
+          "bitscore": 92.3
+        },
+        {
+          "hit_id": "PKS_KS",
+          "query_start": 2093,
+          "query_end": 2518,
+          "evalue": 4.9e-183,
+          "bitscore": 600.7,
+          "internal_hits": [
+            {
+              "hit_id": "Modular-KS",
+              "query_start": 2091,
+              "query_end": 2518,
+              "evalue": 2.1e-223,
+              "bitscore": 730.1
+            }
+          ]
+        },
+        {
+          "hit_id": "PKS_AT",
+          "query_start": 2710,
+          "query_end": 3004,
+          "evalue": 6.1e-103,
+          "bitscore": 336.1
+        },
+        {
+          "hit_id": "PKS_KR",
+          "query_start": 3314,
+          "query_end": 3520,
+          "evalue": 7e-57,
+          "bitscore": 184.1
+        },
+        {
+          "hit_id": "PKS_PP",
+          "query_start": 3624,
+          "query_end": 3709,
+          "evalue": 2.8e-27,
+          "bitscore": 86.8
+        },
+        {
+          "hit_id": "PKS_KS",
+          "query_start": 3754,
+          "query_end": 4179,
+          "evalue": 4e-176,
+          "bitscore": 577.9,
+          "internal_hits": [
+            {
+              "hit_id": "Modular-KS",
+              "query_start": 3751,
+              "query_end": 4179,
+              "evalue": 2.7e-221,
+              "bitscore": 723.2
+            }
+          ]
+        },
+        {
+          "hit_id": "PKS_AT",
+          "query_start": 4301,
+          "query_end": 4598,
+          "evalue": 3e-106,
+          "bitscore": 347
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-AT-mM_m1",
+          "query_start": 19,
+          "query_end": 37,
+          "evalue": 2.2e-8,
+          "bitscore": 25.9
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m2",
+          "query_start": 74,
+          "query_end": 97,
+          "evalue": 3e-7,
+          "bitscore": 23
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m3",
+          "query_start": 99,
+          "query_end": 135,
+          "evalue": 1.3e-14,
+          "bitscore": 46.2
+        },
+        {
+          "hit_id": "PKSI-AT-M_m5",
+          "query_start": 171,
+          "query_end": 184,
+          "evalue": 0.0032,
+          "bitscore": 10.9
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m6",
+          "query_start": 209,
+          "query_end": 218,
+          "evalue": 3.5,
+          "bitscore": 1.6
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m8",
+          "query_start": 253,
+          "query_end": 269,
+          "evalue": 0.00004,
+          "bitscore": 15.8
+        },
+        {
+          "hit_id": "PKSI-AT-M_m9",
+          "query_start": 283,
+          "query_end": 293,
+          "evalue": 0.14,
+          "bitscore": 5.8
+        },
+        {
+          "hit_id": "PKSI-KS_m2",
+          "query_start": 612,
+          "query_end": 621,
+          "evalue": 0.093,
+          "bitscore": 6.2
+        },
+        {
+          "hit_id": "PKSI-KS_m3",
+          "query_start": 687,
+          "query_end": 703,
+          "evalue": 0.000047,
+          "bitscore": 15.7
+        },
+        {
+          "hit_id": "PKSI-KS_m5",
+          "query_start": 828,
+          "query_end": 843,
+          "evalue": 0.0017,
+          "bitscore": 10.9
+        },
+        {
+          "hit_id": "PKSI-KS_m6",
+          "query_start": 863,
+          "query_end": 878,
+          "evalue": 0.0071,
+          "bitscore": 9.3
+        },
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 1001,
+          "query_end": 1023,
+          "evalue": 46,
+          "bitscore": -3.1
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m3",
+          "query_start": 1035,
+          "query_end": 1054,
+          "evalue": 1.2,
+          "bitscore": 2.4
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m1",
+          "query_start": 1054,
+          "query_end": 1073,
+          "evalue": 4.1e-9,
+          "bitscore": 28.1
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m2",
+          "query_start": 1107,
+          "query_end": 1130,
+          "evalue": 2.4e-9,
+          "bitscore": 29.4
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m3",
+          "query_start": 1132,
+          "query_end": 1169,
+          "evalue": 5e-17,
+          "bitscore": 53.8
+        },
+        {
+          "hit_id": "PKSI-AT-M_m5",
+          "query_start": 1204,
+          "query_end": 1217,
+          "evalue": 0.0033,
+          "bitscore": 10.8
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m6",
+          "query_start": 1240,
+          "query_end": 1251,
+          "evalue": 0.0069,
+          "bitscore": 9.5
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m8",
+          "query_start": 1287,
+          "query_end": 1302,
+          "evalue": 0.0046,
+          "bitscore": 9.8
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m9",
+          "query_start": 1316,
+          "query_end": 1326,
+          "evalue": 0.0096,
+          "bitscore": 8.8
+        },
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 1689,
+          "query_end": 1722,
+          "evalue": 2.2e-11,
+          "bitscore": 36.3
+        },
+        {
+          "hit_id": "PKSI-KR_m4",
+          "query_start": 1815,
+          "query_end": 1851,
+          "evalue": 7.2e-14,
+          "bitscore": 44.3
+        },
+        {
+          "hit_id": "PKSI-KS_m2",
+          "query_start": 2178,
+          "query_end": 2187,
+          "evalue": 0.093,
+          "bitscore": 6.2
+        },
+        {
+          "hit_id": "PKSI-KS_m3",
+          "query_start": 2254,
+          "query_end": 2270,
+          "evalue": 0.0000028,
+          "bitscore": 19.3
+        },
+        {
+          "hit_id": "PKSI-KS_m5",
+          "query_start": 2395,
+          "query_end": 2410,
+          "evalue": 0.0017,
+          "bitscore": 11
+        },
+        {
+          "hit_id": "PKSI-KS_m6",
+          "query_start": 2429,
+          "query_end": 2444,
+          "evalue": 0.0023,
+          "bitscore": 10.7
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m1",
+          "query_start": 2709,
+          "query_end": 2727,
+          "evalue": 0.00019,
+          "bitscore": 14.1
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m2",
+          "query_start": 2771,
+          "query_end": 2788,
+          "evalue": 0.043,
+          "bitscore": 7.4
+        },
+        {
+          "hit_id": "PKSI-AT-M_m3",
+          "query_start": 2792,
+          "query_end": 2832,
+          "evalue": 6.4e-16,
+          "bitscore": 50.4
+        },
+        {
+          "hit_id": "PKSI-AT-M_m5",
+          "query_start": 2867,
+          "query_end": 2880,
+          "evalue": 0.00036,
+          "bitscore": 13.7
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m6",
+          "query_start": 2905,
+          "query_end": 2914,
+          "evalue": 43,
+          "bitscore": -1.6
+        },
+        {
+          "hit_id": "PKSI-AT-M_m8",
+          "query_start": 2954,
+          "query_end": 2966,
+          "evalue": 0.00098,
+          "bitscore": 12.6
+        },
+        {
+          "hit_id": "PKSI-AT-M_m9",
+          "query_start": 2980,
+          "query_end": 2990,
+          "evalue": 12,
+          "bitscore": 0.2
+        },
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 3315,
+          "query_end": 3348,
+          "evalue": 1.5e-13,
+          "bitscore": 43.2
+        },
+        {
+          "hit_id": "PKSI-KR_m4",
+          "query_start": 3468,
+          "query_end": 3505,
+          "evalue": 2.5e-17,
+          "bitscore": 55.4
+        },
+        {
+          "hit_id": "PKSI-KS_m2",
+          "query_start": 3838,
+          "query_end": 3847,
+          "evalue": 0.093,
+          "bitscore": 6.2
+        },
+        {
+          "hit_id": "PKSI-KS_m3",
+          "query_start": 3914,
+          "query_end": 3930,
+          "evalue": 0.000012,
+          "bitscore": 17.4
+        },
+        {
+          "hit_id": "PKSI-KS_m5",
+          "query_start": 4055,
+          "query_end": 4070,
+          "evalue": 0.0013,
+          "bitscore": 11.2
+        },
+        {
+          "hit_id": "PKSI-KS_m6",
+          "query_start": 4090,
+          "query_end": 4105,
+          "evalue": 0.0071,
+          "bitscore": 9.3
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m1",
+          "query_start": 4299,
+          "query_end": 4318,
+          "evalue": 8.8e-9,
+          "bitscore": 27.1
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m2",
+          "query_start": 4355,
+          "query_end": 4379,
+          "evalue": 2.8e-11,
+          "bitscore": 35.3
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m3",
+          "query_start": 4380,
+          "query_end": 4417,
+          "evalue": 3.4e-19,
+          "bitscore": 60.6
+        },
+        {
+          "hit_id": "PKSI-AT-M_m5",
+          "query_start": 4452,
+          "query_end": 4465,
+          "evalue": 0.0039,
+          "bitscore": 10.6
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m6",
+          "query_start": 4488,
+          "query_end": 4498,
+          "evalue": 0.095,
+          "bitscore": 6.2
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m8",
+          "query_start": 4534,
+          "query_end": 4550,
+          "evalue": 0.00042,
+          "bitscore": 12.8
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m9",
+          "query_start": 4564,
+          "query_end": 4574,
+          "evalue": 0.015,
+          "bitscore": 8.3
+        }
+      ],
+      "modules": [
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "PKS_AT",
+                "query_start": 20,
+                "query_end": 317,
+                "evalue": 4.5e-99,
+                "bitscore": 323.4
+              },
+              "locus": "CRV15_28070"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_PP",
+                "query_start": 421,
+                "query_end": 504,
+                "evalue": 2.1e-25,
+                "bitscore": 80.7
+              },
+              "locus": "CRV15_28070"
+            }
+          ],
+          "first_in_cds": true
+        },
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "PKS_KS",
+                "query_start": 527,
+                "query_end": 952,
+                "evalue": 3.2e-176,
+                "bitscore": 578.2,
+                "internal_hits": [
+                  {
+                    "hit_id": "Modular-KS",
+                    "query_start": 525,
+                    "query_end": 952,
+                    "evalue": 4e-220,
+                    "bitscore": 719.3
+                  }
+                ]
+              },
+              "locus": "CRV15_28070"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_AT",
+                "query_start": 1056,
+                "query_end": 1350,
+                "evalue": 1.9e-98,
+                "bitscore": 321.3
+              },
+              "locus": "CRV15_28070"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_KR",
+                "query_start": 1688,
+                "query_end": 1866,
+                "evalue": 3.2e-53,
+                "bitscore": 172.2
+              },
+              "locus": "CRV15_28070"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_PP",
+                "query_start": 1964,
+                "query_end": 2049,
+                "evalue": 5.2e-29,
+                "bitscore": 92.3
+              },
+              "locus": "CRV15_28070"
+            }
+          ],
+          "first_in_cds": false
+        },
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "PKS_KS",
+                "query_start": 2093,
+                "query_end": 2518,
+                "evalue": 4.9e-183,
+                "bitscore": 600.7,
+                "internal_hits": [
+                  {
+                    "hit_id": "Modular-KS",
+                    "query_start": 2091,
+                    "query_end": 2518,
+                    "evalue": 2.1e-223,
+                    "bitscore": 730.1
+                  }
+                ]
+              },
+              "locus": "CRV15_28070"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_AT",
+                "query_start": 2710,
+                "query_end": 3004,
+                "evalue": 6.1e-103,
+                "bitscore": 336.1
+              },
+              "locus": "CRV15_28070"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_KR",
+                "query_start": 3314,
+                "query_end": 3520,
+                "evalue": 7e-57,
+                "bitscore": 184.1
+              },
+              "locus": "CRV15_28070"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_PP",
+                "query_start": 3624,
+                "query_end": 3709,
+                "evalue": 2.8e-27,
+                "bitscore": 86.8
+              },
+              "locus": "CRV15_28070"
+            }
+          ],
+          "first_in_cds": false
+        },
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "PKS_KS",
+                "query_start": 3754,
+                "query_end": 4179,
+                "evalue": 4e-176,
+                "bitscore": 577.9,
+                "internal_hits": [
+                  {
+                    "hit_id": "Modular-KS",
+                    "query_start": 3751,
+                    "query_end": 4179,
+                    "evalue": 2.7e-221,
+                    "bitscore": 723.2
+                  }
+                ]
+              },
+              "locus": "CRV15_28070"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_AT",
+                "query_start": 4301,
+                "query_end": 4598,
+                "evalue": 3e-106,
+                "bitscore": 347
+              },
+              "locus": "CRV15_28070"
+            }
+          ],
+          "first_in_cds": false
+        }
+      ]
+    },
+    "CRV15_28075": {
+      "domain_hmms": [
+        {
+          "hit_id": "PKS_Docking_Nterm",
+          "query_start": 4,
+          "query_end": 31,
+          "evalue": 9.5e-12,
+          "bitscore": 36.2
+        },
+        {
+          "hit_id": "PKS_KS",
+          "query_start": 35,
+          "query_end": 460,
+          "evalue": 4.7e-181,
+          "bitscore": 594.2,
+          "internal_hits": [
+            {
+              "hit_id": "Modular-KS",
+              "query_start": 33,
+              "query_end": 460,
+              "evalue": 5e-224,
+              "bitscore": 732.2
+            }
+          ]
+        },
+        {
+          "hit_id": "PKS_AT",
+          "query_start": 587,
+          "query_end": 873,
+          "evalue": 6.1e-108,
+          "bitscore": 352.5
+        },
+        {
+          "hit_id": "PKS_KR",
+          "query_start": 1441,
+          "query_end": 1620,
+          "evalue": 1.5e-52,
+          "bitscore": 170
+        },
+        {
+          "hit_id": "PKS_PP",
+          "query_start": 1718,
+          "query_end": 1804,
+          "evalue": 1.7e-33,
+          "bitscore": 106.7
+        },
+        {
+          "hit_id": "PKS_KS",
+          "query_start": 1827,
+          "query_end": 2254,
+          "evalue": 6.7e-180,
+          "bitscore": 590.3,
+          "internal_hits": [
+            {
+              "hit_id": "Modular-KS",
+              "query_start": 1825,
+              "query_end": 2255,
+              "evalue": 2.2e-224,
+              "bitscore": 733.3
+            }
+          ]
+        },
+        {
+          "hit_id": "PKS_AT",
+          "query_start": 2358,
+          "query_end": 2656,
+          "evalue": 6.3e-99,
+          "bitscore": 322.9
+        },
+        {
+          "hit_id": "PKS_KR",
+          "query_start": 2993,
+          "query_end": 3171,
+          "evalue": 5.8e-62,
+          "bitscore": 200.7
+        },
+        {
+          "hit_id": "ACP",
+          "query_start": 3279,
+          "query_end": 3351,
+          "evalue": 1.7e-31,
+          "bitscore": 100.2
+        },
+        {
+          "hit_id": "PKS_KS",
+          "query_start": 3384,
+          "query_end": 3809,
+          "evalue": 2.4e-183,
+          "bitscore": 601.7,
+          "internal_hits": [
+            {
+              "hit_id": "Modular-KS",
+              "query_start": 3382,
+              "query_end": 3810,
+              "evalue": 1.6e-230,
+              "bitscore": 753.5
+            }
+          ]
+        },
+        {
+          "hit_id": "PKS_AT",
+          "query_start": 3964,
+          "query_end": 4264,
+          "evalue": 5.7e-107,
+          "bitscore": 349.3
+        },
+        {
+          "hit_id": "PKS_DH",
+          "query_start": 4351,
+          "query_end": 4519,
+          "evalue": 1.5e-63,
+          "bitscore": 205.9
+        },
+        {
+          "hit_id": "PKS_KR",
+          "query_start": 5015,
+          "query_end": 5192,
+          "evalue": 3.5e-62,
+          "bitscore": 201.4
+        },
+        {
+          "hit_id": "ACP",
+          "query_start": 5304,
+          "query_end": 5377,
+          "evalue": 7.1e-29,
+          "bitscore": 91.8
+        },
+        {
+          "hit_id": "PKS_Docking_Cterm",
+          "query_start": 5397,
+          "query_end": 5465,
+          "evalue": 2.9e-21,
+          "bitscore": 68
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-KS_m2",
+          "query_start": 120,
+          "query_end": 129,
+          "evalue": 0.26,
+          "bitscore": 4.9
+        },
+        {
+          "hit_id": "PKSI-KS_m3",
+          "query_start": 195,
+          "query_end": 211,
+          "evalue": 0.0000032,
+          "bitscore": 19.1
+        },
+        {
+          "hit_id": "PKSI-KS_m5",
+          "query_start": 336,
+          "query_end": 351,
+          "evalue": 0.0017,
+          "bitscore": 10.9
+        },
+        {
+          "hit_id": "PKSI-KS_m6",
+          "query_start": 371,
+          "query_end": 386,
+          "evalue": 0.018,
+          "bitscore": 8.2
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m1",
+          "query_start": 585,
+          "query_end": 604,
+          "evalue": 1e-8,
+          "bitscore": 26.9
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m2",
+          "query_start": 641,
+          "query_end": 665,
+          "evalue": 3.3e-11,
+          "bitscore": 35
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m3",
+          "query_start": 666,
+          "query_end": 703,
+          "evalue": 4e-19,
+          "bitscore": 60.4
+        },
+        {
+          "hit_id": "PKSI-AT-M_m5",
+          "query_start": 738,
+          "query_end": 751,
+          "evalue": 0.0032,
+          "bitscore": 10.9
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m6",
+          "query_start": 774,
+          "query_end": 785,
+          "evalue": 0.019,
+          "bitscore": 8.2
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m8",
+          "query_start": 820,
+          "query_end": 836,
+          "evalue": 0.000016,
+          "bitscore": 16.9
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m9",
+          "query_start": 850,
+          "query_end": 860,
+          "evalue": 0.07,
+          "bitscore": 6.4
+        },
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 1442,
+          "query_end": 1475,
+          "evalue": 5.3e-11,
+          "bitscore": 35.1
+        },
+        {
+          "hit_id": "PKSI-KR_m4",
+          "query_start": 1568,
+          "query_end": 1605,
+          "evalue": 1.9e-16,
+          "bitscore": 52.5
+        },
+        {
+          "hit_id": "PKSI-KS_m2",
+          "query_start": 1914,
+          "query_end": 1923,
+          "evalue": 0.084,
+          "bitscore": 6.3
+        },
+        {
+          "hit_id": "PKSI-KS_m3",
+          "query_start": 1990,
+          "query_end": 2006,
+          "evalue": 0.0000032,
+          "bitscore": 19.1
+        },
+        {
+          "hit_id": "PKSI-KS_m5",
+          "query_start": 2131,
+          "query_end": 2146,
+          "evalue": 0.002,
+          "bitscore": 10.7
+        },
+        {
+          "hit_id": "PKSI-KS_m6",
+          "query_start": 2166,
+          "query_end": 2181,
+          "evalue": 0.0086,
+          "bitscore": 9.1
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m1",
+          "query_start": 2356,
+          "query_end": 2375,
+          "evalue": 1.5e-8,
+          "bitscore": 26.5
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m2",
+          "query_start": 2413,
+          "query_end": 2435,
+          "evalue": 6.3e-9,
+          "bitscore": 28.1
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m3",
+          "query_start": 2437,
+          "query_end": 2474,
+          "evalue": 2.2e-17,
+          "bitscore": 54.9
+        },
+        {
+          "hit_id": "PKSI-AT-M_m5",
+          "query_start": 2509,
+          "query_end": 2522,
+          "evalue": 0.023,
+          "bitscore": 8.3
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m6",
+          "query_start": 2546,
+          "query_end": 2556,
+          "evalue": 0.27,
+          "bitscore": 4.8
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m8",
+          "query_start": 2592,
+          "query_end": 2608,
+          "evalue": 0.000056,
+          "bitscore": 15.3
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m9",
+          "query_start": 2622,
+          "query_end": 2632,
+          "evalue": 1.3,
+          "bitscore": 2.9
+        },
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 2994,
+          "query_end": 3026,
+          "evalue": 5.1e-10,
+          "bitscore": 31.9
+        },
+        {
+          "hit_id": "PKSI-KR_m4",
+          "query_start": 3121,
+          "query_end": 3156,
+          "evalue": 4.1e-18,
+          "bitscore": 57.9
+        },
+        {
+          "hit_id": "PKSI-KS_m2",
+          "query_start": 3469,
+          "query_end": 3478,
+          "evalue": 0.11,
+          "bitscore": 5.9
+        },
+        {
+          "hit_id": "PKSI-KS_m3",
+          "query_start": 3545,
+          "query_end": 3561,
+          "evalue": 0.0000032,
+          "bitscore": 19.1
+        },
+        {
+          "hit_id": "PKSI-KS_m5",
+          "query_start": 3686,
+          "query_end": 3701,
+          "evalue": 0.0017,
+          "bitscore": 10.9
+        },
+        {
+          "hit_id": "PKSI-KS_m6",
+          "query_start": 3721,
+          "query_end": 3736,
+          "evalue": 0.016,
+          "bitscore": 8.4
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m1",
+          "query_start": 3963,
+          "query_end": 3980,
+          "evalue": 0.00028,
+          "bitscore": 13.6
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m2",
+          "query_start": 4022,
+          "query_end": 4042,
+          "evalue": 0.0041,
+          "bitscore": 10.5
+        },
+        {
+          "hit_id": "PKSI-AT-M_m3",
+          "query_start": 4046,
+          "query_end": 4087,
+          "evalue": 9.5e-21,
+          "bitscore": 66
+        },
+        {
+          "hit_id": "PKSI-AT-M_m5",
+          "query_start": 4118,
+          "query_end": 4131,
+          "evalue": 0.0068,
+          "bitscore": 9.9
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m6",
+          "query_start": 4156,
+          "query_end": 4165,
+          "evalue": 24,
+          "bitscore": -0.9
+        },
+        {
+          "hit_id": "PKSI-AT-M_m8",
+          "query_start": 4206,
+          "query_end": 4217,
+          "evalue": 0.039,
+          "bitscore": 7.7
+        },
+        {
+          "hit_id": "PKSI-DH_m2",
+          "query_start": 4379,
+          "query_end": 4404,
+          "evalue": 4.6e-9,
+          "bitscore": 28.8
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m3",
+          "query_start": 4798,
+          "query_end": 4817,
+          "evalue": 5,
+          "bitscore": 0.4
+        },
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 5016,
+          "query_end": 5049,
+          "evalue": 1.1e-8,
+          "bitscore": 27.6
+        },
+        {
+          "hit_id": "PKSI-KR_m4",
+          "query_start": 5140,
+          "query_end": 5177,
+          "evalue": 2.6e-21,
+          "bitscore": 68.2
+        }
+      ],
+      "modules": [
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "PKS_KS",
+                "query_start": 35,
+                "query_end": 460,
+                "evalue": 4.7e-181,
+                "bitscore": 594.2,
+                "internal_hits": [
+                  {
+                    "hit_id": "Modular-KS",
+                    "query_start": 33,
+                    "query_end": 460,
+                    "evalue": 5e-224,
+                    "bitscore": 732.2
+                  }
+                ]
+              },
+              "locus": "CRV15_28075"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_AT",
+                "query_start": 587,
+                "query_end": 873,
+                "evalue": 6.1e-108,
+                "bitscore": 352.5
+              },
+              "locus": "CRV15_28075"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_KR",
+                "query_start": 1441,
+                "query_end": 1620,
+                "evalue": 1.5e-52,
+                "bitscore": 170
+              },
+              "locus": "CRV15_28075"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_PP",
+                "query_start": 1718,
+                "query_end": 1804,
+                "evalue": 1.7e-33,
+                "bitscore": 106.7
+              },
+              "locus": "CRV15_28075"
+            }
+          ],
+          "first_in_cds": true
+        },
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "PKS_KS",
+                "query_start": 1827,
+                "query_end": 2254,
+                "evalue": 6.7e-180,
+                "bitscore": 590.3,
+                "internal_hits": [
+                  {
+                    "hit_id": "Modular-KS",
+                    "query_start": 1825,
+                    "query_end": 2255,
+                    "evalue": 2.2e-224,
+                    "bitscore": 733.3
+                  }
+                ]
+              },
+              "locus": "CRV15_28075"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_AT",
+                "query_start": 2358,
+                "query_end": 2656,
+                "evalue": 6.3e-99,
+                "bitscore": 322.9
+              },
+              "locus": "CRV15_28075"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_KR",
+                "query_start": 2993,
+                "query_end": 3171,
+                "evalue": 5.8e-62,
+                "bitscore": 200.7
+              },
+              "locus": "CRV15_28075"
+            },
+            {
+              "domain": {
+                "hit_id": "ACP",
+                "query_start": 3279,
+                "query_end": 3351,
+                "evalue": 1.7e-31,
+                "bitscore": 100.2
+              },
+              "locus": "CRV15_28075"
+            }
+          ],
+          "first_in_cds": false
+        },
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "PKS_KS",
+                "query_start": 3384,
+                "query_end": 3809,
+                "evalue": 2.4e-183,
+                "bitscore": 601.7,
+                "internal_hits": [
+                  {
+                    "hit_id": "Modular-KS",
+                    "query_start": 3382,
+                    "query_end": 3810,
+                    "evalue": 1.6e-230,
+                    "bitscore": 753.5
+                  }
+                ]
+              },
+              "locus": "CRV15_28075"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_AT",
+                "query_start": 3964,
+                "query_end": 4264,
+                "evalue": 5.7e-107,
+                "bitscore": 349.3
+              },
+              "locus": "CRV15_28075"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_DH",
+                "query_start": 4351,
+                "query_end": 4519,
+                "evalue": 1.5e-63,
+                "bitscore": 205.9
+              },
+              "locus": "CRV15_28075"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_KR",
+                "query_start": 5015,
+                "query_end": 5192,
+                "evalue": 3.5e-62,
+                "bitscore": 201.4
+              },
+              "locus": "CRV15_28075"
+            },
+            {
+              "domain": {
+                "hit_id": "ACP",
+                "query_start": 5304,
+                "query_end": 5377,
+                "evalue": 7.1e-29,
+                "bitscore": 91.8
+              },
+              "locus": "CRV15_28075"
+            }
+          ],
+          "first_in_cds": false
+        }
+      ]
+    },
+    "CRV15_28080": {
+      "domain_hmms": [
+        {
+          "hit_id": "PKS_Docking_Nterm",
+          "query_start": 2,
+          "query_end": 30,
+          "evalue": 7.5e-15,
+          "bitscore": 46.1
+        },
+        {
+          "hit_id": "PKS_KS",
+          "query_start": 34,
+          "query_end": 465,
+          "evalue": 2.5e-180,
+          "bitscore": 591.7,
+          "internal_hits": [
+            {
+              "hit_id": "Modular-KS",
+              "query_start": 32,
+              "query_end": 464,
+              "evalue": 2e-225,
+              "bitscore": 736.8
+            }
+          ]
+        },
+        {
+          "hit_id": "PKS_AT",
+          "query_start": 590,
+          "query_end": 896,
+          "evalue": 1.1e-111,
+          "bitscore": 364.8
+        },
+        {
+          "hit_id": "PKS_DH",
+          "query_start": 965,
+          "query_end": 1143,
+          "evalue": 1.6e-65,
+          "bitscore": 212.4
+        },
+        {
+          "hit_id": "PKS_KR",
+          "query_start": 1501,
+          "query_end": 1680,
+          "evalue": 3.6e-59,
+          "bitscore": 191.6
+        },
+        {
+          "hit_id": "ACP",
+          "query_start": 1790,
+          "query_end": 1862,
+          "evalue": 1.5e-32,
+          "bitscore": 103.6
+        },
+        {
+          "hit_id": "PKS_KS",
+          "query_start": 1884,
+          "query_end": 2311,
+          "evalue": 7.8e-182,
+          "bitscore": 596.7,
+          "internal_hits": [
+            {
+              "hit_id": "Modular-KS",
+              "query_start": 1882,
+              "query_end": 2311,
+              "evalue": 2.6e-230,
+              "bitscore": 752.9
+            }
+          ]
+        },
+        {
+          "hit_id": "PKS_AT",
+          "query_start": 2415,
+          "query_end": 2709,
+          "evalue": 1.1e-101,
+          "bitscore": 332
+        },
+        {
+          "hit_id": "PKS_DH",
+          "query_start": 2776,
+          "query_end": 2937,
+          "evalue": 2.4e-62,
+          "bitscore": 202
+        },
+        {
+          "hit_id": "PKS_ER",
+          "query_start": 3329,
+          "query_end": 3629,
+          "evalue": 6.2e-111,
+          "bitscore": 362.3
+        },
+        {
+          "hit_id": "PKS_KR",
+          "query_start": 3638,
+          "query_end": 3815,
+          "evalue": 6.2e-57,
+          "bitscore": 184.3
+        },
+        {
+          "hit_id": "PKS_PP",
+          "query_start": 3908,
+          "query_end": 3994,
+          "evalue": 1.9e-30,
+          "bitscore": 96.9
+        },
+        {
+          "hit_id": "PKS_Docking_Cterm",
+          "query_start": 4034,
+          "query_end": 4107,
+          "evalue": 3.8e-11,
+          "bitscore": 35.6
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-KS_m2",
+          "query_start": 125,
+          "query_end": 134,
+          "evalue": 0.079,
+          "bitscore": 6.4
+        },
+        {
+          "hit_id": "PKSI-AT-M_m5",
+          "query_start": 182,
+          "query_end": 192,
+          "evalue": 27,
+          "bitscore": -1.1
+        },
+        {
+          "hit_id": "PKSI-KS_m3",
+          "query_start": 201,
+          "query_end": 217,
+          "evalue": 0.0000055,
+          "bitscore": 18.4
+        },
+        {
+          "hit_id": "PKSI-KS_m4",
+          "query_start": 264,
+          "query_end": 277,
+          "evalue": 0.12,
+          "bitscore": 6.2
+        },
+        {
+          "hit_id": "PKSI-KS_m5",
+          "query_start": 342,
+          "query_end": 357,
+          "evalue": 0.0015,
+          "bitscore": 11
+        },
+        {
+          "hit_id": "PKSI-KS_m6",
+          "query_start": 377,
+          "query_end": 392,
+          "evalue": 0.0061,
+          "bitscore": 9.5
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m1",
+          "query_start": 589,
+          "query_end": 607,
+          "evalue": 8.7e-8,
+          "bitscore": 24.1
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m2",
+          "query_start": 644,
+          "query_end": 668,
+          "evalue": 9.7e-12,
+          "bitscore": 36.6
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m3",
+          "query_start": 669,
+          "query_end": 706,
+          "evalue": 3.9e-19,
+          "bitscore": 60.4
+        },
+        {
+          "hit_id": "PKSI-AT-M_m5",
+          "query_start": 741,
+          "query_end": 754,
+          "evalue": 0.026,
+          "bitscore": 8.1
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m6",
+          "query_start": 777,
+          "query_end": 788,
+          "evalue": 0.00077,
+          "bitscore": 12.3
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m8",
+          "query_start": 823,
+          "query_end": 839,
+          "evalue": 0.00054,
+          "bitscore": 12.5
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m9",
+          "query_start": 854,
+          "query_end": 863,
+          "evalue": 0.89,
+          "bitscore": 3.3
+        },
+        {
+          "hit_id": "PKSI-DH_m2",
+          "query_start": 993,
+          "query_end": 1018,
+          "evalue": 1.9e-9,
+          "bitscore": 29.9
+        },
+        {
+          "hit_id": "PKSI-DH_m3",
+          "query_start": 1132,
+          "query_end": 1143,
+          "evalue": 0.36,
+          "bitscore": 4.5
+        },
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 1502,
+          "query_end": 1536,
+          "evalue": 7.7e-7,
+          "bitscore": 21.8
+        },
+        {
+          "hit_id": "PKSI-KR_m4",
+          "query_start": 1630,
+          "query_end": 1664,
+          "evalue": 5.3e-19,
+          "bitscore": 60.8
+        },
+        {
+          "hit_id": "PKSI-KS_m2",
+          "query_start": 1969,
+          "query_end": 1978,
+          "evalue": 0.079,
+          "bitscore": 6.4
+        },
+        {
+          "hit_id": "PKSI-KS_m3",
+          "query_start": 2046,
+          "query_end": 2062,
+          "evalue": 0.0000028,
+          "bitscore": 19.3
+        },
+        {
+          "hit_id": "PKSI-KS_m4",
+          "query_start": 2109,
+          "query_end": 2122,
+          "evalue": 2.1,
+          "bitscore": 2.5
+        },
+        {
+          "hit_id": "PKSI-KS_m5",
+          "query_start": 2187,
+          "query_end": 2202,
+          "evalue": 0.0012,
+          "bitscore": 11.4
+        },
+        {
+          "hit_id": "PKSI-KS_m6",
+          "query_start": 2222,
+          "query_end": 2237,
+          "evalue": 0.013,
+          "bitscore": 8.6
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m1",
+          "query_start": 2413,
+          "query_end": 2432,
+          "evalue": 3.6e-9,
+          "bitscore": 28.3
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m2",
+          "query_start": 2467,
+          "query_end": 2490,
+          "evalue": 2.1e-9,
+          "bitscore": 29.6
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m3",
+          "query_start": 2491,
+          "query_end": 2528,
+          "evalue": 4.3e-17,
+          "bitscore": 54
+        },
+        {
+          "hit_id": "PKSI-AT-M_m5",
+          "query_start": 2563,
+          "query_end": 2576,
+          "evalue": 0.0028,
+          "bitscore": 11
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m6",
+          "query_start": 2599,
+          "query_end": 2610,
+          "evalue": 0.0059,
+          "bitscore": 9.7
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m8",
+          "query_start": 2645,
+          "query_end": 2661,
+          "evalue": 0.0014,
+          "bitscore": 11.3
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m9",
+          "query_start": 2675,
+          "query_end": 2685,
+          "evalue": 0.0082,
+          "bitscore": 9
+        },
+        {
+          "hit_id": "PKSI-DH_m2",
+          "query_start": 2804,
+          "query_end": 2829,
+          "evalue": 2.5e-9,
+          "bitscore": 29.6
+        },
+        {
+          "hit_id": "PKSI-DH_m3",
+          "query_start": 2926,
+          "query_end": 2937,
+          "evalue": 0.025,
+          "bitscore": 7.8
+        },
+        {
+          "hit_id": "PKSI-ER_m4",
+          "query_start": 3427,
+          "query_end": 3442,
+          "evalue": 0.0025,
+          "bitscore": 11.4
+        },
+        {
+          "hit_id": "PKSI-ER_m5",
+          "query_start": 3450,
+          "query_end": 3471,
+          "evalue": 1e-8,
+          "bitscore": 27.5
+        },
+        {
+          "hit_id": "PKSI-ER_m7",
+          "query_start": 3515,
+          "query_end": 3528,
+          "evalue": 0.0019,
+          "bitscore": 11
+        },
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 3639,
+          "query_end": 3673,
+          "evalue": 0.0000012,
+          "bitscore": 21.2
+        },
+        {
+          "hit_id": "PKSI-KR_m4",
+          "query_start": 3763,
+          "query_end": 3799,
+          "evalue": 9e-16,
+          "bitscore": 50.4
+        }
+      ],
+      "modules": [
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "PKS_KS",
+                "query_start": 34,
+                "query_end": 465,
+                "evalue": 2.5e-180,
+                "bitscore": 591.7,
+                "internal_hits": [
+                  {
+                    "hit_id": "Modular-KS",
+                    "query_start": 32,
+                    "query_end": 464,
+                    "evalue": 2e-225,
+                    "bitscore": 736.8
+                  }
+                ]
+              },
+              "locus": "CRV15_28080"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_AT",
+                "query_start": 590,
+                "query_end": 896,
+                "evalue": 1.1e-111,
+                "bitscore": 364.8
+              },
+              "locus": "CRV15_28080"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_DH",
+                "query_start": 965,
+                "query_end": 1143,
+                "evalue": 1.6e-65,
+                "bitscore": 212.4
+              },
+              "locus": "CRV15_28080"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_KR",
+                "query_start": 1501,
+                "query_end": 1680,
+                "evalue": 3.6e-59,
+                "bitscore": 191.6
+              },
+              "locus": "CRV15_28080"
+            },
+            {
+              "domain": {
+                "hit_id": "ACP",
+                "query_start": 1790,
+                "query_end": 1862,
+                "evalue": 1.5e-32,
+                "bitscore": 103.6
+              },
+              "locus": "CRV15_28080"
+            }
+          ],
+          "first_in_cds": true
+        },
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "PKS_KS",
+                "query_start": 1884,
+                "query_end": 2311,
+                "evalue": 7.8e-182,
+                "bitscore": 596.7,
+                "internal_hits": [
+                  {
+                    "hit_id": "Modular-KS",
+                    "query_start": 1882,
+                    "query_end": 2311,
+                    "evalue": 2.6e-230,
+                    "bitscore": 752.9
+                  }
+                ]
+              },
+              "locus": "CRV15_28080"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_AT",
+                "query_start": 2415,
+                "query_end": 2709,
+                "evalue": 1.1e-101,
+                "bitscore": 332
+              },
+              "locus": "CRV15_28080"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_DH",
+                "query_start": 2776,
+                "query_end": 2937,
+                "evalue": 2.4e-62,
+                "bitscore": 202
+              },
+              "locus": "CRV15_28080"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_ER",
+                "query_start": 3329,
+                "query_end": 3629,
+                "evalue": 6.2e-111,
+                "bitscore": 362.3
+              },
+              "locus": "CRV15_28080"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_KR",
+                "query_start": 3638,
+                "query_end": 3815,
+                "evalue": 6.2e-57,
+                "bitscore": 184.3
+              },
+              "locus": "CRV15_28080"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_PP",
+                "query_start": 3908,
+                "query_end": 3994,
+                "evalue": 1.9e-30,
+                "bitscore": 96.9
+              },
+              "locus": "CRV15_28080"
+            }
+          ],
+          "first_in_cds": false
+        }
+      ]
+    },
+    "CRV15_28085": {
+      "domain_hmms": [
+        {
+          "hit_id": "PKS_Docking_Nterm",
+          "query_start": 16,
+          "query_end": 44,
+          "evalue": 4.4e-12,
+          "bitscore": 37.2
+        },
+        {
+          "hit_id": "PKS_KS",
+          "query_start": 48,
+          "query_end": 467,
+          "evalue": 1.2e-177,
+          "bitscore": 583,
+          "internal_hits": [
+            {
+              "hit_id": "Modular-KS",
+              "query_start": 46,
+              "query_end": 467,
+              "evalue": 6.1e-214,
+              "bitscore": 698.9
+            }
+          ]
+        },
+        {
+          "hit_id": "PKS_AT",
+          "query_start": 638,
+          "query_end": 955,
+          "evalue": 1.5e-111,
+          "bitscore": 364.4
+        },
+        {
+          "hit_id": "PKS_KR",
+          "query_start": 1313,
+          "query_end": 1491,
+          "evalue": 5.1e-54,
+          "bitscore": 174.8
+        },
+        {
+          "hit_id": "ACP",
+          "query_start": 1600,
+          "query_end": 1671,
+          "evalue": 2.2e-29,
+          "bitscore": 93.5
+        },
+        {
+          "hit_id": "PKS_KS",
+          "query_start": 1714,
+          "query_end": 2139,
+          "evalue": 1.5e-179,
+          "bitscore": 589.2,
+          "internal_hits": [
+            {
+              "hit_id": "Modular-KS",
+              "query_start": 1712,
+              "query_end": 2139,
+              "evalue": 1.1e-226,
+              "bitscore": 740.9
+            }
+          ]
+        },
+        {
+          "hit_id": "PKS_AT",
+          "query_start": 2242,
+          "query_end": 2536,
+          "evalue": 6.7e-100,
+          "bitscore": 326.1
+        },
+        {
+          "hit_id": "PKS_DH",
+          "query_start": 2605,
+          "query_end": 2810,
+          "evalue": 1.9e-63,
+          "bitscore": 205.6
+        },
+        {
+          "hit_id": "PKS_KR",
+          "query_start": 3142,
+          "query_end": 3321,
+          "evalue": 1.5e-56,
+          "bitscore": 183.1
+        },
+        {
+          "hit_id": "ACP",
+          "query_start": 3425,
+          "query_end": 3497,
+          "evalue": 3.2e-31,
+          "bitscore": 99.3
+        },
+        {
+          "hit_id": "PKS_Docking_Cterm",
+          "query_start": 3515,
+          "query_end": 3591,
+          "evalue": 1.9e-8,
+          "bitscore": 26.9
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-KS_m2",
+          "query_start": 126,
+          "query_end": 135,
+          "evalue": 0.18,
+          "bitscore": 5.4
+        },
+        {
+          "hit_id": "PKSI-KS_m3",
+          "query_start": 202,
+          "query_end": 218,
+          "evalue": 0.000012,
+          "bitscore": 17.4
+        },
+        {
+          "hit_id": "PKSI-KS_m4",
+          "query_start": 265,
+          "query_end": 278,
+          "evalue": 0.1,
+          "bitscore": 6.4
+        },
+        {
+          "hit_id": "PKSI-KS_m5",
+          "query_start": 343,
+          "query_end": 358,
+          "evalue": 0.001,
+          "bitscore": 11.5
+        },
+        {
+          "hit_id": "PKSI-KS_m6",
+          "query_start": 378,
+          "query_end": 393,
+          "evalue": 0.0016,
+          "bitscore": 11
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m1",
+          "query_start": 637,
+          "query_end": 655,
+          "evalue": 2.6e-7,
+          "bitscore": 22.7
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m2",
+          "query_start": 692,
+          "query_end": 716,
+          "evalue": 2.4e-10,
+          "bitscore": 32.5
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m3",
+          "query_start": 717,
+          "query_end": 754,
+          "evalue": 2.8e-19,
+          "bitscore": 60.9
+        },
+        {
+          "hit_id": "PKSI-AT-M_m5",
+          "query_start": 789,
+          "query_end": 802,
+          "evalue": 0.0056,
+          "bitscore": 10.1
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m6",
+          "query_start": 825,
+          "query_end": 836,
+          "evalue": 0.0059,
+          "bitscore": 9.7
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m8",
+          "query_start": 871,
+          "query_end": 887,
+          "evalue": 0.000039,
+          "bitscore": 15.8
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m9",
+          "query_start": 901,
+          "query_end": 911,
+          "evalue": 0.007,
+          "bitscore": 9.2
+        },
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 1190,
+          "query_end": 1212,
+          "evalue": 18,
+          "bitscore": -1.8
+        },
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 1314,
+          "query_end": 1347,
+          "evalue": 3.1e-13,
+          "bitscore": 42.3
+        },
+        {
+          "hit_id": "PKSI-KR_m4",
+          "query_start": 1439,
+          "query_end": 1476,
+          "evalue": 1e-17,
+          "bitscore": 56.6
+        },
+        {
+          "hit_id": "PKSI-KS_m2",
+          "query_start": 1799,
+          "query_end": 1808,
+          "evalue": 0.067,
+          "bitscore": 6.5
+        },
+        {
+          "hit_id": "PKSI-KS_m3",
+          "query_start": 1874,
+          "query_end": 1890,
+          "evalue": 0.0000021,
+          "bitscore": 19.7
+        },
+        {
+          "hit_id": "PKSI-KS_m4",
+          "query_start": 1937,
+          "query_end": 1950,
+          "evalue": 0.79,
+          "bitscore": 3.8
+        },
+        {
+          "hit_id": "PKSI-KS_m5",
+          "query_start": 2014,
+          "query_end": 2030,
+          "evalue": 0.00078,
+          "bitscore": 11.8
+        },
+        {
+          "hit_id": "PKSI-KS_m6",
+          "query_start": 2050,
+          "query_end": 2065,
+          "evalue": 0.057,
+          "bitscore": 6.9
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m1",
+          "query_start": 2240,
+          "query_end": 2259,
+          "evalue": 3.1e-9,
+          "bitscore": 28.5
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m2",
+          "query_start": 2294,
+          "query_end": 2316,
+          "evalue": 4.9e-9,
+          "bitscore": 28.5
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m3",
+          "query_start": 2318,
+          "query_end": 2355,
+          "evalue": 4.6e-18,
+          "bitscore": 57.1
+        },
+        {
+          "hit_id": "PKSI-AT-M_m5",
+          "query_start": 2390,
+          "query_end": 2403,
+          "evalue": 0.0025,
+          "bitscore": 11.2
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m6",
+          "query_start": 2426,
+          "query_end": 2437,
+          "evalue": 0.0051,
+          "bitscore": 9.9
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m8",
+          "query_start": 2473,
+          "query_end": 2488,
+          "evalue": 0.0034,
+          "bitscore": 10.2
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m9",
+          "query_start": 2502,
+          "query_end": 2512,
+          "evalue": 0.007,
+          "bitscore": 9.2
+        },
+        {
+          "hit_id": "PKSI-DH_m2",
+          "query_start": 2633,
+          "query_end": 2658,
+          "evalue": 9.5e-9,
+          "bitscore": 27.8
+        },
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 3143,
+          "query_end": 3177,
+          "evalue": 0.000061,
+          "bitscore": 15.7
+        },
+        {
+          "hit_id": "PKSI-KR_m4",
+          "query_start": 3271,
+          "query_end": 3306,
+          "evalue": 3.4e-20,
+          "bitscore": 64.6
+        }
+      ],
+      "modules": [
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "PKS_KS",
+                "query_start": 48,
+                "query_end": 467,
+                "evalue": 1.2e-177,
+                "bitscore": 583,
+                "internal_hits": [
+                  {
+                    "hit_id": "Modular-KS",
+                    "query_start": 46,
+                    "query_end": 467,
+                    "evalue": 6.1e-214,
+                    "bitscore": 698.9
+                  }
+                ]
+              },
+              "locus": "CRV15_28085"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_AT",
+                "query_start": 638,
+                "query_end": 955,
+                "evalue": 1.5e-111,
+                "bitscore": 364.4
+              },
+              "locus": "CRV15_28085"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_KR",
+                "query_start": 1313,
+                "query_end": 1491,
+                "evalue": 5.1e-54,
+                "bitscore": 174.8
+              },
+              "locus": "CRV15_28085"
+            },
+            {
+              "domain": {
+                "hit_id": "ACP",
+                "query_start": 1600,
+                "query_end": 1671,
+                "evalue": 2.2e-29,
+                "bitscore": 93.5
+              },
+              "locus": "CRV15_28085"
+            }
+          ],
+          "first_in_cds": true
+        },
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "PKS_KS",
+                "query_start": 1714,
+                "query_end": 2139,
+                "evalue": 1.5e-179,
+                "bitscore": 589.2,
+                "internal_hits": [
+                  {
+                    "hit_id": "Modular-KS",
+                    "query_start": 1712,
+                    "query_end": 2139,
+                    "evalue": 1.1e-226,
+                    "bitscore": 740.9
+                  }
+                ]
+              },
+              "locus": "CRV15_28085"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_AT",
+                "query_start": 2242,
+                "query_end": 2536,
+                "evalue": 6.7e-100,
+                "bitscore": 326.1
+              },
+              "locus": "CRV15_28085"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_DH",
+                "query_start": 2605,
+                "query_end": 2810,
+                "evalue": 1.9e-63,
+                "bitscore": 205.6
+              },
+              "locus": "CRV15_28085"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_KR",
+                "query_start": 3142,
+                "query_end": 3321,
+                "evalue": 1.5e-56,
+                "bitscore": 183.1
+              },
+              "locus": "CRV15_28085"
+            },
+            {
+              "domain": {
+                "hit_id": "ACP",
+                "query_start": 3425,
+                "query_end": 3497,
+                "evalue": 3.2e-31,
+                "bitscore": 99.3
+              },
+              "locus": "CRV15_28085"
+            }
+          ],
+          "first_in_cds": false
+        }
+      ]
+    },
+    "CRV15_28090": {
+      "domain_hmms": [
+        {
+          "hit_id": "PKS_KS",
+          "query_start": 34,
+          "query_end": 460,
+          "evalue": 7.2e-183,
+          "bitscore": 600.1,
+          "internal_hits": [
+            {
+              "hit_id": "Modular-KS",
+              "query_start": 32,
+              "query_end": 460,
+              "evalue": 3.5e-230,
+              "bitscore": 752.5
+            }
+          ]
+        },
+        {
+          "hit_id": "PKS_AT",
+          "query_start": 567,
+          "query_end": 869,
+          "evalue": 9.5e-99,
+          "bitscore": 322.3
+        },
+        {
+          "hit_id": "PKS_DH",
+          "query_start": 936,
+          "query_end": 1103,
+          "evalue": 2.3e-57,
+          "bitscore": 185.8
+        },
+        {
+          "hit_id": "PKS_KR",
+          "query_start": 1454,
+          "query_end": 1633,
+          "evalue": 2.1e-57,
+          "bitscore": 185.9
+        },
+        {
+          "hit_id": "ACP",
+          "query_start": 1734,
+          "query_end": 1806,
+          "evalue": 9.4e-26,
+          "bitscore": 81.8
+        },
+        {
+          "hit_id": "Thioesterase",
+          "query_start": 1900,
+          "query_end": 2112,
+          "evalue": 1.9e-38,
+          "bitscore": 125
+        }
+      ],
+      "motif_hmms": [
+        {
+          "hit_id": "PKSI-KS_m3",
+          "query_start": 195,
+          "query_end": 211,
+          "evalue": 0.0000011,
+          "bitscore": 20.4
+        },
+        {
+          "hit_id": "PKSI-KS_m5",
+          "query_start": 336,
+          "query_end": 351,
+          "evalue": 0.001,
+          "bitscore": 11.5
+        },
+        {
+          "hit_id": "PKSI-KS_m6",
+          "query_start": 371,
+          "query_end": 386,
+          "evalue": 0.0027,
+          "bitscore": 10.5
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m1",
+          "query_start": 565,
+          "query_end": 584,
+          "evalue": 3.2e-9,
+          "bitscore": 28.4
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m2",
+          "query_start": 622,
+          "query_end": 645,
+          "evalue": 3.1e-9,
+          "bitscore": 29.1
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m3",
+          "query_start": 646,
+          "query_end": 683,
+          "evalue": 1.8e-18,
+          "bitscore": 58.4
+        },
+        {
+          "hit_id": "PKSI-AT-M_m5",
+          "query_start": 718,
+          "query_end": 731,
+          "evalue": 0.0082,
+          "bitscore": 9.6
+        },
+        {
+          "hit_id": "PKSI-AT-mM_m8",
+          "query_start": 801,
+          "query_end": 817,
+          "evalue": 0.000019,
+          "bitscore": 16.7
+        },
+        {
+          "hit_id": "PKSI-DH_m2",
+          "query_start": 963,
+          "query_end": 988,
+          "evalue": 3.4e-9,
+          "bitscore": 29.2
+        },
+        {
+          "hit_id": "PKSI-KR_m1",
+          "query_start": 1455,
+          "query_end": 1489,
+          "evalue": 0.000032,
+          "bitscore": 16.6
+        },
+        {
+          "hit_id": "PKSI-KR_m4",
+          "query_start": 1583,
+          "query_end": 1618,
+          "evalue": 1.2e-16,
+          "bitscore": 53.2
+        },
+        {
+          "hit_id": "NRPS-te1",
+          "query_start": 1964,
+          "query_end": 1986,
+          "evalue": 0.000036,
+          "bitscore": 16.3
+        }
+      ],
+      "modules": [
+        {
+          "components": [
+            {
+              "domain": {
+                "hit_id": "PKS_KS",
+                "query_start": 34,
+                "query_end": 460,
+                "evalue": 7.2e-183,
+                "bitscore": 600.1,
+                "internal_hits": [
+                  {
+                    "hit_id": "Modular-KS",
+                    "query_start": 32,
+                    "query_end": 460,
+                    "evalue": 3.5e-230,
+                    "bitscore": 752.5
+                  }
+                ]
+              },
+              "locus": "CRV15_28090"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_AT",
+                "query_start": 567,
+                "query_end": 869,
+                "evalue": 9.5e-99,
+                "bitscore": 322.3
+              },
+              "locus": "CRV15_28090"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_DH",
+                "query_start": 936,
+                "query_end": 1103,
+                "evalue": 2.3e-57,
+                "bitscore": 185.8
+              },
+              "locus": "CRV15_28090"
+            },
+            {
+              "domain": {
+                "hit_id": "PKS_KR",
+                "query_start": 1454,
+                "query_end": 1633,
+                "evalue": 2.1e-57,
+                "bitscore": 185.9
+              },
+              "locus": "CRV15_28090"
+            },
+            {
+              "domain": {
+                "hit_id": "ACP",
+                "query_start": 1734,
+                "query_end": 1806,
+                "evalue": 9.4e-26,
+                "bitscore": 81.8
+              },
+              "locus": "CRV15_28090"
+            },
+            {
+              "domain": {
+                "hit_id": "Thioesterase",
+                "query_start": 1900,
+                "query_end": 2112,
+                "evalue": 1.9e-38,
+                "bitscore": 125
+              },
+              "locus": "CRV15_28090"
+            }
+          ],
+          "first_in_cds": true
+        }
+      ]
+    },
+    "CRV15_28100": {
+      "domain_hmms": [
+        {
+          "hit_id": "PP-binding",
+          "query_start": 37,
+          "query_end": 89,
+          "evalue": 1.4e-9,
+          "bitscore": 30.3
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    },
+    "CRV15_28110": {
+      "domain_hmms": [
+        {
+          "hit_id": "FkbH",
+          "query_start": 1,
+          "query_end": 115,
+          "evalue": 3.7e-16,
+          "bitscore": 51.1
+        }
+      ],
+      "motif_hmms": [],
+      "modules": []
+    }
+  },
+  "schema_version": 4,
+  "record_id": "CP027858.1"
+}

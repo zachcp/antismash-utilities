@@ -1,0 +1,21 @@
+mod antismash;
+mod antismash_active_site_finder;
+pub mod antismash_cluster_compare;
+mod antismash_cluster_hmmer;
+mod antismash_clusterblast;
+mod antismash_genefunctions;
+mod antismash_hmm_detection;
+mod antismash_lanthipeptides;
+mod antismash_lassopeptides;
+pub mod antismash_nrps_pks;
+mod antismash_nrps_pks_domains;
+mod antismash_pfam2go;
+mod antismash_rrefinder;
+mod antismash_sactipeptides;
+mod antismash_t2pks;
+mod antismash_tfbs_finder;
+mod antismash_thiopeptides;
+mod antismash_tigrfam;
+mod antismash_tta;
+
+pub use crate::antismash::AntismashJson;
