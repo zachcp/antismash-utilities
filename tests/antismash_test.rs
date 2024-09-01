@@ -1,5 +1,5 @@
-use antismash_rs::antismash_cluster_compare::ClusterCompare;
-use antismash_rs::antismash_nrps_pks::NrpsPks;
+use antismash_rs::antismash_modules::antismash_cluster_compare::ClusterCompare;
+use antismash_rs::antismash_modules::antismash_nrps_pks::NrpsPks;
 
 use antismash_rs::AntismashJson;
 use serde_json::{from_str, Value};
