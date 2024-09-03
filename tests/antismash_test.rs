@@ -39,6 +39,9 @@ fn test_parse_antismash_json() {
         !antismash_data.records.is_empty(),
         "Records should not be empty"
     );
+
+    antismash_data.print_record_names();
+    antismash_data.get_adenylation_domains();
 }
 
 #[test]

@@ -52,8 +52,6 @@ pub struct Qualifiers {
     // Todo: ENUM
     pub a_stool: Vec<String>,
     pub category: Vec<String>,
-    // // Todo: bool?
-    pub contig_edge: Vec<String>,
     pub core_location: Vec<String>,
     pub cutoff: Vec<String>,
     // Todo: ENUM

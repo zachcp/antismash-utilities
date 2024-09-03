@@ -21,6 +21,8 @@ use serde::{Deserialize, Serialize};
 use serde_with::{serde_as, DisplayFromStr};
 use std::collections::HashMap;
 
+/// AntismashJson
+/// https://github.com/antismash/antismash/blob/master/antismash/common/serialiser.py
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct AntismashJson {
     pub version: String,
@@ -32,6 +34,54 @@ pub struct AntismashJson {
     pub schema: i64,
 }
 
+impl AntismashJson {
+    pub fn print_record_names(&self) {
+        for record in &self.records {
+            println!("Record name: {}", record.name);
+        }
+    }
+    pub fn get_adenylation_domains(&self) {
+        for record in &self.records {
+            println!("Record name: {}", record.name);
+
+            for feat in &record.features {
+                println!("Feature name: {:?}", feat.type_field);
+            }
+            let nrpspks = &record.modules.antismash_modules_nrps_pks;
+            println!("NRPSPKS name: {}", nrpspks.record_id);
+
+            for (domname, preds) in &nrpspks.domain_predictions {
+                if let Some(prediction) = preds {
+                    if let Some(nrpys_pred) = &prediction.nrpys {
+                        println!("Domain: {}", domname);
+                        println!("  AA10: {:?}", nrpys_pred.aa10);
+                        println!("  AA34: {:?}", nrpys_pred.aa34);
+                        for smatch in nrpys_pred.stachelhaus_matches.clone() {
+                            // println!("  Stachelhaus: {:?}", nrpys_pred.stachelhaus_matches);
+                            println!("    subs: {:?}", smatch.substrates);
+                            println!("    sigs: {:?}", smatch.signature);
+                            println!("    a10score: {:?}", smatch.aa10_score);
+                            println!("    a34score: {:?}", smatch.aa34_score);
+                        }
+                        println!("  physiochemical: ");
+                        println!("    name: {:?}", nrpys_pred.physiochemical_class.name);
+                        println!("    score: {:?}", nrpys_pred.physiochemical_class.score);
+                        for sub in nrpys_pred.physiochemical_class.substrates.clone() {
+                            // println!("  Stachelhaus: {:?}", nrpys_pred.stachelhaus_matches);
+                            println!("    long: {:?}", sub.long);
+                            println!("    short: {:?}", sub.short);
+                            println!("    norine: {:?}", sub.norine);
+                        }
+                        println!("  large: {:?}", nrpys_pred.large_cluster);
+                        println!("  small: {:?}", nrpys_pred.small_cluster);
+                        println!("  single: {:?}", nrpys_pred.single_amino);
+                    }
+                }
+            }
+        }
+    }
+}
+
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Record {
     pub id: String,
@@ -39,6 +89,7 @@ pub struct Record {
     pub features: Vec<Feature>,
     pub name: String,
     pub description: String,
+    // Rodo: parser / ENUM
     pub dbxrefs: Vec<String>,
     pub annotations: Annotations,
     pub letter_annotations: LetterAnnotations,
@@ -56,6 +107,7 @@ pub struct Seq {
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Feature {
+    // Todo: Add Location Struct
     pub location: Option<String>,
     #[serde(rename = "type")]
     pub type_field: Option<String>,
@@ -63,7 +115,7 @@ pub struct Feature {
 }
 
 /// Feature Qualifiers
-/// Todo: revist this. I stuck abunch of JSON::Values here to parse but its not ideas.
+/// Todo: revist this. I stuck a bunch of JSON::Values here to parse but its not ideas.
 #[serde_as]
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Qualifiers {
@@ -189,7 +241,21 @@ pub struct Qualifiers {
     #[serde(rename = "NRPS_PKS")]
     #[serde(default)]
     // Todo: Review
+    // https://github.com/antismash/antismash/blob/master/antismash/common/secmet/qualifiers/nrps_pks.py
+    // _DOMAIN_FORMAT = "Domain: {} ({:d}-{:d}). E-value: {}. Score: {}. Matches aSDomain: {}"
+    // _TYPE_FORMAT = "type: {}"
     pub nrps_pks: Vec<String>,
+    // https://github.com/antismash/antismash/blob/master/antismash/common/secmet/qualifiers/gene_functions.py
+    // class GeneFunction(Enum):
+    //     """ An Enum representing the function of a gene.
+    //         Allows for more flexible conversion and more robust value constraints.
+    //     """
+    //     OTHER = 0
+    //     CORE = 1
+    //     ADDITIONAL = 2
+    //     TRANSPORT = 3
+    //     REGULATORY = 4
+    //     RESISTANCE = 5
     #[serde(default)]
     pub gene_functions: Vec<String>,
     #[serde(default)]
@@ -251,7 +317,7 @@ pub struct Qualifiers {
 pub struct Annotations {
     // Todo: Enum
     pub molecule_type: String,
-    // Todo: Enum
+    // Todo: Enum: circular/linear
     pub topology: String,
     // Todo: Enum
     pub data_file_division: String,

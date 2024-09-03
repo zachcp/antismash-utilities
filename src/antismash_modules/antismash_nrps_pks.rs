@@ -4,7 +4,6 @@
 //! It includes structures for domain predictions, consensus information, and region predictions,
 //! allowing for detailed analysis of secondary metabolite biosynthesis gene clusters.
 use serde::{Deserialize, Serialize};
-use serde_json::Value;
 use std::collections::HashMap;
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
@@ -56,7 +55,7 @@ pub struct PhysiochemicalClass {
     // Todo: ENUM
     pub name: String,
     pub score: f64,
-    pub substrates: Vec<Value>,
+    pub substrates: Vec<Substrate>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
@@ -79,7 +78,7 @@ pub struct SingleAmino {
     // Todo: ENUM
     pub name: String,
     pub score: f64,
-    pub substrates: Vec<Value>,
+    pub substrates: Vec<Substrate>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
