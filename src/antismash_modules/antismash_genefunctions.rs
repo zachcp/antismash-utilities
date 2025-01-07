@@ -39,5 +39,5 @@ pub struct Hit {
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Mapping {
     #[serde(flatten)]
-    pub mapping: std::collections::HashMap<String, String>,
+    pub mapping: HashMap<String, String>,
 }

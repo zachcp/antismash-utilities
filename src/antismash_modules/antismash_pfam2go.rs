@@ -24,5 +24,5 @@ pub struct Pfam2go {
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Pfam {
     #[serde(flatten)]
-    pub data: std::collections::HashMap<String, String>,
+    pub data: HashMap<String, String>,
 }

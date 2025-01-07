@@ -84,7 +84,7 @@ pub struct SingleAmino {
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Consensus {
     #[serde(flatten)]
-    pub predictions: std::collections::HashMap<String, String>,
+    pub predictions: HashMap<String, String>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
@@ -93,7 +93,7 @@ pub struct ConsensusTransat {}
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct RegionPredictions {
     #[serde(flatten)]
-    pub predictions: std::collections::HashMap<String, Vec<RegionPrediction>>,
+    pub predictions: HashMap<String, Vec<RegionPrediction>>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]

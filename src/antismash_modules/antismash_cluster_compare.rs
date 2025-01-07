@@ -35,7 +35,7 @@ pub struct MibiG {
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct ByRegion {
     #[serde(flatten)]
-    pub regions: std::collections::HashMap<String, std::collections::HashMap<String, Region>>,
+    pub regions: HashMap<String, HashMap<String, Region>>,
 }
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
@@ -61,13 +61,13 @@ pub enum ComparisonDetails {
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct ScoresByRegion {
     #[serde(flatten)]
-    pub scores: std::collections::HashMap<String, f64>,
+    pub scores: HashMap<String, f64>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct ReferenceRegions {
     #[serde(flatten)]
-    pub reference: std::collections::HashMap<String, Reference>,
+    pub reference: HashMap<String, Reference>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
@@ -86,7 +86,7 @@ pub struct Reference {
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Cdses {
     #[serde(flatten)]
-    pub cdses: std::collections::HashMap<String, CDS>,
+    pub cdses: HashMap<String, CDS>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
@@ -105,7 +105,7 @@ pub struct Components {
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct CdsMapping {
     #[serde(flatten)]
-    pub mapping: std::collections::HashMap<String, String>,
+    pub mapping: HashMap<String, String>,
 }
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
@@ -129,7 +129,7 @@ pub struct Detail {
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct RegionHits {
     #[serde(flatten)]
-    pub hits: std::collections::HashMap<String, std::collections::HashMap<String, Hit>>,
+    pub hits: HashMap<String, HashMap<String, Hit>>,
 }
 
 #[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
@@ -147,7 +147,7 @@ fn deserialize_details<'de, D>(deserializer: D) -> Result<ComparisonDetails, D::
 where
     D: Deserializer<'de>,
 {
-    let value: serde_json::Value = Deserialize::deserialize(deserializer)?;
+    let value: Value = Deserialize::deserialize(deserializer)?;
 
     if let Some(obj) = value.as_object() {
         if let Some(type_field) = obj.get("type") {
@@ -155,29 +155,29 @@ where
             match type_field.as_str() {
                 Some("region_to_region") => {
                     let details: Vec<Detail> =
-                        serde_json::from_value(obj["details"].clone()).map_err(D::Error::custom)?;
+                        serde_json::from_value(obj["details"].clone()).map_err(Error::custom)?;
                     Ok(ComparisonDetails::RegionToRegion { details })
                 }
                 Some("proto_to_region") => {
                     let details: HashMap<String, HashMap<String, Detail>> =
-                        serde_json::from_value(obj["details"].clone()).map_err(D::Error::custom)?;
+                        serde_json::from_value(obj["details"].clone()).map_err(Error::custom)?;
                     Ok(ComparisonDetails::ProtoToRegion { details })
                 }
-                _ => Err(D::Error::custom("Invalid type for ComparisonDetails")),
+                _ => Err(Error::custom("Invalid type for ComparisonDetails")),
             }
         } else {
             // If no "type" field, try to determine the type based on the structure
             if obj.get("details").and_then(|d| d.as_array()).is_some() {
                 let details: Vec<Detail> =
-                    serde_json::from_value(obj["details"].clone()).map_err(D::Error::custom)?;
+                    serde_json::from_value(obj["details"].clone()).map_err(Error::custom)?;
                 Ok(ComparisonDetails::RegionToRegion { details })
             } else {
                 let details: HashMap<String, HashMap<String, Detail>> =
-                    serde_json::from_value(obj["details"].clone()).map_err(D::Error::custom)?;
+                    serde_json::from_value(obj["details"].clone()).map_err(Error::custom)?;
                 Ok(ComparisonDetails::ProtoToRegion { details })
             }
         }
     } else {
-        Err(D::Error::custom("Invalid details format"))
+        Err(Error::custom("Invalid details format"))
     }
 }

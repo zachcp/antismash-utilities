@@ -2,13 +2,12 @@ use antismash_rs::antismash_modules::antismash_cluster_compare::ClusterCompare;
 use antismash_rs::antismash_modules::antismash_nrps_pks::NrpsPks;
 use antismash_rs::AntismashJson;
 use anyhow::{Error, Result};
-use serde_json::{from_str, Value};
 use std::fs;
 use std::path::Path;
 
 fn parse_json_file<T: serde::de::DeserializeOwned>(file_path: &Path) -> Result<T> {
     let json_content = fs::read_to_string(file_path)?;
-    let parsed = serde_json::from_str(&json_content)?;
+    let parsed = from_str(&json_content)?;
     Ok(parsed)
 }
 
