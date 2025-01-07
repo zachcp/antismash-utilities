@@ -16,6 +16,7 @@ use crate::antismash_modules::antismash_tfbs_finder::TfbsFinder;
 use crate::antismash_modules::antismash_thiopeptides::Thiopeptides;
 use crate::antismash_modules::antismash_tigrfam::Tigrfam;
 use crate::antismash_modules::antismash_tta::Tta;
+use crate::types::{MoleculeType, Topology}
 
 use serde::{Deserialize, Serialize};
 use serde_with::{serde_as, DisplayFromStr};
@@ -313,12 +314,10 @@ pub struct Qualifiers {
     pub plasmid: Vec<String>,
 }
 
-#[derive(Default, Debug, Clone, PartialEq, Serialize, Deserialize)]
+#[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 pub struct Annotations {
-    // Todo: Enum
-    pub molecule_type: String,
-    // Todo: Enum: circular/linear
-    pub topology: String,
+    pub molecule_type: MoleculeType,
+    pub topology: Topology,
     // Todo: Enum
     pub data_file_division: String,
     // Todo: Date
